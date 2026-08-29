@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Week 1",
-  "body": " Week 1   This is an outline of the topics we covered in the first week of class.     Monday 8\/31     Introduction to the class    Introduction to Graphing      Introduction to the Course  Welcome to College Algebra!    Introduction to the People  Who am I?  Who are all of you?    Graphing  What is a graph?       Wednesday 9\/2     "
+  "body": " Week 1   This is an outline of the topics we covered in the first week of class.     Monday 8\/31     Introduction to the class    Introduction to limits    Average and Instantaneous rates of change       Introduction to the Course  Welcome to Calculus 1!  What is the point of this course?        A red car passes through an intersection at noon traveling east at 40 mph. A blue care pass through the same intersection at 12:15pm heading north at a rate of 45 mph. If both cars keep going straight in the same direction, how fast is the distance between them changing at 1pm?      What should the radius and height of a cylindrical can be to minimize the surface area if the volume must be 1 L?       Introduction to the People  Who am I?  Who are all of you? Take about 3 minutes to introduce yourself to the people around you. These are going to be your companions on this semester-long journey that we have together. When we come back together, I'll want everyone to introduce themselves with their name and intended major\/career path.      Syllabus and Canvas Overview  First off, the syllabus. The entire syllabus is available on our Canvas site.     Basic info    Qualifying    Attendance    Student Hours    Homework    Quizzes and Tests    Grade Policy and Final Exam Requirements    AI and Calculators     For the Canvas site:   Home page    Modules    Agenda page with notes    Cengage for homework and eBook         Introduction to Limits  The main concept that sets Calculus apart from Precalculus is the idea of a limit. Before, if we couldn't plug something into a function, we just gave up. Now, we want to be a little more particular about that.    Consider the function . Investigate what looks like near .         Consider the function . Investigate what looks like near .    We want to have a mathematical way to distinguish between these two scenarios, one where it looks like there should be a value and one where there should not be. This is the idea of approaching a value is the idea of a limit.     Why care about this?  It turns out that there are a surprising number of physical problems that revolve around this issue. We'll cover two of them today.    The Tangent Problem    Find the equation of the tangent line to the graph of at .        The Velocity Problem  If you're driving in a car, you have a speedometer that tells you how fast you're going at a particular moment in time. However, if I gave you a function (or graph) of your position as a function of time, how would you get instantaneous velocity from that?    If an object is dropped from a height, physics tells us that the distance the object has fallen is given by where is in seconds and is in meters. If a ball is dropped off a skyscraper, how fast is it moving after 3 seconds?       Both of these examples are similar. In each case, we   Wanted something that we couldn't directly find    Found an approximation to that by looking at an average rate of change, then    Made the gap smaller and smaller to get to the instantaneous rate of change.         Find the equation of the tangent line to the graph of at .      "
 },
 {
   "id": "notes-week-01-3-2",
@@ -25,16 +25,70 @@ var ptx_lunr_docs = [
   "type": "Objectives",
   "number": "",
   "title": "",
-  "body": "   Introduction to the class    Introduction to Graphing    "
+  "body": "   Introduction to the class    Introduction to limits    Average and Instantaneous rates of change    "
 },
 {
-  "id": "notes-week-02",
-  "level": "1",
-  "url": "notes-week-02.html",
-  "type": "Section",
-  "number": "",
-  "title": "Week 2",
-  "body": " Week 2   Monday      Wednesday      Friday     "
+  "id": "notes-week-01-3-4-1",
+  "level": "2",
+  "url": "notes-week-01.html#notes-week-01-3-4-1",
+  "type": "Example",
+  "number": "1",
+  "title": "",
+  "body": "  A red car passes through an intersection at noon traveling east at 40 mph. A blue care pass through the same intersection at 12:15pm heading north at a rate of 45 mph. If both cars keep going straight in the same direction, how fast is the distance between them changing at 1pm?   "
+},
+{
+  "id": "notes-week-01-3-4-2",
+  "level": "2",
+  "url": "notes-week-01.html#notes-week-01-3-4-2",
+  "type": "Example",
+  "number": "2",
+  "title": "",
+  "body": "  What should the radius and height of a cylindrical can be to minimize the surface area if the volume must be 1 L?   "
+},
+{
+  "id": "notes-week-01-3-7-1-3",
+  "level": "2",
+  "url": "notes-week-01.html#notes-week-01-3-7-1-3",
+  "type": "Example",
+  "number": "3",
+  "title": "",
+  "body": "  Consider the function . Investigate what looks like near .   "
+},
+{
+  "id": "notes-week-01-3-8-1",
+  "level": "2",
+  "url": "notes-week-01.html#notes-week-01-3-8-1",
+  "type": "Example",
+  "number": "4",
+  "title": "",
+  "body": "  Consider the function . Investigate what looks like near .   "
+},
+{
+  "id": "notes-week-01-3-9-2-2",
+  "level": "2",
+  "url": "notes-week-01.html#notes-week-01-3-9-2-2",
+  "type": "Example",
+  "number": "5",
+  "title": "",
+  "body": "  Find the equation of the tangent line to the graph of at .   "
+},
+{
+  "id": "notes-week-01-3-10-1-3",
+  "level": "2",
+  "url": "notes-week-01.html#notes-week-01-3-10-1-3",
+  "type": "Example",
+  "number": "6",
+  "title": "",
+  "body": "  If an object is dropped from a height, physics tells us that the distance the object has fallen is given by where is in seconds and is in meters. If a ball is dropped off a skyscraper, how fast is it moving after 3 seconds?   "
+},
+{
+  "id": "notes-week-01-3-12-1",
+  "level": "2",
+  "url": "notes-week-01.html#notes-week-01-3-12-1",
+  "type": "Example",
+  "number": "7",
+  "title": "",
+  "body": "  Find the equation of the tangent line to the graph of at .   "
 },
 {
   "id": "wksht-graphing-equations",
