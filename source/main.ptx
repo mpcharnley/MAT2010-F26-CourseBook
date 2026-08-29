@@ -17,7 +17,7 @@
       <title><custom ref="docType"/>Course Notes</title>
 
       <xi:include href="./notes/week01.ptx"/>
-      <xi:include href="./notes/week02.ptx"/>
+      <!-- <xi:include href="./notes/week02.ptx"/> -->
       <!-- etc. -->
 
     </chapter>
