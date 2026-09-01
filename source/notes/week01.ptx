@@ -573,7 +573,7 @@ We want to have a mathematical way to distinguish between these two scenarios, o
     </page>
   </handout>
 
-    <handout component = "future">
+    <handout component = "cur">
     <title>Wednesday 9/2</title>
 <objectives>
 <ul>
@@ -744,20 +744,160 @@ We want to have a mathematical way to distinguish between these two scenarios, o
         <p component="a">
           We've now seen one way for limits to not exist: the left-hand and right-hand limits don't match.
         </p>
-        <p>
+        <p component="b" workspace="4in">
           But what else can happen?
+        </p>
+        <p component="a">
+          <ul>
+            <li>
+              <p>
+                Asymptotes, or limits that go to infinity.
+              </p>
+            </li>
+            <li>
+              <p>
+                Limits that don't exist by oscillation.
+              </p>
+            </li>
+          </ul>
+          </p>
+      </paragraphs>
+    </page>
+    <page>
+      <paragraphs>
+        <title>Limits by Oscillation</title>
+        <example workspace="4in">
+          <statement>
+            <p>
+              Investigate <md>
+                \lim_{x\rightarrow 0} \cos\left(\frac{\pi}{x}\right)
+              </md>.
+            </p>
+          </statement>
+        </example>
+      </paragraphs>
+    </page>
+    <page>
+      <paragraphs>
+        <title>Limits that go to infinity</title>
+        <example workspace="4in">
+          <statement>
+            <p>
+              Investigate <md>
+                \lim_{x\rightarrow 0} \frac{1}{x^2}
+              </md>.
+            </p>
+          </statement>
+        </example>
+        <p component="b" workspace="3in">
+          In order to properly describe what is happening here, we write
+          
+        </p>
+        <p component="a">
+          In order to properly describe what is happening here, we write
+          <md>
+            \lim_{x\rightarrow 0} \frac{1}{x^2} = \infty
+          </md>.
+          We are not treating <m>\infty</m> like a number. We are not saying that this limit exists and is infinite. We are just using this notation to describe the behavior. If we think of <q>close to infinity</q> as <q>very large</q>, then this fits with our previous definition of a limit.
         </p>
       </paragraphs>
     </page>
-    <p>
-    </p>
+    <page>
+      <definition xml:id="def-infinite-limits">
+        <statement>
+          <p component="b" workspace="3in">
+            We say that 
+          </p><p component="a">
+            We say that 
+          </p>
+        </statement>
+      </definition>
+      <example workspace="3in">
+        <statement>
+          <p>
+            Consider the function <md>
+              f(x) = \frac{3x+1}{x-2}
+            </md>. Describe the behavior of this function near <m>x=2</m>.
+          </p>
+        </statement>
+      </example>
+    </page>
+    <page>
+      <definition xml:id="def-vertical-asymptote-one">
+        <statement>
+          <p component="b" workspace="2in">
+            We say that the function <m>f(x)</m> has a <term>vertical asymptote</term> at <m>x=a</m> if any of the following are true:
+          </p>
+          <p component="a">
+            We say that the function <m>f(x)</m> has a <term>vertical asymptote</term> at <m>x=a</m> if any of the following are true:
+          </p>
+        </statement>
+      </definition>
+      <example workspace="3in">
+        <statement>
+          <p>
+            Analyze the vertical asymptotes of <m>f(x) = \cot(x)</m>.
+          </p>
+        </statement>
+      </example>
+      <p>
+        Besides functions with denominators, another function that has a vertical asymptote is <m>f(x) = \ln(x)</m>.
+      </p>
+    </page>
   </handout>
 
 
-  <handout component="future">
+  <handout component="cur">
     <title>Friday 9/4</title>
+    <objectives>
+      <ul>
+        <li>
+          <p>
+            Evaluate limits using direct substitution.
+          </p>
+        </li>
+        <li>
+          <p>
+            Use the limit laws to evaluate limits.
+          </p>
+        </li>
+      </ul>
+    </objectives>
+    <page>
+    <paragraphs>
+      <title>Limits by Direct Substitution</title>
+      <p>
+        Now we want to actually start evaluating limits. We'll do this over a few days, but we'll start with the simple case here.
+      </p>
+      <theorem xml:id="thm-direct-substitution-v1">
+        <statement>
+          <p workspace="1in">
+            Let <m>f</m> be a function and <m>a</m> a value. If 
+          </p>
+          <p>
+            then <md>
+              \lim_{x\rightarrow a} f(x) = f(a)
+            </md>.
+          </p>
+        </statement>
+      </theorem>
+      <p>
+        We want to work towards filling in what that condition is for the theorem over the course of today. There are two pieces that will get us there
+        <ul>
+          <li>
+            <p>
+              A few basic limits, and
+            </p>
+          </li>
+          <li>
+            <p>
+              Limit Laws, to combine them together.
+            </p>
+          </li>
+        </ul>
+      </p>    
+    </paragraphs>
+  </page>
 
-    <p>
-    </p>
   </handout>
 </section>
