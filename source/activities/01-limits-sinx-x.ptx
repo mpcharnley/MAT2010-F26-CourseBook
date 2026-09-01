@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet component = "past" xml:id = "wksht-graphing-equations" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Limit of Sine x over x</title>
+
+  <!-- Optional introduction -->
+  <introduction>
+  <p>
+    <ul>
+        <li>
+          <title>Dates</title>
+          <p>
+            Assigned Date: September 1, 2026
+          </p>
+          <p>
+            Due Date: September 8, 2026
+          </p>
+        </li>
+        <li>
+          <title>Objective</title>    
+          <p>
+            In this activity, we'll explore the special limit <md>
+              \lim_{x\rightarrow 0} \frac{\sin(x)}{x} = 1
+            </md> using the area of the unit circle.
+          </p>
+          </li>
+          <li> <title>Helpful Fact</title>
+            <p workspace="1in">
+              There is a formula for the area of a triangle when you know two adjacent sides and the angle between them:
+            </p>
+          </li>
+          </ul>
+          </p>
+  </introduction>
+
+  <!-- Exercises start here. -->
+  <exercise>
+    <statement>
+      <p>
+        What is the area of the unit circle? (Yes, it is that easy.)
+      </p>
+    </statement>
+    <solution>
+      <p>
+        
+      </p>
+    </solution>
+  </exercise>
+
+<exercise>
+  <introduction>
+    <p>
+      We can try to approximate this area by cutting the circle into triangles. The diagram below cuts the unit circle into four triangles and then pulls one of the triangles out independently.
+    </p>
+    <image width="60%">
+      <prefigure xmlns="https://prefigure.org"
+             label="wksht-limits-sinx-x-4tri">
+      <xi:include href="../../prefigure/limits-sinx-x-4tri.xml" />
+      </prefigure>
+      </image>
+    <p> For this partition of the circle: </p>
+  </introduction>
+  <task>
+    <statement>
+      <p>
+        Find the angle <m>\theta</m>.
+      </p>
+    </statement>
+  </task>
+  <task>
+    <statement>
+      <p>
+        Find the area of one of the triangles.
+      </p>
+    </statement>
+  </task>
+  <task>
+    <statement>
+      <p>
+        Find the total area of all 4 triangles put together.
+      </p>
+    </statement>
+  </task>
+</exercise>
+
+<exercise>
+  <introduction>
+    <p>
+      Now, we'll do the same thing again with 6 triangles.
+    </p>
+    <image width="60%">
+      <prefigure xmlns="https://prefigure.org"
+             label="wksht-limits-sinx-x-6tri">
+      <xi:include href="../../prefigure/limits-sinx-x-6tri.xml" />
+      </prefigure>
+      </image>
+    <p> For this partition of the circle: </p>
+  </introduction>
+  <task>
+    <statement>
+      <p>
+        Find the angle <m>\theta</m>.
+      </p>
+    </statement>
+  </task>
+  <task>
+    <statement>
+      <p>
+        Find the area of one of the triangles.
+      </p>
+    </statement>
+  </task>
+  <task>
+    <statement>
+      <p>
+        Find the total area of all 6 triangles put together.
+      </p>
+    </statement>
+  </task>
+</exercise>
+
+<exercise>
+  <introduction>
+    <p>
+      Finally, to generalize this, we want to assume we have some large number <m>n</m> of triangles. All of your answers below will involve <m>n</m>.
+    </p>
+    <image width="60%">
+      <prefigure xmlns="https://prefigure.org"
+             label="wksht-limits-sinx-x-ntri">
+      <xi:include href="../../prefigure/limits-sinx-x-ntri.xml" />
+      </prefigure>
+      </image>
+    <p> For this partition of the circle: </p>
+  </introduction>
+  <task>
+    <statement>
+      <p>
+        Find the angle <m>\theta</m>.
+      </p>
+    </statement>
+  </task>
+  <task>
+    <statement>
+      <p>
+        Find the area of one of the triangles.
+      </p>
+    </statement>
+  </task>
+  <task>
+    <statement>
+      <p>
+        Find the total area of all <m>n</m> triangles put together.
+      </p>
+    </statement>
+  </task>
+</exercise>
+
+<exercise>
+  <statement>
+    <p>
+      Now, to put all of this together. Ideally, if we keep taking more and more triangles, we get an area that is closer and closer to that of the circle. You should be able to see that in the images above. Therefore, if we take our expression above and take the limit as <m>n</m> goes to infinity, we should get the area of the circle. Write out what this says.
+    </p>
+  </statement>
+</exercise>
+
+<exercise>
+  <statement>
+    <p>
+      To make this match with what we saw in the book, we make one more change. Let <m>x = \frac{2\pi}{n}</m> so that <m>n = 2\pi x</m>. Plug this in to your previous answer and manipulate to get the special limit mentioned at the top of this worksheet.
+    </p>
+  </statement>
+</exercise>
+</worksheet>

@@ -1,0 +1,18 @@
+<diagram xmlns="https://prefigure.org" dimensions="(600,300)" margins="5">
+  <definition> f(x)=sin(x)/x </definition>
+  <coordinates bbox="[-10,-2,10,2]">
+    <grid-axes xlabel="x" ylabel="y"/>
+    <graph function="f" domain="[-10,0]"/>
+    <graph function="f" domain="[0.001,10]"/>
+    <point p="(0,1)" fill="white" stroke="blue" size="5"/>
+  </coordinates>
+</diagram>
+
+<!-- include as 
+<image width="60%">
+  <prefigure xmlns="https://prefigure.org"
+             label="wksht-graphing-lines-inter">
+    <xi:include href="../../prefigure/test-diagram.xml" />
+  </prefigure>
+</image>
+-->

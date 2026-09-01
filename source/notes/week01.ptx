@@ -294,11 +294,283 @@ We want to have a mathematical way to distinguish between these two scenarios, o
   </handout>
 
 
-  <handout component = "future">
+  <handout component = "cur">
     <title>Tuesday 9/1</title>
+<objectives>
+  <ul>
+    <li>
+      <p>
+        Motivation for limits.
+      </p>
+    </li>
+    <li>
+      <p>
+        Definition of a limit.
+      </p>
+    </li>
+    <li>
+      <p>
+        Reading limits from graphs.
+      </p>
+    </li>
+  </ul>
+</objectives>
 
+<page>
+  <paragraphs>
+    <title>The Velocity Problem</title>
     <p>
+      If you're driving in a car, you have a speedometer that tells you how fast you're going at a particular moment in time. However, if I gave you a function (or graph) of your position as a function of time, how would you get <em>instantaneous velocity</em> from that?
     </p>
+
+    <example workspace="4in">
+      <statement>
+        <p>
+          If an object is dropped from a height, physics tells us that the distance the object has fallen is given by <m>s(t) = 4.9t^2</m> where <m>t</m> is in seconds and <m>s</m> is in meters. If a ball is dropped off a skyscraper, how fast is it moving after 3 seconds?
+        </p>
+      </statement>
+      <solution component="a">
+        <p>
+          
+        </p>
+      </solution>
+    </example>
+  </paragraphs>
+</page>
+<page>
+<p workspace = "1in"> Both of these examples are similar. In each case, we
+<ul>
+  <li>
+    <p workspace = "1in">
+      Wanted something that we couldn't directly find
+    </p>
+  </li>
+  <li>
+    <p workspace = "1in">
+      Found an approximation to that by looking at an average rate of change, then
+    </p>
+  </li>
+  <li>
+    <p workspace = "1in">
+      Made the gap smaller and smaller to get to the instantaneous rate of change.
+    </p>
+  </li>
+</ul>
+</p>
+</page>
+<page>
+<example workspace = "5in">
+  <statement>
+    <p>
+      Set up how you would find the equation of the tangent line to the graph of <m>y = x^2 + 2x - 3</m> at <m>x=0</m>.
+    </p>
+  </statement>
+  <solution component="a">
+    <p>
+      
+    </p>
+  </solution>
+</example>
+  </page>
+  <page>
+    <paragraphs>
+      <title>Definition of a Limit</title>
+    
+      <p>
+        Now let's try to give a bit more of a specific definition to this idea we've been hinting at so far. In some sense, we want to talk about the value of a function looks like it's getting closer to as the input approaches a given value. 
+      </p>
+
+      <definition xml:id="def-limit-ver1">
+      <title>The Limit, attempt 1</title>      
+        <statement>
+          <p component="b" workspace="2in">
+            Let <m>f</m> be a function defined around some point <m>a</m> (but not necessarily at <m>a</m>). We say that <md>
+              \lim_{x \rightarrow a} f(x) = L
+            </md>, which is read <q>the limit of <m>f(x)</m> as <m>x</m> approaches <m>a</m> is <m>L</m></q>,
+          </p>
+          <p component="a">
+            Let <m>f</m> be a function defined around some point <m>a</m> (but not necessarily at <m>a</m>). We say that <md>
+              \lim_{x \rightarrow a} f(x) = L
+            </md>, which is read <q>the limit of <m>f(x)</m> as <m>x</m> approaches <m>a</m> is <m>L</m></q>, if <m>f(x)</m> gets closer and closer to <m>L</m> as <m>x</m> gets closer and closer to <m>a</m>.
+          </p>
+        </statement>
+      </definition>
+
+      <p component="b" workspace="2in">
+        This seems all well and good for all of the examples we've talked about before: <md>
+          \lim_{x \rightarrow 2} \frac{x^2 - 4}{x-2} = 4
+        </md> because 
+        
+      </p>
+      <p component="a">
+        This seems all well and good for all of the examples we've talked about before: <md>
+          \lim_{x \rightarrow 2} \frac{x^2 - 4}{x-2} = 4
+        </md> because as we plug in values for <m>x</m> that are closer and closer to <m>2</m>, the output gets closer and closer to <m>4</m>.
+      </p>
+</paragraphs>
+</page>
+<page>
+      <p>
+        However, not everything works so well.
+      </p>
+
+      <example workspace="4in">
+        <statement>
+          <p>
+            Consider the statement <md>
+              \lim_{x\rightarrow 0} x^2 = -1
+            </md>.
+          </p>
+        </statement>
+      </example>
+
+      <p>
+        So, maybe that definition wasn't so great. We would like a limit to be a single number, and want the function values to <em>actually</em> get close to the target point, not just <em>closer</em>.
+      </p>
+</page>
+<page>
+      <definition xml:id="def-limit-ver2">
+        <statement>
+          <p component="b" workspace="2in">
+            Let <m>f</m> be a function defined around some point <m>a</m> (but not necessarily at <m>a</m>). We say that <md>
+              \lim_{x \rightarrow a} f(x) = L
+            </md>, which is read <q>the limit of <m>f(x)</m> as <m>x</m> approaches <m>a</m> is <m>L</m></q>,
+          </p>
+          <p component="a">
+            Let <m>f</m> be a function defined around some point <m>a</m> (but not necessarily at <m>a</m>). We say that <md>
+              \lim_{x \rightarrow a} f(x) = L
+            </md>, which is read <q>the limit of <m>f(x)</m> as <m>x</m> approaches <m>a</m> is <m>L</m></q>, if <m>L</m> is the unique number so that <m>f(x)</m> can be made <em>arbitrarily</em> close to <m>L</m> by picking <m>x</m> <em>sufficiently</em> close to (but not equal to) <m>a</m>, if it exists.
+          </p>
+        </statement>
+      </definition>
+
+      <p component="b" workspace="4in">
+        Why is this better?
+      </p>
+
+      <p component="a">
+        This fixes all of the issues from before. 
+      </p>
+
+      <p component="b" workspace="5in">
+        The other main point is that limits don't have to exist.
+      </p>
+      <p component="a">
+        The definition says <q>if it exists</q>. So there's a possibility for it not to exist. We've seen one of these examples already with a function that had a vertical asymptote, and the values just got really big. 
+      </p>
+  </page>
+  <page>
+    <paragraphs>
+      <title>Graphical Limits</title>
+      <p>
+        One of the best ways to try to read/interpret limits is from graphs. We already saw how tables can be used to approximate limits; graphs make that process even easier.
+      </p>
+
+      <example>
+        <introduction>
+          <p>
+            Consider the function <m>f(x)</m> represented by the graph below.
+          </p>
+          <image width="60%">
+      <prefigure xmlns="https://prefigure.org"
+             label="wksht-limits-graphical-one">
+      <xi:include href="../../prefigure/limits-graphical-one.xml" />
+      </prefigure>
+      </image>
+          <p>
+            Determine each of the following limits, or state that they don't exist.
+          </p>
+        </introduction>
+        <task workspace="1in">
+          <statement>
+            <p>
+              <m>\lim_{x\rightarrow -2} f(x)</m>
+            </p>
+          </statement>
+        </task>
+        <task workspace="1in">
+          <statement>
+            <p>
+              <m>\lim_{x\rightarrow 0} f(x)</m>
+            </p>
+          </statement>
+        </task>
+        <task workspace="1in">
+          <statement>
+            <p>
+              <m>\lim_{x\rightarrow 1} f(x)</m>
+            </p>
+          </statement>
+        </task>
+      </example>
+    </paragraphs>
+  </page>
+  <page>
+    <example>
+      <introduction>
+        <p>
+          For the function <m>f(x)</m> whose graph is drawn below, determine each of the following limits, if they exist.
+        </p>
+        <image width="60%">
+      <prefigure xmlns="https://prefigure.org"
+             label="wksht-limits-graphical-two">
+      <xi:include href="../../prefigure/limits-graphical-two.xml" />
+      </prefigure>
+      </image>
+      </introduction>
+      <task workspace="1in">
+          <statement>
+            <p>
+              <m>\lim_{x\rightarrow -2} f(x)</m>
+            </p>
+          </statement>
+        </task>
+        <task workspace="1in">
+          <statement>
+            <p>
+              <m>\lim_{x\rightarrow 0} f(x)</m>
+            </p>
+          </statement>
+        </task>
+        <task workspace="1in">
+          <statement>
+            <p>
+              <m>\lim_{x\rightarrow 1} f(x)</m>
+            </p>
+          </statement>
+        </task>
+        <task workspace="1in">
+          <statement>
+            <p>
+              <m>\lim_{x\rightarrow 2} f(x)</m>
+            </p>
+          </statement>
+        </task>
+    </example>
+  </page>
+  <page>
+    <paragraphs>
+      <title>A special limit</title>
+      <example>
+      <statement>
+        <p>
+          Use the graph below to approximate the value of <md>\lim_{x\rightarrow 0} \frac{\sin(x)}{x}</md>
+          </p>
+        <image width="60%">
+      <prefigure xmlns="https://prefigure.org"
+             label="notes-graphical-limits-sinx-x">
+      <xi:include href="../../prefigure/limits-graphical-sinx-x.xml" />
+      </prefigure>
+      </image>
+      </statement>
+      <solution component="a">
+        <p>
+          
+        </p>
+      </solution>
+      </example>
+      </paragraphs>
+    </page>
   </handout>
 
     <handout component = "future">

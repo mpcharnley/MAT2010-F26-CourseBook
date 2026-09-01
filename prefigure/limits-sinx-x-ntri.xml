@@ -1,0 +1,16 @@
+<diagram xmlns="https://prefigure.org" dimensions="(450,300)" margins="5">
+  <definition> n=12 </definition>
+  <coordinates bbox="[-1.5,-1.5,3,1.5]">
+    <grid/>
+    <circle center="(0,0)" radius="1" fill="none" thickness="2" stroke="black"/>
+    <repeat parameter="k=1..n">
+      <polygon points="((0,0), (cos(2*k*pi/n), sin(2*k*pi/n)), (cos(2*(k+1)*pi/n), sin(2*(k+1)*pi/n)))" closed="yes" stroke="black"/>
+    </repeat>
+    <polygon points="((1.5,0), (2.5, 0), (cos(2*pi/n)+1.5, sin(2*pi/n)))" closed="yes" stroke="black"/>
+    <arc center="(1.5,0)" radius="0.25" range="(0, 2*pi/n)"
+         degrees="no" stroke="black" thickness="1"/>
+    <label anchor="(2,0)" alignment="south"> <m>1</m> </label>
+    <label anchor="(0.5*cos(2*pi/n)+1.5, 0.5*sin(2*pi/n))" alignment="w"> <m>1</m> </label>
+    <label anchor="(0.35*cos(pi/n)+1.5, 0.35*sin(pi/n))"> <m>\theta</m> </label>
+  </coordinates>
+</diagram>

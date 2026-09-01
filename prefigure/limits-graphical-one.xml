@@ -1,0 +1,22 @@
+<diagram xmlns="https://prefigure.org" dimensions="(300,300)" margins="5">
+  <definition> g(x) = x+4 </definition>
+  <definition> f(x)=1-(x-1)^2 </definition>
+  <coordinates bbox="[-6,-8,4,4]">
+    <grid-axes xlabel="x" ylabel="y"/>
+    <graph function="f" domain="[-2,3]"/>
+    <graph function="g" domain="[-5,-2]"/>
+    <point p="(-2, f(-2))" size="5" fill="white" stroke="blue"/>
+    <point p="(-2, g(-2))" size="5" fill="blue" stroke="blue"/>
+    <point p="(1, f(1))" size="5" fill="white" stroke="blue"/>
+    <point p="(1, -2)" size="5" fill="blue" stroke="blue"/>
+  </coordinates>
+</diagram>
+
+<!-- include as 
+<image width="60%">
+  <prefigure xmlns="https://prefigure.org"
+             label="wksht-graphing-lines-inter">
+    <xi:include href="../../prefigure/test-diagram.xml" />
+  </prefigure>
+</image>
+-->
