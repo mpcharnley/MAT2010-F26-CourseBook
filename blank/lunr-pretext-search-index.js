@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Week 1",
-  "body": " Week 1   This is an outline of the topics we covered in the first week of class.     Monday 8\/31     Introduction to the class    Introduction to limits    Average and Instantaneous rates of change       Introduction to the Course  Welcome to Calculus 1!  What is the point of this course?        A red car passes through an intersection at noon traveling east at 40 mph. A blue care pass through the same intersection at 12:15pm heading north at a rate of 45 mph. If both cars keep going straight in the same direction, how fast is the distance between them changing at 1pm?      What should the radius and height of a cylindrical can be to minimize the surface area if the volume must be 1 L?       Introduction to the People  Who am I?  Who are all of you? Take about 3 minutes to introduce yourself to the people around you. These are going to be your companions on this semester-long journey that we have together. When we come back together, I'll want everyone to introduce themselves with their name and intended major\/career path.      Syllabus and Canvas Overview  First off, the syllabus. The entire syllabus is available on our Canvas site.     Basic info    Qualifying    Attendance    Student Hours    Homework    Quizzes and Tests    Grade Policy and Final Exam Requirements    AI and Calculators     For the Canvas site:   Home page    Modules    Agenda page with notes    Cengage for homework and eBook         Introduction to Limits  The main concept that sets Calculus apart from Precalculus is the idea of a limit. Before, if we couldn't plug something into a function, we just gave up. Now, we want to be a little more particular about that.    Consider the function . Investigate what looks like near .         Consider the function . Investigate what looks like near .    We want to have a mathematical way to distinguish between these two scenarios, one where it looks like there should be a value and one where there should not be. This is the idea of approaching a value is the idea of a limit.     Why care about this?  It turns out that there are a surprising number of physical problems that revolve around this issue. We'll cover two of them today.    The Tangent Problem    Find the equation of the tangent line to the graph of at .        The Velocity Problem  If you're driving in a car, you have a speedometer that tells you how fast you're going at a particular moment in time. However, if I gave you a function (or graph) of your position as a function of time, how would you get instantaneous velocity from that?    If an object is dropped from a height, physics tells us that the distance the object has fallen is given by where is in seconds and is in meters. If a ball is dropped off a skyscraper, how fast is it moving after 3 seconds?       Both of these examples are similar. In each case, we   Wanted something that we couldn't directly find    Found an approximation to that by looking at an average rate of change, then    Made the gap smaller and smaller to get to the instantaneous rate of change.         Find the equation of the tangent line to the graph of at .      "
+  "body": " Week 1   This is an outline of the topics we covered in the first week of class.     Monday 8\/31     Introduction to the class    Introduction to limits    Average and Instantaneous rates of change       Introduction to the Course  Welcome to Calculus 1!  What is the point of this course?        A red car passes through an intersection at noon traveling east at 40 mph. A blue care pass through the same intersection at 12:15pm heading north at a rate of 45 mph. If both cars keep going straight in the same direction, how fast is the distance between them changing at 1pm?      What should the radius and height of a cylindrical can be to minimize the surface area if the volume must be 1 L?       Introduction to the People  Who am I?  Who are all of you? Take about 3 minutes to introduce yourself to the people around you. These are going to be your companions on this semester-long journey that we have together. When we come back together, I'll want everyone to introduce themselves with their name and intended major\/career path.      Syllabus and Canvas Overview  First off, the syllabus. The entire syllabus is available on our Canvas site.     Basic info    Qualifying    Attendance    Student Hours    Homework    Quizzes and Tests    Grade Policy and Final Exam Requirements    AI and Calculators     For the Canvas site:   Home page    Modules    Agenda page with notes    Cengage for homework and eBook         Introduction to Limits  The main concept that sets Calculus apart from Precalculus is the idea of a limit. Before, if we couldn't plug something into a function, we just gave up. Now, we want to be a little more particular about that.    Consider the function . Investigate what looks like near .         Consider the function . Investigate what looks like near .    We want to have a mathematical way to distinguish between these two scenarios, one where it looks like there should be a value and one where there should not be. This is the idea of approaching a value is the idea of a limit.     Why care about this?  It turns out that there are a surprising number of physical problems that revolve around this issue. We'll cover two of them today.    The Tangent Problem    Find the equation of the tangent line to the graph of at .        The Velocity Problem  If you're driving in a car, you have a speedometer that tells you how fast you're going at a particular moment in time. However, if I gave you a function (or graph) of your position as a function of time, how would you get instantaneous velocity from that?    If an object is dropped from a height, physics tells us that the distance the object has fallen is given by where is in seconds and is in meters. If a ball is dropped off a skyscraper, how fast is it moving after 3 seconds?       Both of these examples are similar. In each case, we   Wanted something that we couldn't directly find    Found an approximation to that by looking at an average rate of change, then    Made the gap smaller and smaller to get to the instantaneous rate of change.         Find the equation of the tangent line to the graph of at .       Tuesday 9\/1     Motivation for limits.    Definition of a limit.    Reading limits from graphs.       The Velocity Problem  If you're driving in a car, you have a speedometer that tells you how fast you're going at a particular moment in time. However, if I gave you a function (or graph) of your position as a function of time, how would you get instantaneous velocity from that?    If an object is dropped from a height, physics tells us that the distance the object has fallen is given by where is in seconds and is in meters. If a ball is dropped off a skyscraper, how fast is it moving after 3 seconds?       Both of these examples are similar. In each case, we   Wanted something that we couldn't directly find    Found an approximation to that by looking at an average rate of change, then    Made the gap smaller and smaller to get to the instantaneous rate of change.         Set up how you would find the equation of the tangent line to the graph of at .       Definition of a Limit  Now let's try to give a bit more of a specific definition to this idea we've been hinting at so far. In some sense, we want to talk about the value of a function looks like it's getting closer to as the input approaches a given value.   The Limit, attempt 1   Let be a function defined around some point (but not necessarily at ). We say that , which is read the limit of as approaches is ,    This seems all well and good for all of the examples we've talked about before: because     However, not everything works so well.    Consider the statement .    So, maybe that definition wasn't so great. We would like a limit to be a single number, and want the function values to actually get close to the target point, not just closer .      Let be a function defined around some point (but not necessarily at ). We say that , which is read the limit of as approaches is ,    Why is this better?  The other main point is that limits don't have to exist.     Graphical Limits  One of the best ways to try to read\/interpret limits is from graphs. We already saw how tables can be used to approximate limits; graphs make that process even easier.    Consider the function represented by the graph below.     g(x) = x+4  f(x)=1-(x-1)^2              Determine each of the following limits, or state that they don't exist.                              For the function whose graph is drawn below, determine each of the following limits, if they exist.     g(x) = x+3  h(x)=-x\/2  f(x)=1-(x-3)^2  r(x)=(1\/4)*(x^2 - 4)                                                A special limit    Use the graph below to approximate the value of      f(x)=sin(x)\/x                "
 },
 {
   "id": "notes-week-01-3-2",
@@ -91,13 +91,94 @@ var ptx_lunr_docs = [
   "body": "  Find the equation of the tangent line to the graph of at .   "
 },
 {
+  "id": "notes-week-01-4-2",
+  "level": "2",
+  "url": "notes-week-01.html#notes-week-01-4-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "   Motivation for limits.    Definition of a limit.    Reading limits from graphs.    "
+},
+{
+  "id": "notes-week-01-4-3-1-3",
+  "level": "2",
+  "url": "notes-week-01.html#notes-week-01-4-3-1-3",
+  "type": "Example",
+  "number": "8",
+  "title": "",
+  "body": "  If an object is dropped from a height, physics tells us that the distance the object has fallen is given by where is in seconds and is in meters. If a ball is dropped off a skyscraper, how fast is it moving after 3 seconds?   "
+},
+{
+  "id": "notes-week-01-4-5-1",
+  "level": "2",
+  "url": "notes-week-01.html#notes-week-01-4-5-1",
+  "type": "Example",
+  "number": "9",
+  "title": "",
+  "body": "  Set up how you would find the equation of the tangent line to the graph of at .   "
+},
+{
+  "id": "def-limit-ver1",
+  "level": "2",
+  "url": "notes-week-01.html#def-limit-ver1",
+  "type": "Definition",
+  "number": "10",
+  "title": "The Limit, attempt 1.",
+  "body": " The Limit, attempt 1   Let be a function defined around some point (but not necessarily at ). We say that , which is read the limit of as approaches is ,   "
+},
+{
+  "id": "notes-week-01-4-7-2",
+  "level": "2",
+  "url": "notes-week-01.html#notes-week-01-4-7-2",
+  "type": "Example",
+  "number": "11",
+  "title": "",
+  "body": "  Consider the statement .   "
+},
+{
+  "id": "def-limit-ver2",
+  "level": "2",
+  "url": "notes-week-01.html#def-limit-ver2",
+  "type": "Definition",
+  "number": "12",
+  "title": "",
+  "body": "  Let be a function defined around some point (but not necessarily at ). We say that , which is read the limit of as approaches is ,   "
+},
+{
+  "id": "notes-week-01-4-9-1-3",
+  "level": "2",
+  "url": "notes-week-01.html#notes-week-01-4-9-1-3",
+  "type": "Example",
+  "number": "13",
+  "title": "",
+  "body": "  Consider the function represented by the graph below.     g(x) = x+4  f(x)=1-(x-1)^2              Determine each of the following limits, or state that they don't exist.                        "
+},
+{
+  "id": "notes-week-01-4-10-1",
+  "level": "2",
+  "url": "notes-week-01.html#notes-week-01-4-10-1",
+  "type": "Example",
+  "number": "14",
+  "title": "",
+  "body": "  For the function whose graph is drawn below, determine each of the following limits, if they exist.     g(x) = x+3  h(x)=-x\/2  f(x)=1-(x-3)^2  r(x)=(1\/4)*(x^2 - 4)                                            "
+},
+{
+  "id": "notes-week-01-4-11-1-2",
+  "level": "2",
+  "url": "notes-week-01.html#notes-week-01-4-11-1-2",
+  "type": "Example",
+  "number": "15",
+  "title": "",
+  "body": "  Use the graph below to approximate the value of      f(x)=sin(x)\/x            "
+},
+{
   "id": "wksht-graphing-equations",
   "level": "1",
   "url": "wksht-graphing-equations.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Graphing Equations",
-  "body": " Graphing Equations       Dates  Assigned Date:  Due Date:    Purpose  The skill that you will practice in this exercise is graphing equations. Mastering this skill is vital to your development as a student of mathematics. Our textbook shows graphical solutions to most problems alongside the algebraic solution. Having a firm grasp of the basics will enhance a deeper understanding as you progress through the semester and on into Calculus.    Task  Stuff    Resources  Use your notes from the first class, the online eText or contact your instructor when you have questions.    Criteria for Success  Your assignment is due to your instructor by the date listed above. You must submit 1 pdf document as described in the syllabus, through Canvas. Your instructor will be assessing completeness and correctness for each question. This assignment will be worth 20 points.         [2] What does the graph of an equation represent?    The set of all solutions points to an equation.      [9] Consider the equation .     Graph the equation using any two points.       a=0  b=3  f(x)=4 - (2\/3)*x      (0,4)    (3,2)           Graph the equation using intercepts.       a=0  b=6  f(x)=4 - (2\/3)*x      (0,4)    (6,0)           Graph the equation using the slope and -intercept.      Fully explain each method and your solution.    "
+  "title": "Limit of Sine x over x",
+  "body": " Limit of Sine x over x       Dates  Assigned Date: September 1, 2026  Due Date: September 8, 2026    Objective  In this activity, we'll explore the special limit using the area of the unit circle.    Helpful Fact  There is a formula for the area of a triangle when you know two adjacent sides and the angle between them:         What is the area of the unit circle? (Yes, it is that easy.)          We can try to approximate this area by cutting the circle into triangles. The diagram below cuts the unit circle into four triangles and then pulls one of the triangles out independently.     n=4           1    1    \\theta       For this partition of the circle:     Find the angle .      Find the area of one of the triangles.      Find the total area of all 4 triangles put together.       Now, we'll do the same thing again with 6 triangles.     n=6           1    1    \\theta       For this partition of the circle:     Find the angle .      Find the area of one of the triangles.      Find the total area of all 6 triangles put together.       Finally, to generalize this, we want to assume we have some large number of triangles. All of your answers below will involve .     n=12           1    1    \\theta       For this partition of the circle:     Find the angle .      Find the area of one of the triangles.      Find the total area of all triangles put together.       Now, to put all of this together. Ideally, if we keep taking more and more triangles, we get an area that is closer and closer to that of the circle. You should be able to see that in the images above. Therefore, if we take our expression above and take the limit as goes to infinity, we should get the area of the circle. Write out what this says.      To make this match with what we saw in the book, we make one more change. Let so that . Plug this in to your previous answer and manipulate to get the special limit mentioned at the top of this worksheet.    "
 },
 {
   "id": "wksht-graphing-equations-3",
@@ -106,7 +187,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "  [2] What does the graph of an equation represent?    The set of all solutions points to an equation.   "
+  "body": "  What is the area of the unit circle? (Yes, it is that easy.)       "
 },
 {
   "id": "wksht-graphing-equations-4",
@@ -115,7 +196,43 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
-  "body": "  [9] Consider the equation .     Graph the equation using any two points.       a=0  b=3  f(x)=4 - (2\/3)*x      (0,4)    (3,2)           Graph the equation using intercepts.       a=0  b=6  f(x)=4 - (2\/3)*x      (0,4)    (6,0)           Graph the equation using the slope and -intercept.      Fully explain each method and your solution.   "
+  "body": "  We can try to approximate this area by cutting the circle into triangles. The diagram below cuts the unit circle into four triangles and then pulls one of the triangles out independently.     n=4           1    1    \\theta       For this partition of the circle:     Find the angle .      Find the area of one of the triangles.      Find the total area of all 4 triangles put together.    "
+},
+{
+  "id": "wksht-graphing-equations-5",
+  "level": "2",
+  "url": "wksht-graphing-equations.html#wksht-graphing-equations-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Now, we'll do the same thing again with 6 triangles.     n=6           1    1    \\theta       For this partition of the circle:     Find the angle .      Find the area of one of the triangles.      Find the total area of all 6 triangles put together.    "
+},
+{
+  "id": "wksht-graphing-equations-6",
+  "level": "2",
+  "url": "wksht-graphing-equations.html#wksht-graphing-equations-6",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Finally, to generalize this, we want to assume we have some large number of triangles. All of your answers below will involve .     n=12           1    1    \\theta       For this partition of the circle:     Find the angle .      Find the area of one of the triangles.      Find the total area of all triangles put together.    "
+},
+{
+  "id": "wksht-graphing-equations-7",
+  "level": "2",
+  "url": "wksht-graphing-equations.html#wksht-graphing-equations-7",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  Now, to put all of this together. Ideally, if we keep taking more and more triangles, we get an area that is closer and closer to that of the circle. You should be able to see that in the images above. Therefore, if we take our expression above and take the limit as goes to infinity, we should get the area of the circle. Write out what this says.   "
+},
+{
+  "id": "wksht-graphing-equations-8",
+  "level": "2",
+  "url": "wksht-graphing-equations.html#wksht-graphing-equations-8",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "",
+  "body": "  To make this match with what we saw in the book, we make one more change. Let so that . Plug this in to your previous answer and manipulate to get the special limit mentioned at the top of this worksheet.   "
 },
 {
   "id": "handouts",
