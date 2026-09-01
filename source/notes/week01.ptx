@@ -575,7 +575,180 @@ We want to have a mathematical way to distinguish between these two scenarios, o
 
     <handout component = "future">
     <title>Wednesday 9/2</title>
-
+<objectives>
+<ul>
+<li>
+  <p>
+    Investigate one-sided limits.
+  </p>
+  </li>
+  <li>
+  <p>
+    Understand the various ways in which a limit may not exist.
+  </p>
+  </li>
+  </ul>
+</objectives>
+<page>
+<paragraphs>
+  <title>Limits that Don't Exist</title>
+  
+  <p>
+    We saw last class a few examples of limits that didn't exist.
+  </p>
+  <image width="60%">
+      <prefigure xmlns="https://prefigure.org"
+             label="wksht-limits-graphical-one-v2">
+      <xi:include href="../../prefigure/limits-graphical-one.xml" />
+      </prefigure>
+      </image>
+  <p>
+    However, if I look just from the left or just from the right as I approach the point where the limit doesn't exist, I do actually get a value. Since it may be useful to have or look at these values, we define them.
+  </p>
+  <definition xml:id="def-one-sided-limits">
+    <statement>
+      <p component="b" workspace="4in">
+        Let <m>f(x)</m> be a function defined near a point <m>a</m> (but not necessarily at <m>a</m>). 
+      </p>
+      <p component="a">
+        Let <m>f(x)</m> be a function defined near a point <m>a</m> (but not necessarily at <m>a</m>). We say the <term>left-hand limit</term> of <m>f</m> at <m>a</m> is <m>L</m>, written <md>
+          \lim_{x \rightarrow a^-} f(x) = L
+        </md>
+        if the values of <m>f(x)</m> can be made arbitrarily close to <m>L</m> by picking <m>x</m> sufficiently close to <m>a</m> <em>with <m>x</m> less than <m>a</m></em>.
+        </p>
+        <p component="a"> 
+          We say the <term>right-hand limit</term> of <m>f</m> at <m>a</m> is <m>L</m>, written <md>
+          \lim_{x \rightarrow a^+} f(x) = L
+        </md>
+        if the values of <m>f(x)</m> can be made arbitrarily close to <m>L</m> by picking <m>x</m> sufficiently close to <m>a</m> <em>with <m>x</m> greater than <m>a</m></em>.
+      </p>
+      <p component="a">
+        Together, these are the <term>one-sided limits</term> of <m>f</m> at <m>a</m>.
+        </p>
+    </statement>
+  </definition>
+  </paragraphs>
+</page>
+<page>
+  <example>
+    <introduction>
+      <p>
+        Consider the graph of the function <m>f(x)</m> sketched below.
+      </p>
+      <image width="60%">
+      <prefigure xmlns="https://prefigure.org"
+             label="wksht-limits-onesided-one">
+      <xi:include href="../../prefigure/limits-onesided-one.xml" />
+      </prefigure>
+      </image>
+      <p>
+        Determine each of the following or state that they do not exist
+      </p>
+    </introduction>
+    <task>
+      <statement>
+        <sidebyside>
+          <p>
+            <md>
+              \lim_{x\rightarrow -2^-} f(x)
+            </md>
+          </p>
+          <p>
+            <md>
+              \lim_{x\rightarrow -2^+} f(x)
+            </md>
+          </p>
+          <p>
+            <md>
+              \lim_{x\rightarrow -2} f(x)
+            </md>
+          </p>
+        </sidebyside>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <sidebyside>
+          <p>
+            <md>
+              \lim_{x\rightarrow 0^-} f(x)
+            </md>
+          </p>
+          <p>
+            <md>
+              \lim_{x\rightarrow 0^+} f(x)
+            </md>
+          </p>
+          <p>
+            <md>
+              \lim_{x\rightarrow 0} f(x)
+            </md>
+          </p>
+        </sidebyside>
+      </statement>
+    </task>
+    <task>
+      <statement>
+        <sidebyside>
+          <p>
+            <md>
+              \lim_{x\rightarrow 2^-} f(x)
+            </md>
+          </p>
+          <p>
+            <md>
+              \lim_{x\rightarrow 2^+} f(x)
+            </md>
+          </p>
+          <p>
+            <md>
+              \lim_{x\rightarrow 2} f(x)
+            </md>
+          </p>
+        </sidebyside>
+      </statement>
+    </task>
+  </example>
+  </page>
+  <page>
+    <p>
+      Based on our previous example, as well as thinking about how the definitions of limits and one-sided limits relate, we get the following theorem.
+    </p>
+    <theorem xml:id="thm-one-sided-limits">
+      <statement>
+        <p component="b" workspace="3in">
+          <nbsp />
+        </p>
+        <p component="a">
+          Let <m>f</m> be a function defined near some point <m>a</m>.
+          <md>
+            \lim_{x\rightarrow a} f(x) = L
+          </md>
+          if and only if
+          <md>
+            \lim_{x\rightarrow a^-} f(x) = L \text{ and } \lim_{x\rightarrow a^+} f(x) = L
+          </md>.
+        </p>
+      </statement>
+    </theorem>
+    <p component="a">
+      This does require us to know that the one-sided limits exist, but in order to show that a full limit exists, we need to check if the two one-sided limits both exist and are equal.
+    </p>
+    </page>
+    <page>
+      <paragraphs>
+        <title>Ways for Limits to Not Exist</title>
+        <p component="b" workspace="1in">
+          We've now seen one way for limits to not exist:
+        </p>
+        <p component="a">
+          We've now seen one way for limits to not exist: the left-hand and right-hand limits don't match.
+        </p>
+        <p>
+          But what else can happen?
+        </p>
+      </paragraphs>
+    </page>
     <p>
     </p>
   </handout>

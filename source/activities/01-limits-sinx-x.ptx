@@ -26,7 +26,7 @@
           </p>
           </li>
           <li> <title>Helpful Fact</title>
-            <p workspace="1in">
+            <p>
               There is a formula for the area of a triangle when you know two adjacent sides and the angle between them:
             </p>
           </li>
@@ -48,18 +48,11 @@
     </solution>
   </exercise>
 
+<sidebyside>
 <exercise>
   <introduction>
     <p>
-      We can try to approximate this area by cutting the circle into triangles. The diagram below cuts the unit circle into four triangles and then pulls one of the triangles out independently.
-    </p>
-    <image width="60%">
-      <prefigure xmlns="https://prefigure.org"
-             label="wksht-limits-sinx-x-4tri">
-      <xi:include href="../../prefigure/limits-sinx-x-4tri.xml" />
-      </prefigure>
-      </image>
-    <p> For this partition of the circle: </p>
+      We can try to approximate this area by cutting the circle into triangles. This diagram cuts the unit circle into four triangles and then pulls one of the triangles out independently. For this partition of the circle: </p>
   </introduction>
   <task>
     <statement>
@@ -84,17 +77,22 @@
   </task>
 </exercise>
 
+<image width="60%">
+      <prefigure xmlns="https://prefigure.org"
+             label="wksht-limits-sinx-x-4tri">
+      <xi:include href="../../prefigure/limits-sinx-x-4tri.xml" />
+      </prefigure>
+      </image>
+
+</sidebyside>
+
+<sidebyside>
 <exercise>
   <introduction>
     <p>
       Now, we'll do the same thing again with 6 triangles.
     </p>
-    <image width="60%">
-      <prefigure xmlns="https://prefigure.org"
-             label="wksht-limits-sinx-x-6tri">
-      <xi:include href="../../prefigure/limits-sinx-x-6tri.xml" />
-      </prefigure>
-      </image>
+    
     <p> For this partition of the circle: </p>
   </introduction>
   <task>
@@ -119,18 +117,21 @@
     </statement>
   </task>
 </exercise>
+<image width="60%">
+      <prefigure xmlns="https://prefigure.org"
+             label="wksht-limits-sinx-x-6tri">
+      <xi:include href="../../prefigure/limits-sinx-x-6tri.xml" />
+      </prefigure>
+      </image>
+</sidebyside>
 
+<sidebyside>
 <exercise>
   <introduction>
     <p>
       Finally, to generalize this, we want to assume we have some large number <m>n</m> of triangles. All of your answers below will involve <m>n</m>.
     </p>
-    <image width="60%">
-      <prefigure xmlns="https://prefigure.org"
-             label="wksht-limits-sinx-x-ntri">
-      <xi:include href="../../prefigure/limits-sinx-x-ntri.xml" />
-      </prefigure>
-      </image>
+    
     <p> For this partition of the circle: </p>
   </introduction>
   <task>
@@ -155,7 +156,13 @@
     </statement>
   </task>
 </exercise>
-
+<image width="60%">
+      <prefigure xmlns="https://prefigure.org"
+             label="wksht-limits-sinx-x-ntri">
+      <xi:include href="../../prefigure/limits-sinx-x-ntri.xml" />
+      </prefigure>
+      </image>
+</sidebyside>
 <exercise>
   <statement>
     <p>

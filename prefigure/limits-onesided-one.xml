@@ -1,0 +1,29 @@
+<diagram xmlns="https://prefigure.org" dimensions="(300,300)" margins="5">
+  <definition> g(x) = x </definition>
+  <definition> r(x) = x/2 </definition>
+  <definition> f(x) = 2*(x+2)^2 - 2 </definition>
+  <definition> h(x)= (x-3)^2 - 2 </definition>
+  <coordinates bbox="[-4,-3,4,3]">
+    <grid-axes xlabel="x" ylabel="y"/>
+    <graph function="f" domain="[-4,-2]"/>
+    <graph function="g" domain="[-2,0]"/>
+    <graph function="r" domain="[0,2]"/>
+    <graph function="h" domain="[2,4]"/>
+    <point p="(-2, f(-2))" size="5" fill="white" stroke="blue"/>
+    <point p="(-2, g(-2))" size="5" fill="white" stroke="blue"/>
+    <point p="(2, f(2))" size="5" fill="white" stroke="blue"/>
+    <point p="(2, h(2))" size="5" fill="white" stroke="blue"/>
+    <point p="(-2, 1)" size="5" fill="blue" stroke="blue"/>
+    <point p="(2, 0)" size="5" fill="blue" stroke="blue"/>
+      <point p="(0, 0)" size="5" fill="blue" stroke="blue"/>
+  </coordinates>
+</diagram>
+
+<!-- include as 
+<image width="60%">
+  <prefigure xmlns="https://prefigure.org"
+             label="wksht-graphing-lines-inter">
+    <xi:include href="../../prefigure/test-diagram.xml" />
+  </prefigure>
+</image>
+-->
