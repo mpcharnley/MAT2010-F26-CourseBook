@@ -605,6 +605,9 @@ We want to have a mathematical way to distinguish between these two scenarios, o
   <p>
     However, if I look just from the left or just from the right as I approach the point where the limit doesn't exist, I do actually get a value. Since it may be useful to have or look at these values, we define them.
   </p>
+  </paragraphs>
+</page>
+<page>
   <definition xml:id="def-one-sided-limits">
     <statement>
       <p component="b" workspace="4in">
@@ -627,7 +630,6 @@ We want to have a mathematical way to distinguish between these two scenarios, o
         </p>
     </statement>
   </definition>
-  </paragraphs>
 </page>
 <page>
   <example>
@@ -840,7 +842,7 @@ We want to have a mathematical way to distinguish between these two scenarios, o
           </p>
         </statement>
       </example>
-      <p>
+      <p workspace="1in">
         Besides functions with denominators, another function that has a vertical asymptote is <m>f(x) = \ln(x)</m>.
       </p>
     </page>

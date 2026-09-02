@@ -11,7 +11,7 @@
     <graph function="h" domain="[2,4]"/>
     <point p="(-2, f(-2))" size="5" fill="white" stroke="blue"/>
     <point p="(-2, g(-2))" size="5" fill="white" stroke="blue"/>
-    <point p="(2, f(2))" size="5" fill="white" stroke="blue"/>
+    <point p="(2, r(2))" size="5" fill="white" stroke="blue"/>
     <point p="(2, h(2))" size="5" fill="white" stroke="blue"/>
     <point p="(-2, 1)" size="5" fill="blue" stroke="blue"/>
     <point p="(2, 0)" size="5" fill="blue" stroke="blue"/>
