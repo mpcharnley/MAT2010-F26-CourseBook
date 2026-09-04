@@ -871,6 +871,9 @@ We want to have a mathematical way to distinguish between these two scenarios, o
       <p>
         Now we want to actually start evaluating limits. We'll do this over a few days, but we'll start with the simple case here.
       </p>
+      <p>
+        It would be really great if there was a way to do this that didn't involve plugging in a bunch of values or trying to draw and look at a graph. Ideally, we could just plug the limiting value into the function and get the correct answer for a limit. It turns out that this sometimes works, and we need to figure out what those cases are.
+      </p>
       <theorem xml:id="thm-direct-substitution-v1">
         <statement>
           <p workspace="1in">
@@ -883,7 +886,7 @@ We want to have a mathematical way to distinguish between these two scenarios, o
           </p>
         </statement>
       </theorem>
-      <p>
+      <p workspace="1in">
         We want to work towards filling in what that condition is for the theorem over the course of today. There are two pieces that will get us there
         <ul>
           <li>
@@ -899,6 +902,112 @@ We want to have a mathematical way to distinguish between these two scenarios, o
         </ul>
       </p>    
     </paragraphs>
+  </page>
+  <page>
+    <paragraphs>
+      <title>Basic Limits</title>
+      <p>
+        There are a few basic limits that we will use over and over again. These are the ones that we will start with.
+      </p>
+      <theorem xml:id="thm-basic-limits">
+        <statement>
+          <p component="b" workspace="3in">
+            Let <m>a</m> be a real number. Then
+          </p>
+          <p component="a">
+            Let <m>a</m> be a real number. Then
+          </p>
+        </statement>
+      </theorem>
+      <p component="b" workspace="2in">
+        The easiest way to verify these limits is by looking at graphs, but intuitively, they also make sense.
+      </p>
+      <p component="a">
+        The easiest way to verify these limits is by looking at graphs, but intuitively, they also make sense.
+        
+      </p>
+    </paragraphs>
+  </page>
+  <page>
+    <paragraphs>
+      <title>Limit Laws</title>
+      <p>
+        The book lists out a bunch of laws for combining limits. I'll put them all here for the sake of completeness, but you don't really need to memorize them. The main rule is that if the operation is allowed on the limiting values, it generally works in the limit context.
+      </p>
+      <theorem xml:id="thm-limit-laws-intro">
+        <statement>
+          <p>
+            Let <m>a</m> and <m>k</m> be real numbers, and let <m>f</m> and <m>g</m> be functions such that <md>
+              \lim_{x\rightarrow a} f(x) = L \text{ and } \lim_{x\rightarrow a} g(x) = M </md>
+              <ol>
+                <li>
+                  <p>
+                    <m>\lim_{x\rightarrow a} f(x) + g(x) = L + M</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\lim_{x\rightarrow a} f(x) \cdot g(x) = L \cdot M</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\lim_{x\rightarrow a} k\cdot f(x) = k \cdot L</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\lim_{x\rightarrow a} \frac{f(x)}{g(x)} = \frac{L}{M}</m> as long as <m>M \neq 0</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\lim_{x\rightarrow a} (f(x))^n = L^n</m> for any positive integer <m>n</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\lim_{x\rightarrow a} \sqrt[n]{f(x)} = \sqrt[n]{L}</m> for any positive integer <m>n</m>. If <m>n</m> is even, then we also need <m>L \geq 0</m>.
+                  </p>
+                </li>
+              </ol>
+          </p>
+        </statement>
+      </theorem>
+          <p component="b" workspace="2in">
+            <nbsp />
+          </p>
+      
+    </paragraphs>
+  </page>
+  <page>
+    <p component="b" workspace="3in">
+      So what kinds of functions satify the direct substitution property?
+    </p>
+    <p component="a">
+      So what kinds of functions satify the direct substitution property?
+      
+    </p>
+  </page>
+  <page>
+    <p>
+      So, we then end up with the following.
+    </p>
+    <theorem xml:id="thm-direct-substitution-v2">
+        <statement>
+          <p workspace="1in">
+            Let <m>f</m> be a function and <m>a</m> a value. If 
+          </p>
+          <p>
+            then <md>
+              \lim_{x\rightarrow a} f(x) = f(a)
+            </md>.
+          </p>
+        </statement>
+      </theorem>
+      <p workspace="2in">
+        What happens if the denominator is zero? Well, that's a story for next class.
+      </p>
   </page>
 
   </handout>
