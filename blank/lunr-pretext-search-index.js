@@ -307,13 +307,112 @@ var ptx_lunr_docs = [
   "body": "  Let be a function and a value. If  then .   "
 },
 {
+  "id": "notes-week-02",
+  "level": "1",
+  "url": "notes-week-02.html",
+  "type": "Section",
+  "number": "",
+  "title": "Week 2",
+  "body": " Week 2   Tuesday 9\/8     Compute limits of functions using the limit laws.    Compute limits of indeterinate form limits using algebraic cancellation, radical simplification, or special limits.       Indeterminate Forms  Before we get started on new topics for today, let's review the direct substitution property from last class.    Let be a function and a real number. If is:   a polynomial or algebraic function without denominator, or    a rational function of the form where and are polynomials and    Then .         Compute the following limits.      .       .       .        Indeterminate Forms  All of this before had a setup where the denominator was not zero. But what happens if it is? The direct substitution property does not apply here. However, in some cases, there may be something we can do.    An indeterminate form is a limit of the form where       In our case indeterminate means that the actual value of the limit is not determined by the expression when we just plug in .      Evaluating Indeterminate Limits  So, how can we try to evaluate these? The normal approach is to use algebraic simplification to reduce to a scenario where we can plug in the desired value and get something that is not indeterminate.    Use algebraic simplification to compute the limit        Be very careful with the notation in these limits. The expression and chain of steps need to make logical sense. In particular, you need to write lim at each step until you actually take the limit (that is, plug in the desired value).    Evaluate .        Evaluate .       Other Limits to Evaluate  There are two other types of limits that we need to be careful about evaluating:   Piecewise Functions, and    Special Trigonometric Limits.     We'll start with the trig limits. On the first worksheet, we had the first important trigonometric limit: . From this, we can prove a second limit.    Compute .        Piecewise Functions  For piecewise functions, we need to care about all of the places that the function changes definition. At each of those, we'll want to use one-sided limits to determine if the limit exists and what it is.    Compute each of the following limits:      .       .               For the function compute .       Wednesday      Friday     "
+},
+{
+  "id": "notes-week-02-2-2",
+  "level": "2",
+  "url": "notes-week-02.html#notes-week-02-2-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "   Compute limits of functions using the limit laws.    Compute limits of indeterinate form limits using algebraic cancellation, radical simplification, or special limits.    "
+},
+{
+  "id": "thm-direct-sub-final",
+  "level": "2",
+  "url": "notes-week-02.html#thm-direct-sub-final",
+  "type": "Theorem",
+  "number": "29",
+  "title": "",
+  "body": "  Let be a function and a real number. If is:   a polynomial or algebraic function without denominator, or    a rational function of the form where and are polynomials and    Then .   "
+},
+{
+  "id": "notes-week-02-2-4-1",
+  "level": "2",
+  "url": "notes-week-02.html#notes-week-02-2-4-1",
+  "type": "Example",
+  "number": "30",
+  "title": "",
+  "body": "  Compute the following limits.      .       .       .    "
+},
+{
+  "id": "def-indetForms-one",
+  "level": "2",
+  "url": "notes-week-02.html#def-indetForms-one",
+  "type": "Definition",
+  "number": "31",
+  "title": "",
+  "body": "  An indeterminate form is a limit of the form where   "
+},
+{
+  "id": "notes-week-02-2-6-1-3",
+  "level": "2",
+  "url": "notes-week-02.html#notes-week-02-2-6-1-3",
+  "type": "Example",
+  "number": "32",
+  "title": "",
+  "body": "  Use algebraic simplification to compute the limit    "
+},
+{
+  "id": "notes-week-02-2-7-2",
+  "level": "2",
+  "url": "notes-week-02.html#notes-week-02-2-7-2",
+  "type": "Example",
+  "number": "33",
+  "title": "",
+  "body": "  Evaluate .   "
+},
+{
+  "id": "notes-week-02-2-8-1",
+  "level": "2",
+  "url": "notes-week-02.html#notes-week-02-2-8-1",
+  "type": "Example",
+  "number": "34",
+  "title": "",
+  "body": "  Evaluate .   "
+},
+{
+  "id": "notes-week-02-2-9-1-4",
+  "level": "2",
+  "url": "notes-week-02.html#notes-week-02-2-9-1-4",
+  "type": "Example",
+  "number": "35",
+  "title": "",
+  "body": "  Compute .   "
+},
+{
+  "id": "notes-week-02-2-10-1-3",
+  "level": "2",
+  "url": "notes-week-02.html#notes-week-02-2-10-1-3",
+  "type": "Example",
+  "number": "36",
+  "title": "",
+  "body": "  Compute each of the following limits:      .       .         "
+},
+{
+  "id": "notes-week-02-2-11-1",
+  "level": "2",
+  "url": "notes-week-02.html#notes-week-02-2-11-1",
+  "type": "Example",
+  "number": "37",
+  "title": "",
+  "body": "  For the function compute .   "
+},
+{
   "id": "wksht-graphing-equations",
   "level": "1",
   "url": "wksht-graphing-equations.html",
   "type": "Worksheet",
   "number": "",
   "title": "Limit of Sine x over x",
-  "body": " Limit of Sine x over x       Dates  Assigned Date: September 1, 2026  Due Date: September 8, 2026    Objective  In this activity, we'll explore the special limit using the area of the unit circle.    Helpful Fact  There is a formula for the area of a triangle when you know two adjacent sides and the angle between them:         What is the area of the unit circle? (Yes, it is that easy.)           We can try to approximate this area by cutting the circle into triangles. This diagram cuts the unit circle into four triangles and then pulls one of the triangles out independently. For this partition of the circle:     Find the angle .      Find the area of one of the triangles.      Find the total area of all 4 triangles put together.        n=4           1    1    \\theta           Now, we'll do the same thing again with 6 triangles.  For this partition of the circle:     Find the angle .      Find the area of one of the triangles.      Find the total area of all 6 triangles put together.        n=6           1    1    \\theta           Finally, to generalize this, we want to assume we have some large number of triangles. All of your answers below will involve .  For this partition of the circle:     Find the angle .      Find the area of one of the triangles.      Find the total area of all triangles put together.        n=12           1    1    \\theta          Now, to put all of this together. Ideally, if we keep taking more and more triangles, we get an area that is closer and closer to that of the circle. You should be able to see that in the images above. Therefore, if we take our expression above and take the limit as goes to infinity, we should get the area of the circle. Write out what this says.      To make this match with what we saw in the book, we make one more change. Let so that . Plug this in to your previous answer and manipulate to get the special limit mentioned at the top of this worksheet.    "
+  "body": " Limit of Sine x over x       Dates  Assigned Date: September 1, 2026  Due Date: September 8, 2026    Objective  In this activity, we'll explore the special limit using the area of the unit circle.    Helpful Fact  There is a formula for the area of a triangle when you know two adjacent sides and the angle between them: .         What is the area of the unit circle? (Yes, it is that easy.)           We can try to approximate this area by cutting the circle into triangles. This diagram cuts the unit circle into four triangles and then pulls one of the triangles out independently. For this partition of the circle:     Find the angle .      Find the area of one of the triangles.      Find the total area of all 4 triangles put together.        n=4           1    1    \\theta           Now, we'll do the same thing again with 6 triangles.  For this partition of the circle:     Find the angle .      Find the area of one of the triangles.      Find the total area of all 6 triangles put together.        n=6           1    1    \\theta           Finally, to generalize this, we want to assume we have some large number of triangles. All of your answers below will involve .  For this partition of the circle:     Find the angle .      Find the area of one of the triangles.      Find the total area of all triangles put together.        n=12           1    1    \\theta          Now, to put all of this together. Ideally, if we keep taking more and more triangles, we get an area that is closer and closer to that of the circle. You should be able to see that in the images above. Therefore, if we take our expression above and take the limit as goes to infinity, we should get the area of the circle. Write out what this says.      To make this match with what we saw in the book, we make one more change. Let so that . Plug this in to your previous answer and manipulate to get the special limit mentioned at the top of this worksheet.    "
 },
 {
   "id": "wksht-graphing-equations-3",
@@ -368,6 +467,105 @@ var ptx_lunr_docs = [
   "number": "6",
   "title": "",
   "body": "  To make this match with what we saw in the book, we make one more change. Let so that . Plug this in to your previous answer and manipulate to get the special limit mentioned at the top of this worksheet.   "
+},
+{
+  "id": "wksht-indet-limits",
+  "level": "1",
+  "url": "wksht-indet-limits.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Indeterminate Limits",
+  "body": " Indeterminate Limits       Dates  Assigned Date: September 8, 2026  Due Date: September 9, 2026    Objective  In this activity, you will get some practice computing limits. Some will use the direct substitution properly, but others will be indeterminate and will need algebraic simplification to properly solve. The last section of this worksheet will need to be written up and turned in.    Remark  Make sure you pay proper attention to your formatting and notation. This will be necessary throughout this course, and the earlier you get used to it, the better. Most of the grading on this assignment will be focused on this proper write-up of solutions.         In-Class Work  Compute each limit as specified below. Make sure you use proper notation in writing out your work. These problems will not need to be turned in but should be completed for practice.      .           .             .           .            .           for .           and for .            Homework  Make a careful write-up computing each of the limits below and upload your submission to the assignment on Canvas.     .           .           for .          "
+},
+{
+  "id": "wksht-indet-limits-3-1-3-1",
+  "level": "2",
+  "url": "wksht-indet-limits.html#wksht-indet-limits-3-1-3-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "   .       "
+},
+{
+  "id": "wksht-indet-limits-3-1-3-2",
+  "level": "2",
+  "url": "wksht-indet-limits.html#wksht-indet-limits-3-1-3-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "   .       "
+},
+{
+  "id": "wksht-indet-limits-3-1-4-1",
+  "level": "2",
+  "url": "wksht-indet-limits.html#wksht-indet-limits-3-1-4-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "   .       "
+},
+{
+  "id": "wksht-indet-limits-3-1-4-2",
+  "level": "2",
+  "url": "wksht-indet-limits.html#wksht-indet-limits-3-1-4-2",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "   .       "
+},
+{
+  "id": "wksht-indet-limits-3-1-5",
+  "level": "2",
+  "url": "wksht-indet-limits.html#wksht-indet-limits-3-1-5",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "   .       "
+},
+{
+  "id": "wksht-indet-limits-3-1-6",
+  "level": "2",
+  "url": "wksht-indet-limits.html#wksht-indet-limits-3-1-6",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "",
+  "body": "   for .       "
+},
+{
+  "id": "wksht-indet-limits-3-1-7",
+  "level": "2",
+  "url": "wksht-indet-limits.html#wksht-indet-limits-3-1-7",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "",
+  "body": "   and for .       "
+},
+{
+  "id": "wksht-indet-limits-4-1-3",
+  "level": "2",
+  "url": "wksht-indet-limits.html#wksht-indet-limits-4-1-3",
+  "type": "Worksheet Exercise",
+  "number": "8",
+  "title": "",
+  "body": "   .       "
+},
+{
+  "id": "wksht-indet-limits-4-1-4",
+  "level": "2",
+  "url": "wksht-indet-limits.html#wksht-indet-limits-4-1-4",
+  "type": "Worksheet Exercise",
+  "number": "9",
+  "title": "",
+  "body": "   .       "
+},
+{
+  "id": "wksht-indet-limits-4-1-5",
+  "level": "2",
+  "url": "wksht-indet-limits.html#wksht-indet-limits-4-1-5",
+  "type": "Worksheet Exercise",
+  "number": "10",
+  "title": "",
+  "body": "   for .       "
 },
 {
   "id": "handouts",
