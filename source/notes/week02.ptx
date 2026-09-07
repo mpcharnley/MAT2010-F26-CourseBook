@@ -3,12 +3,261 @@
 <section xml:id="notes-week-02" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Week 2</title>
 
-  <subsection>
-    <title>Monday</title>
 
+<handout component="cur">
+  <title>Tuesday 9/8</title>
+  <objectives>
+    <ul>
+      <li>
+        <p>
+          Compute limits of functions using the limit laws.
+        </p>
+      </li>
+      <li>
+        <p>
+          Compute limits of indeterinate form limits using algebraic cancellation, radical simplification, or special limits.
+        </p>
+      </li>
+    </ul>
+  </objectives>
+  <page>
+    <paragraphs>
+      <title>Indeterminate Forms</title>
+<p>
+  Before we get started on new topics for today, let's review the direct substitution property from last class.
+</p>
+
+<theorem xml:id="thm-direct-sub-final">
+  <statement>
     <p>
+      Let <m>f</m> be a function and <m>a</m> a real number. If <m>f</m> is:
+      <ul>
+        <li>
+          <p>
+            a polynomial or algebraic function without denominator, or
+          </p>
+        </li>
+        <li>
+          <p>
+            a rational function of the form <m>f(x) = \frac{P(x)}{Q(x)}</m> where <m>P</m> and <m>Q</m> are polynomials and <m>Q(a) \neq 0</m>
+          </p>
+        </li>
+      </ul>
+      Then <md>
+        \lim_{x \rightarrow a} f(x) = f(a)
+      </md>.
     </p>
-  </subsection>
+  </statement>
+</theorem>
+</paragraphs>
+</page>
+<page>
+<example workspace="2in">
+  <introduction>
+    <p>
+      Compute the following limits.
+    </p>
+  </introduction>
+  <task>
+    <statement>
+      <p>
+        <md>
+          \lim_{x\rightarrow 2} \sqrt{x^2 + 1} - x^4 + 3x^3 - 1
+        </md>.
+      </p>
+    </statement>
+  </task>
+  <task>
+    <statement>
+      <p>
+        <md>
+          \lim_{x\rightarrow 1} \frac{x^2 + 6x - 2}{2x^2 - 5}
+        </md>.
+      </p>
+    </statement>
+  </task>
+  <task>
+    <statement>
+      <p>
+        <md>
+          \lim_{x\rightarrow -1} \frac{x^2 - x - 2}{x+3}
+        </md>.
+      </p>
+    </statement>
+  </task>
+</example>
+</page>
+<page>
+  <paragraphs>
+    <title>Indeterminate Forms</title>
+    <p>
+      All of this before had a setup where the denominator was not zero. But what happens if it is? The direct substitution property does not apply here. However, in some cases, there may be something we can do.
+    </p>
+    <definition xml:id="def-indetForms-one">
+      <statement>
+        <p component="b" workspace="2in">
+          An <term>indeterminate form</term> is a limit of the form <md>
+            \lim_{x \rightarrow a} \frac{f(x)}{g(x)}
+          </md> where 
+          
+        </p>
+        <p component="a">
+          An <term>indeterminate form</term>  is a limit of the form <md>
+            \lim_{x \rightarrow a} \frac{f(x)}{g(x)}
+          </md> where plugging in the desired value gives an expression of the form <m>\frac{0}{0}</m>.
+          
+        </p>
+      </statement>
+    </definition>
+    <p component="b" workspace="2in">
+      <nbsp />
+    </p>
+    <p component="a">
+      <em>Note</em>: An expression of the form <m>\frac{C}{0}</m>, where <m>C \neq 0</m> is not indeterminate; it's just infinite. We'll deal more with that tomorrow.
+    </p>
+    <p component="b" workspace="2in">
+      In our case <em>indeterminate</em> means that the actual value of the limit is not determined by the expression when we just plug in <m>a</m>.
+    </p>
+    <p component="a">
+      In our case <em>indeterminate</em> means that the actual value of the limit is not determined by the expression when we just plug in <m>a</m>. If we get a limit that looks like <m>\frac{0}{0}</m>, we can get anything. This is not <m>1</m>, it's not <m>0</m>, it could be anything.
+    </p>
+  </paragraphs>
+</page>
+<page>
+  <paragraphs>
+    <title>Evaluating Indeterminate Limits</title>
+    <p>
+      So, how can we try to evaluate these? The normal approach is to use algebraic simplification to reduce to a scenario where we can plug in the desired value and get something that is not indeterminate.
+    </p>
+    <example workspace="4in">
+      <statement>
+        <p>
+          Use algebraic simplification to compute the limit <md>
+            \lim_{x\rightarrow 3} \frac{x^2 - x - 6}{x-3}
+          </md>
+        </p>
+      </statement>
+    </example>
+  </paragraphs>
+</page>
+<page>
+  <p>
+    Be very careful with the notation in these limits. The expression and chain of steps need to make logical sense. In particular, you need to write <q>lim</q> at each step until you actually take the limit (that is, plug in the desired value).
+  </p>
+  <example workspace="4in">
+  <statement>
+    <p>
+      Evaluate <md>
+      \lim_{t\rightarrow 5} \frac{\sqrt{t+4}-3}{t-5}
+    </md>.
+    </p>
+  </statement>    
+  </example>
+</page>
+<page>
+  <example workspace="4in">
+    <statement>
+      <p>
+        Evaluate <md>
+          \lim_{x \rightarrow 2} \frac{x^2 - 4}{x^2 - 6x - 8}
+        </md>.
+        
+      </p>
+    </statement>
+  </example>
+</page>
+<page>
+  <paragraphs>
+    <title>Other Limits to Evaluate</title>
+    <p>
+      There are two other types of limits that we need to be careful about evaluating:
+      <ul>
+        <li>
+          <p>
+            Piecewise Functions, and
+          </p>
+        </li>
+        <li>
+          <p>
+            Special Trigonometric Limits.
+          </p>
+        </li>
+      </ul>
+    </p>
+    <p>
+      We'll start with the trig limits. On the first worksheet, we had the first important trigonometric limit: <md>
+        \lim_{x\rightarrow 0} \frac{\sin(x)}{x} = 1
+      </md>.
+      From this, we can prove a second limit.
+      
+    </p>
+    <example workspace="2in">
+      <statement>
+        <p>
+          Compute <md>
+            \lim_{x\rightarrow 0}\frac{\cos(x) - 1}{x}
+          </md>.
+          
+        </p>
+      </statement>
+    </example>
+  </paragraphs>
+</page>
+<page>
+  <paragraphs>
+    <title>Piecewise Functions</title>
+    <p>
+      For piecewise functions, we need to care about all of the places that the function changes definition. At each of those, we'll want to use one-sided limits to determine if the limit exists and what it is.
+    </p>
+    <example>
+      <introduction>
+        <p>
+          Compute each of the following limits:
+        </p>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            <md>
+              \lim_{x\rightarrow 0} |x|
+            </md>.
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            <md>
+              \lim_{x\rightarrow 0} \frac{x}{|x|}
+            </md>.
+          </p>
+        </statement>
+      </task>
+      <conclusion>
+        <p component="b" workspace="4in">
+          <nbsp />
+        </p>
+      </conclusion>
+    </example>
+  </paragraphs>
+</page>
+<page>
+  <example workspace="4in">
+    <statement>
+      <p>
+        For the function <md>
+          f(x) = \begin{cases} (2-x)^2 &amp; x &lt; 3 \\
+          4 &amp; x = 3 \\
+          4-x &amp; x &gt; 3 \\
+          \end{cases}
+        </md> compute <md>
+          \lim_{x\rightarrow 3} f(x)
+        </md>.
+      </p>
+    </statement>
+  </example>
+</page>
+</handout>
 
 
   <subsection>

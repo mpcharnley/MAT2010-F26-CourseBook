@@ -28,6 +28,7 @@
           <li> <title>Helpful Fact</title>
             <p>
               There is a formula for the area of a triangle when you know two adjacent sides and the angle between them:
+              <md> A = \frac{1}{2}ab\sin(\theta) </md>.
             </p>
           </li>
           </ul>
@@ -174,7 +175,7 @@
 <exercise>
   <statement>
     <p>
-      To make this match with what we saw in the book, we make one more change. Let <m>x = \frac{2\pi}{n}</m> so that <m>n = 2\pi x</m>. Plug this in to your previous answer and manipulate to get the special limit mentioned at the top of this worksheet.
+      To make this match with what we saw in the book, we make one more change. Let <m>x = \frac{2\pi}{n}</m> so that <m>n = \frac{2\pi}{x}</m>. Plug this in to your previous answer and manipulate to get the special limit mentioned at the top of this worksheet.
     </p>
   </statement>
 </exercise>

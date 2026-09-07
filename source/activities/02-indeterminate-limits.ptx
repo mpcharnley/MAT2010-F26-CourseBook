@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet component = "cur" xml:id = "wksht-indet-limits" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Indeterminate Limits</title>
+
+  <!-- Optional introduction -->
+  <introduction>
+  <p>
+    <ul>
+        <li>
+          <title>Dates</title>
+          <p>
+            Assigned Date: September 8, 2026
+          </p>
+          <p>
+            Due Date: September 9, 2026
+          </p>
+        </li>
+        <li>
+          <title>Objective</title>    
+          <p>
+            In this activity, you will get some practice computing limits. Some will use the direct substitution properly, but others will be indeterminate and will need algebraic simplification to properly solve. The last section of this worksheet will need to be written up and turned in. 
+          </p>
+          </li>
+          <li> <title>Remark</title>
+            <p>
+              Make sure you pay proper attention to your formatting and notation. This will be necessary throughout this course, and the earlier you get used to it, the better. Most of the grading on this assignment will be focused on this proper write-up of solutions.
+            </p>
+          </li>
+          </ul>
+          </p>
+  </introduction>
+<page>
+  <!-- Exercises start here. -->
+<paragraphs>
+  <title>In-Class Work</title>
+<p>
+  Compute each limit as specified below. Make sure you use proper notation in writing out your work. These problems will not need to be turned in but should be completed for practice.
+</p>
+<sidebyside>
+  <exercise>
+    <statement>
+      <p>
+        <m>\displaystyle \lim_{x\rightarrow -2} \frac{x^2 + 7x + 10}{x+2}</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        
+      </p>
+    </solution>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        <m>\displaystyle \lim_{x\rightarrow 3} \frac{x^2 - 9}{\sqrt{x^3 - 2}-5}</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        
+      </p>
+    </solution>
+  </exercise>
+  </sidebyside>
+  <sidebyside>
+  <exercise>
+    <statement>
+      <p>
+        <m>\displaystyle \lim_{x\rightarrow 2} \frac{x^2 - 5x + 6}{x^2 - 4x - 12}</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        
+      </p>
+    </solution>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        <m>\displaystyle \lim_{x\rightarrow 1} \frac{x^2 + 6x + 8}{x^2 - 2x  - 3}</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        
+      </p>
+    </solution>
+  </exercise>
+  </sidebyside>
+  <exercise>
+    <statement>
+      <p>
+        <m>\displaystyle \lim_{t\rightarrow 4} \frac{\sqrt{3t + 4} - 4}{\sqrt{t^2 + 9} - 5}</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        
+      </p>
+    </solution>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        <m>\displaystyle \lim_{x\rightarrow 2} f(x)</m> for <md>
+          f(x) = \begin{cases}
+          \cos(\pi x) - 2 &amp; x &lt; 2 \\
+          3 &amp; x = 2 \\
+          x^3 - 2x - 5 &amp; x &gt; 2
+          \end{cases}
+        </md>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        
+      </p>
+    </solution>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        <m>\displaystyle \lim_{x\rightarrow 0} f(x)</m> and <m>\displaystyle \lim_{x\rightarrow 3} f(x)</m>  for <md>
+          f(x) = \begin{cases}
+          \frac{\sin(x)}{x} &amp; x &lt; 0 \\
+          3x-2 &amp; 0 \leq x \leq 3 \\
+          \frac{x^2 - 2x - 3}{x^2 - 4x - 3} &amp; x &gt; 3
+          \end{cases}
+        </md>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        
+      </p>
+    </solution>
+  </exercise>
+</paragraphs>
+</page>
+<page>
+<paragraphs>
+  <title>Homework</title>
+  <p>
+    Make a careful write-up computing each of the limits below and upload your submission to the assignment on Canvas.
+  </p>
+  <exercise>
+    <statement>
+      <p>
+        <m>\displaystyle \lim_{x\rightarrow 5} \frac{2x-10}{x^2-2x-15}</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        
+      </p>
+    </solution>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        <m>\displaystyle \lim_{s\rightarrow -1} \frac{\sqrt{s^2 + 8} - 3}{s^2 - 1}</m>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        
+      </p>
+    </solution>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        <m>\displaystyle \lim_{x\rightarrow 1} f(x)</m> for <md>
+          f(x) = \begin{cases}
+          \frac{x^2 + 3x + 5}{x+2} &amp; x &lt; 1 \\
+          3 &amp; x = 1 \\
+          \frac{x^2 - 3x + 2}{x-1} &amp; x &gt; 1
+          \end{cases}
+        </md>.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        
+      </p>
+    </solution>
+  </exercise>
+</paragraphs>
+</page>
+</worksheet>
