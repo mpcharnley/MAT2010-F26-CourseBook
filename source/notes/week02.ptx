@@ -260,12 +260,100 @@
 </handout>
 
 
-  <subsection>
-    <title>Wednesday</title>
-
+<handout component="cur">
+  <title>Wednesday 9/9</title>
+  <objectives>
+    <ul>
+      <li>
+        <p>
+          Practice with limits involving indeterminate forms.
+        </p>
+      </li>
+      <li>
+        <p>
+          Review and practice with vertical asymptotes.
+        </p>
+      </li>
+    </ul>
+  </objectives>
+  <page>
+    <paragraphs>
+      <title>Limits Involving Infinity</title>
+      <p component="b" workspace="2in">
+        Our next few days will cover limits involving infinity. There are two main types of this: <md>
+          \lim_{x\rightarrow a} f(x) = \infty \quad \text{ and } \quad \lim_{x\rightarrow \infty} f(x) = L
+        </md>.
+      </p>
+      <p component="a">
+        Our next few days will cover limits involving infinity. There are two main types of this: <md>
+          \lim_{x\rightarrow a} f(x) = \infty \quad \text{ and } \quad \lim_{x\rightarrow \infty} f(x) = L
+        </md>. The first of these is a limit that doesn't exist, while the second one behaves the same as one that does exist. We'll deal with the first of these today.
+      </p>
+    </paragraphs>
+  </page>
+  <page>
+    <paragraphs>
+      <title>Limits <q>equalling</q> infinity</title>
+      <p component="b" workspace="2in">
+        The key point with these limits is that they don't exist. There is no real number that the function gets close to as <m>x \rightarrow a</m>. However, we use <md>
+          \lim_{x\rightarrow a} f(x) = \infty
+        </md> as a shorthand notation.
+      </p>
+      <p component="a">
+        The key point with these limits is that they don't exist. There is no real number that the function gets close to as <m>x \rightarrow a</m>. However, we use <md>
+          \lim_{x\rightarrow a} f(x) = \infty
+        </md> as a shorthand notation. It means that the function values get bigger and bigger, without bound, as <m>x</m> gets closer to <m>a</m>. If you give me any number <m>M</m>, I'll find values of <m>x</m> close to <m>a</m> so that <m>f(x) > M</m>.
+      </p>
+      <p component="b" workspace="4in">
+        How do we get functions to do this?
+      </p>
+      <p component="a">
+        How do we get functions to do this? We need graphs that go to infinity really fast. Things like <m>\frac{1}{x}</m> or <m>\tan(x)</m>. The key point is something like a rational function that approaches <m>\frac{\#}{0}</m>.
+      </p>
+    </paragraphs>
+  </page>
+  <page>
+<p component="b" workspace="2in">
+  Recall the definition of <term>vertical asymptote</term> from a previous class.
+</p>
+<p component="a">
+  Recall the definition of <term>vertical asymptote</term> from a previous class. Any point where the limit is infinite. We get this by looking for points where the denominator is zero. For each of these points, we need to use one-sided limits to determine whether the function is going to positive or negative infinity.
+</p>
+</page>
+  <page>
+<example workspace="3in">
+  <statement>
     <p>
+      Find all vertical asymptotes of <md>
+        f(x) = \frac{2x+3}{x^2 - x - 6}
+      </md>. Determine the behavior of <m>f(x)</m> near these asymptotes.
     </p>
-  </subsection>
+  </statement>
+</example>
+  </page>
+  <page>
+    <example workspace="3in">
+  <statement>
+    <p>
+      Find all vertical asymptotes of <md>
+        f(x) = \frac{x^2 + 3x - 10}{2x^2 + 16x + 30}
+      </md>. Determine the behavior of <m>f(x)</m> near these asymptotes.
+    </p>
+  </statement>
+</example>
+  </page>
+    <page>
+    <example workspace="3in">
+  <statement>
+    <p>
+      Find all vertical asymptotes of <md>
+        f(x) = \frac{(x-3)(x+1)}{(x+4)(x-1)^2}
+      </md>. Determine the behavior of <m>f(x)</m> near these asymptotes.
+    </p>
+  </statement>
+</example>
+  </page>
+</handout>
 
 
   <subsection>
