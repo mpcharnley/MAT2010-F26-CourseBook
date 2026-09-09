@@ -313,7 +313,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Week 2",
-  "body": " Week 2   Tuesday 9\/8     Compute limits of functions using the limit laws.    Compute limits of indeterinate form limits using algebraic cancellation, radical simplification, or special limits.       Indeterminate Forms  Before we get started on new topics for today, let's review the direct substitution property from last class.    Let be a function and a real number. If is:   a polynomial or algebraic function without denominator, or    a rational function of the form where and are polynomials and    Then .         Compute the following limits.      .       .       .        Indeterminate Forms  All of this before had a setup where the denominator was not zero. But what happens if it is? The direct substitution property does not apply here. However, in some cases, there may be something we can do.    An indeterminate form is a limit of the form where       In our case indeterminate means that the actual value of the limit is not determined by the expression when we just plug in .      Evaluating Indeterminate Limits  So, how can we try to evaluate these? The normal approach is to use algebraic simplification to reduce to a scenario where we can plug in the desired value and get something that is not indeterminate.    Use algebraic simplification to compute the limit        Be very careful with the notation in these limits. The expression and chain of steps need to make logical sense. In particular, you need to write lim at each step until you actually take the limit (that is, plug in the desired value).    Evaluate .        Evaluate .       Other Limits to Evaluate  There are two other types of limits that we need to be careful about evaluating:   Piecewise Functions, and    Special Trigonometric Limits.     We'll start with the trig limits. On the first worksheet, we had the first important trigonometric limit: . From this, we can prove a second limit.    Compute .        Piecewise Functions  For piecewise functions, we need to care about all of the places that the function changes definition. At each of those, we'll want to use one-sided limits to determine if the limit exists and what it is.    Compute each of the following limits:      .       .               For the function compute .       Wednesday      Friday     "
+  "body": " Week 2   Tuesday 9\/8     Compute limits of functions using the limit laws.    Compute limits of indeterinate form limits using algebraic cancellation, radical simplification, or special limits.       Indeterminate Forms  Before we get started on new topics for today, let's review the direct substitution property from last class.    Let be a function and a real number. If is:   a polynomial or algebraic function without denominator, or    a rational function of the form where and are polynomials and    Then .         Compute the following limits.      .       .       .        Indeterminate Forms  All of this before had a setup where the denominator was not zero. But what happens if it is? The direct substitution property does not apply here. However, in some cases, there may be something we can do.    An indeterminate form is a limit of the form where       In our case indeterminate means that the actual value of the limit is not determined by the expression when we just plug in .      Evaluating Indeterminate Limits  So, how can we try to evaluate these? The normal approach is to use algebraic simplification to reduce to a scenario where we can plug in the desired value and get something that is not indeterminate.    Use algebraic simplification to compute the limit        Be very careful with the notation in these limits. The expression and chain of steps need to make logical sense. In particular, you need to write lim at each step until you actually take the limit (that is, plug in the desired value).    Evaluate .        Evaluate .       Other Limits to Evaluate  There are two other types of limits that we need to be careful about evaluating:   Piecewise Functions, and    Special Trigonometric Limits.     We'll start with the trig limits. On the first worksheet, we had the first important trigonometric limit: . From this, we can prove a second limit.    Compute .        Piecewise Functions  For piecewise functions, we need to care about all of the places that the function changes definition. At each of those, we'll want to use one-sided limits to determine if the limit exists and what it is.    Compute each of the following limits:      .       .               For the function compute .       Wednesday 9\/9     Practice with limits involving indeterminate forms.    Review and practice with vertical asymptotes.       Limits Involving Infinity  Our next few days will cover limits involving infinity. There are two main types of this: .      Limits equalling infinity  The key point with these limits is that they don't exist. There is no real number that the function gets close to as . However, we use as a shorthand notation.  How do we get functions to do this?     Recall the definition of vertical asymptote from a previous class.      Find all vertical asymptotes of . Determine the behavior of near these asymptotes.        Find all vertical asymptotes of . Determine the behavior of near these asymptotes.        Find all vertical asymptotes of . Determine the behavior of near these asymptotes.       Friday     "
 },
 {
   "id": "notes-week-02-2-2",
@@ -404,6 +404,51 @@ var ptx_lunr_docs = [
   "number": "37",
   "title": "",
   "body": "  For the function compute .   "
+},
+{
+  "id": "notes-week-02-3-2",
+  "level": "2",
+  "url": "notes-week-02.html#notes-week-02-3-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "   Practice with limits involving indeterminate forms.    Review and practice with vertical asymptotes.    "
+},
+{
+  "id": "notes-week-02-3-5-1",
+  "level": "2",
+  "url": "notes-week-02.html#notes-week-02-3-5-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "vertical asymptote "
+},
+{
+  "id": "notes-week-02-3-6-1",
+  "level": "2",
+  "url": "notes-week-02.html#notes-week-02-3-6-1",
+  "type": "Example",
+  "number": "38",
+  "title": "",
+  "body": "  Find all vertical asymptotes of . Determine the behavior of near these asymptotes.   "
+},
+{
+  "id": "notes-week-02-3-7-1",
+  "level": "2",
+  "url": "notes-week-02.html#notes-week-02-3-7-1",
+  "type": "Example",
+  "number": "39",
+  "title": "",
+  "body": "  Find all vertical asymptotes of . Determine the behavior of near these asymptotes.   "
+},
+{
+  "id": "notes-week-02-3-8-1",
+  "level": "2",
+  "url": "notes-week-02.html#notes-week-02-3-8-1",
+  "type": "Example",
+  "number": "40",
+  "title": "",
+  "body": "  Find all vertical asymptotes of . Determine the behavior of near these asymptotes.   "
 },
 {
   "id": "wksht-graphing-equations",
