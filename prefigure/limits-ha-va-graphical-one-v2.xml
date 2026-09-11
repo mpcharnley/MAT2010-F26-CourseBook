@@ -1,0 +1,19 @@
+<diagram xmlns="https://prefigure.org" dimensions="(300,300)" margins="5">
+  <definition> g(x) = -1*(x+1)^2/((x-1)*(x+4))</definition>
+  <definition> f(x)=3*(x+1)^2/((x-1)*(x+4)) </definition>
+  <coordinates bbox="[-30,-5,30,5]">
+    <grid-axes xlabel="x" ylabel="y"/>
+    <graph function="g" domain="[-30,-4.1]"/>
+    <graph function="f" domain="[-3.9,0.9]"/>
+    <graph function="f" domain="[1.1,30]"/>
+  </coordinates>
+</diagram>
+
+<!-- include as 
+<image width="60%">
+  <prefigure xmlns="https://prefigure.org"
+             label="wksht-graphing-lines-inter">
+    <xi:include href="../../prefigure/test-diagram.xml" />
+  </prefigure>
+</image>
+-->

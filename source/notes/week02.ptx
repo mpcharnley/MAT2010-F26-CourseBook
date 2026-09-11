@@ -355,11 +355,143 @@
   </page>
 </handout>
 
+<handout component="cur">
+  <title>Friday 9/11</title>
+  <objectives>
+    <ul>
+      <li>
+        <p>
+          Understand the idea of limits as the input variable goes to infinity.
+        </p>
+      </li>
+      <li>
+        <p>
+          Compute horizontal asymptotes using this approach.
+        </p>
+      </li>
+      <li>
+        <p>
+          Quiz on one-sided limits and indeterminate forms.
+        </p>
+      </li>
+    </ul>
+  </objectives>
+  <page>
+    <paragraphs>
+      <title>Limits as <m>x</m> goes to infinity</title>
 
-  <subsection>
-    <title>Friday</title>
+<p>
+  Last time, we discussed limits where the <q>answer</q> was <m>\pm\infty</m>. This gave us <term>vertical asymptotes</term> of our functions. Now, we want to look at the other kind of limit involving infinity, one where the variable goes to infinity.
+</p>
 
-    <p>
+<p component="b" workspace="2in">
+  For a function <m>f(x)</m>, what does <md>
+    \lim_{x\rightarrow \infty} f(x) = L     
+  </md> mean or represent?
+  
+</p>
+<p component="a">
+  For a function <m>f(x)</m>, what does <md>
+    \lim_{x\rightarrow \infty} f(x) = L     
+  </md> mean or represent? We're looking at the values of the function as <m>x</m> gets really really big. Is there a value the function approaches as we get really far to the right?
+   
+</p>
+
+<definition xml:id="def-limit-to-inf">
+  <statement>
+    <p component="b" workspace="2in">
+      Let <m>f(x)</m> be a function defined on some interval <m>[a,\infty)</m>. We say that <md>
+        \lim_{x\rightarrow \infty} f(x) = L  
+      </md>
+      if
     </p>
-  </subsection>
+    <p component="a">
+      Let <m>f(x)</m> be a function defined on some interval <m>[a,\infty)</m>. We say that <md>
+        \lim_{x\rightarrow \infty} f(x) = L  
+      </md>
+      if the values of <m>f(x)</m> can be made arbitrarily close to <m>L</m> by taking <m>x</m> sufficiently large. Similarly for negative infinity. How is this read?
+    </p>
+  </statement>
+</definition>
+    </paragraphs>
+  </page>
+  <page>
+    <definition xml:id="def-horiz-asympt">
+      <statement>
+        <p component="b" workspace="2in">
+          The line <m>y=L</m> is called a horizontal asymptote of the curve <m>y = f(x)</m> if 
+        </p>
+        <p component="a">
+          The line <m>y=L</m> is called a horizontal asymptote of the curve <m>y = f(x)</m> if either end limit exists.
+        </p>
+      </statement>
+    </definition>
+    <p component="b" workspace="2in">
+      Note that being a horizontal asymptote does not mean that you can't cross the line. It's just this limiting condition.
+    </p>
+    <p component="a">
+      Note that being a horizontal asymptote does not mean that you can't cross the line. It's just this limiting condition. You can have graphs that cross the asymptote many times, as long as they approach it as you get farther away.
+    </p>
+  </page>
+  <page>
+    <example>
+      <statement>
+        <p>
+          Find the vertical and horizontal asymptotes of the function <m>f(x)</m> represented by these graphs.
+        </p>
+        <sidebyside>
+          <image width="60%">
+  <prefigure xmlns="https://prefigure.org"
+             label="limits-ha-va-graphical-one-v1">
+    <xi:include href="../../prefigure/limits-ha-va-graphical-one-v1.xml" />
+  </prefigure>
+</image>
+<image width="60%">
+  <prefigure xmlns="https://prefigure.org"
+             label="limits-ha-va-graphical-one-v2">
+    <xi:include href="../../prefigure/limits-ha-va-graphical-one-v2.xml" />
+  </prefigure>
+</image>
+        </sidebyside>
+      </statement>
+    </example>
+  </page>
+  <page>
+  <paragraphs>
+    <title>Key Examples</title>
+    <p>
+      One of the most common functions to look at with this kind of problem is powers of <m>x</m>.
+    </p>
+    <example workspace = "2in">
+      <statement>
+        <p>
+          Determine the value of <md>
+            \lim_{x\rightarrow \infty} \frac{1}{x} \text { and } \lim_{x\rightarrow \infty} \frac{1}{x^{5/2}}
+          </md>.
+        </p>
+      </statement>
+    </example>
+    <p component="b" workspace="2in">
+      We can therefore make a statement about what happens to these kinds of expressions for any power of <m>x</m>:
+    </p>
+    <p component="a">
+      We can therefore make a statement about what happens to these kinds of expressions for any power of <m>x</m>: the limit is zero as long as the values are defined.
+    </p>
+  </paragraphs>
+</page>
+  <page> 
+    <p>
+      One of the main uses of this result is finding horizontal asymptotes of rational functions.
+    </p>
+    <example workspace="2in">
+      <statement>
+        <p>
+          Find the horizontal asymptotes of the function <md>
+            f(x) = \frac{3x^3 - 4x + 1}{5x^3 + 2x^2 - 3}
+          </md>.
+        </p>
+      </statement>
+    </example>
+</page>
+</handout>
 </section>
