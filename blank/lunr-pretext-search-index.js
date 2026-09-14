@@ -514,6 +514,114 @@ var ptx_lunr_docs = [
   "body": "  Find the horizontal asymptotes of the function .   "
 },
 {
+  "id": "notes-week-03",
+  "level": "1",
+  "url": "notes-week-03.html",
+  "type": "Section",
+  "number": "",
+  "title": "Week 3",
+  "body": " Week 3   This is an outline of the topics we covered in Week 3 of the semester, from September 14 to September 18.    Monday 9\/14     Review computing limits as     Solve more complicated problems involving horizontal asymptotes.       Horizontal Asymptotes, Round 2  Last time, we looked at horizontal asymptotes of simple rational functions. What was the main property we used, and how did we set up the problem to make that useful?    Compute and for the function .       Recall that we could also get to this same point by looking at horizontal asymptotes of functions; that also requires taking the limit as goes to infinity and negative infinity. Some problems, however, are not as simple as the one we just computed.    Find the horizontal asymptotes of the function        Other Limits  Outside of rational functions, there are other functions with horizontal asymptotes that are worth looking into.    Analyze the horizontal asymptotes of the following functions.      and               and           Compute         Investigate and for the function .        Evaluate .        Compute .       Tuesday 9\/15     Determine all vertical and horizontal asymptotes of functions       Horizontal and Vertical Asymptotes  From previous classes, recall the definition of horizontal and vertical asymptote.  Today, we want to work on answering questions that involve finding all vertical and horizontal asymptotes of a function.       Find all horizontal and vertical asymptotes of the function . Use this information to draw a rough sketch of the graph of this function.        Determine all vertical and horizontal asymptotes of the function .      "
+},
+{
+  "id": "notes-week-03-3-2",
+  "level": "2",
+  "url": "notes-week-03.html#notes-week-03-3-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "   Review computing limits as     Solve more complicated problems involving horizontal asymptotes.    "
+},
+{
+  "id": "notes-week-03-3-3-1-3",
+  "level": "2",
+  "url": "notes-week-03.html#notes-week-03-3-3-1-3",
+  "type": "Example",
+  "number": "46",
+  "title": "",
+  "body": "  Compute and for the function .   "
+},
+{
+  "id": "notes-week-03-3-4-2",
+  "level": "2",
+  "url": "notes-week-03.html#notes-week-03-3-4-2",
+  "type": "Example",
+  "number": "47",
+  "title": "",
+  "body": "  Find the horizontal asymptotes of the function    "
+},
+{
+  "id": "notes-week-03-3-5-1-3",
+  "level": "2",
+  "url": "notes-week-03.html#notes-week-03-3-5-1-3",
+  "type": "Example",
+  "number": "48",
+  "title": "",
+  "body": "  Analyze the horizontal asymptotes of the following functions.      and               and     "
+},
+{
+  "id": "notes-week-03-3-6-1",
+  "level": "2",
+  "url": "notes-week-03.html#notes-week-03-3-6-1",
+  "type": "Example",
+  "number": "49",
+  "title": "",
+  "body": "  Compute    "
+},
+{
+  "id": "notes-week-03-3-7-1",
+  "level": "2",
+  "url": "notes-week-03.html#notes-week-03-3-7-1",
+  "type": "Example",
+  "number": "50",
+  "title": "",
+  "body": "  Investigate and for the function .   "
+},
+{
+  "id": "notes-week-03-3-8-1",
+  "level": "2",
+  "url": "notes-week-03.html#notes-week-03-3-8-1",
+  "type": "Example",
+  "number": "51",
+  "title": "",
+  "body": "  Evaluate .   "
+},
+{
+  "id": "notes-week-03-3-9-1",
+  "level": "2",
+  "url": "notes-week-03.html#notes-week-03-3-9-1",
+  "type": "Example",
+  "number": "52",
+  "title": "",
+  "body": "  Compute .   "
+},
+{
+  "id": "notes-week-03-4-2",
+  "level": "2",
+  "url": "notes-week-03.html#notes-week-03-4-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "   Determine all vertical and horizontal asymptotes of functions    "
+},
+{
+  "id": "notes-week-03-4-4-1",
+  "level": "2",
+  "url": "notes-week-03.html#notes-week-03-4-4-1",
+  "type": "Example",
+  "number": "53",
+  "title": "",
+  "body": "  Find all horizontal and vertical asymptotes of the function . Use this information to draw a rough sketch of the graph of this function.   "
+},
+{
+  "id": "notes-week-03-4-5-1",
+  "level": "2",
+  "url": "notes-week-03.html#notes-week-03-4-5-1",
+  "type": "Example",
+  "number": "54",
+  "title": "",
+  "body": "  Determine all vertical and horizontal asymptotes of the function .   "
+},
+{
   "id": "wksht-graphing-equations",
   "level": "1",
   "url": "wksht-graphing-equations.html",
@@ -674,6 +782,96 @@ var ptx_lunr_docs = [
   "number": "10",
   "title": "",
   "body": "   for .       "
+},
+{
+  "id": "wksht-horiz-vert-asympt",
+  "level": "1",
+  "url": "wksht-horiz-vert-asympt.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Horizontal and Vertical Asymptotes",
+  "body": " Horizontal and Vertical Asymptotes     Dates  Assigned Date: September 15, 2026  Due Date: September 21, 2026   Objective  In this activity, you'll investigate horizontal and vertical asymptotes of functions. Make sure you use proper notation and reasoning when trying to find these asymptotes. Your work will be graded both on correct answers and proper logic to get to them.        In-Class Work  For each function below, find all vertical and horizontal asymptotes. Determine the behavior of each function near any vertical asymptotes. Afterwards, use this to draw a sketch of the graph of this function. Check your answer against Desmos or a graphing calculator! These should be completed for practice but will not need to be turned in.                                                       Homework  The following problems will need to be written up carefully and turned in to the assignment on Canvas by the due date at the top of the first page.    Find all horizontal and vertical asymptotes of the function . Make sure you show all of the appropriate calculations to verify that these are the asymptotes.      Find all horizontal and vertical asymptotes of the function . Make sure you show all of the appropriate calculations to verify that these are the asymptotes.      "
+},
+{
+  "id": "wksht-horiz-vert-asympt-3-1-3",
+  "level": "2",
+  "url": "wksht-horiz-vert-asympt.html#wksht-horiz-vert-asympt-3-1-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "wksht-horiz-vert-asympt-3-1-4",
+  "level": "2",
+  "url": "wksht-horiz-vert-asympt.html#wksht-horiz-vert-asympt-3-1-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "wksht-horiz-vert-asympt-3-1-5",
+  "level": "2",
+  "url": "wksht-horiz-vert-asympt.html#wksht-horiz-vert-asympt-3-1-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "wksht-horiz-vert-asympt-3-1-6",
+  "level": "2",
+  "url": "wksht-horiz-vert-asympt.html#wksht-horiz-vert-asympt-3-1-6",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "wksht-horiz-vert-asympt-3-1-7",
+  "level": "2",
+  "url": "wksht-horiz-vert-asympt.html#wksht-horiz-vert-asympt-3-1-7",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "wksht-horiz-vert-asympt-3-1-8",
+  "level": "2",
+  "url": "wksht-horiz-vert-asympt.html#wksht-horiz-vert-asympt-3-1-8",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "wksht-horiz-vert-asympt-3-1-9",
+  "level": "2",
+  "url": "wksht-horiz-vert-asympt.html#wksht-horiz-vert-asympt-3-1-9",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "wksht-horiz-vert-asympt-4-1-3",
+  "level": "2",
+  "url": "wksht-horiz-vert-asympt.html#wksht-horiz-vert-asympt-4-1-3",
+  "type": "Worksheet Exercise",
+  "number": "8",
+  "title": "",
+  "body": "  Find all horizontal and vertical asymptotes of the function . Make sure you show all of the appropriate calculations to verify that these are the asymptotes.   "
+},
+{
+  "id": "wksht-horiz-vert-asympt-4-1-4",
+  "level": "2",
+  "url": "wksht-horiz-vert-asympt.html#wksht-horiz-vert-asympt-4-1-4",
+  "type": "Worksheet Exercise",
+  "number": "9",
+  "title": "",
+  "body": "  Find all horizontal and vertical asymptotes of the function . Make sure you show all of the appropriate calculations to verify that these are the asymptotes.   "
 },
 {
   "id": "handouts",
