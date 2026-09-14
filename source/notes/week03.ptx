@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="notes-week-03" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Week 3</title>
+
+<introduction>
+    <p>
+        This is an outline of the topics we covered in Week 3 of the semester, from September 14 to September 18.
+    </p>
+</introduction>
+
+<handout component="cur">
+    <title>Monday 9/14</title>
+    <objectives>
+        <ul>
+            <li>
+                <p>
+                    Review computing limits as <m>x \rightarrow \infty</m>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Solve more complicated problems involving horizontal asymptotes.
+                </p>
+            </li>
+        </ul>
+    </objectives>
+    <page>
+        <paragraphs>
+            <title>Horizontal Asymptotes, Round 2</title>
+
+<p component="b" workspace="2in">
+    Last time, we looked at horizontal asymptotes of simple rational functions. What was the main property we used, and how did we set up the problem to make that useful?
+</p>
+<p component="a">
+    Last time, we looked at horizontal asymptotes of simple rational functions. What was the main property we used, and how did we set up the problem to make that useful? 1/x goes to 0. Dividing by the highest power in the denominator.
+</p>
+<example workspace="2in">
+    <statement>
+        <p>
+            Compute <m>\displaystyle \lim_{x\rightarrow \infty} f(x)</m> and <m>\displaystyle \lim_{x\rightarrow -\infty} f(x)</m> for the function <md>
+                f(x) = \frac{3x^2 - x +1}{6x^4 + 3x - 2}
+            </md>.
+        </p>
+    </statement>
+    <solution component="a">
+        <p>
+            
+        </p>
+    </solution>
+</example>
+
+        </paragraphs>
+    </page>
+    <page>
+        <p>
+            Recall that we could also get to this same point by looking at horizontal asymptotes of functions; that also requires taking the limit as <m>x</m> goes to infinity and negative infinity. Some problems, however, are not as simple as the one we just computed.
+        </p>
+        <example workspace="3in">
+            <statement>
+                <p>
+                    Find the horizontal asymptotes of the function
+                    <md>
+                        f(x) = \frac{3x + 2}{\sqrt{x^2 + 4} - 3x}
+                    </md>
+                    
+                </p>
+            </statement>
+            <solution component="a">
+                <p>
+                    Should be <m>-\frac{3}{2}</m> and <m>-\frac{3}{4}</m>.
+                </p>
+            </solution>
+        </example>
+    </page>
+    <page>
+        <paragraphs>
+            <title>Other Limits</title>
+            
+            <p>
+                Outside of rational functions, there are other functions with horizontal asymptotes that are worth looking into.
+            </p>
+            <example workspace="1in">
+            <introduction>
+                <p>
+                    Analyze the horizontal asymptotes of the following functions.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>f(x) = e^x</m> and <m>g(x) = e^{-x}</m>
+                    </p>
+                </statement>
+            </task>
+                <task>
+                    <statement>
+                        <p>
+                            <m>\tan^{-1}(x)</m>
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            <m>f(x) = \sin(x)</m> and <m>g(x) = \frac{\sin(x)}{x}</m>
+                        </p>
+                    </statement>
+                </task>
+            </example>
+        </paragraphs>
+    </page>
+    <page>
+        <example>
+            <statement>
+                <p>
+                    Compute <md>
+                        \lim_{x\rightarrow \infty} \sqrt{x^2 + 5x + 10} - x
+                    </md>
+                    
+                </p>
+            </statement>
+        </example>
+    </page>
+    <page>
+    <example workspace="3in">
+        <statement>
+            <p>
+                Investigate <m>\displaystyle \lim_{x\rightarrow \infty} f(x)</m> and <m>\displaystyle \lim_{x\rightarrow -\infty} f(x)</m> for the function <md>
+                    f(x) = x^2 - 4x^5
+                </md>.
+                
+            </p>
+        </statement>
+    </example>
+    </page>
+    <page>
+        <example workspace="2in">
+            <statement>
+                <p>
+                    Evaluate <md>
+                        \lim_{x\rightarrow 3^-} \tan^{-1}\Big(\frac{1}{x-3}\Big)
+                    </md>.
+                    
+                </p>
+            </statement>
+        </example>
+    </page>
+    <page>
+        <example workspace="3in">
+            <statement>
+                <p>
+                    Compute <md>
+                        \lim_{x\rightarrow \infty} \frac{x^3 - 4x^2 + 1}{x^2 + 3x - 8}
+                    </md>.
+                    
+                </p>
+            </statement>
+        </example>
+    </page>
+</handout>
+
+
+<handout component="cur">
+    <title>Tuesday 9/15</title>
+    <objectives>
+        <ul>
+            <li>
+                <p>
+                    Determine all vertical and horizontal asymptotes of functions
+                </p>
+            </li>
+        </ul>
+    </objectives>
+    <page>
+        <paragraphs>
+            <title>Horizontal and Vertical Asymptotes</title>
+<p component="b" workspace="2in">
+    From previous classes, recall the definition of horizontal and vertical asymptote.
+</p>
+<p component="a">
+    From previous classes, recall the definition of horizontal and vertical asymptote. Limit based definition.
+</p>
+<p>
+    Today, we want to work on answering questions that involve finding all vertical and horizontal asymptotes of a function. 
+</p>
+        </paragraphs>
+    </page>
+    <page>
+        <example workspace="2in">
+            <statement>
+                <p>
+                    Find all horizontal and vertical asymptotes of the function <md>
+                        f(x) = \frac{3x^2 + 4x - 1}{x^2 - x - 12}
+                    </md>. Use this information to draw a rough sketch of the graph of this function.
+                    
+                </p>
+            </statement>
+            <solution component="a">
+                <p>
+                    VA at 4 and -3, HA at 3 on both sides.
+                </p>
+            </solution>
+        </example>
+    </page>
+    <page>
+        <example workspace="2in">
+            <statement>
+                <p>
+                    Determine all vertical and horizontal asymptotes of the function
+                    <md>
+                        f(x) = \frac{\sqrt{4x^2 - 3x + 1} - 2x}{x-3}
+                    </md>.
+                    
+                </p>
+            </statement>
+            <solution component="a">
+                <p>
+                    HA at -4 and 0, VA at 3. 
+                </p>
+            </solution>
+        </example>
+    </page>
+</handout>
+
+
+</section>

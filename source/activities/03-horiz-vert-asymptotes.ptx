@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet component = "cur" xml:id = "wksht-horiz-vert-asympt" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Horizontal and Vertical Asymptotes</title>
+
+    <introduction>
+        <p>
+            <ul>
+                <li><title>Dates</title>
+                    <p>Assigned Date: September 15, 2026</p>
+                    <p>Due Date: September 21, 2026</p>
+                </li>
+                <li><title>Objective</title>
+                    <p>
+                        In this activity, you'll investigate horizontal and vertical asymptotes of functions. Make sure you use proper notation and reasoning when trying to find these asymptotes. Your work will be graded both on correct answers and proper logic to get to them.
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </introduction>
+
+<page>
+
+<paragraphs>
+    <title>In-Class Work</title>
+    <p>
+        For each function below, find all vertical and horizontal asymptotes. Determine the behavior of each function near any vertical asymptotes. Afterwards, use this to draw a sketch of the graph of this function. Check your answer against Desmos or a graphing calculator! These should be completed for practice but will not need to be turned in.
+    </p>
+
+<exercise>
+<statement>
+    <p>
+        <m>\displaystyle f(x) = \frac{x+3}{x-2}</m>
+    </p>
+</statement>
+</exercise>
+<exercise>
+    <statement>
+        <p>
+            <m>\displaystyle f(x) = \frac{x+1}{x^2 - 6x + 8}</m>
+        </p>
+    </statement>
+</exercise>
+<exercise>
+    <statement>
+        <p>
+            <m>\displaystyle f(x) = \frac{2x^2 + 6x + 4}{x^2 - 2x + 3}</m>
+        </p>
+    </statement>
+</exercise>
+<exercise>
+    <statement>
+        <p>
+            <m>\displaystyle f(x) = \frac{4x^2 - 12x -40}{x^2 + 10x + 16}</m>
+        </p>
+    </statement>
+</exercise>
+<exercise>
+    <statement>
+        <p>
+            <m>\displaystyle f(x) = \frac{\sqrt{x^2 + 1} - 3x}{2x-5}</m>
+        </p>
+    </statement>
+</exercise>
+<exercise>
+    <statement>
+        <p>
+            <m>\displaystyle f(x) = \frac{x+7}{\sqrt{9x^2 + 4} - 3x}</m>
+        </p>
+    </statement>
+</exercise>
+<exercise>
+    <statement>
+        <p>
+            <m>\displaystyle f(x) = \frac{x^2 + 2x - 3}{\sqrt{10x^4 + 6} - 4x^2}</m>
+        </p>
+    </statement>
+</exercise>
+
+
+
+</paragraphs>
+</page>
+
+<page>
+
+<paragraphs>
+    <title>Homework</title>
+    <p>
+        The following problems will need to be written up carefully and turned in to the assignment on Canvas by the due date at the top of the first page.
+    </p>
+
+<exercise workspace="2in">
+    <statement>
+        <p>
+            Find all horizontal and vertical asymptotes of the function <md>
+                f(x) = \frac{3x^2 + 7x + 1}{2x^2 - 6x - 8}
+            </md>. Make sure you show all of the appropriate calculations to verify that these are the asymptotes.
+        </p>
+    </statement>
+    <solution component="a">
+        <p>
+            
+        </p>
+    </solution>
+</exercise>
+
+<exercise workspace="2in">
+    <statement>
+        <p>
+            Find all horizontal and vertical asymptotes of the function <md>
+                f(x) = \frac{4x - \sqrt{3x^2 + 2}}{x-5}
+            </md>. Make sure you show all of the appropriate calculations to verify that these are the asymptotes.
+        </p>
+    </statement>
+    <solution component="a">
+        <p>
+            
+        </p>
+    </solution>
+</exercise>
+
+
+</paragraphs>
+</page>
+</worksheet>

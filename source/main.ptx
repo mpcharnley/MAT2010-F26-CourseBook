@@ -18,6 +18,7 @@
 
       <xi:include href="./notes/week01.ptx"/>
       <xi:include href="./notes/week02.ptx"/>
+      <xi:include href="./notes/week03.ptx" />
       <!-- etc. -->
 
     </chapter>
@@ -28,6 +29,7 @@
       <!-- Remove the example and replace with your own activities -->
       <xi:include href="./activities/01-limits-sinx-x.ptx"/>
       <xi:include href="./activities/02-indeterminate-limits.ptx"/>
+      <xi:include href="./activities/03-horiz-vert-asymptotes.ptx" />
 
       <!-- Add more xi:include files here to include them in the main course -->
     </chapter>
