@@ -520,7 +520,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Week 3",
-  "body": " Week 3   This is an outline of the topics we covered in Week 3 of the semester, from September 14 to September 18.    Monday 9\/14     Review computing limits as     Solve more complicated problems involving horizontal asymptotes.       Horizontal Asymptotes, Round 2  Last time, we looked at horizontal asymptotes of simple rational functions. What was the main property we used, and how did we set up the problem to make that useful?    Compute and for the function .       Recall that we could also get to this same point by looking at horizontal asymptotes of functions; that also requires taking the limit as goes to infinity and negative infinity. Some problems, however, are not as simple as the one we just computed.    Find the horizontal asymptotes of the function        Other Limits  Outside of rational functions, there are other functions with horizontal asymptotes that are worth looking into.    Analyze the horizontal asymptotes of the following functions.      and               and           Compute         Investigate and for the function .        Evaluate .        Compute .       Tuesday 9\/15     Determine all vertical and horizontal asymptotes of functions       Horizontal and Vertical Asymptotes  From previous classes, recall the definition of horizontal and vertical asymptote.  Today, we want to work on answering questions that involve finding all vertical and horizontal asymptotes of a function.       Find all horizontal and vertical asymptotes of the function . Use this information to draw a rough sketch of the graph of this function.        Determine all vertical and horizontal asymptotes of the function .      "
+  "body": " Week 3   This is an outline of the topics we covered in Week 3 of the semester, from September 14 to September 18.    Monday 9\/14     Review computing limits as     Solve more complicated problems involving horizontal asymptotes.       Horizontal Asymptotes, Round 2  Last time, we looked at horizontal asymptotes of simple rational functions. What was the main property we used, and how did we set up the problem to make that useful?    Compute and for the function .       Recall that we could also get to this same point by looking at horizontal asymptotes of functions; that also requires taking the limit as goes to infinity and negative infinity. Some problems, however, are not as simple as the one we just computed.    Find the horizontal asymptotes of the function        Other Limits  Outside of rational functions, there are other functions with horizontal asymptotes that are worth looking into.    Analyze the horizontal asymptotes of the following functions.      and               and           Compute         Investigate and for the function .        Evaluate .        Compute .       Tuesday 9\/15     Determine all vertical and horizontal asymptotes of functions       Horizontal and Vertical Asymptotes  From previous classes, recall the definition of horizontal and vertical asymptote.  Today, we want to work on answering questions that involve finding all vertical and horizontal asymptotes of a function.       Find all horizontal and vertical asymptotes of the function . Use this information to draw a rough sketch of the graph of this function.        Determine all vertical and horizontal asymptotes of the function .        Compute .      "
 },
 {
   "id": "notes-week-03-3-2",
@@ -620,6 +620,15 @@ var ptx_lunr_docs = [
   "number": "54",
   "title": "",
   "body": "  Determine all vertical and horizontal asymptotes of the function .   "
+},
+{
+  "id": "notes-week-03-4-6-1",
+  "level": "2",
+  "url": "notes-week-03.html#notes-week-03-4-6-1",
+  "type": "Example",
+  "number": "55",
+  "title": "",
+  "body": "  Compute .   "
 },
 {
   "id": "wksht-graphing-equations",
