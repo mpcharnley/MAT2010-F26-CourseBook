@@ -221,6 +221,18 @@
             </solution>
         </example>
     </page>
+    <page>
+        <example workspace="3in">
+            <statement>
+                <p>
+                    Compute <md>
+                        \lim_{x\rightarrow \infty} \frac{x^3 - 4x^2 + 1}{x^2 + 2x - 8}
+                    </md>.
+                    
+                </p>
+            </statement>
+        </example>
+    </page>
 </handout>
 
 
