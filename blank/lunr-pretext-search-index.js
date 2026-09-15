@@ -520,7 +520,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Week 3",
-  "body": " Week 3   This is an outline of the topics we covered in Week 3 of the semester, from September 14 to September 18.    Monday 9\/14     Review computing limits as     Solve more complicated problems involving horizontal asymptotes.       Horizontal Asymptotes, Round 2  Last time, we looked at horizontal asymptotes of simple rational functions. What was the main property we used, and how did we set up the problem to make that useful?    Compute and for the function .       Recall that we could also get to this same point by looking at horizontal asymptotes of functions; that also requires taking the limit as goes to infinity and negative infinity. Some problems, however, are not as simple as the one we just computed.    Find the horizontal asymptotes of the function        Other Limits  Outside of rational functions, there are other functions with horizontal asymptotes that are worth looking into.    Analyze the horizontal asymptotes of the following functions.      and               and           Compute         Investigate and for the function .        Evaluate .        Compute .       Tuesday 9\/15     Determine all vertical and horizontal asymptotes of functions       Horizontal and Vertical Asymptotes  From previous classes, recall the definition of horizontal and vertical asymptote.  Today, we want to work on answering questions that involve finding all vertical and horizontal asymptotes of a function.       Find all horizontal and vertical asymptotes of the function . Use this information to draw a rough sketch of the graph of this function.        Determine all vertical and horizontal asymptotes of the function .        Compute .      "
+  "body": " Week 3   This is an outline of the topics we covered in Week 3 of the semester, from September 14 to September 18.    Monday 9\/14     Review computing limits as     Solve more complicated problems involving horizontal asymptotes.       Horizontal Asymptotes, Round 2  Last time, we looked at horizontal asymptotes of simple rational functions. What was the main property we used, and how did we set up the problem to make that useful?    Compute and for the function .       Recall that we could also get to this same point by looking at horizontal asymptotes of functions; that also requires taking the limit as goes to infinity and negative infinity. Some problems, however, are not as simple as the one we just computed.    Find the horizontal asymptotes of the function        Other Limits  Outside of rational functions, there are other functions with horizontal asymptotes that are worth looking into.    Analyze the horizontal asymptotes of the following functions.      and               and           Compute         Investigate and for the function .        Evaluate .        Compute .       Tuesday 9\/15     Determine all vertical and horizontal asymptotes of functions       Horizontal and Vertical Asymptotes  From previous classes, recall the definition of horizontal and vertical asymptote.  Today, we want to work on answering questions that involve finding all vertical and horizontal asymptotes of a function.       Find all horizontal and vertical asymptotes of the function . Use this information to draw a rough sketch of the graph of this function.        Determine all vertical and horizontal asymptotes of the function .        Compute .       Wednesday 9\/16     Understand the definition of continuity    Be able to determine if and where a function is continuous    Find a value of a constant needed to make a function continuous.       Continuity  Today we start our discussion of continuity. Informally, this is the idea that you can draw the graph of a continuous function without picking up your pencil.    Let be a function defined on an interval containing a point . We say that is continuous at if          How can discontinuities happen? Well, the function needs to fail the definition of continuity.      At what -values is the function , whose graph is drawn below, discontinuous?     g(x) = x+3  f(t) = (t^3 - 1, 2 - t^2)  h(x) = 3-2*(x-1)^2  r(x) = 2-1\/(x-4)^2                        Show that is continuous at all real numbers except for . For each of those two points, is it possible to redefine the function so that it is continuous there?      Next, we have a few more definitions surrounding continuity.    Let be a function defined on some interval around a point . We say that    From this, and using our direct substitution property from earlier, what can we say about some specific functions that are continuous?     Properties of Continuous Functions    Let and be two functions that are both continuous at , and let be any real number. Then    We can use these facts to evaluate limits and analyze functions.    Where is the function written below continuous?          Evaluate .      Is it possible to choose a value for the constant to make the function below continuous? If so, what is it? If not, why not?        Friday 9\/18     Explore more advanced applications of continuity.    Use the Intermediate Value Theorem to show that certain equations have solutions on given intervals.       Compositions  Another type of combining functions that we've seen in the past is composition of functions. How does continuity work with that?       If and are functions so that         Where is the function below continuous?        Intermediate Value Theorem (IVT)  The intermediate value theorem (IVT) is one of the main results involving continuity that has both theoretical and practical applications.          Let be a function that is         The main application of the Intermediate Value Theorem is to find (or, at least, prove the existence of) zeros of complicated functions.    Show that the function has a root between and .      "
 },
 {
   "id": "notes-week-03-3-2",
@@ -629,6 +629,132 @@ var ptx_lunr_docs = [
   "number": "55",
   "title": "",
   "body": "  Compute .   "
+},
+{
+  "id": "notes-week-03-5-2",
+  "level": "2",
+  "url": "notes-week-03.html#notes-week-03-5-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "   Understand the definition of continuity    Be able to determine if and where a function is continuous    Find a value of a constant needed to make a function continuous.    "
+},
+{
+  "id": "def-continuity",
+  "level": "2",
+  "url": "notes-week-03.html#def-continuity",
+  "type": "Definition",
+  "number": "56",
+  "title": "",
+  "body": "  Let be a function defined on an interval containing a point . We say that is continuous at if   "
+},
+{
+  "id": "notes-week-03-5-5-1",
+  "level": "2",
+  "url": "notes-week-03.html#notes-week-03-5-5-1",
+  "type": "Example",
+  "number": "57",
+  "title": "",
+  "body": "  At what -values is the function , whose graph is drawn below, discontinuous?     g(x) = x+3  f(t) = (t^3 - 1, 2 - t^2)  h(x) = 3-2*(x-1)^2  r(x) = 2-1\/(x-4)^2                   "
+},
+{
+  "id": "notes-week-03-5-6-1",
+  "level": "2",
+  "url": "notes-week-03.html#notes-week-03-5-6-1",
+  "type": "Example",
+  "number": "58",
+  "title": "",
+  "body": "  Show that is continuous at all real numbers except for . For each of those two points, is it possible to redefine the function so that it is continuous there?   "
+},
+{
+  "id": "def-continuity-additions",
+  "level": "2",
+  "url": "notes-week-03.html#def-continuity-additions",
+  "type": "Definition",
+  "number": "59",
+  "title": "",
+  "body": "  Let be a function defined on some interval around a point . We say that   "
+},
+{
+  "id": "thm-prop-cont-fcns",
+  "level": "2",
+  "url": "notes-week-03.html#thm-prop-cont-fcns",
+  "type": "Theorem",
+  "number": "60",
+  "title": "",
+  "body": "  Let and be two functions that are both continuous at , and let be any real number. Then   "
+},
+{
+  "id": "notes-week-03-5-8-1-4",
+  "level": "2",
+  "url": "notes-week-03.html#notes-week-03-5-8-1-4",
+  "type": "Example",
+  "number": "61",
+  "title": "",
+  "body": "  Where is the function written below continuous?    "
+},
+{
+  "id": "notes-week-03-5-9-1",
+  "level": "2",
+  "url": "notes-week-03.html#notes-week-03-5-9-1",
+  "type": "Example",
+  "number": "62",
+  "title": "",
+  "body": "  Evaluate .   "
+},
+{
+  "id": "notes-week-03-5-9-2",
+  "level": "2",
+  "url": "notes-week-03.html#notes-week-03-5-9-2",
+  "type": "Example",
+  "number": "63",
+  "title": "",
+  "body": "  Is it possible to choose a value for the constant to make the function below continuous? If so, what is it? If not, why not?    "
+},
+{
+  "id": "notes-week-03-6-2",
+  "level": "2",
+  "url": "notes-week-03.html#notes-week-03-6-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "   Explore more advanced applications of continuity.    Use the Intermediate Value Theorem to show that certain equations have solutions on given intervals.    "
+},
+{
+  "id": "thm-continuity-composition",
+  "level": "2",
+  "url": "notes-week-03.html#thm-continuity-composition",
+  "type": "Theorem",
+  "number": "64",
+  "title": "",
+  "body": "  If and are functions so that   "
+},
+{
+  "id": "notes-week-03-6-4-1",
+  "level": "2",
+  "url": "notes-week-03.html#notes-week-03-6-4-1",
+  "type": "Example",
+  "number": "65",
+  "title": "",
+  "body": "  Where is the function below continuous?    "
+},
+{
+  "id": "thm-IVT",
+  "level": "2",
+  "url": "notes-week-03.html#thm-IVT",
+  "type": "Theorem",
+  "number": "66",
+  "title": "",
+  "body": "  Let be a function that is   "
+},
+{
+  "id": "notes-week-03-6-7-2",
+  "level": "2",
+  "url": "notes-week-03.html#notes-week-03-6-7-2",
+  "type": "Example",
+  "number": "67",
+  "title": "",
+  "body": "  Show that the function has a root between and .   "
 },
 {
   "id": "wksht-graphing-equations",
@@ -881,6 +1007,123 @@ var ptx_lunr_docs = [
   "number": "9",
   "title": "",
   "body": "  Find all horizontal and vertical asymptotes of the function . Make sure you show all of the appropriate calculations to verify that these are the asymptotes.   "
+},
+{
+  "id": "wksht-continuity-ivt",
+  "level": "1",
+  "url": "wksht-continuity-ivt.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Continuity and the IVT",
+  "body": " Continuity and the IVT     Dates  Assigned Date: September 16, 2026  Due Date: September 23, 2026   Objective  The assignment will explore different problems involving continuity, including choosing values of constants to make functions continuous and applying the intermediate value theorem to apply roots. In all cases, make sure you focus on the proper logic and reasoning to reach conclusions. Continuity problems require the use of properly-written limits, and IVT problems require stating all of the assumptions of the theorem before you can make the conclusion.        In-Class Work  Complete the problems below. These are good practice but will not need to be turned in.    Show that the function is not continuous at . Is it possible to redefine at these points to make the function continuous? If so, what should those values be?      Is it possible to choose to make the function continuous for all real numbers? If so, what should be?      Is it possible to choose to make the function continuous for all real numbers? If so, what should be?      Is it possible to choose to make the function continuous for all real numbers? If so, what should be?      Is it possible to choose to make the function continuous for all real numbers? If so, what should be?      Is it possible to choose and to make the function continuous for all real numbers? If so, what should and be?      Is it possible to choose and to make the function continuous for all real numbers? If so, what should and be?      Show that has a root between and .      Show that has a root between and .      Show that there is a point between and so that .      Homework  The following problems will need to be written up carefully and turned in to the assignment on Canvas by the due date at the top of the first page.    Is it possible to choose to make the function continuous for all real numbers? If so, what should be?      Use the intermediate value theorem to show that the function has two roots between and . Hint: Check what happens at as well.      "
+},
+{
+  "id": "wksht-continuity-ivt-3-1-3",
+  "level": "2",
+  "url": "wksht-continuity-ivt.html#wksht-continuity-ivt-3-1-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Show that the function is not continuous at . Is it possible to redefine at these points to make the function continuous? If so, what should those values be?   "
+},
+{
+  "id": "wksht-continuity-ivt-3-1-4",
+  "level": "2",
+  "url": "wksht-continuity-ivt.html#wksht-continuity-ivt-3-1-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Is it possible to choose to make the function continuous for all real numbers? If so, what should be?   "
+},
+{
+  "id": "wksht-continuity-ivt-3-1-5",
+  "level": "2",
+  "url": "wksht-continuity-ivt.html#wksht-continuity-ivt-3-1-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Is it possible to choose to make the function continuous for all real numbers? If so, what should be?   "
+},
+{
+  "id": "wksht-continuity-ivt-3-1-6",
+  "level": "2",
+  "url": "wksht-continuity-ivt.html#wksht-continuity-ivt-3-1-6",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Is it possible to choose to make the function continuous for all real numbers? If so, what should be?   "
+},
+{
+  "id": "wksht-continuity-ivt-3-1-7",
+  "level": "2",
+  "url": "wksht-continuity-ivt.html#wksht-continuity-ivt-3-1-7",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  Is it possible to choose to make the function continuous for all real numbers? If so, what should be?   "
+},
+{
+  "id": "wksht-continuity-ivt-3-1-8",
+  "level": "2",
+  "url": "wksht-continuity-ivt.html#wksht-continuity-ivt-3-1-8",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "",
+  "body": "  Is it possible to choose and to make the function continuous for all real numbers? If so, what should and be?   "
+},
+{
+  "id": "wksht-continuity-ivt-3-1-9",
+  "level": "2",
+  "url": "wksht-continuity-ivt.html#wksht-continuity-ivt-3-1-9",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "",
+  "body": "  Is it possible to choose and to make the function continuous for all real numbers? If so, what should and be?   "
+},
+{
+  "id": "wksht-continuity-ivt-3-1-10",
+  "level": "2",
+  "url": "wksht-continuity-ivt.html#wksht-continuity-ivt-3-1-10",
+  "type": "Worksheet Exercise",
+  "number": "8",
+  "title": "",
+  "body": "  Show that has a root between and .   "
+},
+{
+  "id": "wksht-continuity-ivt-3-1-11",
+  "level": "2",
+  "url": "wksht-continuity-ivt.html#wksht-continuity-ivt-3-1-11",
+  "type": "Worksheet Exercise",
+  "number": "9",
+  "title": "",
+  "body": "  Show that has a root between and .   "
+},
+{
+  "id": "wksht-continuity-ivt-3-1-12",
+  "level": "2",
+  "url": "wksht-continuity-ivt.html#wksht-continuity-ivt-3-1-12",
+  "type": "Worksheet Exercise",
+  "number": "10",
+  "title": "",
+  "body": "  Show that there is a point between and so that .   "
+},
+{
+  "id": "wksht-continuity-ivt-3-2-3",
+  "level": "2",
+  "url": "wksht-continuity-ivt.html#wksht-continuity-ivt-3-2-3",
+  "type": "Worksheet Exercise",
+  "number": "11",
+  "title": "",
+  "body": "  Is it possible to choose to make the function continuous for all real numbers? If so, what should be?   "
+},
+{
+  "id": "wksht-continuity-ivt-3-2-4",
+  "level": "2",
+  "url": "wksht-continuity-ivt.html#wksht-continuity-ivt-3-2-4",
+  "type": "Worksheet Exercise",
+  "number": "12",
+  "title": "",
+  "body": "  Use the intermediate value theorem to show that the function has two roots between and . Hint: Check what happens at as well.   "
 },
 {
   "id": "handouts",
