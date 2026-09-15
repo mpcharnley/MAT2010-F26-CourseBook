@@ -235,5 +235,306 @@
     </page>
 </handout>
 
+<handout component="cur">
+    <title>Wednesday 9/16</title>
+    <objectives>
+        <ul>
+            <li>
+                <p>
+                    Understand the definition of continuity
+                </p>
+            </li>
+            <li>
+                <p>
+                    Be able to determine if and where a function is continuous
+                </p>
+            </li>
+            <li>
+                <p>
+                    Find a value of a constant needed to make a function continuous.
+                </p>
+            </li>
+        </ul>
+    </objectives>
+    <page>
+        <paragraphs>
+            <title>Continuity</title>
+        <p component="b" workspace="1in">
+            Today we start our discussion of continuity. Informally, this is the idea that you can draw the graph of a continuous function without picking up your pencil.
+        </p>
+        <p component="a">
+            Today we start our discussion of continuity. Informally, this is the idea that you can draw the graph of a continuous function without picking up your pencil. More formally, where the function is <q>heading towards</q> is where it actually ends up.
+        </p>
+
+        <definition xml:id="def-continuity">
+            <statement>
+                <p component="b" workspace="1in">
+                    Let <m>f(x)</m> be a function defined on an interval containing a point <m>a</m>. We say that <m>f(x)</m> is <term>continuous at <m>a</m></term> if
+                </p>
+                <p component="a">
+                    Let <m>f(x)</m> be a function defined on an interval containing a point <m>a</m>. We say that <m>f(x)</m> is <term>continuous at <m>a</m></term> if <md>
+                        \lim_{x\rightarrow a} f(x) = f(a)
+                    </md>                   
+                </p>
+            </statement>
+        </definition>
+
+        <p component="b" workspace="3in">
+            <nbsp />
+        </p>
+        <p component="a">
+            This is the direct substitution property. This requires three things to check, which may often result in checking a fourth thing. Also the word discontinuity.
+        </p>
+        </paragraphs>
+    </page>
+
+    <page>
+        <p component="b" workspace="3in">
+            How can discontinuities happen? Well, the function needs to fail the definition of continuity.
+        </p>
+        <p component="a">
+            How can discontinuities happen? Well, the function needs to fail the definition of continuity. Removable, jump, infinite. 
+        </p>
+
+        </page>
+        <page>
+        <example workspace="2in">
+            <statement>
+                <p>
+                    At what <m>x</m>-values is the function <m>f(x)</m>, whose graph is drawn below, discontinuous?
+                </p>
+                <image width="60%">
+        <prefigure xmlns="https://prefigure.org"
+             label="limits-continuity-graph-one">
+        <xi:include href="../../prefigure/limits-continuity-graph-one.xml" />
+        </prefigure>
+    </image>
+            </statement>
+        
+        </example>
+        
+    </page>
+
+<page>
+    <example workspace="3in">
+        <statement>
+            <p>
+                Show that <md>
+                    f(x) = \frac{x^2 + 2x + 1}{x^2 - x - 2}
+                </md> is continuous at all real numbers except for <m>x=-1,\ 2</m>. For each of those two points, is it possible to redefine the function <m>f</m> so that it is continuous there?
+            </p>
+        </statement>
+    </example>
+    
+</page>
+
+<page>
+    <p>
+        Next, we have a few more definitions surrounding continuity.
+    </p>
+
+    <definition xml:id="def-continuity-additions">
+        <statement>
+            <p component="b" workspace="3in">
+                Let <m>f(x)</m> be a function defined on some interval around a point <m>a</m>. We say that 
+            </p>
+            <p component="a">
+                Let <m>f(x)</m> be a function defined on some interval around a point <m>a</m>. We say that (left continuous, right continuous, continuous on interval) 
+            </p>
+        </statement>
+    </definition>
+
+    <p component="b" workspace="2in">
+        From this, and using our direct substitution property from earlier, what can we say about some specific functions that are continuous?
+    </p>
+    <p component="a">
+        From this, and using our direct substitution property from earlier, what can we say about some specific functions that are continuous? Polynomials always have direct substitution, so they are continuous on the whole real line. Rational functions work as long as the denominator isn't zero, so they are continuous at every point in their domain. The same extends to many other classes of functions.
+    </p>
+
+</page>
+
+<page>
+    <paragraphs>
+        <title>Properties of Continuous Functions</title>
+        
+        <theorem xml:id="thm-prop-cont-fcns">
+            <statement>
+                <p component="b" workspace="2in">
+                    Let <m>f(x)</m> and <m>g(x)</m> be two functions that are both continuous at <m>a</m>, and let <m>c</m> be any real number. Then 
+                </p>
+                <p component="a">
+                    Let <m>f(x)</m> and <m>g(x)</m> be two functions that are both continuous at <m>a</m>, and let <m>c</m> be any real number. Then <m>f+g</m>, <m>f-g</m>, <m>cf</m>, <m>fg</m> are continuous at <m>a</m> and <m>f/g</m> is continuous at <m>a</m> provided <m>g(a) \neq 0</m>.
+                </p>
+            </statement>
+        </theorem>
+        
+        <p>
+            We can use these facts to evaluate limits and analyze functions.
+        </p>
+
+        <example workspace="2in">
+            <statement>
+                <p>
+                    Where is the function <m>f(x)</m> written below continuous? <md>
+                        f(x) = \frac{\ln(x) - \sqrt{9-x}}{x^2 - 4}
+                    </md>
+                    
+                </p>
+            </statement>
+        </example>
+    </paragraphs>
+</page>
+<page>
+    <example workspace="2in">
+        <statement>
+            <p>
+                Evaluate <md>
+                    \lim_{x\rightarrow 2} \frac{\sin(x) - x^2}{e^{3x} + \cos(2x)}
+                </md>.
+                
+            </p>
+        </statement>
+    
+    </example>
+
+    <example workspace="4in">
+        <statement>
+            <p>
+                Is it possible to choose a value for the constant <m>a</m> to make the function <m>f(x)</m> below continuous? If so, what is it? If not, why not?
+                <md>
+                    f(x) = \begin{cases}
+                        x^2 - 4x &amp; x &lt; 1 \\
+                        ax + 3 &amp; x \geq 1
+                    \end{cases}
+                </md>
+            </p>
+        </statement>
+    
+    </example>
+    
+</page>
+
+</handout>
+
+<handout component="cur">
+    <title>Friday 9/18</title>
+    <objectives>
+        <ul>
+            <li>
+                <p>
+                    Explore more advanced applications of continuity.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Use the Intermediate Value Theorem to show that certain equations have solutions on given intervals.
+                </p>
+            </li>
+        </ul>
+    </objectives>
+    <page>
+        <paragraphs>
+            <title>Compositions</title>
+
+<p>
+    Another type of <q>combining</q> functions that we've seen in the past is composition of functions. How does continuity work with that?
+</p>
+
+<p component="b" workspace="2in">
+    <nbsp />
+</p>
+<p component="a">
+    It turns out to work out well, as long as we look at the correct values. If <m>f</m> is continuous at the limit of <m>g</m>, then continuity works. Continuity means that you can pass limits through functions.
+</p>
+
+<theorem xml:id="thm-continuity-composition">
+    <statement>
+        
+        <p component="b" workspace="2in">
+            If <m>f</m> and <m>g</m> are functions so that 
+        </p>
+        <p component="a">
+            If <m>f</m> and <m>g</m> are functions so that <m>g</m> is continuous at <m>a</m> and <m>f</m> is continuous at <m>g(a)</m>, then <m>f\circ g</m> is continuous at <m>a</m>.
+        </p>
+    </statement>
+</theorem>
+
+        </paragraphs>
+    </page>
+
+<page>
+    <example workspace="4in">
+        <statement>
+            <p>
+                Where is the function <m>f(x)</m> below continuous? <md>
+                    f(x) = \frac{x^2}{\ln\left(\left(x^2-4\right)^2 + 1\right)}
+                </md>
+                
+            </p>
+        </statement>
+    
+    </example>
+    
+</page>
+
+<page>
+    <paragraphs>
+        <title>Intermediate Value Theorem (IVT)</title>
+
+        <p>
+            The intermediate value theorem (IVT) is one of the main results involving continuity that has both theoretical and practical applications.
+        </p>
+
+        <p component="b" workspace="4in">
+            <nbsp />
+        </p>
+        <p component="a">
+            Intuition: Assume that I have a continuous function that starts at one point and ends at another.
+        </p>
+        
+    </paragraphs>
+</page>
+
+<page>
+    <theorem xml:id="thm-IVT">
+        <statement>
+            <p component="b" workspace="2in">
+                Let <m>f</m> be a function that is
+            </p>
+            <p component="a">
+                Let <m>f</m> be a function that is continuous on <m>[a,b]</m> with <m>f(a) \neq f(b)</m>. Then for each <m>N</m> between <m>f(a)</m> and <m>f(b)</m>, there exists a <m>c</m> between <m>a</m> and <m>b</m> so that <m>f(c) = N</m>.
+            </p>
+        </statement>
+    </theorem>
+
+    <p component="b" workspace="3in">
+        <nbsp />
+    </p>
+    <p component="a">
+        Notes on the theorem:
+    </p>
+    
+</page>
+<page>
+    <p>
+        The main application of the Intermediate Value Theorem is to find (or, at least, prove the existence of) zeros of complicated functions.
+    </p>
+
+    <example workspace="3in">
+        <statement>
+            <p>
+                Show that the function <m>f(x) = x^2 - \cos(x)</m> has a root between <m>0</m> and <m>4</m>.
+            </p>
+        </statement>
+    <solution component="a">
+        <p>
+            
+        </p>
+    </solution>
+    </example>
+    
+</page>
+</handout>
+
 
 </section>

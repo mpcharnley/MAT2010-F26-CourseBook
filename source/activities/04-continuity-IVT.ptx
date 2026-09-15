@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet component = "cur" xml:id = "wksht-continuity-ivt" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Continuity and the IVT</title>
+
+    <introduction>
+        <p>
+            <ul>
+                <li><title>Dates</title>
+                    <p>Assigned Date: September 16, 2026</p>
+                    <p>Due Date: September 23, 2026</p>
+                </li>
+                <li><title>Objective</title>
+                    <p>
+                        The assignment will explore different problems involving continuity, including choosing values of constants to make functions continuous and applying the intermediate value theorem to apply roots. In all cases, make sure you focus on the proper logic and reasoning to reach conclusions. Continuity problems require the use of properly-written limits, and IVT problems require stating all of the assumptions of the theorem before you can make the conclusion.
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </introduction>
+
+<page>
+
+<paragraphs>
+    <title>In-Class Work</title>
+    <p>
+        Complete the problems below. These are good practice but will not need to be turned in.
+    </p>
+
+<exercise>
+    <statement>
+        <p>
+            Show that the function <md>
+                f(x) = \frac{x^2 + 3x + 4}{x^2 - 1}
+            </md>
+            is not continuous at <m>x = \pm 1</m>. Is it possible to redefine <m>f</m> at these points to make the function continuous? If so, what should those values be?
+        </p>
+    </statement>
+    <solution component="a">
+        <p>
+            
+        </p>
+    </solution>
+</exercise>
+
+<exercise>
+    <statement>
+        <p>
+            Is it possible to choose <m>a</m> to make the function
+            <md>
+                f(x) = \begin{cases}
+                    2x+1 &amp; x &lt; 3 \\
+                    a &amp; x = 3 \\
+                    x+4 &amp; x &gt; 3\\
+                \end{cases}
+            </md> continuous for all real numbers? If so, what should <m>a</m> be?
+            
+        </p>
+    </statement>
+    <solution component="a">
+        <p>
+            
+        </p>
+    </solution>
+</exercise>
+
+
+<exercise>
+    <statement>
+        <p>
+            Is it possible to choose <m>a</m> to make the function
+            <md>
+                f(x) = \begin{cases}
+                    x^2 - 5 &amp; x &lt; 1 \\
+                    ax + 2 &amp; x \geq 1
+                \end{cases}
+            </md> continuous for all real numbers? If so, what should <m>a</m> be?
+            
+        </p>
+    </statement>
+    <solution component="a">
+        <p>
+            
+        </p>
+    </solution>
+</exercise>
+
+<exercise>
+    <statement>
+        <p>
+            Is it possible to choose <m>a</m> to make the function
+            <md>
+                f(x) = \begin{cases}
+                    x+1 &amp; x &lt; 3 \\
+                    a &amp; x = 3 \\
+                    \frac{x^2 + 2x - 15}{2x-6} &amp; x &gt; 3
+                \end{cases}
+            </md> continuous for all real numbers? If so, what should <m>a</m> be?
+            
+        </p>
+    </statement>
+    <solution component="a">
+        <p>
+            
+        </p>
+    </solution>
+</exercise>
+
+<exercise>
+    <statement>
+        <p>
+            Is it possible to choose <m>a</m> to make the function
+            <md>
+                f(x) = \begin{cases}
+                    4-x&amp; x &lt; 2 \\
+                    a &amp; x = 2 \\
+                    2x+3 &amp; x &gt; 2
+                \end{cases}
+            </md> continuous for all real numbers? If so, what should <m>a</m> be?
+            
+        </p>
+    </statement>
+    <solution component="a">
+        <p>
+            
+        </p>
+    </solution>
+</exercise>
+
+<exercise>
+    <statement>
+        <p>
+            Is it possible to choose <m>a</m> and <m>b</m> to make the function
+            <md>
+                f(x) = \begin{cases}
+                    3\sqrt{5-x} &amp; x &lt; 1 \\
+                    ax+b &amp; 1 \leq x \leq 5 \\
+                    \cos(\pi x)+x+1 &amp; x &gt; 5
+                \end{cases}
+            </md> continuous for all real numbers? If so, what should <m>a</m> and <m>b</m> be?
+            
+        </p>
+    </statement>
+    <solution component="a">
+        <p>
+            
+        </p>
+    </solution>
+</exercise>
+
+<exercise>
+    <statement>
+        <p>
+            Is it possible to choose <m>a</m> and <m>b</m> to make the function
+            <md>
+                f(x) = \begin{cases}
+                    \frac{2x^2-x-1}{x^2+3x-4} &amp; x &lt; 1 \\
+                    ax+b &amp; 1 \leq x \leq 3 \\
+                    \frac{x^2 - 2x - 15}{x^2 - x - 6} &amp; x &gt; 3
+                \end{cases}
+            </md> continuous for all real numbers? If so, what should <m>a</m> and <m>b</m> be?
+            
+        </p>
+    </statement>
+    <solution component="a">
+        <p>
+            
+        </p>
+    </solution>
+</exercise>
+
+<exercise>
+    <statement>
+        <p>
+            Show that <m>f(x) = x^3 - 12</m> has a root between <m>x=2</m> and <m>x=3</m>.
+        </p>
+    </statement>
+    <solution component="a">
+        <p>
+            
+        </p>
+    </solution>
+</exercise>
+
+<exercise>
+    <statement>
+        <p>
+            Show that <m>g(x) = e^x - 5x</m> has a root between <m>x=0</m> and <m>x=1</m>.
+        </p>
+    </statement>
+    <solution component="a">
+        <p>
+            
+        </p>
+    </solution>
+</exercise>
+
+<exercise>
+    <statement>
+        <p>
+            Show that there is a point <m>x</m> between <m>1</m> and <m>e</m> so that <m>x = 7\ln(x)</m>.
+        </p>
+    </statement>
+    <solution component="a">
+        <p>
+            
+        </p>
+    </solution>
+</exercise>
+
+</paragraphs>
+
+<paragraphs>
+    <title>Homework</title>
+    <p>
+        The following problems will need to be written up carefully and turned in to the assignment on Canvas by the due date at the top of the first page.
+    </p>
+
+    <exercise>
+    <statement>
+        <p>
+            Is it possible to choose <m>a</m> to make the function
+            <md>
+                f(x) = \begin{cases}
+                    2x^2 - 3x + 4 &amp; x \leq 1 \\
+                    ax + 1 &amp; x &gt; 1
+                \end{cases}
+            </md> continuous for all real numbers? If so, what should <m>a</m> be?
+            
+        </p>
+    </statement>
+    <solution component="a">
+        <p>
+            
+        </p>
+    </solution>
+</exercise>
+
+<exercise>
+    <statement>
+        <p>
+            Use the intermediate value theorem to show that the function <m>f(x) = x^3 - 10x^2 + 30x - 26</m> has <em>two</em> roots between <m>x=0</m> and <m>x=4</m>. <em>Hint:</em> Check what happens at <m>x=2</m> as well. 
+        </p>
+    </statement>
+    <solution component="a">
+        <p>
+            
+        </p>
+    </solution>
+</exercise>
+
+</paragraphs>
+</page>
+</worksheet>

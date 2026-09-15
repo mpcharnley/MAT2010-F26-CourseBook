@@ -30,6 +30,7 @@
       <xi:include href="./activities/01-limits-sinx-x.ptx"/>
       <xi:include href="./activities/02-indeterminate-limits.ptx"/>
       <xi:include href="./activities/03-horiz-vert-asymptotes.ptx" />
+      <xi:include href="./activities/04-continuity-IVT.ptx" />
 
       <!-- Add more xi:include files here to include them in the main course -->
     </chapter>
