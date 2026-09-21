@@ -24,78 +24,80 @@
 <paragraphs>
     <title>In-Class Work</title>
     <p>
-        Compute the derivative of each function below using the definition of the derivative. These should be completed for practice but will not need to be turned in.
+        Compute the derivative of each function below using the definition of the derivative. Then, use what you computed to find the slope of the tangent line to the graph of <m>f</m> at the point <m>a</m> given. These should be completed for practice but will not need to be turned in.
     </p>
 
 <exercise>
     <statement>
         <p>
-            <m>\displaystyle f(x) = 3x + 1</m>    
+            <m>\displaystyle f(x) = 3x + 1</m>, <m>a = 4</m>    
         </p>
     </statement>
 </exercise>
 <exercise>
     <statement>
         <p>
-            <m>\displaystyle f(x) = x^2 + 5x - 3</m>    
+            <m>\displaystyle f(x) = x^2 + 5x - 3</m>, <m>a = -1</m>   
         </p>
     </statement>
 </exercise>
 <exercise>
     <statement>
         <p>
-            <m>\displaystyle f(x) = \sqrt{4x+1}</m>    
+            <m>\displaystyle f(x) = \sqrt{4x+1}</m>, <m>a = 3</m>       
         </p>
     </statement>
 </exercise>
 <exercise>
     <statement>
         <p>
-            <m>\displaystyle f(x) = \frac{1}{2x+5}</m>    
+            <m>\displaystyle f(x) = \frac{1}{2x+5}</m>, <m>a = 0</m>       
         </p>
     </statement>
 </exercise>
 <exercise>
     <statement>
         <p>
-            <m>\displaystyle f(x) = \frac{1}{x} + \sqrt{x-1}</m>. <em>Hint:</em> Write out the limit, then split the expression into two parts that you can handle separately.
+            <m>\displaystyle f(x) = \frac{1}{x} + \sqrt{x-1}</m>, <m>a = 5</m>. <em>Hint:</em> Write out the limit, then split the expression into two parts that you can handle separately.
         </p>
     </statement>
 </exercise>
 <exercise>
     <statement>
         <p>
-            <m>\displaystyle f(x) = \frac{x+4}{x-3}</m>    
+            <m>\displaystyle f(x) = \frac{x+4}{x-3}</m>, <m>a = 2</m>       
         </p>
     </statement>
 </exercise>
 <exercise>
     <statement>
         <p>
-            <m>\displaystyle f(x) = \frac{1}{\sqrt{3x + 7}}</m>    
+            <m>\displaystyle f(x) = \frac{1}{\sqrt{3x + 7}}</m>, <m>a = 4</m>    
         </p>
     </statement>
 </exercise>
 
 </paragraphs>
+</page>
+<page>
 
 <paragraphs>
     <title>Homework</title>
     <p>
-        The following problems will need to be written up carefully and turned in to the assignment on Canvas by the due date at the top of the first page.
+        The following problems will need to be written up carefully and turned in to the assignment on Canvas by the due date at the top of the first page. Find the derivative then use that to find the slope of the tangent line at the point <m>a</m> given.
     </p>
 
-<exercise>
+<exercise workspace="2in">
     <statement>
         <p>
-            <m>\displaystyle f(x) = x^2 - x + 1</m>    
+            <m>\displaystyle f(x) = x^2 - x + 1</m>, <m>a = 8</m>       
         </p>
     </statement>
 </exercise>
-<exercise>
+<exercise workspace="3in">
     <statement>
         <p>
-            <m>\displaystyle f(x) = \frac{2}{3x+1}</m>    
+            <m>\displaystyle f(x) = \frac{2}{3x+1}</m>, <m>a = 3</m>    
         </p>
     </statement>
 </exercise>

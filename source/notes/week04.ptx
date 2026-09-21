@@ -204,7 +204,7 @@
 <p>
     Last time, we had several examples that had us compute the derivative at multiple points. For instance
 </p>
-<example>
+<example workspace="1in">
             <statement>
                 <p>
                     Find the slope of the tangent line to the graph of the function <m>f(x) = x^3</m> at <m>a=1</m> and a generic <m>a</m> for any <m>a</m>.
@@ -218,7 +218,7 @@
 
         <definition xml:id="def-deriv-fcn">
             <statement>
-                <p component="b" workspace="2in">
+                <p component="b" workspace="3in">
                     Let <m>f</m> be a function. The <term>derivative</term> of <m>f</m> is
                 </p>
                 <p component="a">
@@ -227,7 +227,7 @@
             </statement>
         </definition>
 
-        <p component="b" workspace="1in">
+        <p component="b" workspace="2in">
             <nbsp />
         </p>
         <p component="a">
