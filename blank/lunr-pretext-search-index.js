@@ -1267,7 +1267,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Definition of the Derivative",
-  "body": " Definition of the Derivative     Dates  Assigned Date: September 22, 2026  Due Date: September 29, 2026   Objective  In this worksheet, you'll practice computing the derivative of a function from the definition. In the future, we'll learn shortcut rules for all of these functions, but it's important for you to know how to work this out from the definition because it tells you where the derivative comes from. If you want to check these with the shortcut rules later, you can, but for this activity, you should work the problems out by hand from the definition. Make sure you use proper limit notation at each step when finding the derivative.        In-Class Work  Compute the derivative of each function below using the definition of the derivative. These should be completed for practice but will not need to be turned in.                                 . Hint: Write out the limit, then split the expression into two parts that you can handle separately.                    Homework  The following problems will need to be written up carefully and turned in to the assignment on Canvas by the due date at the top of the first page.                  "
+  "body": " Definition of the Derivative     Dates  Assigned Date: September 22, 2026  Due Date: September 29, 2026   Objective  In this worksheet, you'll practice computing the derivative of a function from the definition. In the future, we'll learn shortcut rules for all of these functions, but it's important for you to know how to work this out from the definition because it tells you where the derivative comes from. If you want to check these with the shortcut rules later, you can, but for this activity, you should work the problems out by hand from the definition. Make sure you use proper limit notation at each step when finding the derivative.        In-Class Work  Compute the derivative of each function below using the definition of the derivative. Then, use what you computed to find the slope of the tangent line to the graph of at the point given. These should be completed for practice but will not need to be turned in.     ,        ,        ,        ,        , . Hint: Write out the limit, then split the expression into two parts that you can handle separately.       ,        ,         Homework  The following problems will need to be written up carefully and turned in to the assignment on Canvas by the due date at the top of the first page. Find the derivative then use that to find the slope of the tangent line at the point given.     ,        ,       "
 },
 {
   "id": "wksht-def-of-deriv-3-1-3",
@@ -1276,7 +1276,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "      "
+  "body": "   ,    "
 },
 {
   "id": "wksht-def-of-deriv-3-1-4",
@@ -1285,7 +1285,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
-  "body": "      "
+  "body": "   ,    "
 },
 {
   "id": "wksht-def-of-deriv-3-1-5",
@@ -1294,7 +1294,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "",
-  "body": "      "
+  "body": "   ,    "
 },
 {
   "id": "wksht-def-of-deriv-3-1-6",
@@ -1303,7 +1303,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "",
-  "body": "      "
+  "body": "   ,    "
 },
 {
   "id": "wksht-def-of-deriv-3-1-7",
@@ -1312,7 +1312,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "",
-  "body": "   . Hint: Write out the limit, then split the expression into two parts that you can handle separately.   "
+  "body": "   , . Hint: Write out the limit, then split the expression into two parts that you can handle separately.   "
 },
 {
   "id": "wksht-def-of-deriv-3-1-8",
@@ -1321,7 +1321,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "",
-  "body": "      "
+  "body": "   ,    "
 },
 {
   "id": "wksht-def-of-deriv-3-1-9",
@@ -1330,25 +1330,25 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "7",
   "title": "",
-  "body": "      "
+  "body": "   ,    "
 },
 {
-  "id": "wksht-def-of-deriv-3-2-3",
+  "id": "wksht-def-of-deriv-4-1-3",
   "level": "2",
-  "url": "wksht-def-of-deriv.html#wksht-def-of-deriv-3-2-3",
+  "url": "wksht-def-of-deriv.html#wksht-def-of-deriv-4-1-3",
   "type": "Worksheet Exercise",
   "number": "8",
   "title": "",
-  "body": "      "
+  "body": "   ,    "
 },
 {
-  "id": "wksht-def-of-deriv-3-2-4",
+  "id": "wksht-def-of-deriv-4-1-4",
   "level": "2",
-  "url": "wksht-def-of-deriv.html#wksht-def-of-deriv-3-2-4",
+  "url": "wksht-def-of-deriv.html#wksht-def-of-deriv-4-1-4",
   "type": "Worksheet Exercise",
   "number": "9",
   "title": "",
-  "body": "      "
+  "body": "   ,    "
 },
 {
   "id": "handouts",
