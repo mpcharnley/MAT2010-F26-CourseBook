@@ -757,6 +757,141 @@ var ptx_lunr_docs = [
   "body": "  Show that the function has a root between and .   "
 },
 {
+  "id": "notes-week-04",
+  "level": "1",
+  "url": "notes-week-04.html",
+  "type": "Section",
+  "number": "",
+  "title": "Week 4",
+  "body": " Week 4   This is an outline of the topics we covered in week 4, from September 21 to 25.    Monday 9\/21     Understand the definition of the derivative and what it represents.    Compute the derivative at a point for various functions.       Definition of Derivative  The derivative is the next central object in Calculus. We started with limits, mainly because we need them to define the derivative. This object represents the slope of a graph at a given point, or in particular, the slope of the tangent line to the graph of a function.    Let be a function that is defined on some interval around a point . Then, the derivative of at is computed by    Where does this formula come from? We've kind of seen this formula in a variety of contexts already this semester, but now we'll go through them and apply this notation.      Tangent Lines to Graphs  We've seen tangent lines to graphs before; how did we find those slopes?    Compute the slope of the tangent line to the graph of at the point .         Find the slope of the tangent line to the graph of at the point .       Instantaneous Velocity  If the position of an object is given by the function , then how would we compute the instantaneous velocity?    Assume that a toy car has position given by , where is given in seconds and is in meters. Find the speed of the car at .        Any Rate of Change  The key point with derivatives is that they always represent rates of change. If any function is changing, you can measure the instantaneous rate of change using the derivative.      Examples    Find the slope of the tangent line to the graph of at and . Try to use the two different versions of the definition of derivative, one on each of the two points.         Find the slope of the tangent line to the graph of the function at and .        Find the equation of the tangent line to the graph of at .        Find the slope of the tangent line to the graph of the function at and a generic for any .       Tuesday 9\/22     Understand the idea of the derivative as a function and how this shows up in graphs.    Review the different notations for derivatives.       The Derivative as a Function  Last time, we had several examples that had us compute the derivative at multiple points. For instance    Find the slope of the tangent line to the graph of the function at and a generic for any .    It would be great if we didn't have to redo the calculation every time, which is what the generic looks to accomplish. To make this happen in general, we allow to vary and call it .    Let be a function. The derivative of is            Find for .       Notations for the Derivative  There are several different notations for the derivative. Some of these are more useful in different situations, as we will see throughout this course. They also generally arose because Newton and Leibniz discovered Calculus independently at approximately the same time.          If , find .       Higher Derivatives  Since the derivative is a function, we can take the derivative again, and repeat this process over and over.        "
+},
+{
+  "id": "notes-week-04-3-2",
+  "level": "2",
+  "url": "notes-week-04.html#notes-week-04-3-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "   Understand the definition of the derivative and what it represents.    Compute the derivative at a point for various functions.    "
+},
+{
+  "id": "def-def-deriv",
+  "level": "2",
+  "url": "notes-week-04.html#def-def-deriv",
+  "type": "Definition",
+  "number": "68",
+  "title": "",
+  "body": "  Let be a function that is defined on some interval around a point . Then, the derivative of at is computed by   "
+},
+{
+  "id": "notes-week-04-3-4-1-3",
+  "level": "2",
+  "url": "notes-week-04.html#notes-week-04-3-4-1-3",
+  "type": "Example",
+  "number": "69",
+  "title": "",
+  "body": "  Compute the slope of the tangent line to the graph of at the point .   "
+},
+{
+  "id": "notes-week-04-3-5-1",
+  "level": "2",
+  "url": "notes-week-04.html#notes-week-04-3-5-1",
+  "type": "Example",
+  "number": "70",
+  "title": "",
+  "body": "  Find the slope of the tangent line to the graph of at the point .   "
+},
+{
+  "id": "notes-week-04-3-6-1-3",
+  "level": "2",
+  "url": "notes-week-04.html#notes-week-04-3-6-1-3",
+  "type": "Example",
+  "number": "71",
+  "title": "",
+  "body": "  Assume that a toy car has position given by , where is given in seconds and is in meters. Find the speed of the car at .   "
+},
+{
+  "id": "notes-week-04-3-8-1-2",
+  "level": "2",
+  "url": "notes-week-04.html#notes-week-04-3-8-1-2",
+  "type": "Example",
+  "number": "72",
+  "title": "",
+  "body": "  Find the slope of the tangent line to the graph of at and . Try to use the two different versions of the definition of derivative, one on each of the two points.   "
+},
+{
+  "id": "notes-week-04-3-9-1",
+  "level": "2",
+  "url": "notes-week-04.html#notes-week-04-3-9-1",
+  "type": "Example",
+  "number": "73",
+  "title": "",
+  "body": "  Find the slope of the tangent line to the graph of the function at and .   "
+},
+{
+  "id": "notes-week-04-3-10-1",
+  "level": "2",
+  "url": "notes-week-04.html#notes-week-04-3-10-1",
+  "type": "Example",
+  "number": "74",
+  "title": "",
+  "body": "  Find the equation of the tangent line to the graph of at .   "
+},
+{
+  "id": "notes-week-04-3-11-1",
+  "level": "2",
+  "url": "notes-week-04.html#notes-week-04-3-11-1",
+  "type": "Example",
+  "number": "75",
+  "title": "",
+  "body": "  Find the slope of the tangent line to the graph of the function at and a generic for any .   "
+},
+{
+  "id": "notes-week-04-4-2",
+  "level": "2",
+  "url": "notes-week-04.html#notes-week-04-4-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "   Understand the idea of the derivative as a function and how this shows up in graphs.    Review the different notations for derivatives.    "
+},
+{
+  "id": "notes-week-04-4-3-1-3",
+  "level": "2",
+  "url": "notes-week-04.html#notes-week-04-4-3-1-3",
+  "type": "Example",
+  "number": "76",
+  "title": "",
+  "body": "  Find the slope of the tangent line to the graph of the function at and a generic for any .   "
+},
+{
+  "id": "def-deriv-fcn",
+  "level": "2",
+  "url": "notes-week-04.html#def-deriv-fcn",
+  "type": "Definition",
+  "number": "77",
+  "title": "",
+  "body": "  Let be a function. The derivative of is   "
+},
+{
+  "id": "notes-week-04-4-4-1",
+  "level": "2",
+  "url": "notes-week-04.html#notes-week-04-4-4-1",
+  "type": "Example",
+  "number": "78",
+  "title": "",
+  "body": "  Find for .   "
+},
+{
+  "id": "notes-week-04-4-6-1",
+  "level": "2",
+  "url": "notes-week-04.html#notes-week-04-4-6-1",
+  "type": "Example",
+  "number": "79",
+  "title": "",
+  "body": "  If , find .   "
+},
+{
   "id": "wksht-graphing-equations",
   "level": "1",
   "url": "wksht-graphing-equations.html",
@@ -1124,6 +1259,96 @@ var ptx_lunr_docs = [
   "number": "12",
   "title": "",
   "body": "  Use the intermediate value theorem to show that the function has two roots between and . Hint: Check what happens at as well.   "
+},
+{
+  "id": "wksht-def-of-deriv",
+  "level": "1",
+  "url": "wksht-def-of-deriv.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Definition of the Derivative",
+  "body": " Definition of the Derivative     Dates  Assigned Date: September 22, 2026  Due Date: September 29, 2026   Objective  In this worksheet, you'll practice computing the derivative of a function from the definition. In the future, we'll learn shortcut rules for all of these functions, but it's important for you to know how to work this out from the definition because it tells you where the derivative comes from. If you want to check these with the shortcut rules later, you can, but for this activity, you should work the problems out by hand from the definition. Make sure you use proper limit notation at each step when finding the derivative.        In-Class Work  Compute the derivative of each function below using the definition of the derivative. These should be completed for practice but will not need to be turned in.                                 . Hint: Write out the limit, then split the expression into two parts that you can handle separately.                    Homework  The following problems will need to be written up carefully and turned in to the assignment on Canvas by the due date at the top of the first page.                  "
+},
+{
+  "id": "wksht-def-of-deriv-3-1-3",
+  "level": "2",
+  "url": "wksht-def-of-deriv.html#wksht-def-of-deriv-3-1-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "wksht-def-of-deriv-3-1-4",
+  "level": "2",
+  "url": "wksht-def-of-deriv.html#wksht-def-of-deriv-3-1-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "wksht-def-of-deriv-3-1-5",
+  "level": "2",
+  "url": "wksht-def-of-deriv.html#wksht-def-of-deriv-3-1-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "wksht-def-of-deriv-3-1-6",
+  "level": "2",
+  "url": "wksht-def-of-deriv.html#wksht-def-of-deriv-3-1-6",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "wksht-def-of-deriv-3-1-7",
+  "level": "2",
+  "url": "wksht-def-of-deriv.html#wksht-def-of-deriv-3-1-7",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "   . Hint: Write out the limit, then split the expression into two parts that you can handle separately.   "
+},
+{
+  "id": "wksht-def-of-deriv-3-1-8",
+  "level": "2",
+  "url": "wksht-def-of-deriv.html#wksht-def-of-deriv-3-1-8",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "wksht-def-of-deriv-3-1-9",
+  "level": "2",
+  "url": "wksht-def-of-deriv.html#wksht-def-of-deriv-3-1-9",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "wksht-def-of-deriv-3-2-3",
+  "level": "2",
+  "url": "wksht-def-of-deriv.html#wksht-def-of-deriv-3-2-3",
+  "type": "Worksheet Exercise",
+  "number": "8",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "wksht-def-of-deriv-3-2-4",
+  "level": "2",
+  "url": "wksht-def-of-deriv.html#wksht-def-of-deriv-3-2-4",
+  "type": "Worksheet Exercise",
+  "number": "9",
+  "title": "",
+  "body": "      "
 },
 {
   "id": "handouts",
