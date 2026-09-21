@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="notes-week-04" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Week 4</title>
+
+<introduction>
+    <p>
+        This is an outline of the topics we covered in week 4, from September 21 to 25.
+    </p>
+</introduction>
+
+<handout component="cur">
+    <title>Monday 9/21</title>
+    <objectives>
+        <ul>
+            <li>
+                <p>
+                    Understand the definition of the derivative and what it represents.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Compute the derivative at a point for various functions.
+                </p>
+            </li>
+        </ul>
+    </objectives>
+    <page>
+        <paragraphs>
+            <title>Definition of Derivative</title>
+            <p>
+                The derivative is the next central object in Calculus. We started with limits, mainly because we need them to define the derivative. This object represents the slope of a graph at a given point, or in particular, the slope of the tangent line to the graph of a function.
+            </p>
+
+            <definition xml:id="def-def-deriv">
+                <statement>
+                    <p component="b" workspace="2in">
+                        Let <m>f(x)</m> be a function that is defined on some interval around a point <m>a</m>. Then, the derivative of <m>f</m> at <m>a</m> is computed by 
+                    </p>
+                    <p component="a">
+                        Let <m>f(x)</m> be a function that is defined on some interval around a point <m>a</m>. Then, the derivative of <m>f</m> at <m>a</m> is computed by [] if it exists. There are two versions of this formula, the first makes it very clear what this object is talking about, the second is much easier for doing computations.
+                    </p>
+                </statement>
+            </definition>
+
+            <p>
+                Where does this formula come from? We've kind of seen this formula in a variety of contexts already this semester, but now we'll go through them and apply this notation.
+            </p>
+        </paragraphs>
+    </page>
+    <page>
+        <paragraphs>
+            <title>Tangent Lines to Graphs</title>
+            <p component="b" workspace="2in">
+                We've seen tangent lines to graphs before; how did we find those slopes?
+            </p>
+            <p component="a">
+                We've seen tangent lines to graphs before; how did we find those slopes? Secant lines and limits.
+            </p>
+
+            <example workspace="2in">
+                <statement>
+                    <p>
+                        Compute the slope of the tangent line to the graph of <m>f(x) = x^2 - 1</m> at the point <m>a = 2</m>.
+                    </p>
+                </statement>
+            <solution component="a">
+                <p>
+                    
+                </p>
+            </solution>
+            </example>
+            
+        </paragraphs>
+
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Find the slope of the tangent line to the graph of <m>f(x)= \frac{2}{x+1}</m> at the point <m>a = 3</m>.
+                </p>
+            </statement>
+        <solution component="a">
+            <p>
+                
+            </p>
+        </solution>
+        </example>
+        
+    </page>
+
+    <page>
+        <paragraphs>
+            <title>Instantaneous Velocity</title>
+            
+            <p component="b" workspace="2in">
+                If the position of an object is given by the function <m>f(t)</m>, then how would we compute the instantaneous velocity?
+            </p>
+            <p component="a">
+                If the position of an object is given by the function <m>f(t)</m>, then how would we compute the instantaneous velocity? Average velocities and take the limit. Same formula
+            </p>
+
+            <example workspace="3in">
+                <statement>
+                    <p>
+                        Assume that a toy car has position given by <m>f(t) = t^2 - 2t +1</m>, where <m>t</m> is given in seconds and <m>f(t)</m> is in meters. Find the speed of the car at <m>t=3</m>.
+                    </p>
+                </statement>
+            
+            </example>
+            
+        </paragraphs>
+    </page>
+
+    <page>
+        <paragraphs>
+            <title>Any Rate of Change</title>
+            <p component="b" workspace="3in">
+                The key point with derivatives is that they always represent rates of change. If any function is changing, you can measure the instantaneous rate of change using the derivative.
+            </p>
+            <p component="a">
+                The key point with derivatives is that they always represent rates of change. If any function is changing, you can measure the instantaneous rate of change using the derivative. Price or cost or forces or ...
+            </p>
+        </paragraphs>
+    </page>
+
+    <page>
+        <paragraphs>
+            <title>Examples</title>
+
+            <example workspace="5in">
+                <statement>
+                    <p>
+                        Find the slope of the tangent line to the graph of <m>f(x) = \sqrt{x}</m> at <m>a=1</m> and <m>a=4</m>. Try to use the two different versions of the definition of derivative, one on each of the two points.
+                    </p>
+                </statement>
+            
+            </example>
+            
+            
+        </paragraphs>
+    </page>
+
+    <page>
+        <example workspace="5in">
+            <statement>
+                <p>
+                    Find the slope of the tangent line to the graph of the function <m>f(x) = \frac{x}{x+1}</m> at <m>a=3</m> and <m>a=5</m>.
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <example workspace="5in">
+            <statement>
+                <p>
+                    Find the equation of the tangent line to the graph of <m>f(x) = \frac{4}{x^2}</m> at <m>a=3</m>.
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+
+
+    <page>
+        <example workspace="5in">
+            <statement>
+                <p>
+                    Find the slope of the tangent line to the graph of the function <m>f(x) = x^3</m> at <m>a=1</m> and a generic <m>a</m> for any <m>a</m>.
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+</handout>
+
+<handout component="cur">
+    <title>Tuesday 9/22</title>
+    <objectives>
+        <ul>
+            <li>
+                <p>
+                    Understand the idea of the derivative as a function and how this shows up in graphs.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Review the different notations for derivatives.
+                </p>
+            </li>
+        </ul>
+    </objectives>
+    <page>
+        <paragraphs>
+            <title>The Derivative as a Function</title>
+
+<p>
+    Last time, we had several examples that had us compute the derivative at multiple points. For instance
+</p>
+<example>
+            <statement>
+                <p>
+                    Find the slope of the tangent line to the graph of the function <m>f(x) = x^3</m> at <m>a=1</m> and a generic <m>a</m> for any <m>a</m>.
+                </p>
+            </statement>
+        </example>
+
+        <p>
+            It would be great if we didn't have to redo the calculation every time, which is what the <q>generic <m>a</m></q> looks to accomplish. To make this happen in general, we allow <m>a</m> to vary and call it <m>x</m>.
+        </p>
+
+        <definition xml:id="def-deriv-fcn">
+            <statement>
+                <p component="b" workspace="2in">
+                    Let <m>f</m> be a function. The <term>derivative</term> of <m>f</m> is
+                </p>
+                <p component="a">
+                    Let <m>f</m> be a function. The <term>derivative</term> of <m>f</m> is the new function <m>f'</m> defined by
+                </p>
+            </statement>
+        </definition>
+
+        <p component="b" workspace="1in">
+            <nbsp />
+        </p>
+        <p component="a">
+            This is a new function. For each <m>x</m> it gives us the slope of the tangent line at <m>x</m>.
+        </p>
+
+
+        </paragraphs>
+    </page>
+    <page>
+        <example workspace="3in">
+        <statement>
+            <p>
+                Find <m>f'(x)</m> for <m>f(x) = x^2 - 3x + 1</m>.          
+            </p>
+        </statement>
+    
+    </example>
+    </page>
+
+    <page>
+        <paragraphs>
+            <title>Notations for the Derivative</title>
+            
+            <p>
+                There are several different notations for the derivative. Some of these are more useful in different situations, as we will see throughout this course. They also generally arose because Newton and Leibniz <q>discovered</q> Calculus independently at approximately the same time.
+            </p>
+
+        <p component="b" workspace="3in">
+            <nbsp />
+        </p>
+        <p component="a">
+            Prime notations, Leibniz notation. D notation.
+        </p>
+        </paragraphs>
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    If <m>y = 3\sqrt{5x + 7}</m>, find <m>\frac{dy}{dx}</m>.
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <paragraphs>
+            <title>Higher Derivatives</title>
+            <p>
+                Since the derivative is a function, we can take the derivative again, and repeat this process over and over.
+            </p>
+
+            <p component="b" workspace="4in">
+                <nbsp />
+            </p>
+            <p component="a">
+                At each step, you're getting the rate of change of the previous function. position, velocity and so on.
+            </p>
+        </paragraphs>
+    </page>
+</handout>
+
+
+
+
+</section>

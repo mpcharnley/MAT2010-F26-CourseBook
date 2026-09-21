@@ -19,6 +19,7 @@
       <xi:include href="./notes/week01.ptx"/>
       <xi:include href="./notes/week02.ptx"/>
       <xi:include href="./notes/week03.ptx" />
+      <xi:include href="./notes/week04.ptx" />
       <!-- etc. -->
 
     </chapter>
@@ -31,6 +32,7 @@
       <xi:include href="./activities/02-indeterminate-limits.ptx"/>
       <xi:include href="./activities/03-horiz-vert-asymptotes.ptx" />
       <xi:include href="./activities/04-continuity-IVT.ptx" />
+      <xi:include href="./activities/05-def-of-deriv.ptx" />
 
       <!-- Add more xi:include files here to include them in the main course -->
     </chapter>
