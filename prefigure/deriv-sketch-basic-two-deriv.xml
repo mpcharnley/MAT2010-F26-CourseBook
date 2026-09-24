@@ -1,0 +1,21 @@
+<diagram xmlns="https://prefigure.org" dimensions="(300,300)" margins="5">
+  <definition> a = -3 </definition>
+  <definition> f(x)=2 </definition>
+  <definition> g(x) = 1/2*(4 - (x-1)^2) </definition>
+  <coordinates bbox="[-6,-6,6,6]">
+    <grid-axes xlabel="x" ylabel="y"/>
+    <graph function="f" domain="[-6,a]"/>
+    <graph function="g" domain="[a,6]"/>
+    <point p="(-3, f(-3))" size="5" fill="white" stroke="blue"/>
+    <point p="(-3, g(-3))" size="5" fill="white" stroke="blue"/>
+  </coordinates>
+</diagram>
+
+<!-- include as 
+<image width="60%">
+  <prefigure xmlns="https://prefigure.org"
+             label="wksht-graphing-lines-inter">
+    <xi:include href="../../prefigure/test-diagram.xml" />
+  </prefigure>
+</image>
+-->

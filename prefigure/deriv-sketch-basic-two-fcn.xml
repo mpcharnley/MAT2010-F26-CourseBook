@@ -1,0 +1,20 @@
+<diagram xmlns="https://prefigure.org" dimensions="(300,300)" margins="5">
+  <definition> a = -3 </definition>
+  <definition> g(x)=1/2*(4*x - ((x-1)^3)/3) </definition>
+  <definition> d = g(-3) - 2*a </definition>
+  <definition> f(x)=2*x+d </definition>
+  <coordinates bbox="[-6,-6,6,6]">
+    <grid-axes xlabel="x" ylabel="y"/>
+    <graph function="f" domain="[-6,a]"/>
+    <graph function="g" domain="[a,6]"/>
+  </coordinates>
+</diagram>
+
+<!-- include as 
+<image width="60%">
+  <prefigure xmlns="https://prefigure.org"
+             label="wksht-graphing-lines-inter">
+    <xi:include href="../../prefigure/test-diagram.xml" />
+  </prefigure>
+</image>
+-->
