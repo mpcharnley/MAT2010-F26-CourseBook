@@ -1,0 +1,228 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="deriv-sketch-basic-two-deriv-figure" width="310" height="310" viewBox="0 0 310 310">
+  <defs>
+    <clipPath id="deriv-sketch-basic-two-deriv-__clipPath-0">
+      <rect x="5.0" y="5.0" width="300.0" height="300.0"/>
+    </clipPath>
+    <clipPath id="deriv-sketch-basic-two-deriv-__clipPath-1">
+      <rect x="5.0" y="5.0" width="300.0" height="300.0"/>
+    </clipPath>
+  </defs>
+  <g id="deriv-sketch-basic-two-deriv-grid-axes">
+    <g id="deriv-sketch-basic-two-deriv-grid" stroke="#ccc" stroke-width="1">
+      <line x1="5.0" y1="305.0" x2="5.0" y2="5.0"/>
+      <line x1="30.0" y1="305.0" x2="30.0" y2="5.0"/>
+      <line x1="55.0" y1="305.0" x2="55.0" y2="5.0"/>
+      <line x1="80.0" y1="305.0" x2="80.0" y2="5.0"/>
+      <line x1="105.0" y1="305.0" x2="105.0" y2="5.0"/>
+      <line x1="130.0" y1="305.0" x2="130.0" y2="5.0"/>
+      <line x1="155.0" y1="305.0" x2="155.0" y2="5.0"/>
+      <line x1="180.0" y1="305.0" x2="180.0" y2="5.0"/>
+      <line x1="205.0" y1="305.0" x2="205.0" y2="5.0"/>
+      <line x1="230.0" y1="305.0" x2="230.0" y2="5.0"/>
+      <line x1="255.0" y1="305.0" x2="255.0" y2="5.0"/>
+      <line x1="280.0" y1="305.0" x2="280.0" y2="5.0"/>
+      <line x1="305.0" y1="305.0" x2="305.0" y2="5.0"/>
+      <line x1="5.0" y1="305.0" x2="305.0" y2="305.0"/>
+      <line x1="5.0" y1="280.0" x2="305.0" y2="280.0"/>
+      <line x1="5.0" y1="255.0" x2="305.0" y2="255.0"/>
+      <line x1="5.0" y1="230.0" x2="305.0" y2="230.0"/>
+      <line x1="5.0" y1="205.0" x2="305.0" y2="205.0"/>
+      <line x1="5.0" y1="180.0" x2="305.0" y2="180.0"/>
+      <line x1="5.0" y1="155.0" x2="305.0" y2="155.0"/>
+      <line x1="5.0" y1="130.0" x2="305.0" y2="130.0"/>
+      <line x1="5.0" y1="105.0" x2="305.0" y2="105.0"/>
+      <line x1="5.0" y1="80.0" x2="305.0" y2="80.0"/>
+      <line x1="5.0" y1="55.0" x2="305.0" y2="55.0"/>
+      <line x1="5.0" y1="30.0" x2="305.0" y2="30.0"/>
+      <line x1="5.0" y1="5.0" x2="305.0" y2="5.0"/>
+    </g>
+    <g id="deriv-sketch-basic-two-deriv-axes" stroke="black" stroke-width="2">
+      <line id="deriv-sketch-basic-two-deriv-__line-26" x1="5.0" y1="155.0" x2="305.0" y2="155.0" stroke="black" stroke-width="2"/>
+      <g>
+        <line id="deriv-sketch-basic-two-deriv-__line-27" x1="55.0" y1="158.0" x2="55.0" y2="152.0"/>
+        <line id="deriv-sketch-basic-two-deriv-__line-28" x1="105.0" y1="158.0" x2="105.0" y2="152.0"/>
+        <line id="deriv-sketch-basic-two-deriv-__line-29" x1="205.0" y1="158.0" x2="205.0" y2="152.0"/>
+        <line id="deriv-sketch-basic-two-deriv-__line-30" x1="255.0" y1="158.0" x2="255.0" y2="152.0"/>
+      </g>
+      <line id="deriv-sketch-basic-two-deriv-__line-31" x1="155.0" y1="305.0" x2="155.0" y2="5.0" stroke="black" stroke-width="2"/>
+      <g>
+        <line id="deriv-sketch-basic-two-deriv-__line-32" x1="152.0" y1="255.0" x2="158.0" y2="255.0"/>
+        <line id="deriv-sketch-basic-two-deriv-__line-33" x1="152.0" y1="205.0" x2="158.0" y2="205.0"/>
+        <line id="deriv-sketch-basic-two-deriv-__line-34" x1="152.0" y1="105.0" x2="158.0" y2="105.0"/>
+        <line id="deriv-sketch-basic-two-deriv-__line-35" x1="152.0" y1="55.0" x2="158.0" y2="55.0"/>
+      </g>
+    </g>
+    <g id="deriv-sketch-basic-two-deriv-__label-0" transform="translate(301.0,151.0) translate(-10.4,-8.2)">
+      <g id="deriv-sketch-basic-two-deriv-__g-0">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.200px" width="10.352px" height="8.200px" role="img" focusable="false" viewBox="0 -442 572 453" x="0.0" y="0.0">
+          <defs>
+            <path id="deriv-sketch-basic-two-deriv-MJX-2-TEX-I-1D465" d="M52 289Q59 331 106 386T222 442Q257 442 286 424T329 379Q371 442 430 442Q467 442 494 420T522 361Q522 332 508 314T481 292T458 288Q439 288 427 299T415 328Q415 374 465 391Q454 404 425 404Q412 404 406 402Q368 386 350 336Q290 115 290 78Q290 50 306 38T341 26Q378 26 414 59T463 140Q466 150 469 151T485 153H489Q504 153 504 145Q504 144 502 134Q486 77 440 33T333 -11Q263 -11 227 52Q186 -10 133 -10H127Q78 -10 57 16T35 71Q35 103 54 123T99 143Q142 143 142 101Q142 81 130 66T107 46T94 41L91 40Q91 39 97 36T113 29T132 26Q168 26 194 71Q203 87 217 139T245 247T261 313Q266 340 266 352Q266 380 251 392T217 404Q177 404 142 372T93 290Q91 281 88 280T72 278H58Q52 284 52 289Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="0" data-semantic-speech="">
+                <use data-c="1D465" xlink:href="#deriv-sketch-basic-two-deriv-MJX-2-TEX-I-1D465"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="deriv-sketch-basic-two-deriv-__label-1" transform="translate(159.0,9.0) translate(0.0,-0.0)">
+      <g id="deriv-sketch-basic-two-deriv-__g-1">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -3.712px" width="8.872px" height="11.712px" role="img" focusable="false" viewBox="0 -442 490 647" x="0.0" y="0.0">
+          <defs>
+            <path id="deriv-sketch-basic-two-deriv-MJX-3-TEX-I-1D466" d="M21 287Q21 301 36 335T84 406T158 442Q199 442 224 419T250 355Q248 336 247 334Q247 331 231 288T198 191T182 105Q182 62 196 45T238 27Q261 27 281 38T312 61T339 94Q339 95 344 114T358 173T377 247Q415 397 419 404Q432 431 462 431Q475 431 483 424T494 412T496 403Q496 390 447 193T391 -23Q363 -106 294 -155T156 -205Q111 -205 77 -183T43 -117Q43 -95 50 -80T69 -58T89 -48T106 -45Q150 -45 150 -87Q150 -107 138 -122T115 -142T102 -147L99 -148Q101 -153 118 -160T152 -167H160Q177 -167 186 -165Q219 -156 247 -127T290 -65T313 -9T321 21L315 17Q309 13 296 6T270 -6Q250 -11 231 -11Q185 -11 150 11T104 82Q103 89 103 113Q103 170 138 262T173 379Q173 380 173 381Q173 390 173 393T169 400T158 404H154Q131 404 112 385T82 344T65 302T57 280Q55 278 41 278H27Q21 284 21 287Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="0" data-semantic-speech="">
+                <use data-c="1D466" xlink:href="#deriv-sketch-basic-two-deriv-MJX-3-TEX-I-1D466"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="deriv-sketch-basic-two-deriv-__label-2" transform="translate(55.0,166.0) translate(-7.5,-0.0)">
+      <g id="deriv-sketch-basic-two-deriv-__g-2">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="15.080px" height="12.256px" role="img" focusable="false" viewBox="0 -677 833 677" x="0.0" y="0.0">
+          <defs>
+            <path id="deriv-sketch-basic-two-deriv-MJX-4-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+            <path id="deriv-sketch-basic-two-deriv-MJX-4-TEX-N-34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
+                <use data-c="2D" xlink:href="#deriv-sketch-basic-two-deriv-MJX-4-TEX-N-2D"/>
+                <use data-c="34" xlink:href="#deriv-sketch-basic-two-deriv-MJX-4-TEX-N-34" transform="translate(333,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="deriv-sketch-basic-two-deriv-__label-3" transform="translate(105.0,166.0) translate(-7.5,-0.0)">
+      <g id="deriv-sketch-basic-two-deriv-__g-3">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="15.080px" height="12.056px" role="img" focusable="false" viewBox="0 -666 833 666" x="0.0" y="0.0">
+          <defs>
+            <path id="deriv-sketch-basic-two-deriv-MJX-5-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+            <path id="deriv-sketch-basic-two-deriv-MJX-5-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
+                <use data-c="2D" xlink:href="#deriv-sketch-basic-two-deriv-MJX-5-TEX-N-2D"/>
+                <use data-c="32" xlink:href="#deriv-sketch-basic-two-deriv-MJX-5-TEX-N-32" transform="translate(333,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="deriv-sketch-basic-two-deriv-__label-4" transform="translate(205.0,166.0) translate(-4.5,-0.0)">
+      <g id="deriv-sketch-basic-two-deriv-__g-4">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+          <defs>
+            <path id="deriv-sketch-basic-two-deriv-MJX-6-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
+                <use data-c="32" xlink:href="#deriv-sketch-basic-two-deriv-MJX-6-TEX-N-32"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="deriv-sketch-basic-two-deriv-__label-5" transform="translate(255.0,166.0) translate(-4.5,-0.0)">
+      <g id="deriv-sketch-basic-two-deriv-__g-5">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.256px" role="img" focusable="false" viewBox="0 -677 500 677" x="0.0" y="0.0">
+          <defs>
+            <path id="deriv-sketch-basic-two-deriv-MJX-7-TEX-N-34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
+                <use data-c="34" xlink:href="#deriv-sketch-basic-two-deriv-MJX-7-TEX-N-34"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="deriv-sketch-basic-two-deriv-__label-6" transform="translate(144.0,255.0) translate(-15.1,-6.1)">
+      <g id="deriv-sketch-basic-two-deriv-__g-6">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="15.080px" height="12.256px" role="img" focusable="false" viewBox="0 -677 833 677" x="0.0" y="0.0">
+          <defs>
+            <path id="deriv-sketch-basic-two-deriv-MJX-8-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+            <path id="deriv-sketch-basic-two-deriv-MJX-8-TEX-N-34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
+                <use data-c="2D" xlink:href="#deriv-sketch-basic-two-deriv-MJX-8-TEX-N-2D"/>
+                <use data-c="34" xlink:href="#deriv-sketch-basic-two-deriv-MJX-8-TEX-N-34" transform="translate(333,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="deriv-sketch-basic-two-deriv-__label-7" transform="translate(144.0,205.0) translate(-15.1,-6.0)">
+      <g id="deriv-sketch-basic-two-deriv-__g-7">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="15.080px" height="12.056px" role="img" focusable="false" viewBox="0 -666 833 666" x="0.0" y="0.0">
+          <defs>
+            <path id="deriv-sketch-basic-two-deriv-MJX-9-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+            <path id="deriv-sketch-basic-two-deriv-MJX-9-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
+                <use data-c="2D" xlink:href="#deriv-sketch-basic-two-deriv-MJX-9-TEX-N-2D"/>
+                <use data-c="32" xlink:href="#deriv-sketch-basic-two-deriv-MJX-9-TEX-N-32" transform="translate(333,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="deriv-sketch-basic-two-deriv-__label-8" transform="translate(144.0,105.0) translate(-9.0,-6.0)">
+      <g id="deriv-sketch-basic-two-deriv-__g-8">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+          <defs>
+            <path id="deriv-sketch-basic-two-deriv-MJX-10-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
+                <use data-c="32" xlink:href="#deriv-sketch-basic-two-deriv-MJX-10-TEX-N-32"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="deriv-sketch-basic-two-deriv-__label-9" transform="translate(144.0,55.0) translate(-9.0,-6.1)">
+      <g id="deriv-sketch-basic-two-deriv-__g-9">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.256px" role="img" focusable="false" viewBox="0 -677 500 677" x="0.0" y="0.0">
+          <defs>
+            <path id="deriv-sketch-basic-two-deriv-MJX-11-TEX-N-34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
+                <use data-c="34" xlink:href="#deriv-sketch-basic-two-deriv-MJX-11-TEX-N-34"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+  </g>
+  <path id="deriv-sketch-basic-two-deriv-__path-0" stroke="blue" stroke-width="2" fill="none" d="M 5.0 105.0 L 5.8 105.0 L 6.5 105.0 L 7.2 105.0 L 8.0 105.0 L 8.8 105.0 L 9.5 105.0 L 10.2 105.0 L 11.0 105.0 L 11.8 105.0 L 12.5 105.0 L 13.2 105.0 L 14.0 105.0 L 14.8 105.0 L 15.5 105.0 L 16.2 105.0 L 17.0 105.0 L 17.8 105.0 L 18.5 105.0 L 19.2 105.0 L 20.0 105.0 L 20.8 105.0 L 21.5 105.0 L 22.2 105.0 L 23.0 105.0 L 23.8 105.0 L 24.5 105.0 L 25.2 105.0 L 26.0 105.0 L 26.8 105.0 L 27.5 105.0 L 28.2 105.0 L 29.0 105.0 L 29.8 105.0 L 30.5 105.0 L 31.2 105.0 L 32.0 105.0 L 32.7 105.0 L 33.5 105.0 L 34.2 105.0 L 35.0 105.0 L 35.8 105.0 L 36.5 105.0 L 37.2 105.0 L 38.0 105.0 L 38.7 105.0 L 39.5 105.0 L 40.2 105.0 L 41.0 105.0 L 41.8 105.0 L 42.5 105.0 L 43.2 105.0 L 44.0 105.0 L 44.8 105.0 L 45.5 105.0 L 46.3 105.0 L 47.0 105.0 L 47.8 105.0 L 48.5 105.0 L 49.2 105.0 L 50.0 105.0 L 50.8 105.0 L 51.5 105.0 L 52.2 105.0 L 53.0 105.0 L 53.8 105.0 L 54.5 105.0 L 55.2 105.0 L 56.0 105.0 L 56.8 105.0 L 57.5 105.0 L 58.2 105.0 L 59.0 105.0 L 59.8 105.0 L 60.5 105.0 L 61.2 105.0 L 62.0 105.0 L 62.8 105.0 L 63.5 105.0 L 64.2 105.0 L 65.0 105.0 L 65.8 105.0 L 66.5 105.0 L 67.2 105.0 L 68.0 105.0 L 68.8 105.0 L 69.5 105.0 L 70.2 105.0 L 71.0 105.0 L 71.8 105.0 L 72.5 105.0 L 73.2 105.0 L 74.0 105.0 L 74.8 105.0 L 75.5 105.0 L 76.2 105.0 L 77.0 105.0 L 77.7 105.0 L 78.5 105.0 L 79.2 105.0 L 80.0 105.0" clip-path="url(#deriv-sketch-basic-two-deriv-__clipPath-1)"/>
+  <path id="deriv-sketch-basic-two-deriv-__path-1" stroke="blue" stroke-width="2" fill="none" d="M 80.0 305.0 L 82.2 296.1 L 84.5 287.4 L 86.8 278.9 L 89.0 270.6 L 91.2 262.5 L 93.5 254.6 L 95.8 247.0 L 98.0 239.5 L 100.2 232.2 L 102.5 225.1 L 104.8 218.3 L 107.0 211.6 L 109.2 205.1 L 111.5 198.8 L 113.8 192.8 L 116.0 186.9 L 118.2 181.3 L 120.5 175.8 L 122.8 170.6 L 125.0 165.5 L 127.2 160.7 L 129.5 156.0 L 131.8 151.6 L 134.0 147.3 L 136.2 143.3 L 138.5 139.4 L 140.8 135.8 L 143.0 132.4 L 145.2 129.2 L 147.5 126.1 L 149.8 123.3 L 152.0 120.7 L 154.2 118.3 L 156.5 116.0 L 158.8 114.0 L 161.0 112.2 L 163.2 110.6 L 165.5 109.2 L 167.8 108.0 L 170.0 107.0 L 172.2 106.2 L 174.5 105.6 L 176.8 105.2 L 179.0 105.0 L 181.2 105.0 L 183.5 105.2 L 185.8 105.7 L 188.0 106.3 L 190.2 107.1 L 192.5 108.1 L 194.8 109.4 L 197.0 110.8 L 199.2 112.4 L 201.5 114.2 L 203.8 116.3 L 206.0 118.5 L 208.2 121.0 L 210.5 123.6 L 212.8 126.5 L 215.0 129.5 L 217.2 132.8 L 219.5 136.2 L 221.8 139.9 L 224.0 143.7 L 226.2 147.8 L 228.5 152.0 L 230.8 156.5 L 233.0 161.2 L 235.2 166.1 L 237.5 171.1 L 239.8 176.4 L 242.0 181.9 L 244.2 187.6 L 246.5 193.4 L 248.8 199.5 L 251.0 205.8 L 253.2 212.3 L 255.5 219.0 L 257.8 225.9 L 260.0 233.0 L 262.2 240.3 L 264.5 247.8 L 266.8 255.5 L 269.0 263.4 L 271.2 271.5 L 273.5 279.8 L 275.8 288.4 L 278.0 297.1 L 280.2 306.0 L 282.5 315.1 L 284.8 324.5 L 287.0 334.0 L 289.2 343.7 L 291.5 353.6 L 293.8 363.8 L 296.0 374.1 L 298.2 384.7 L 300.5 395.4 L 302.8 406.4 L 305.0 417.5" clip-path="url(#deriv-sketch-basic-two-deriv-__clipPath-1)"/>
+  <circle id="deriv-sketch-basic-two-deriv-__circle-0" cx="80.0" cy="105.0" r="5" stroke="blue" stroke-width="2" fill="white"/>
+  <circle id="deriv-sketch-basic-two-deriv-__circle-1" cx="80.0" cy="305.0" r="5" stroke="blue" stroke-width="2" fill="white"/>
+</svg>
