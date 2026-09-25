@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="notes-week-05" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Week 5</title>
+
+<introduction>
+    <p>
+        This is an outline of the topics we covered in Week 5, from September 28 to October 2.
+    </p>
+</introduction>
+
+<handout component="cur">
+    <title>Monday 9/28</title>
+    <objectives>
+        <ul>
+            <li>
+                <p>
+                    Determine short-cut rules for computing derivatives of power and exponential functions.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Compute derivatives using the product rule.
+                </p>
+            </li>
+        </ul>
+    </objectives>
+    <page>
+        <paragraphs>
+            <title>Derivative Rules</title>
+
+            <p>
+                Today starts Chapter 3 and our discussion of derivative rules. These are <q>shortcut</q> rules, all of which come from the definition of the derivative, to allow us to compute these derivatives more efficiently.
+            </p>
+
+            <p component="b" workspace="2in">
+                <nbsp />
+            </p>
+            <p component="a">
+                These rules will not be allowed on your Test 1 next week. For those problems, you must use the limit definition, from the initial formula, to get the derivative. 
+            </p>
+
+            <p component="b" workspace="3in">
+                Where can we start? What kinds of functions should have easy derivatives?
+            </p>
+            <p component="a">
+                Where can we start? What kinds of functions should have easy derivatives? Well, if a function is a straight line, the tangent line should just be the line itself. constant function, linear function
+            </p>
+
+        </paragraphs>
+    </page>
+
+    <page>
+        <p component="b" workspace="3in">
+            However, if the function is non-linear, we have more work to do.
+        </p>
+        <p component="a">
+            However, if the function is non-linear, we have more work to do. We've done a few powers of <m>x</m> before. We can try to find a pattern here.
+        </p>
+
+
+    </page>
+
+    <page>
+        <theorem xml:id="thm-power-rule-2">
+            <title>The Power Rule</title>
+            <statement>
+                <p component="b" workspace="1in">
+                    For the function <m>f(x) = x^n</m> where <m>n</m> is any real number, we have <md>
+                        f'(x) = 
+                    </md>
+                    
+                </p>
+                <p component="a">
+                    For the function <m>f(x) = x^n</m> where <m>n</m> is any real number, we have <md>
+                        f'(x) = nx^{n-1}
+                    </md>.
+                    
+                </p>
+            </statement>
+        </theorem>
+        
+        <example workspace="1in">
+            <introduction>
+                <p>
+                    Compute the derivative of each of the following functions.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>\displaystyle f(x) = x^{35}</m>.
+                    </p>
+                </statement>
+        
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\displaystyle f(x)=x^{9/2}</m>.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\displaystyle f(x) = x^{\sqrt{2}}</m>.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\displaystyle f(x) = x^{-1/3}</m>.
+                    </p>
+                </statement>
+            </task>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <paragraphs>
+            <title>Exponential Rule</title>
+            
+            <p>
+                Consider a function of the form <m>f(x) = b^x</m> for some base <m>b</m>. This doesn't work like the power rule, but the process of finding the derivative here has some nice simplification.
+            </p>
+
+            <p component="b" workspace="3in">
+                <nbsp />
+            </p>
+            <p component="a">
+                Set up the f(x+h) version. factor out the <m>b^x</m>. We define <m>e</m> to be the special number where the remaining limit is 1. Maybe connect to the other version of <m>e</m>.
+            </p>
+
+        </paragraphs>
+    </page>
+
+    <page>
+        <theorem xml:id="thm-exp-rule-2">
+            <statement>
+                <p component="b" workspace="1in">
+                    If <m>f(x) = e^x</m>, then <md>
+                        f'(x) = 
+                    </md>
+                    
+                </p>
+                <p component="a">
+                    If <m>f(x) = e^x</m>, then <md>
+                        f'(x) = e^x 
+                    </md>.
+                </p>
+            </statement>
+        </theorem>
+        
+    </page>
+
+    <page>
+        <paragraphs>
+            <title>Linearity of the Derivative</title>
+
+            <p component="b" workspace="2in">
+                Another useful property of the derivative is that it is linear. This means that it plays nicely with addition and constant multiplication.
+            </p>
+            <p component="a">
+                Another useful property of the derivative is that it is linear. This means that it plays nicely with addition and constant multiplication. This comes from the fact that the limit definition of the derivative does the same. In particular. f+g and cf all have nice derivatives.
+            </p>
+            
+<example workspace="3in">
+    <statement>
+        <p>
+            Compute the derivative of the function <md>
+                f(x) = 7x^{20} - 6x^4 + \frac{3}{x^2} + 5e^x
+            </md>.
+            
+        </p>
+    </statement>
+
+</example>
+
+
+        </paragraphs>
+    </page>
+
+<page>
+    <example>
+        <statement>
+            <p>
+                Compute the derivative of the function 
+                <md>
+                    f(x) = 5x^{23} - 4e^x + 3\sqrt{x} + 7
+                </md>.
+                
+            </p>
+        </statement>
+    </example>
+</page>
+
+    <page>
+        <paragraphs>
+            <title>The Product Rule</title>
+            
+            <p component="b" workspace="2in">
+                Over the next few classes, we'll be talking about ways to take the simple derivatives that we just learned how to compute and build the derivatives of more complicated functions. 
+            </p>
+            <p component="a">
+                Over the next few classes, we'll be talking about ways to take the simple derivatives that we just learned how to compute and build the derivatives of more complicated functions. We'll have a slight detour to deal with trigonometric functions later. We already know what to do with addition, subtraction, and constant multiplication. But that's where the super easy combinations stop. Our first attempt is the product rule. Examples with <m>x^6</m> as the product of <m>x^4</m> and <m>x^2</m>.
+            </p>
+
+        </paragraphs>
+    </page>
+
+    <page>
+        <theorem xml:id="thm-product-ruld">
+            <statement>
+                <p component="b" workspace="2in">
+                    Let <m>f(x)</m> and <m>g(x)</m> be two functions that are differentiable. Then
+                    
+                </p>
+                <p component="a">
+                    Let <m>f(x)</m> and <m>g(x)</m> be two functions that are differentiable. Then
+                     <md>
+                        (fg)'(x) = f'(x)g(x) + f(x)g'(x)
+                     </md> or
+                     <md>
+                        \frac{d}{dx}(fg) = \frac{df}{dx} \cdot g + f \cdot \frac{dg}{dx}
+                     </md>.
+                     
+                </p>
+            </statement>
+        </theorem>
+
+        <example workspace="3in">
+            <statement>
+                <p>
+                    Find the derivative of the function <md>
+                        f(x) = x^2e^x
+                    </md>.
+                    
+                </p>
+            </statement>
+        </example>
+        
+    </page>
+
+    <page>
+        <p component="b" workspace="3in">
+            Why is this the right rule? The book gives a geometric proof, which is pretty good. Here is the more analytic proof: using the definition of the derivative.
+        </p>
+        <p component="a">
+            Why is this the right rule? The book gives a geometric proof, which is pretty good. Here is the more analytic proof: using the definition of the derivative. Subtract and add <m>f(x+h)g(x)</m> and regroup.
+        </p>
+    </page>
+
+    <page>
+        <example workspace="2in">
+            <introduction>
+                <p>
+                    Compute the derivative of each of the functions below.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>f(x) = (x^2 + 3x + 1)(x^4 - 5)</m> [Do this both by expanding and with the product rule.]
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>g(x) = 3x^4 + 2x^2e^x - \frac{5}{x}</m>
+                    </p>
+                </statement>
+            </task>        
+            <task>
+                <statement>
+                    <p>
+                        <m>h(x) = (e^x + x)\left(x^3 - \frac{2}{x^2}\right)</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>l(x) = (x^8 - x^{-4}e^x)(x^3 + 5x^2 + 3x - 1)</m>
+                    </p>
+                </statement>
+            </task>
+        </example>
+        
+    </page>
+</handout>
+
+
+</section>

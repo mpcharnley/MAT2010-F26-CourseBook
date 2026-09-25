@@ -460,6 +460,80 @@
             </li>
         </ul>
     </objectives>
+<page>
+        <paragraphs>
+            <title>Graphical Interpretation</title>
+            <p component="b" workspace="3in">
+                The derivative computes the slope of the tangent line to the graph of a function. This means we can use graphical information about <m>f(x)</m> to get graphical information about <m>f'(x)</m> and vice versa.
+            </p>
+            <p component="a">
+                The derivative computes the slope of the tangent line to the graph of a function. This means we can use graphical information about <m>f(x)</m> to get graphical information about <m>f'(x)</m> and vice versa. Increasing, decreasing, max/min points.
+            </p>
+        </paragraphs>
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Consider the graph of the function <m>f(x)</m> below. Use it to sketch a graph of <m>f'(x)</m>.
+                </p>
+                <image width="60%">
+  <prefigure xmlns="https://prefigure.org"
+             label="deriv-sketch-basic-one-fcn-">
+    <xi:include href="../../prefigure/deriv-sketch-basic-one-fcn.xml" />
+  </prefigure>
+</image>
+<image component="b" width="60%">
+  <prefigure xmlns="https://prefigure.org"
+             label="deriv-sketch-basic-one-blank-">
+    <xi:include href="../../prefigure/blank-axes-6-6.xml" />
+  </prefigure>
+</image>
+            </statement>
+        <solution component="a">
+            <image width="60%">
+    <prefigure xmlns="https://prefigure.org"
+             label="deriv-sketch-basic-one-deriv-">
+    <xi:include href="../../prefigure/deriv-sketch-basic-one-deriv.xml" />
+  </prefigure>
+</image>
+        </solution>
+        </example>
+        
+    </page>
+
+        <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Consider the graph of the function <m>f'(x)</m> below. Use it to sketch a graph of the continuous function <m>f(x)</m>.
+                </p>
+                            <image width="60%">
+  <prefigure xmlns="https://prefigure.org"
+             label="deriv-sketch-basic-two-deriv-">
+    <xi:include href="../../prefigure/deriv-sketch-basic-two-deriv.xml" />
+  </prefigure>
+</image>
+<image component="b" width="60%">
+  <prefigure xmlns="https://prefigure.org"
+             label="deriv-sketch-basic-two-blank-">
+    <xi:include href="../../prefigure/blank-axes-6-6.xml" />
+  </prefigure>
+</image>
+            </statement>
+        <solution component="a">
+            <image width="60%">
+    <prefigure xmlns="https://prefigure.org"
+             label="deriv-sketch-basic-two-fcn-">
+    <xi:include href="../../prefigure/deriv-sketch-basic-two-fcn.xml" />
+  </prefigure>
+</image>
+        </solution>
+        </example>
+        
+    </page>
+
     <page>
         <paragraphs>
             <title>Derivative Rules</title>
