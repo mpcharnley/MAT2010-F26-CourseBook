@@ -763,7 +763,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Week 4",
-  "body": " Week 4   This is an outline of the topics we covered in week 4, from September 21 to 25.    Monday 9\/21     Understand the definition of the derivative and what it represents.    Compute the derivative at a point for various functions.       Definition of Derivative  The derivative is the next central object in Calculus. We started with limits, mainly because we need them to define the derivative. This object represents the slope of a graph at a given point, or in particular, the slope of the tangent line to the graph of a function.    Let be a function that is defined on some interval around a point . Then, the derivative of at is computed by    Where does this formula come from? We've kind of seen this formula in a variety of contexts already this semester, but now we'll go through them and apply this notation.      Tangent Lines to Graphs  We've seen tangent lines to graphs before; how did we find those slopes?    Compute the slope of the tangent line to the graph of at the point .         Find the slope of the tangent line to the graph of at the point .       Instantaneous Velocity  If the position of an object is given by the function , then how would we compute the instantaneous velocity?    Assume that a toy car has position given by , where is given in seconds and is in meters. Find the speed of the car at .        Any Rate of Change  The key point with derivatives is that they always represent rates of change. If any function is changing, you can measure the instantaneous rate of change using the derivative.      Examples    Find the slope of the tangent line to the graph of at and . Try to use the two different versions of the definition of derivative, one on each of the two points.         Find the slope of the tangent line to the graph of the function at and .        Find the equation of the tangent line to the graph of at .        Find the slope of the tangent line to the graph of the function at and a generic for any .       Tuesday 9\/22     Understand the idea of the derivative as a function and how this shows up in graphs.    Review the different notations for derivatives.       The Derivative as a Function  Last time, we had several examples that had us compute the derivative at multiple points. For instance    Find the slope of the tangent line to the graph of the function at and a generic for any .    It would be great if we didn't have to redo the calculation every time, which is what the generic looks to accomplish. To make this happen in general, we allow to vary and call it .    Let be a function. The derivative of is            Find for .       Notations for the Derivative  There are several different notations for the derivative. Some of these are more useful in different situations, as we will see throughout this course. They also generally arose because Newton and Leibniz discovered Calculus independently at approximately the same time.          If , find .       Higher Derivatives  Since the derivative is a function, we can take the derivative again, and repeat this process over and over.         Wednesday 9\/23     Understand what can make a function differentiable or not.    Relate a function to the graph of its derivative.       Differentiability  We've spend the last few days looking at derivatives and computing them using the limit definition. However, this computation involves a limit, and we've been ignoring a main question up to now: What if that limit doesn't exist?    Let be a function defined on some interval around a point . We say that is differentiable at if      Where is differentiable?         Investigate the differentiability of .      What does a function being not differentiable mean? What does this look like graphically?     Graphical Interpretation  The derivative computes the slope of the tangent line to the graph of a function. This means we can use graphical information about to get graphical information about and vice versa.       Consider the graph of the function below. Use it to sketch a graph of .     f(x)=1\/5*x*(x-3)*(x+2)                        Consider the graph of the function below. Use it to sketch a graph of the continuous function .     a = -3  f(x)=2  g(x) = 1\/2*(4 - (x-1)^2)                          Friday 9\/25     Use patterns in the limit computation of derivative to establish derivative rules.    Apply these rules to compute the derivatives of more complicated functions.       Derivative Rules  Today starts Chapter 3 and our discussion of derivative rules. These are shortcut rules, all of which come from the definition of the derivative, to allow us to compute these derivatives more efficiently.     Where can we start? What kinds of functions should have easy derivatives?     However, if the function is non-linear, we have more work to do.     The Power Rule   For the function where is any real number, we have       Compute the derivative of each of the following functions.      .       .       .       .        Exponential Rule  Consider a function of the form for some base . This doesn't work like the power rule, but the process of finding the derivative here has some nice simplification.          If , then        Linearity of the Derivative  Another useful property of the derivative is that it is linear. This means that it plays nicely with addition and constant multiplication.    Compute the derivative of the function .       "
+  "body": " Week 4   This is an outline of the topics we covered in week 4, from September 21 to 25.    Monday 9\/21     Understand the definition of the derivative and what it represents.    Compute the derivative at a point for various functions.       Definition of Derivative  The derivative is the next central object in Calculus. We started with limits, mainly because we need them to define the derivative. This object represents the slope of a graph at a given point, or in particular, the slope of the tangent line to the graph of a function.    Let be a function that is defined on some interval around a point . Then, the derivative of at is computed by    Where does this formula come from? We've kind of seen this formula in a variety of contexts already this semester, but now we'll go through them and apply this notation.      Tangent Lines to Graphs  We've seen tangent lines to graphs before; how did we find those slopes?    Compute the slope of the tangent line to the graph of at the point .         Find the slope of the tangent line to the graph of at the point .       Instantaneous Velocity  If the position of an object is given by the function , then how would we compute the instantaneous velocity?    Assume that a toy car has position given by , where is given in seconds and is in meters. Find the speed of the car at .        Any Rate of Change  The key point with derivatives is that they always represent rates of change. If any function is changing, you can measure the instantaneous rate of change using the derivative.      Examples    Find the slope of the tangent line to the graph of at and . Try to use the two different versions of the definition of derivative, one on each of the two points.         Find the slope of the tangent line to the graph of the function at and .        Find the equation of the tangent line to the graph of at .        Find the slope of the tangent line to the graph of the function at and a generic for any .       Tuesday 9\/22     Understand the idea of the derivative as a function and how this shows up in graphs.    Review the different notations for derivatives.       The Derivative as a Function  Last time, we had several examples that had us compute the derivative at multiple points. For instance    Find the slope of the tangent line to the graph of the function at and a generic for any .    It would be great if we didn't have to redo the calculation every time, which is what the generic looks to accomplish. To make this happen in general, we allow to vary and call it .    Let be a function. The derivative of is            Find for .       Notations for the Derivative  There are several different notations for the derivative. Some of these are more useful in different situations, as we will see throughout this course. They also generally arose because Newton and Leibniz discovered Calculus independently at approximately the same time.          If , find .       Higher Derivatives  Since the derivative is a function, we can take the derivative again, and repeat this process over and over.         Wednesday 9\/23     Understand what can make a function differentiable or not.    Relate a function to the graph of its derivative.       Differentiability  We've spend the last few days looking at derivatives and computing them using the limit definition. However, this computation involves a limit, and we've been ignoring a main question up to now: What if that limit doesn't exist?    Let be a function defined on some interval around a point . We say that is differentiable at if      Where is differentiable?         Investigate the differentiability of .      What does a function being not differentiable mean? What does this look like graphically?     Graphical Interpretation  The derivative computes the slope of the tangent line to the graph of a function. This means we can use graphical information about to get graphical information about and vice versa.       Consider the graph of the function below. Use it to sketch a graph of .     f(x)=1\/5*x*(x-3)*(x+2)                        Consider the graph of the function below. Use it to sketch a graph of the continuous function .     a = -3  f(x)=2  g(x) = 1\/2*(4 - (x-1)^2)                          Friday 9\/25     Use patterns in the limit computation of derivative to establish derivative rules.    Apply these rules to compute the derivatives of more complicated functions.       Graphical Interpretation  The derivative computes the slope of the tangent line to the graph of a function. This means we can use graphical information about to get graphical information about and vice versa.       Consider the graph of the function below. Use it to sketch a graph of .     f(x)=1\/5*x*(x-3)*(x+2)                        Consider the graph of the function below. Use it to sketch a graph of the continuous function .     a = -3  f(x)=2  g(x) = 1\/2*(4 - (x-1)^2)                          Derivative Rules  Today starts Chapter 3 and our discussion of derivative rules. These are shortcut rules, all of which come from the definition of the derivative, to allow us to compute these derivatives more efficiently.     Where can we start? What kinds of functions should have easy derivatives?     However, if the function is non-linear, we have more work to do.     The Power Rule   For the function where is any real number, we have       Compute the derivative of each of the following functions.      .       .       .       .        Exponential Rule  Consider a function of the form for some base . This doesn't work like the power rule, but the process of finding the derivative here has some nice simplification.          If , then        Linearity of the Derivative  Another useful property of the derivative is that it is linear. This means that it plays nicely with addition and constant multiplication.    Compute the derivative of the function .       "
 },
 {
   "id": "notes-week-04-3-2",
@@ -955,20 +955,38 @@ var ptx_lunr_docs = [
   "body": "   Use patterns in the limit computation of derivative to establish derivative rules.    Apply these rules to compute the derivatives of more complicated functions.    "
 },
 {
+  "id": "notes-week-04-6-4-1",
+  "level": "2",
+  "url": "notes-week-04.html#notes-week-04-6-4-1",
+  "type": "Example",
+  "number": "85",
+  "title": "",
+  "body": "  Consider the graph of the function below. Use it to sketch a graph of .     f(x)=1\/5*x*(x-3)*(x+2)                   "
+},
+{
+  "id": "notes-week-04-6-5-1",
+  "level": "2",
+  "url": "notes-week-04.html#notes-week-04-6-5-1",
+  "type": "Example",
+  "number": "86",
+  "title": "",
+  "body": "  Consider the graph of the function below. Use it to sketch a graph of the continuous function .     a = -3  f(x)=2  g(x) = 1\/2*(4 - (x-1)^2)                      "
+},
+{
   "id": "thm-power-rule",
   "level": "2",
   "url": "notes-week-04.html#thm-power-rule",
   "type": "Theorem",
-  "number": "85",
+  "number": "87",
   "title": "The Power Rule.",
   "body": " The Power Rule   For the function where is any real number, we have    "
 },
 {
-  "id": "notes-week-04-6-5-2",
+  "id": "notes-week-04-6-8-2",
   "level": "2",
-  "url": "notes-week-04.html#notes-week-04-6-5-2",
+  "url": "notes-week-04.html#notes-week-04-6-8-2",
   "type": "Example",
-  "number": "86",
+  "number": "88",
   "title": "",
   "body": "  Compute the derivative of each of the following functions.      .       .       .       .    "
 },
@@ -977,18 +995,108 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "notes-week-04.html#thm-exp-rule",
   "type": "Theorem",
-  "number": "87",
+  "number": "89",
   "title": "",
   "body": "  If , then    "
 },
 {
-  "id": "notes-week-04-6-8-1-3",
+  "id": "notes-week-04-6-11-1-3",
   "level": "2",
-  "url": "notes-week-04.html#notes-week-04-6-8-1-3",
+  "url": "notes-week-04.html#notes-week-04-6-11-1-3",
   "type": "Example",
-  "number": "88",
+  "number": "90",
   "title": "",
   "body": "  Compute the derivative of the function .   "
+},
+{
+  "id": "notes-week-05",
+  "level": "1",
+  "url": "notes-week-05.html",
+  "type": "Section",
+  "number": "",
+  "title": "Week 5",
+  "body": " Week 5   This is an outline of the topics we covered in Week 5, from September 28 to October 2.    Monday 9\/28     Determine short-cut rules for computing derivatives of power and exponential functions.    Compute derivatives using the product rule.       Derivative Rules  Today starts Chapter 3 and our discussion of derivative rules. These are shortcut rules, all of which come from the definition of the derivative, to allow us to compute these derivatives more efficiently.     Where can we start? What kinds of functions should have easy derivatives?     However, if the function is non-linear, we have more work to do.     The Power Rule   For the function where is any real number, we have       Compute the derivative of each of the following functions.      .       .       .       .        Exponential Rule  Consider a function of the form for some base . This doesn't work like the power rule, but the process of finding the derivative here has some nice simplification.          If , then        Linearity of the Derivative  Another useful property of the derivative is that it is linear. This means that it plays nicely with addition and constant multiplication.    Compute the derivative of the function .         Compute the derivative of the function .       The Product Rule  Over the next few classes, we'll be talking about ways to take the simple derivatives that we just learned how to compute and build the derivatives of more complicated functions.       Let and be two functions that are differentiable. Then      Find the derivative of the function .      Why is this the right rule? The book gives a geometric proof, which is pretty good. Here is the more analytic proof: using the definition of the derivative.      Compute the derivative of each of the functions below.      [Do this both by expanding and with the product rule.]                            "
+},
+{
+  "id": "notes-week-05-3-2",
+  "level": "2",
+  "url": "notes-week-05.html#notes-week-05-3-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "   Determine short-cut rules for computing derivatives of power and exponential functions.    Compute derivatives using the product rule.    "
+},
+{
+  "id": "thm-power-rule-2",
+  "level": "2",
+  "url": "notes-week-05.html#thm-power-rule-2",
+  "type": "Theorem",
+  "number": "91",
+  "title": "The Power Rule.",
+  "body": " The Power Rule   For the function where is any real number, we have    "
+},
+{
+  "id": "notes-week-05-3-5-2",
+  "level": "2",
+  "url": "notes-week-05.html#notes-week-05-3-5-2",
+  "type": "Example",
+  "number": "92",
+  "title": "",
+  "body": "  Compute the derivative of each of the following functions.      .       .       .       .    "
+},
+{
+  "id": "thm-exp-rule-2",
+  "level": "2",
+  "url": "notes-week-05.html#thm-exp-rule-2",
+  "type": "Theorem",
+  "number": "93",
+  "title": "",
+  "body": "  If , then    "
+},
+{
+  "id": "notes-week-05-3-8-1-3",
+  "level": "2",
+  "url": "notes-week-05.html#notes-week-05-3-8-1-3",
+  "type": "Example",
+  "number": "94",
+  "title": "",
+  "body": "  Compute the derivative of the function .   "
+},
+{
+  "id": "notes-week-05-3-9-1",
+  "level": "2",
+  "url": "notes-week-05.html#notes-week-05-3-9-1",
+  "type": "Example",
+  "number": "95",
+  "title": "",
+  "body": "  Compute the derivative of the function .   "
+},
+{
+  "id": "thm-product-ruld",
+  "level": "2",
+  "url": "notes-week-05.html#thm-product-ruld",
+  "type": "Theorem",
+  "number": "96",
+  "title": "",
+  "body": "  Let and be two functions that are differentiable. Then   "
+},
+{
+  "id": "notes-week-05-3-11-2",
+  "level": "2",
+  "url": "notes-week-05.html#notes-week-05-3-11-2",
+  "type": "Example",
+  "number": "97",
+  "title": "",
+  "body": "  Find the derivative of the function .   "
+},
+{
+  "id": "notes-week-05-3-13-1",
+  "level": "2",
+  "url": "notes-week-05.html#notes-week-05-3-13-1",
+  "type": "Example",
+  "number": "98",
+  "title": "",
+  "body": "  Compute the derivative of each of the functions below.      [Do this both by expanding and with the product rule.]                         "
 },
 {
   "id": "wksht-graphing-equations",
