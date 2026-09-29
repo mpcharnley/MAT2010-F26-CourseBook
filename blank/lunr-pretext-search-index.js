@@ -1015,7 +1015,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Week 5",
-  "body": " Week 5   This is an outline of the topics we covered in Week 5, from September 28 to October 2.    Monday 9\/28     Determine short-cut rules for computing derivatives of power and exponential functions.    Compute derivatives using the product rule.       Derivative Rules  Today starts Chapter 3 and our discussion of derivative rules. These are shortcut rules, all of which come from the definition of the derivative, to allow us to compute these derivatives more efficiently.     Where can we start? What kinds of functions should have easy derivatives?     However, if the function is non-linear, we have more work to do.     The Power Rule   For the function where is any real number, we have       Compute the derivative of each of the following functions.      .       .       .       .        Exponential Rule  Consider a function of the form for some base . This doesn't work like the power rule, but the process of finding the derivative here has some nice simplification.          If , then        Linearity of the Derivative  Another useful property of the derivative is that it is linear. This means that it plays nicely with addition and constant multiplication.    Compute the derivative of the function .         Compute the derivative of the function .       The Product Rule  Over the next few classes, we'll be talking about ways to take the simple derivatives that we just learned how to compute and build the derivatives of more complicated functions.       Let and be two functions that are differentiable. Then      Find the derivative of the function .      Why is this the right rule? The book gives a geometric proof, which is pretty good. Here is the more analytic proof: using the definition of the derivative.      Compute the derivative of each of the functions below.      [Do this both by expanding and with the product rule.]                            "
+  "body": " Week 5   This is an outline of the topics we covered in Week 5, from September 28 to October 2.    Monday 9\/28     Determine short-cut rules for computing derivatives of power and exponential functions.    Compute derivatives using the product rule.       Derivative Rules  Today starts Chapter 3 and our discussion of derivative rules. These are shortcut rules, all of which come from the definition of the derivative, to allow us to compute these derivatives more efficiently.     Where can we start? What kinds of functions should have easy derivatives?     However, if the function is non-linear, we have more work to do.     The Power Rule   For the function where is any real number, we have       Compute the derivative of each of the following functions.      .       .       .       .        Exponential Rule  Consider a function of the form for some base . This doesn't work like the power rule, but the process of finding the derivative here has some nice simplification.          If , then        Linearity of the Derivative  Another useful property of the derivative is that it is linear. This means that it plays nicely with addition and constant multiplication.    Compute the derivative of the function .         Compute the derivative of the function .       Tuesday 9\/29     Compute derivatives using the product rule.    Compute derivatives using the quotient rule.       Product and Quotient Rules  Over the next few classes, we'll be talking about ways to take the simple derivatives that we just learned how to compute and build the derivatives of more complicated functions.       Let and be two functions that are differentiable. Then      Find the derivative of the function .      Why is this the right rule? The book gives a geometric proof, which is pretty good. Here is the more analytic proof: using the definition of the derivative.      Compute the derivative of each of the functions below.      [Do this both by expanding and with the product rule.]                             The Quotient Rule  Just like products didn't work out so nicely when taking the derivative, quotients also have issues.       Let and be differentiable functions. Then,      Compute the derivative of the function .      Why is this the correct rule? Let's look at the definition of the derivative again.      Compute the derivative of each of the following functions.                      Find the equation of the tangent line to the graph of at .        Find the equation of the tangent line to the graph of at .      "
 },
 {
   "id": "notes-week-05-3-2",
@@ -1072,6 +1072,15 @@ var ptx_lunr_docs = [
   "body": "  Compute the derivative of the function .   "
 },
 {
+  "id": "notes-week-05-4-2",
+  "level": "2",
+  "url": "notes-week-05.html#notes-week-05-4-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "   Compute derivatives using the product rule.    Compute derivatives using the quotient rule.    "
+},
+{
   "id": "thm-product-ruld",
   "level": "2",
   "url": "notes-week-05.html#thm-product-ruld",
@@ -1081,22 +1090,67 @@ var ptx_lunr_docs = [
   "body": "  Let and be two functions that are differentiable. Then   "
 },
 {
-  "id": "notes-week-05-3-11-2",
+  "id": "notes-week-05-4-4-2",
   "level": "2",
-  "url": "notes-week-05.html#notes-week-05-3-11-2",
+  "url": "notes-week-05.html#notes-week-05-4-4-2",
   "type": "Example",
   "number": "97",
   "title": "",
   "body": "  Find the derivative of the function .   "
 },
 {
-  "id": "notes-week-05-3-13-1",
+  "id": "notes-week-05-4-6-1",
   "level": "2",
-  "url": "notes-week-05.html#notes-week-05-3-13-1",
+  "url": "notes-week-05.html#notes-week-05-4-6-1",
   "type": "Example",
   "number": "98",
   "title": "",
   "body": "  Compute the derivative of each of the functions below.      [Do this both by expanding and with the product rule.]                         "
+},
+{
+  "id": "thm-quotient-rule",
+  "level": "2",
+  "url": "notes-week-05.html#thm-quotient-rule",
+  "type": "Theorem",
+  "number": "99",
+  "title": "",
+  "body": "  Let and be differentiable functions. Then,   "
+},
+{
+  "id": "notes-week-05-4-8-2",
+  "level": "2",
+  "url": "notes-week-05.html#notes-week-05-4-8-2",
+  "type": "Example",
+  "number": "100",
+  "title": "",
+  "body": "  Compute the derivative of the function .   "
+},
+{
+  "id": "notes-week-05-4-10-1",
+  "level": "2",
+  "url": "notes-week-05.html#notes-week-05-4-10-1",
+  "type": "Example",
+  "number": "101",
+  "title": "",
+  "body": "  Compute the derivative of each of the following functions.                 "
+},
+{
+  "id": "notes-week-05-4-11-1",
+  "level": "2",
+  "url": "notes-week-05.html#notes-week-05-4-11-1",
+  "type": "Example",
+  "number": "102",
+  "title": "",
+  "body": "  Find the equation of the tangent line to the graph of at .   "
+},
+{
+  "id": "notes-week-05-4-12-1",
+  "level": "2",
+  "url": "notes-week-05.html#notes-week-05-4-12-1",
+  "type": "Example",
+  "number": "103",
+  "title": "",
+  "body": "  Find the equation of the tangent line to the graph of at .   "
 },
 {
   "id": "wksht-graphing-equations",
