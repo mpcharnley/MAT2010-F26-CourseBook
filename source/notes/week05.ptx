@@ -198,10 +198,28 @@
     </example>
 </page>
 
+</handout>
+
+<handout component="cur">
+    <title>Tuesday 9/29</title>
+    <objectives>
+        <ul>
+            <li>
+                <p>
+                    Compute derivatives using the product rule.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Compute derivatives using the quotient rule.
+                </p>
+            </li>
+        </ul>
+    </objectives>
     <page>
         <paragraphs>
-            <title>The Product Rule</title>
-            
+            <title>Product and Quotient Rules</title>
+
             <p component="b" workspace="2in">
                 Over the next few classes, we'll be talking about ways to take the simple derivatives that we just learned how to compute and build the derivatives of more complicated functions. 
             </p>
@@ -275,6 +293,17 @@
                     </p>
                 </statement>
             </task>        
+        </example>
+        
+    </page>
+
+        <page>
+        <example workspace="2in">
+            <introduction>
+                <p>
+                    Compute the derivative of each of the functions below.
+                </p>
+            </introduction>    
             <task>
                 <statement>
                     <p>
@@ -292,6 +321,107 @@
         </example>
         
     </page>
+
+<page>
+    <paragraphs>
+        <title>The Quotient Rule</title>
+        
+        <p component="b" workspace="2in">
+            Just like products didn't work out so nicely when taking the derivative, quotients also have issues.
+        </p>
+        <p component="a">
+            Just like products didn't work out so nicely when taking the derivative, quotients also have issues. Same type of example with powers of <m>x</m>.
+        </p>
+
+        
+        
+
+    </paragraphs>
+</page>
+
+<page>
+    <theorem xml:id="thm-quotient-rule">
+            <statement>
+                <p component="b" workspace="2in">
+                    Let <m>f(x)</m> and <m>g(x)</m> be differentiable functions. Then,
+                </p>
+                <p component="a">
+                    Let <m>f(x)</m> and <m>g(x)</m> be differentiable functions. Then,
+                    <md>
+                        \frac{d}{dx}\left(\frac{f}{g}\right) = \frac{g(x)\frac{df}{dx} - f(x)\frac{dg}{dx}}{g(x)^2}
+                    </md>.
+                </p>
+            </statement>
+        </theorem>
+
+    <example workspace="2in">
+        <statement>
+            <p>
+                Compute the derivative of the function <md>
+                    f(x) = \frac{e^x - x}{x^2 + 16}
+                </md>.
+            </p>
+        </statement>
+    </example>
+</page>
+
+<page>
+<p component="b" workspace="3in">
+    Why is this the correct rule? Let's look at the definition of the derivative again.
+</p>
+<p component="a">
+    Why is this the correct rule? Let's look at the definition of the derivative again. Combine the fractions, then rearrange everything.
+</p>
+</page>
+
+<page>
+    <example workspace="2in">
+        <introduction>
+            <p>
+                Compute the derivative of each of the following functions.
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    <m>\displaystyle f(x) = \frac{x^4 + 3x^2 - 5x + 1}{4x^2 - 6x + 7}</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>\displaystyle f(x) = \frac{x^2e^x + 3x - 2}{x^4 + 8x^2 + 20}</m>
+                </p>
+            </statement>
+        </task>
+    </example>
+</page>
+
+<page>
+    <example workspace="4in">
+        <statement>
+            <p>
+                Find the equation of the tangent line to the graph of <md>
+                    f(x) = \frac{x^3 - 2x + 1}{x^4 - 3x^2 + 2}
+                </md> at <m>x = 0</m>.
+            </p>
+        </statement>
+    </example>
+</page>
+
+<page>
+    <example workspace="4in">
+        <statement>
+            <p>
+                Find the equation of the tangent line to the graph of <md>
+                    f(x) = \frac{xe^x}{x^4 + 1}
+                </md> at <m>x = 1</m>.
+            </p>
+        </statement>
+    </example>
+</page>
+
 </handout>
 
 
