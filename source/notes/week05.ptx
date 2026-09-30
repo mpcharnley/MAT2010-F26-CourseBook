@@ -424,5 +424,104 @@
 
 </handout>
 
+<handout component="cur">
+    <title>Wednesday 9/30</title>
+    <objectives>
+        <ul>
+            <li>
+                <p>
+                    Review for Test 1
+                </p>
+            </li>
+        </ul>
+    </objectives>
+    <page>
+        <paragraphs>
+            <title>Test 1 Review</title>
+
+            <p>
+                Test 1 is on Friday, October 2nd.
+                <ul>
+                    <li>
+                        <p>
+                            50 minute exam in class. Starts at 12:30PM, ends at 1:20PM.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Covers sections 2.1-2.3, 2.5-2.8 in the textbook.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            No calculators, phones, or notes.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Make sure you show all your work and use proper notation.
+                        </p>
+                    </li>
+                </ul>
+            </p>
+
+
+        </paragraphs>
+    </page>
+    <page>
+        <paragraphs>
+            <title>Topic Summary</title>
+            <p>
+<ul>
+    <li>
+        <p>
+            2.1 - Introduction to limits (tangent and secant lines, velocity)
+        </p>
+    </li>
+    <li>
+        <p>
+            2.2 - Definition of Limit, one-sided limits, limits that go to infinity.
+        </p>
+    </li>
+    <li>
+        <p>
+            2.3 - Indeterminate forms (factoring, conjugates)
+        </p>
+    </li>
+    <li>
+        <p>
+            2.5 - Continuity (making a function continuous, IVT)
+        </p>
+    </li>
+    <li>
+        <p>
+            2.6 - Horizontal Asymptotes (finding using limits)
+        </p>
+    </li>
+    <li>
+        <p>
+            2.7 - Definition of the Derivative (formula and computation strategies)
+        </p>
+    </li>
+    <li>
+        <p>
+            2.8 - Derivative as a function (differentiability, finding <m>f'(x)</m>)
+        </p>
+    </li>
+</ul>
+</p>
+        </paragraphs>
+    </page>
+
+<page>
+    <paragraphs>
+        <title>Review Problems</title>
+        <p>
+            Where do we want to start?
+        </p>
+    </paragraphs>
+</page>
+</handout>
+
 
 </section>
