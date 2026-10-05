@@ -1171,6 +1171,69 @@ var ptx_lunr_docs = [
   "body": "   Review for Test 1    "
 },
 {
+  "id": "notes-week-06",
+  "level": "1",
+  "url": "notes-week-06.html",
+  "type": "Section",
+  "number": "",
+  "title": "Week 6",
+  "body": " Week 6   This is an outline of the topics we covered in week 6 of the course, from October 5 to October 9.    Monday 10\/5     Compute the derivatives of trigonometric functions    Introduce the Chain Rule       Trigonometric Derivatives  The next class of functions that we want to find derivatives for are the trigonometric functions. What should the derivative of look like?     f(x) = sin(x)  a = pi\/2            f(x) = sin(x)  a = pi\/2      a = k*pi\/2           f(x) = sin(x)  a = pi\/2                Find the derivative of from the definition of the derivative.      So, our conclusion is that  We can set up the same thing with cosine.      Compute the derivative of each of the following functions.                    What about the other trigonometric functions? How do these relate to and ?      Where does the function have horizontal tangent lines?        Compute for .       Introduction to the Chain Rule    Assume that you are on (or analyzing, if that's not your thing) a roller coaster, and you have two functions:    , which is the position of the car on the track seconds after the ride begins, and     , the height of the roller coaster at each position on the track (measured from the starting position)        How would you determine your height seconds after the start of the ride?      What does measure?      How else could you compute ?     The important take-away here is that when we want to combine rates of change, they often multiply. This is particularly relevant for compositions of functions, which we will see with the Chain Rule starting tomorrow.     "
+},
+{
+  "id": "notes-week-06-3-2",
+  "level": "2",
+  "url": "notes-week-06.html#notes-week-06-3-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "   Compute the derivatives of trigonometric functions    Introduce the Chain Rule    "
+},
+{
+  "id": "notes-week-06-3-4-1",
+  "level": "2",
+  "url": "notes-week-06.html#notes-week-06-3-4-1",
+  "type": "Example",
+  "number": "105",
+  "title": "",
+  "body": "  Find the derivative of from the definition of the derivative.   "
+},
+{
+  "id": "notes-week-06-3-6-1",
+  "level": "2",
+  "url": "notes-week-06.html#notes-week-06-3-6-1",
+  "type": "Example",
+  "number": "106",
+  "title": "",
+  "body": "  Compute the derivative of each of the following functions.                 "
+},
+{
+  "id": "notes-week-06-3-8-1",
+  "level": "2",
+  "url": "notes-week-06.html#notes-week-06-3-8-1",
+  "type": "Example",
+  "number": "107",
+  "title": "",
+  "body": "  Where does the function have horizontal tangent lines?   "
+},
+{
+  "id": "notes-week-06-3-9-1",
+  "level": "2",
+  "url": "notes-week-06.html#notes-week-06-3-9-1",
+  "type": "Example",
+  "number": "108",
+  "title": "",
+  "body": "  Compute for .   "
+},
+{
+  "id": "notes-week-06-3-10-1-2",
+  "level": "2",
+  "url": "notes-week-06.html#notes-week-06-3-10-1-2",
+  "type": "Example",
+  "number": "109",
+  "title": "",
+  "body": "  Assume that you are on (or analyzing, if that's not your thing) a roller coaster, and you have two functions:    , which is the position of the car on the track seconds after the ride begins, and     , the height of the roller coaster at each position on the track (measured from the starting position)        How would you determine your height seconds after the start of the ride?      What does measure?      How else could you compute ?    "
+},
+{
   "id": "wksht-graphing-equations",
   "level": "1",
   "url": "wksht-graphing-equations.html",
