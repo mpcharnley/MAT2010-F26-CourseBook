@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="notes-week-06" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Week 6</title>
+
+<introduction>
+    <p>
+        This is an outline of the topics we covered in week 6 of the course, from October 5 to October 9.
+    </p>
+</introduction>
+
+<handout component="cur">
+    <title>Monday 10/5</title>
+    <objectives>
+        <ul>
+            <li>
+                <p>
+                    Compute the derivatives of trigonometric functions
+                </p>
+            </li>
+            <li>
+                <p>
+                    Introduce the Chain Rule
+                </p>
+            </li>
+        </ul>
+    </objectives>
+    <page>
+        <paragraphs>
+            <title>Trigonometric Derivatives</title>
+
+<p workspace="1in">
+    The next class of functions that we want to find derivatives for are the trigonometric functions. What should the derivative of <m>\sin(x)</m> look like?
+</p>
+
+<image width="60%">
+    <prefigure xmlns="https://prefigure.org"
+             label="deriv-sin-graph">
+    <xi:include href="../../prefigure/deriv-sin-graph.xml" />
+  </prefigure>
+</image>
+<image width="60%">
+    <prefigure xmlns="https://prefigure.org"
+             label="deriv-sin-graph-tangents">
+    <xi:include href="../../prefigure/deriv-sin-graph-tangents.xml" />
+  </prefigure>
+</image>
+<image width="60%">
+    <prefigure xmlns="https://prefigure.org"
+             label="deriv-sin-graph-blank">
+    <xi:include href="../../prefigure/deriv-sin-graph-blank.xml" />
+  </prefigure>
+</image>
+
+<p component="b" workspace="2in">
+    <nbsp />
+</p>
+<p component="a">
+    So, maybe this should be cosine? That's about what it looks like. Let's see if we can get there from the definition.
+</p>
+
+        </paragraphs>
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Find the derivative of <m>f(x) = \sin(x)</m> from the definition of the derivative.
+                </p>
+            </statement>
+        <solution component="a">
+            <p>
+                Involves the sin(x) limits from before.
+            </p>
+        </solution>
+        </example>
+        
+    </page>
+    <page>
+        
+        <p component="b" workspace="1in">
+            So, our conclusion is that
+        </p>
+        <p component="a">
+            So, our conclusion is that the derivative of <m>\sin(x)</m> is <m>\cos(x)</m>.
+        </p>
+
+        <p component="b" workspace="4in">
+            We can set up the same thing with cosine.
+        </p>
+        <p component="a">
+            We can set up the same thing with cosine. Don't show all of the work, but get to how the process works.
+        </p>
+    </page>
+    <page>
+        <example workspace="2in">
+            <introduction>
+                <p>
+                    Compute the derivative of each of the following functions.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>\displaystyle f(x) = x^4\sin(x)</m>
+                    </p>
+                </statement>
+        <solution component="a">
+            <p>
+                
+            </p>
+        </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\displaystyle g(x) = e^x \cos(x)</m>
+                    </p>
+                </statement>
+                <solution component="a">
+                    <p>
+                        
+                    </p>
+                </solution>
+            </task>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <p component="b" workspace="5in">
+            What about the other trigonometric functions? How do these relate to <m>\sin(x)</m> and <m>\cos(x)</m>?
+        </p>
+        <p component="a">
+            What about the other trigonometric functions? How do these relate to <m>sin(x)</m> and <m>\cos(x)</m>? They are all just quotients, so we can use the quotient rule. The resulting formulas are...
+        </p>
+    </page>
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Where does the function <m>f(x) = \frac{\cos(x)}{1+\tan(x)}</m> have horizontal tangent lines?
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Compute <m>f^{(37)}(x)</m> for <m>f(x) = \cos(x)</m>.
+                </p>
+            </statement>
+        <solution component="a">
+            <p>
+                
+            </p>
+        </solution>
+        </example>
+        
+    </page>
+
+    <page>
+        <paragraphs>
+            <title>Introduction to the Chain Rule</title>
+        <example workspace="2in">
+            <introduction>
+                <p>
+                    Assume that you are on (or analyzing, if that's not your thing) a roller coaster, and you have two functions:
+                    <ul>
+                        <li>
+                            <p>
+                                <m>x(t)</m>, which is the position of the car on the track <m>t</m> seconds after the ride begins, and
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>h(x)</m>, the height of the roller coaster at each position <m>x</m> on the track (measured from the starting position)
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        How would you determine your height <m>t</m> seconds after the start of the ride?
+                    </p>
+                </statement>
+        
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What does <m>h'(t)</m> measure?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        How else could you compute <m>h'(t)</m>?
+                    </p>
+                </statement>
+            </task>
+        
+        </example>
+
+        <p>
+            The important take-away here is that when we want to combine rates of change, they often multiply. This is particularly relevant for compositions of functions, which we will see with the <em>Chain Rule</em> starting tomorrow.
+        </p>
+        
+            
+        </paragraphs>
+    </page>
+</handout>
+
+
+</section>
