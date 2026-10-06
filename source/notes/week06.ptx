@@ -407,7 +407,7 @@
             <example workspace="3in">
                 <statement>
                     <p>
-                        Find the derivative of the function <m>\displaystyle f(x) = \frac{1}{(x + tan(x))^3}</m>.
+                        Find the derivative of the function <m>\displaystyle f(x) = \frac{1}{(x + \tan(x))^3}</m>.
                     </p>
                 </statement>
             
@@ -421,7 +421,7 @@
         <example workspace="2in">
             <introduction>
                 <p>
-                    Assume that a mass attached to a spring which is pulled down by <quantity><mag>3</mag><unit base="cm"/></quantity> and released has position given by the function <m>x(t) = 3\sin(2t)</m>. In this system, <m>x=0</m> is the rest position of the mass.
+                    Assume that a mass attached to a spring which is pulled down by <quantity><mag>3</mag><unit prefix="centi" base="meter"/></quantity> and released has position given by the function <m>x(t) = 3\sin(2t)</m>. In this system, <m>x=0</m> is the rest position of the mass.
                 </p>
             </introduction>
             <task>
