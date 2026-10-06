@@ -35,6 +35,7 @@
       <xi:include href="./activities/03-horiz-vert-asymptotes.ptx" />
       <xi:include href="./activities/04-continuity-IVT.ptx" />
       <xi:include href="./activities/05-def-of-deriv.ptx" />
+      <xi:include href="./activities/06-derivative-rules.ptx" />
 
       <!-- Add more xi:include files here to include them in the main course -->
     </chapter>

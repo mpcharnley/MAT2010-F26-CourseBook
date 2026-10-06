@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet component = "cur" xml:id = "wksht-derivative-rules" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Derivative Rules</title>
+
+    <introduction>
+        <p>
+            <ul>
+                <li><title>Dates</title>
+                    <p>Assigned Date: October 6, 2026</p>
+                    <p>Due Date: October 14, 2026</p>
+                </li>
+                <li><title>Objective</title>
+                    <p>
+                        In this assignment, you will compute the derivatives of various functions using all of the different derivative rules: basic formulas, Product Rule, Quotient Rule, and Chain Rule. These problems will all be mixed together, so you'll need to identify the appopriate rule to use in each situation. You may also need multiple of these rules for the same problem!
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </introduction>
+
+<page>
+
+<paragraphs>
+    <title>In-Class Work</title>
+    <p>
+        Find the derivative of each of the functions below. These should be completed for practice but will not need to be turned in. As you are practicing, spend a bit of extra time to notate which rule you are applying and the specific functions to which it applies. You won't necessarily need to show this in the future, but it is very good for practice.
+    </p>
+
+<exercise>
+    <statement>
+        <p>
+            <m>\displaystyle f_1(x) = \frac{x^4 + 3x - \cos(x)}{3e^x + 4x^2}</m>
+        </p>
+    </statement>
+</exercise>
+
+<exercise>
+    <statement>
+        <p>
+            <m>\displaystyle f_2(x) = \tan(3x)</m>
+        </p>
+    </statement>
+</exercise>
+
+<exercise>
+    <statement>
+        <p>
+            <m>\displaystyle f_3(x) = x^4e^x</m>
+        </p>
+    </statement>
+</exercise>
+
+<exercise>
+    <statement>
+        <p>
+            <m>\displaystyle f_4(x) = 2x^3 + 5x^2\cos(x)</m>
+        </p>
+    </statement>
+</exercise>
+
+<exercise>
+    <statement>
+        <p>
+            <m>\displaystyle f_5(x) = \frac{2x + 7x^2e^x}{x^4 + 2x^2 + 5}</m>
+        </p>
+    </statement>
+</exercise>
+
+<exercise>
+    <statement>
+        <p>
+            <m>\displaystyle f_6(x) = e^{4x}\sec(x)</m>
+        </p>
+    </statement>
+</exercise>
+
+<exercise>
+    <statement>
+        <p>
+            <m>\displaystyle f_7(x) = \sin\left(\frac{x}{x^2 + 1}\right)</m>
+        </p>
+    </statement>
+</exercise>
+
+<exercise>
+    <statement>
+        <p>
+            <m>\displaystyle f_8(x) = \tan^2\left(x^4 + 5x - 1\right)</m>
+        </p>
+    </statement>
+</exercise>
+
+<exercise>
+    <statement>
+        <p>
+            <m>\displaystyle f_9(t) = \sqrt{t}e^t \sin(t)</m>
+        </p>
+    </statement>
+</exercise>
+
+<exercise>
+    <statement>
+        <p>
+            <m>\displaystyle f_{10}(r) = 7^{\sqrt{r}}</m>
+        </p>
+    </statement>
+</exercise>
+
+<exercise>
+    <statement>
+        <p>
+            <m>\displaystyle f_{11}(s) = e^{-s^2}\sqrt{s^4 + s + 1}</m>
+        </p>
+    </statement>
+</exercise>
+
+</paragraphs>
+</page>
+<page>
+<paragraphs>
+    <title>Homework</title>
+    <p>
+        The following problems will need to be written up carefully and turned in to the assignment on Canvas by the due date at the top of the first page. Compute the derivative of each function below.
+    </p>
+
+<exercise workspace="2in">
+    <statement>
+        <p>
+            <m>\displaystyle g_1(x) = e^{7x} + \frac{x^2}{3x^4 - 1} + \csc(x)</m>
+        </p>
+    </statement>
+</exercise>
+
+
+<exercise workspace="2in">
+    <statement>
+        <p>
+            <m>\displaystyle g_2(x) = x^3\cos(5x)</m>
+        </p>
+    </statement>
+</exercise>
+
+
+<exercise workspace="2in">
+    <statement>
+        <p>
+            <m>\displaystyle g_3(x) = \left( \frac{x^3 - 1}{x^4 + 3e^x} \right)^7</m>
+        </p>
+    </statement>
+</exercise>
+
+
+
+
+</paragraphs>
+</page>
+</worksheet>

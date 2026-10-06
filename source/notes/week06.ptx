@@ -220,5 +220,415 @@
     </page>
 </handout>
 
+<handout component="cur">
+    <title>Tuesday 10/6</title>
+    <objectives>
+        <ul>
+            <li>
+                <p>
+                    Understand the formula for the Chain Rule.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Use the Chain Rule to differentiate composite functions.
+                </p>
+            </li>
+        </ul>
+    </objectives>
+    <page>
+        <paragraphs>
+            <title>Composite Functions</title>
+
+            <p component="b" workspace="3in">
+                Before we get into the actual Chain Rule, let's spend a minute reviewing composition of functions, since that's what the chain rule handles. What does it mean to compose two functions?
+            </p>
+            <p component="a">
+                Before we get into the actual Chain Rule, let's spend a minute reviewing composition of functions, since that's what the chain rule handles. What does it mean to compose two functions? Plugging one into the other, output of one is the input of the next. Nesting functions.
+            </p>
+
+            <example workspace="2in">
+                <statement>
+                    <p>
+                        If <m>f(x) = x^2 - 5x + 1</m> and <m>g(x) = 7x - 4</m>, what are <m>f\circ g</m> and <m>g \circ f</m>?
+                    </p>
+                </statement>
+            
+            </example>
+            
+
+        </paragraphs>
+    </page>
+  
+<page>
+    <p>
+        The important thing for us in this section will be to recognize a function as a composition of simpler functions. Ideally, simpler functions, each of which we directly know how to differentiate.
+    </p>
+
+    <example workspace="2in">
+        <introduction>
+            <p>
+                For each of the following functions, write them as a composition of (at least) two smaller functions.
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    <m>\displaystyle f(x) = (4x^2 + 3x + 7)^9</m>
+                </p>
+            </statement>
+
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>\displaystyle g(x) = 2\sin(5x)</m>
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>\displaystyle h(x) = \sin^2(x^3 - 1)</m>
+                </p>
+            </statement>
+        </task>
+    
+    </example>
+    
+</page>
+
+<page>
+    <paragraphs>
+        <title>The Chain Rule</title>
+
+        <p>
+            Alright, now back to calculus. How can we differentiate these composite functions? Like we discussed briefly last time, we expect the rates of change to multiply in some sense. What does that actually look like?
+        </p>
+
+        <theorem xml:id="thm-chain-rule">
+            <title>The Chain Rule</title>            
+            <statement>
+                <p component="b" workspace="2in">
+                   Let <m>g(x)</m> be a function so that <m>g(x) = f(u(x))</m>, or <m>g = f\circ u</m>. Then 
+                </p>
+                <p component="a">
+                    Let <m>g(x)</m> be a function so that <m>g(x) = f(u(x))</m>, or <m>g = f\circ u</m>. Then <md>
+                        g'(x) = f'(u(x))u'(x)
+                    </md>, or, in Leibniz notation, <md>
+                        \frac{dg}{dx} = \frac{df}{du} \frac{du}{dx}
+                    </md>.              
+                </p>
+            </statement>
+        </theorem>
+
+        <example workspace="3in">
+            <statement>
+                <p>
+                    Find the derivative of the function <m>f(x) = (4x^2 + 3x + 7)^9</m>.
+                </p>
+            </statement>
+        <solution component="a">
+            <p>
+                
+            </p>
+        </solution>
+        </example>
+        
+    </paragraphs>
+</page>
+
+<page>
+    <example workspace="2in">
+        <statement>
+            <p>
+                Find the derivative of the function <m>f(x) = 2\sin(5x)</m>.
+            </p>
+        </statement>
+    
+    </example>
+
+    <example workspace="3in">
+        <statement>
+            <p>
+                Find the derivative of the function <m>f(x) = 3\cos(x^2 + 2x + 1)</m>.
+            </p>
+        </statement>
+    
+    </example>
+    
+</page>
+
+<page>
+    <paragraphs>
+        <title>Special Instances of the Chain Rule</title>
+        <p component="b" workspace="4in">
+            Often, you'll see the chain rule notated in a short-hand way for specific types of functions.
+        </p>
+        <p component="a">
+            Often, you'll see the chain rule notated in a short-hand way for specific types of functions. For example, by the chain rule, we know how to compute <md>
+                \frac{d}{dx}\left(f(x)\right)^n
+            </md>. Shorthand to <m>u</m>.
+            
+        </p>
+        
+    </paragraphs>
+</page>
+
+</handout>
+
+<handout component="cur">
+    <title>Wednesday 10/7</title>
+    <objectives>
+        <ul>
+            <li>
+                <p>
+                    Review basic chain rule calculations.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Work through more advanced computations with the Chain Rule.
+                </p>
+            </li>
+        </ul>
+    </objectives>
+    <page>
+        <paragraphs>
+            <title>More on the Chain Rule</title>
+
+            <p component="b" workspace="3in">
+                Recall the formula for computing derivatives using the Chain Rule from last class:
+            </p>
+            <p component="a">
+                Recall the formula for computing derivatives using the Chain Rule from last class: 
+            </p>
+
+            <example workspace="3in">
+                <statement>
+                    <p>
+                        Find the derivative of the function <m>\displaystyle f(x) = \frac{1}{(x + tan(x))^3}</m>.
+                    </p>
+                </statement>
+            
+            </example>
+            
+
+        </paragraphs>
+    </page>
+
+    <page>
+        <example workspace="2in">
+            <introduction>
+                <p>
+                    Assume that a mass attached to a spring which is pulled down by <quantity><mag>3</mag><unit base="cm"/></quantity> and released has position given by the function <m>x(t) = 3\sin(2t)</m>. In this system, <m>x=0</m> is the rest position of the mass.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Compute the velocity and acceleration of this mass at any time <m>t</m>.
+                    </p>
+                </statement>
+        
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What is the maximum velocity of this mass, when does it occur, and where is the mass when this happens?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What is the maximum acceleration of this mass, when does it occur, and where is the mass when this happens?
+                    </p>
+                </statement>
+            </task>
+        
+        </example>
+        
+    </page>
+    <page>
+        <p>
+            The chain rule can also be repeated more than once in a given problem.
+        </p>
+        <example workspace="3in">
+            <introduction>
+                <p>
+                    Compute each of the following derivatives:
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>\displaystyle \frac{d}{dx}\left(\sin^2(x^3 - 1)\right)</m>
+                    </p>
+                </statement>
+        
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\displaystyle \frac{d}{dx}\left(e^{\cos(3x)}\right)</m>
+                    </p>
+                </statement>
+        
+            </task>
+        
+        
+        </example>
+        
+    </page>
+    <page>
+        <paragraphs>
+            <title>General Exponential Functions</title>
+            <p component="b" workspace="2in">
+                Using the chain rule, we can compute the derivative of general exponential functions of any base.
+            </p>
+            <p component="a">
+                Using the chain rule, we can compute the derivative of general exponential functions of any base. How can we rewrite <m>b^x</m> as an exponential with base <m>e</m>?
+            </p>
+        </paragraphs>
+    </page>
+
+    <page>
+        <example workspace="2in">
+            <introduction>
+                <p>
+                    Compute each of the following derivatives:
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>\displaystyle \frac{d}{dx}\left(4^x \right)</m>
+                    </p>
+                </statement>
+        
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\displaystyle \frac{d}{dx}\left(2^{x^3}\right)</m>
+                    </p>
+                </statement>
+        
+            </task>
+        
+        </example>
+        
+    </page>
+</handout>
+
+<handout component="cur">
+    <title>Friday 10/9</title>
+    <objectives>
+        <ul>
+            <li>
+                <p>
+                    Introduce the ideas behind Implicit Differentiation
+                </p>
+            </li>
+            <li>
+                <p>
+                    Quiz on 3.1-3.3.
+                </p>
+            </li>
+        </ul>
+    </objectives>
+    <page>
+        <paragraphs>
+            <title>Implicit Differentiation</title>
+
+            <p>
+                Implicit Differentiation is our first main application of the chain rule. It kind of says what it is in the name: finding the derivative of implicit functions. But what does that mean?
+            </p>
+
+            <definition xml:id="def-implicit">
+                <statement>
+                    
+                    <p component="b" workspace="2in">
+                        An equation is written in <term>explicit</term> form if
+                    </p>
+                    <p component="a">
+                        An equation is written in <term>explicit</term> form if it is written as <m>y = f(x)</m>. If it is not in this form, it can be made to look like <m>f(x,y) = 0</m> or <m>F(x,y) = C</m> for some constant <m>C</m>, and is said to define <m>y</m> <term>implicitly</term> as a function of <m>x</m>.
+                    </p>
+                </statement>
+            </definition>
+
+<p>
+    Why might this be useful? Consider the graph of the equation <md> (x^2 + y^2 - 3x)^2 - (1.5)^2(x^2 + y^2) </md> given below
+</p>
+
+<image width="60%">
+  <prefigure xmlns="https://prefigure.org"
+             label="deriv-implicit-limacon-full-one">
+    <xi:include href="../../prefigure/deriv-implicit-limacon-one.xml" />
+  </prefigure>
+</image>
+        </paragraphs>
+    </page>
+
+    <page>
+        <p>
+            <md> (x^2 + y^2 - 3x)^2 - (1.5)^2(x^2 + y^2) </md>
+        </p>
+        <sidebyside>
+            <image width="60%">
+  <prefigure xmlns="https://prefigure.org"
+             label="deriv-implicit-limacon-full-two">
+    <xi:include href="../../prefigure/deriv-implicit-limacon-one.xml" />
+  </prefigure>
+</image>
+<image width="60%">
+  <prefigure xmlns="https://prefigure.org"
+             label="deriv-implicit-limacon-pieces-one">
+    <xi:include href="../../prefigure/deriv-implicit-limacon-two.xml" />
+  </prefigure>
+</image>
+        </sidebyside>
+    </page>
+
+    <page>
+        <p>
+            Let's look at an easier example to motivate this process.
+        </p>
+    <example workspace="4in">
+        <statement>
+            <p>
+                How would you find the equation of the tangent line to the circle <m>x^2 + y^2 = 25</m> at the point <m>(3,4)</m>?
+            </p>
+            <image width="60%">
+  <prefigure xmlns="https://prefigure.org"
+             label="deriv-implicit-circle-one">
+    <xi:include href="../../prefigure/deriv-implicit-circle-one.xml" />
+  </prefigure>
+</image>
+        </statement>
+        <solution component="a">
+            <p>
+                Use that it's perpendicular to the radius. Or, solve the equation for <m>y</m> and differentiate.
+            </p>
+        </solution>
+    
+    </example>
+    
+    </page>
+
+    <page>
+        <p>
+            What if we didn't want to do it that way? Or, what if we couldn't solve out for <m>y</m>? What else could we do?
+        </p>
+        <p component="b" workspace="4in">
+            <nbsp />
+        </p>
+        <p component="a">
+            Just differentiate the equation as a whole. Apply the chain rule on any <m>y</m> terms, then solve for <m>\frac{dy}{dx}</m>. This is the idea of implicit differentiation.
+        </p>
+    </page>
+</handout>
+
 
 </section>
