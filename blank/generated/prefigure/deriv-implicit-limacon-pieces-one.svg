@@ -1,0 +1,206 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="deriv-implicit-limacon-pieces-one-figure" width="310" height="310" viewBox="0 0 310 310">
+  <defs>
+    <clipPath id="deriv-implicit-limacon-pieces-one-__clipPath-0">
+      <rect x="5.0" y="5.0" width="300.0" height="300.0"/>
+    </clipPath>
+    <clipPath id="deriv-implicit-limacon-pieces-one-__clipPath-1">
+      <rect x="5.0" y="5.0" width="300.0" height="300.0"/>
+    </clipPath>
+  </defs>
+  <g id="deriv-implicit-limacon-pieces-one-grid-axes">
+    <g id="deriv-implicit-limacon-pieces-one-grid" stroke="#ccc" stroke-width="1">
+      <line x1="5.0" y1="305.0" x2="5.0" y2="5.0"/>
+      <line x1="38.3" y1="305.0" x2="38.3" y2="5.0"/>
+      <line x1="71.7" y1="305.0" x2="71.7" y2="5.0"/>
+      <line x1="105.0" y1="305.0" x2="105.0" y2="5.0"/>
+      <line x1="138.3" y1="305.0" x2="138.3" y2="5.0"/>
+      <line x1="171.7" y1="305.0" x2="171.7" y2="5.0"/>
+      <line x1="205.0" y1="305.0" x2="205.0" y2="5.0"/>
+      <line x1="238.3" y1="305.0" x2="238.3" y2="5.0"/>
+      <line x1="271.7" y1="305.0" x2="271.7" y2="5.0"/>
+      <line x1="305.0" y1="305.0" x2="305.0" y2="5.0"/>
+      <line x1="5.0" y1="305.0" x2="305.0" y2="305.0"/>
+      <line x1="5.0" y1="280.0" x2="305.0" y2="280.0"/>
+      <line x1="5.0" y1="255.0" x2="305.0" y2="255.0"/>
+      <line x1="5.0" y1="230.0" x2="305.0" y2="230.0"/>
+      <line x1="5.0" y1="205.0" x2="305.0" y2="205.0"/>
+      <line x1="5.0" y1="180.0" x2="305.0" y2="180.0"/>
+      <line x1="5.0" y1="155.0" x2="305.0" y2="155.0"/>
+      <line x1="5.0" y1="130.0" x2="305.0" y2="130.0"/>
+      <line x1="5.0" y1="105.0" x2="305.0" y2="105.0"/>
+      <line x1="5.0" y1="80.0" x2="305.0" y2="80.0"/>
+      <line x1="5.0" y1="55.0" x2="305.0" y2="55.0"/>
+      <line x1="5.0" y1="30.0" x2="305.0" y2="30.0"/>
+      <line x1="5.0" y1="5.0" x2="305.0" y2="5.0"/>
+    </g>
+    <g id="deriv-implicit-limacon-pieces-one-axes" stroke="black" stroke-width="2">
+      <line id="deriv-implicit-limacon-pieces-one-__line-23" x1="5.0" y1="155.0" x2="305.0" y2="155.0" stroke="black" stroke-width="2"/>
+      <g>
+        <line id="deriv-implicit-limacon-pieces-one-__line-24" x1="38.3" y1="158.0" x2="38.3" y2="152.0"/>
+        <line id="deriv-implicit-limacon-pieces-one-__line-25" x1="171.7" y1="158.0" x2="171.7" y2="152.0"/>
+        <line id="deriv-implicit-limacon-pieces-one-__line-26" x1="238.3" y1="158.0" x2="238.3" y2="152.0"/>
+      </g>
+      <line id="deriv-implicit-limacon-pieces-one-__line-27" x1="105.0" y1="305.0" x2="105.0" y2="5.0" stroke="black" stroke-width="2"/>
+      <g>
+        <line id="deriv-implicit-limacon-pieces-one-__line-28" x1="102.0" y1="255.0" x2="108.0" y2="255.0"/>
+        <line id="deriv-implicit-limacon-pieces-one-__line-29" x1="102.0" y1="205.0" x2="108.0" y2="205.0"/>
+        <line id="deriv-implicit-limacon-pieces-one-__line-30" x1="102.0" y1="105.0" x2="108.0" y2="105.0"/>
+        <line id="deriv-implicit-limacon-pieces-one-__line-31" x1="102.0" y1="55.0" x2="108.0" y2="55.0"/>
+      </g>
+    </g>
+    <g id="deriv-implicit-limacon-pieces-one-__label-0" transform="translate(301.0,151.0) translate(-10.4,-8.2)">
+      <g id="deriv-implicit-limacon-pieces-one-__g-0">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.200px" width="10.352px" height="8.200px" role="img" focusable="false" viewBox="0 -442 572 453" x="0.0" y="0.0">
+          <defs>
+            <path id="deriv-implicit-limacon-pieces-one-MJX-2-TEX-I-1D465" d="M52 289Q59 331 106 386T222 442Q257 442 286 424T329 379Q371 442 430 442Q467 442 494 420T522 361Q522 332 508 314T481 292T458 288Q439 288 427 299T415 328Q415 374 465 391Q454 404 425 404Q412 404 406 402Q368 386 350 336Q290 115 290 78Q290 50 306 38T341 26Q378 26 414 59T463 140Q466 150 469 151T485 153H489Q504 153 504 145Q504 144 502 134Q486 77 440 33T333 -11Q263 -11 227 52Q186 -10 133 -10H127Q78 -10 57 16T35 71Q35 103 54 123T99 143Q142 143 142 101Q142 81 130 66T107 46T94 41L91 40Q91 39 97 36T113 29T132 26Q168 26 194 71Q203 87 217 139T245 247T261 313Q266 340 266 352Q266 380 251 392T217 404Q177 404 142 372T93 290Q91 281 88 280T72 278H58Q52 284 52 289Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="0" data-semantic-speech="">
+                <use data-c="1D465" xlink:href="#deriv-implicit-limacon-pieces-one-MJX-2-TEX-I-1D465"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="deriv-implicit-limacon-pieces-one-__label-1" transform="translate(109.0,9.0) translate(0.0,-0.0)">
+      <g id="deriv-implicit-limacon-pieces-one-__g-1">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -3.712px" width="8.872px" height="11.712px" role="img" focusable="false" viewBox="0 -442 490 647" x="0.0" y="0.0">
+          <defs>
+            <path id="deriv-implicit-limacon-pieces-one-MJX-3-TEX-I-1D466" d="M21 287Q21 301 36 335T84 406T158 442Q199 442 224 419T250 355Q248 336 247 334Q247 331 231 288T198 191T182 105Q182 62 196 45T238 27Q261 27 281 38T312 61T339 94Q339 95 344 114T358 173T377 247Q415 397 419 404Q432 431 462 431Q475 431 483 424T494 412T496 403Q496 390 447 193T391 -23Q363 -106 294 -155T156 -205Q111 -205 77 -183T43 -117Q43 -95 50 -80T69 -58T89 -48T106 -45Q150 -45 150 -87Q150 -107 138 -122T115 -142T102 -147L99 -148Q101 -153 118 -160T152 -167H160Q177 -167 186 -165Q219 -156 247 -127T290 -65T313 -9T321 21L315 17Q309 13 296 6T270 -6Q250 -11 231 -11Q185 -11 150 11T104 82Q103 89 103 113Q103 170 138 262T173 379Q173 380 173 381Q173 390 173 393T169 400T158 404H154Q131 404 112 385T82 344T65 302T57 280Q55 278 41 278H27Q21 284 21 287Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-id="0" data-semantic-speech="">
+                <use data-c="1D466" xlink:href="#deriv-implicit-limacon-pieces-one-MJX-3-TEX-I-1D466"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="deriv-implicit-limacon-pieces-one-__label-2" transform="translate(38.3,166.0) translate(-7.5,-0.0)">
+      <g id="deriv-implicit-limacon-pieces-one-__g-2">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="15.080px" height="12.056px" role="img" focusable="false" viewBox="0 -666 833 666" x="0.0" y="0.0">
+          <defs>
+            <path id="deriv-implicit-limacon-pieces-one-MJX-4-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+            <path id="deriv-implicit-limacon-pieces-one-MJX-4-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
+                <use data-c="2D" xlink:href="#deriv-implicit-limacon-pieces-one-MJX-4-TEX-N-2D"/>
+                <use data-c="32" xlink:href="#deriv-implicit-limacon-pieces-one-MJX-4-TEX-N-32" transform="translate(333,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="deriv-implicit-limacon-pieces-one-__label-3" transform="translate(171.7,166.0) translate(-4.5,-0.0)">
+      <g id="deriv-implicit-limacon-pieces-one-__g-3">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+          <defs>
+            <path id="deriv-implicit-limacon-pieces-one-MJX-5-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
+                <use data-c="32" xlink:href="#deriv-implicit-limacon-pieces-one-MJX-5-TEX-N-32"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="deriv-implicit-limacon-pieces-one-__label-4" transform="translate(238.3,166.0) translate(-4.5,-0.0)">
+      <g id="deriv-implicit-limacon-pieces-one-__g-4">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.256px" role="img" focusable="false" viewBox="0 -677 500 677" x="0.0" y="0.0">
+          <defs>
+            <path id="deriv-implicit-limacon-pieces-one-MJX-6-TEX-N-34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
+                <use data-c="34" xlink:href="#deriv-implicit-limacon-pieces-one-MJX-6-TEX-N-34"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="deriv-implicit-limacon-pieces-one-__label-5" transform="translate(94.0,255.0) translate(-15.1,-6.1)">
+      <g id="deriv-implicit-limacon-pieces-one-__g-5">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="15.080px" height="12.256px" role="img" focusable="false" viewBox="0 -677 833 677" x="0.0" y="0.0">
+          <defs>
+            <path id="deriv-implicit-limacon-pieces-one-MJX-7-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+            <path id="deriv-implicit-limacon-pieces-one-MJX-7-TEX-N-34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
+                <use data-c="2D" xlink:href="#deriv-implicit-limacon-pieces-one-MJX-7-TEX-N-2D"/>
+                <use data-c="34" xlink:href="#deriv-implicit-limacon-pieces-one-MJX-7-TEX-N-34" transform="translate(333,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="deriv-implicit-limacon-pieces-one-__label-6" transform="translate(94.0,205.0) translate(-15.1,-6.0)">
+      <g id="deriv-implicit-limacon-pieces-one-__g-6">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="15.080px" height="12.056px" role="img" focusable="false" viewBox="0 -666 833 666" x="0.0" y="0.0">
+          <defs>
+            <path id="deriv-implicit-limacon-pieces-one-MJX-8-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+            <path id="deriv-implicit-limacon-pieces-one-MJX-8-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
+                <use data-c="2D" xlink:href="#deriv-implicit-limacon-pieces-one-MJX-8-TEX-N-2D"/>
+                <use data-c="32" xlink:href="#deriv-implicit-limacon-pieces-one-MJX-8-TEX-N-32" transform="translate(333,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="deriv-implicit-limacon-pieces-one-__label-7" transform="translate(94.0,105.0) translate(-9.0,-6.0)">
+      <g id="deriv-implicit-limacon-pieces-one-__g-7">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+          <defs>
+            <path id="deriv-implicit-limacon-pieces-one-MJX-9-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
+                <use data-c="32" xlink:href="#deriv-implicit-limacon-pieces-one-MJX-9-TEX-N-32"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="deriv-implicit-limacon-pieces-one-__label-8" transform="translate(94.0,55.0) translate(-9.0,-6.1)">
+      <g id="deriv-implicit-limacon-pieces-one-__g-8">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.256px" role="img" focusable="false" viewBox="0 -677 500 677" x="0.0" y="0.0">
+          <defs>
+            <path id="deriv-implicit-limacon-pieces-one-MJX-10-TEX-N-34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-id="0" data-semantic-speech="">
+                <use data-c="34" xlink:href="#deriv-implicit-limacon-pieces-one-MJX-10-TEX-N-34"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+  </g>
+  <path id="deriv-implicit-limacon-pieces-one-__path-0" d="M 255.0 155.0 L 255.0 152.9 L 254.8 150.9 L 254.6 148.9 L 254.3 146.8 L 254.0 144.8 L 253.5 142.8 L 253.0 140.8 L 252.4 138.8 L 251.7 136.8 L 250.9 134.8 L 250.0 132.9 L 249.1 131.0 L 248.1 129.1 L 247.0 127.2 L 245.8 125.4 L 244.6 123.6 L 243.3 121.8 L 241.9 120.0 L 240.5 118.3 L 239.0 116.6 L 237.4 115.0 L 235.8 113.4 L 234.1 111.8 L 232.3 110.3 L 230.5 108.9 L 228.7 107.4 L 226.7 106.0 L 224.8 104.7 L 222.7 103.4 L 220.7 102.2 L 218.5 101.0 L 216.4 99.9 L 214.2 98.8 L 212.0 97.8 L 209.7 96.8 L 207.4 95.9 L 205.0 95.0 L 202.7 94.2 L 200.3 93.4 L 197.9 92.8 L 195.5 92.1 L 193.0 91.5 L 190.6 91.0 L 188.1 90.6 L 185.6 90.2 L 183.1 89.8 L 180.6 89.5 L 178.1 89.3 L 175.6 89.2 L 173.2 89.0 L 170.7 89.0 L 168.2 89.0 L 165.7 89.1 L 163.3 89.2 L 160.9 89.4 L 158.4 89.6 L 156.1 89.9 L 153.7 90.2 L 151.3 90.6 L 149.0 91.1 L 146.8 91.6 L 144.5 92.2 L 142.3 92.8 L 140.1 93.4 L 138.0 94.1 L 135.9 94.9 L 133.8 95.6 L 131.8 96.5 L 129.9 97.4 L 128.0 98.3 L 126.1 99.2 L 124.3 100.2 L 122.5 101.3 L 120.8 102.3 L 119.2 103.4 L 117.6 104.6 L 116.1 105.7 L 114.6 106.9 L 113.2 108.1 L 111.9 109.4 L 110.6 110.6 L 109.4 111.9 L 108.2 113.2 L 107.1 114.6 L 106.1 115.9 L 105.2 117.3 L 104.3 118.6 L 103.4 120.0 L 102.7 121.4 L 102.0 122.8 L 101.4 124.2 L 100.8 125.6 L 100.3 127.0 L 99.9 128.4 L 99.6 129.9 L 99.3 131.3 L 99.0 132.7 L 98.9 134.1 L 98.8 135.4 L 98.8 136.8" stroke="blue" stroke-width="3" fill="none" clip-path="url(#deriv-implicit-limacon-pieces-one-__clipPath-1)"/>
+  <path id="deriv-implicit-limacon-pieces-one-__path-1" d="M 98.8 136.8 L 98.8 137.8 L 98.8 138.8 L 98.9 139.7 L 99.0 140.7 L 99.1 141.7 L 99.3 142.6 L 99.5 143.5 L 99.8 144.5 L 100.0 145.4 L 100.3 146.3 L 100.6 147.2 L 101.0 148.1 L 101.3 148.9 L 101.7 149.8 L 102.2 150.6 L 102.6 151.4 L 103.1 152.2 L 103.6 153.0 L 104.1 153.8 L 104.7 154.6 L 105.2 155.3 L 105.8 156.0 L 106.4 156.7 L 107.1 157.4 L 107.7 158.1 L 108.4 158.8 L 109.1 159.4 L 109.8 160.0 L 110.5 160.6 L 111.2 161.2 L 112.0 161.7 L 112.8 162.3 L 113.5 162.8 L 114.3 163.3 L 115.1 163.8 L 115.9 164.2 L 116.8 164.7 L 117.6 165.1 L 118.4 165.5 L 119.3 165.8 L 120.1 166.2 L 121.0 166.5 L 121.8 166.8 L 122.7 167.1 L 123.6 167.4 L 124.5 167.6 L 125.3 167.8 L 126.2 168.0 L 127.1 168.2 L 128.0 168.3 L 128.8 168.5 L 129.7 168.6 L 130.6 168.7 L 131.4 168.8 L 132.3 168.8 L 133.1 168.8 L 134.0 168.8 L 134.8 168.8 L 135.6 168.8 L 136.5 168.7 L 137.3 168.7 L 138.1 168.6 L 138.9 168.5 L 139.6 168.3 L 140.4 168.2 L 141.2 168.0 L 141.9 167.9 L 142.6 167.7 L 143.3 167.4 L 144.0 167.2 L 144.7 167.0 L 145.3 166.7 L 146.0 166.4 L 146.6 166.1 L 147.2 165.8 L 147.8 165.5 L 148.4 165.2 L 148.9 164.8 L 149.4 164.5 L 149.9 164.1 L 150.4 163.7 L 150.9 163.3 L 151.3 162.9 L 151.7 162.5 L 152.1 162.1 L 152.5 161.6 L 152.8 161.2 L 153.1 160.8 L 153.4 160.3 L 153.7 159.8 L 153.9 159.4 L 154.2 158.9 L 154.4 158.4 L 154.5 157.9 L 154.7 157.5 L 154.8 157.0 L 154.9 156.5 L 154.9 156.0 L 155.0 155.5 L 155.0 155.0" stroke="red" stroke-width="3" fill="none" clip-path="url(#deriv-implicit-limacon-pieces-one-__clipPath-1)"/>
+  <path id="deriv-implicit-limacon-pieces-one-__path-2" d="M 155.0 155.0 L 155.0 154.5 L 154.9 154.0 L 154.9 153.5 L 154.8 153.0 L 154.7 152.5 L 154.5 152.1 L 154.4 151.6 L 154.2 151.1 L 153.9 150.6 L 153.7 150.2 L 153.4 149.7 L 153.1 149.2 L 152.8 148.8 L 152.5 148.4 L 152.1 147.9 L 151.7 147.5 L 151.3 147.1 L 150.9 146.7 L 150.4 146.3 L 149.9 145.9 L 149.4 145.5 L 148.9 145.2 L 148.4 144.8 L 147.8 144.5 L 147.2 144.2 L 146.6 143.9 L 146.0 143.6 L 145.3 143.3 L 144.7 143.0 L 144.0 142.8 L 143.3 142.6 L 142.6 142.3 L 141.9 142.1 L 141.2 142.0 L 140.4 141.8 L 139.6 141.7 L 138.9 141.5 L 138.1 141.4 L 137.3 141.3 L 136.5 141.3 L 135.6 141.2 L 134.8 141.2 L 134.0 141.2 L 133.1 141.2 L 132.3 141.2 L 131.4 141.2 L 130.6 141.3 L 129.7 141.4 L 128.8 141.5 L 128.0 141.7 L 127.1 141.8 L 126.2 142.0 L 125.3 142.2 L 124.5 142.4 L 123.6 142.6 L 122.7 142.9 L 121.8 143.2 L 121.0 143.5 L 120.1 143.8 L 119.3 144.2 L 118.4 144.5 L 117.6 144.9 L 116.8 145.3 L 115.9 145.8 L 115.1 146.2 L 114.3 146.7 L 113.5 147.2 L 112.8 147.7 L 112.0 148.3 L 111.2 148.8 L 110.5 149.4 L 109.8 150.0 L 109.1 150.6 L 108.4 151.2 L 107.7 151.9 L 107.1 152.6 L 106.4 153.3 L 105.8 154.0 L 105.2 154.7 L 104.7 155.4 L 104.1 156.2 L 103.6 157.0 L 103.1 157.8 L 102.6 158.6 L 102.2 159.4 L 101.7 160.2 L 101.3 161.1 L 101.0 161.9 L 100.6 162.8 L 100.3 163.7 L 100.0 164.6 L 99.8 165.5 L 99.5 166.5 L 99.3 167.4 L 99.1 168.3 L 99.0 169.3 L 98.9 170.3 L 98.8 171.2 L 98.8 172.2 L 98.8 173.2" stroke="black" stroke-width="3" fill="none" clip-path="url(#deriv-implicit-limacon-pieces-one-__clipPath-1)"/>
+  <path id="deriv-implicit-limacon-pieces-one-__path-3" d="M 98.8 173.2 L 98.8 174.6 L 98.9 175.9 L 99.0 177.3 L 99.3 178.7 L 99.6 180.1 L 99.9 181.6 L 100.3 183.0 L 100.8 184.4 L 101.4 185.8 L 102.0 187.2 L 102.7 188.6 L 103.4 190.0 L 104.3 191.4 L 105.2 192.7 L 106.1 194.1 L 107.1 195.4 L 108.2 196.8 L 109.4 198.1 L 110.6 199.4 L 111.9 200.6 L 113.2 201.9 L 114.6 203.1 L 116.1 204.3 L 117.6 205.4 L 119.2 206.6 L 120.8 207.7 L 122.5 208.7 L 124.3 209.8 L 126.1 210.8 L 128.0 211.7 L 129.9 212.6 L 131.8 213.5 L 133.8 214.4 L 135.9 215.1 L 138.0 215.9 L 140.1 216.6 L 142.3 217.2 L 144.5 217.8 L 146.8 218.4 L 149.0 218.9 L 151.3 219.4 L 153.7 219.8 L 156.1 220.1 L 158.4 220.4 L 160.9 220.6 L 163.3 220.8 L 165.7 220.9 L 168.2 221.0 L 170.7 221.0 L 173.2 221.0 L 175.6 220.8 L 178.1 220.7 L 180.6 220.5 L 183.1 220.2 L 185.6 219.8 L 188.1 219.4 L 190.6 219.0 L 193.0 218.5 L 195.5 217.9 L 197.9 217.2 L 200.3 216.6 L 202.7 215.8 L 205.0 215.0 L 207.4 214.1 L 209.7 213.2 L 212.0 212.2 L 214.2 211.2 L 216.4 210.1 L 218.5 209.0 L 220.7 207.8 L 222.7 206.6 L 224.8 205.3 L 226.7 204.0 L 228.7 202.6 L 230.5 201.1 L 232.3 199.7 L 234.1 198.2 L 235.8 196.6 L 237.4 195.0 L 239.0 193.4 L 240.5 191.7 L 241.9 190.0 L 243.3 188.2 L 244.6 186.4 L 245.8 184.6 L 247.0 182.8 L 248.1 180.9 L 249.1 179.0 L 250.0 177.1 L 250.9 175.2 L 251.7 173.2 L 252.4 171.2 L 253.0 169.2 L 253.5 167.2 L 254.0 165.2 L 254.3 163.2 L 254.6 161.1 L 254.8 159.1 L 255.0 157.1 L 255.0 155.0" stroke="orange" stroke-width="3" fill="none" clip-path="url(#deriv-implicit-limacon-pieces-one-__clipPath-1)"/>
+</svg>

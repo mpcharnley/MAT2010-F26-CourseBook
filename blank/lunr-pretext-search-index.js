@@ -1177,7 +1177,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Week 6",
-  "body": " Week 6   This is an outline of the topics we covered in week 6 of the course, from October 5 to October 9.    Monday 10\/5     Compute the derivatives of trigonometric functions    Introduce the Chain Rule       Trigonometric Derivatives  The next class of functions that we want to find derivatives for are the trigonometric functions. What should the derivative of look like?     f(x) = sin(x)  a = pi\/2            f(x) = sin(x)  a = pi\/2      a = k*pi\/2           f(x) = sin(x)  a = pi\/2                Find the derivative of from the definition of the derivative.      So, our conclusion is that  We can set up the same thing with cosine.      Compute the derivative of each of the following functions.                    What about the other trigonometric functions? How do these relate to and ?      Where does the function have horizontal tangent lines?        Compute for .       Introduction to the Chain Rule    Assume that you are on (or analyzing, if that's not your thing) a roller coaster, and you have two functions:    , which is the position of the car on the track seconds after the ride begins, and     , the height of the roller coaster at each position on the track (measured from the starting position)        How would you determine your height seconds after the start of the ride?      What does measure?      How else could you compute ?     The important take-away here is that when we want to combine rates of change, they often multiply. This is particularly relevant for compositions of functions, which we will see with the Chain Rule starting tomorrow.     "
+  "body": " Week 6   This is an outline of the topics we covered in week 6 of the course, from October 5 to October 9.    Monday 10\/5     Compute the derivatives of trigonometric functions    Introduce the Chain Rule       Trigonometric Derivatives  The next class of functions that we want to find derivatives for are the trigonometric functions. What should the derivative of look like?     f(x) = sin(x)  a = pi\/2            f(x) = sin(x)  a = pi\/2      a = k*pi\/2           f(x) = sin(x)  a = pi\/2                Find the derivative of from the definition of the derivative.      So, our conclusion is that  We can set up the same thing with cosine.      Compute the derivative of each of the following functions.                    What about the other trigonometric functions? How do these relate to and ?      Where does the function have horizontal tangent lines?        Compute for .       Introduction to the Chain Rule    Assume that you are on (or analyzing, if that's not your thing) a roller coaster, and you have two functions:    , which is the position of the car on the track seconds after the ride begins, and     , the height of the roller coaster at each position on the track (measured from the starting position)        How would you determine your height seconds after the start of the ride?      What does measure?      How else could you compute ?     The important take-away here is that when we want to combine rates of change, they often multiply. This is particularly relevant for compositions of functions, which we will see with the Chain Rule starting tomorrow.      Tuesday 10\/6     Understand the formula for the Chain Rule.    Use the Chain Rule to differentiate composite functions.       Composite Functions  Before we get into the actual Chain Rule, let's spend a minute reviewing composition of functions, since that's what the chain rule handles. What does it mean to compose two functions?    If and , what are and ?       The important thing for us in this section will be to recognize a function as a composition of simpler functions. Ideally, simpler functions, each of which we directly know how to differentiate.    For each of the following functions, write them as a composition of (at least) two smaller functions.                            The Chain Rule  Alright, now back to calculus. How can we differentiate these composite functions? Like we discussed briefly last time, we expect the rates of change to multiply in some sense. What does that actually look like?   The Chain Rule   Let be a function so that , or . Then      Find the derivative of the function .         Find the derivative of the function .      Find the derivative of the function .       Special Instances of the Chain Rule  Often, you'll see the chain rule notated in a short-hand way for specific types of functions.      Wednesday 10\/7     Review basic chain rule calculations.    Work through more advanced computations with the Chain Rule.       More on the Chain Rule  Recall the formula for computing derivatives using the Chain Rule from last class:    Find the derivative of the function .         Assume that a mass attached to a spring which is pulled down by 3 and released has position given by the function . In this system, is the rest position of the mass.     Compute the velocity and acceleration of this mass at any time .      What is the maximum velocity of this mass, when does it occur, and where is the mass when this happens?      What is the maximum acceleration of this mass, when does it occur, and where is the mass when this happens?       The chain rule can also be repeated more than once in a given problem.    Compute each of the following derivatives:                     General Exponential Functions  Using the chain rule, we can compute the derivative of general exponential functions of any base.       Compute each of the following derivatives:                     Friday 10\/9     Introduce the ideas behind Implicit Differentiation    Quiz on 3.1-3.3.       Implicit Differentiation  Implicit Differentiation is our first main application of the chain rule. It kind of says what it is in the name: finding the derivative of implicit functions. But what does that mean?    An equation is written in explicit form if    Why might this be useful? Consider the graph of the equation given below     a = 1.5  b =3  x(t) = (a + b*cos(t))*cos(t)  y(t) = (a + b*cos(t))*sin(t)  f(x,y) = (x^2 + y^2 - b*x)^2 - a^2*(x^2 + y^2)                   a = 1.5  b =3  x(t) = (a + b*cos(t))*cos(t)  y(t) = (a + b*cos(t))*sin(t)  f(x,y) = (x^2 + y^2 - b*x)^2 - a^2*(x^2 + y^2)            a = 1.5  b =3  t1 = 1.823  t2 = 2*pi - t1  x(t) = (a + b*cos(t))*cos(t)  y(t) = (a + b*cos(t))*sin(t)  p(t) = (x(t), y(t))  f(x,y) = (x^2 + y^2 - b*x)^2 - a^2*(x^2 + y^2)               Let's look at an easier example to motivate this process.    How would you find the equation of the tangent line to the circle at the point ?     a = 3  b =4  L(x) = -a\/b*(x-a) + b  f(x,y) = x^2 + y^2       (${a}, ${b})           What if we didn't want to do it that way? Or, what if we couldn't solve out for ? What else could we do?       "
 },
 {
   "id": "notes-week-06-3-2",
@@ -1232,6 +1232,141 @@ var ptx_lunr_docs = [
   "number": "109",
   "title": "",
   "body": "  Assume that you are on (or analyzing, if that's not your thing) a roller coaster, and you have two functions:    , which is the position of the car on the track seconds after the ride begins, and     , the height of the roller coaster at each position on the track (measured from the starting position)        How would you determine your height seconds after the start of the ride?      What does measure?      How else could you compute ?    "
+},
+{
+  "id": "notes-week-06-4-2",
+  "level": "2",
+  "url": "notes-week-06.html#notes-week-06-4-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "   Understand the formula for the Chain Rule.    Use the Chain Rule to differentiate composite functions.    "
+},
+{
+  "id": "notes-week-06-4-3-1-3",
+  "level": "2",
+  "url": "notes-week-06.html#notes-week-06-4-3-1-3",
+  "type": "Example",
+  "number": "110",
+  "title": "",
+  "body": "  If and , what are and ?   "
+},
+{
+  "id": "notes-week-06-4-4-2",
+  "level": "2",
+  "url": "notes-week-06.html#notes-week-06-4-4-2",
+  "type": "Example",
+  "number": "111",
+  "title": "",
+  "body": "  For each of the following functions, write them as a composition of (at least) two smaller functions.                        "
+},
+{
+  "id": "thm-chain-rule",
+  "level": "2",
+  "url": "notes-week-06.html#thm-chain-rule",
+  "type": "Theorem",
+  "number": "112",
+  "title": "The Chain Rule.",
+  "body": " The Chain Rule   Let be a function so that , or . Then   "
+},
+{
+  "id": "notes-week-06-4-5-1-4",
+  "level": "2",
+  "url": "notes-week-06.html#notes-week-06-4-5-1-4",
+  "type": "Example",
+  "number": "113",
+  "title": "",
+  "body": "  Find the derivative of the function .   "
+},
+{
+  "id": "notes-week-06-4-6-1",
+  "level": "2",
+  "url": "notes-week-06.html#notes-week-06-4-6-1",
+  "type": "Example",
+  "number": "114",
+  "title": "",
+  "body": "  Find the derivative of the function .   "
+},
+{
+  "id": "notes-week-06-4-6-2",
+  "level": "2",
+  "url": "notes-week-06.html#notes-week-06-4-6-2",
+  "type": "Example",
+  "number": "115",
+  "title": "",
+  "body": "  Find the derivative of the function .   "
+},
+{
+  "id": "notes-week-06-5-2",
+  "level": "2",
+  "url": "notes-week-06.html#notes-week-06-5-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "   Review basic chain rule calculations.    Work through more advanced computations with the Chain Rule.    "
+},
+{
+  "id": "notes-week-06-5-3-1-3",
+  "level": "2",
+  "url": "notes-week-06.html#notes-week-06-5-3-1-3",
+  "type": "Example",
+  "number": "116",
+  "title": "",
+  "body": "  Find the derivative of the function .   "
+},
+{
+  "id": "notes-week-06-5-4-1",
+  "level": "2",
+  "url": "notes-week-06.html#notes-week-06-5-4-1",
+  "type": "Example",
+  "number": "117",
+  "title": "",
+  "body": "  Assume that a mass attached to a spring which is pulled down by 3 and released has position given by the function . In this system, is the rest position of the mass.     Compute the velocity and acceleration of this mass at any time .      What is the maximum velocity of this mass, when does it occur, and where is the mass when this happens?      What is the maximum acceleration of this mass, when does it occur, and where is the mass when this happens?    "
+},
+{
+  "id": "notes-week-06-5-5-2",
+  "level": "2",
+  "url": "notes-week-06.html#notes-week-06-5-5-2",
+  "type": "Example",
+  "number": "118",
+  "title": "",
+  "body": "  Compute each of the following derivatives:                 "
+},
+{
+  "id": "notes-week-06-5-7-1",
+  "level": "2",
+  "url": "notes-week-06.html#notes-week-06-5-7-1",
+  "type": "Example",
+  "number": "119",
+  "title": "",
+  "body": "  Compute each of the following derivatives:                 "
+},
+{
+  "id": "notes-week-06-6-2",
+  "level": "2",
+  "url": "notes-week-06.html#notes-week-06-6-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "   Introduce the ideas behind Implicit Differentiation    Quiz on 3.1-3.3.    "
+},
+{
+  "id": "def-implicit",
+  "level": "2",
+  "url": "notes-week-06.html#def-implicit",
+  "type": "Definition",
+  "number": "120",
+  "title": "",
+  "body": "  An equation is written in explicit form if   "
+},
+{
+  "id": "notes-week-06-6-5-2",
+  "level": "2",
+  "url": "notes-week-06.html#notes-week-06-6-5-2",
+  "type": "Example",
+  "number": "121",
+  "title": "",
+  "body": "  How would you find the equation of the tangent line to the circle at the point ?     a = 3  b =4  L(x) = -a\/b*(x-a) + b  f(x,y) = x^2 + y^2       (${a}, ${b})        "
 },
 {
   "id": "wksht-graphing-equations",
@@ -1691,6 +1826,141 @@ var ptx_lunr_docs = [
   "number": "9",
   "title": "",
   "body": "   ,    "
+},
+{
+  "id": "wksht-derivative-rules",
+  "level": "1",
+  "url": "wksht-derivative-rules.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Derivative Rules",
+  "body": " Derivative Rules     Dates  Assigned Date: October 6, 2026  Due Date: October 14, 2026   Objective  In this assignment, you will compute the derivatives of various functions using all of the different derivative rules: basic formulas, Product Rule, Quotient Rule, and Chain Rule. These problems will all be mixed together, so you'll need to identify the appopriate rule to use in each situation. You may also need multiple of these rules for the same problem!        In-Class Work  Find the derivative of each of the functions below. These should be completed for practice but will not need to be turned in. As you are practicing, spend a bit of extra time to notate which rule you are applying and the specific functions to which it applies. You won't necessarily need to show this in the future, but it is very good for practice.                                                                                   Homework  The following problems will need to be written up carefully and turned in to the assignment on Canvas by the due date at the top of the first page. Compute the derivative of each function below.                         "
+},
+{
+  "id": "wksht-derivative-rules-3-1-3",
+  "level": "2",
+  "url": "wksht-derivative-rules.html#wksht-derivative-rules-3-1-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "wksht-derivative-rules-3-1-4",
+  "level": "2",
+  "url": "wksht-derivative-rules.html#wksht-derivative-rules-3-1-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "wksht-derivative-rules-3-1-5",
+  "level": "2",
+  "url": "wksht-derivative-rules.html#wksht-derivative-rules-3-1-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "wksht-derivative-rules-3-1-6",
+  "level": "2",
+  "url": "wksht-derivative-rules.html#wksht-derivative-rules-3-1-6",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "wksht-derivative-rules-3-1-7",
+  "level": "2",
+  "url": "wksht-derivative-rules.html#wksht-derivative-rules-3-1-7",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "wksht-derivative-rules-3-1-8",
+  "level": "2",
+  "url": "wksht-derivative-rules.html#wksht-derivative-rules-3-1-8",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "wksht-derivative-rules-3-1-9",
+  "level": "2",
+  "url": "wksht-derivative-rules.html#wksht-derivative-rules-3-1-9",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "wksht-derivative-rules-3-1-10",
+  "level": "2",
+  "url": "wksht-derivative-rules.html#wksht-derivative-rules-3-1-10",
+  "type": "Worksheet Exercise",
+  "number": "8",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "wksht-derivative-rules-3-1-11",
+  "level": "2",
+  "url": "wksht-derivative-rules.html#wksht-derivative-rules-3-1-11",
+  "type": "Worksheet Exercise",
+  "number": "9",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "wksht-derivative-rules-3-1-12",
+  "level": "2",
+  "url": "wksht-derivative-rules.html#wksht-derivative-rules-3-1-12",
+  "type": "Worksheet Exercise",
+  "number": "10",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "wksht-derivative-rules-3-1-13",
+  "level": "2",
+  "url": "wksht-derivative-rules.html#wksht-derivative-rules-3-1-13",
+  "type": "Worksheet Exercise",
+  "number": "11",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "wksht-derivative-rules-4-1-3",
+  "level": "2",
+  "url": "wksht-derivative-rules.html#wksht-derivative-rules-4-1-3",
+  "type": "Worksheet Exercise",
+  "number": "12",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "wksht-derivative-rules-4-1-4",
+  "level": "2",
+  "url": "wksht-derivative-rules.html#wksht-derivative-rules-4-1-4",
+  "type": "Worksheet Exercise",
+  "number": "13",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "wksht-derivative-rules-4-1-5",
+  "level": "2",
+  "url": "wksht-derivative-rules.html#wksht-derivative-rules-4-1-5",
+  "type": "Worksheet Exercise",
+  "number": "14",
+  "title": "",
+  "body": "      "
 },
 {
   "id": "handouts",
