@@ -44,6 +44,8 @@
       <title>Handouts</title>
       <!-- Include handouts -->
       <!--<xi:include href="./handouts/handout-filename.ptx"/>-->
+      <!-- <xi:include href="./handouts/handout-trig.ptx"/>
+      <xi:include href="./handouts/handout-deriv.ptx"/> -->
     </chapter>
 
     <chapter xml:id="homework">

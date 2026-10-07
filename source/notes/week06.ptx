@@ -549,7 +549,7 @@
             <definition xml:id="def-implicit">
                 <statement>
                     
-                    <p component="b" workspace="2in">
+                    <p component="b" workspace="4in">
                         An equation is written in <term>explicit</term> form if
                     </p>
                     <p component="a">
@@ -557,18 +557,19 @@
                     </p>
                 </statement>
             </definition>
-
+        </paragraphs>
+    </page>
+    <page>
 <p>
     Why might this be useful? Consider the graph of the equation <md> (x^2 + y^2 - 3x)^2 - (1.5)^2(x^2 + y^2) </md> given below
 </p>
 
-<image width="60%">
+<image width="80%">
   <prefigure xmlns="https://prefigure.org"
              label="deriv-implicit-limacon-full-one">
     <xi:include href="../../prefigure/deriv-implicit-limacon-one.xml" />
   </prefigure>
 </image>
-        </paragraphs>
     </page>
 
     <page>
@@ -595,7 +596,7 @@
         <p>
             Let's look at an easier example to motivate this process.
         </p>
-    <example workspace="4in">
+    <example workspace="3in">
         <statement>
             <p>
                 How would you find the equation of the tangent line to the circle <m>x^2 + y^2 = 25</m> at the point <m>(3,4)</m>?

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- When creating a new activity, make a copy of this file with appropriate name -->
-<worksheet component = "past" xml:id = "wksht-graphing-equations" xmlns:xi="http://www.w3.org/2001/XInclude">
+<worksheet component = "past" xml:id = "wksht-sine-x-over-x" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Limit of Sine x over x</title>
 
   <!-- Optional introduction -->

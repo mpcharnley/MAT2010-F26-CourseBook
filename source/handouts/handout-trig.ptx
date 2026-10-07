@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<handout>
+<title>Trigonometry Facts to Know</title>
+
+  <page>
+    <paragraphs>
+      <title>Definitions of Trigonometric Functions</title>
+
+      <p>
+        <dl>
+          <li>
+            <title>Sine</title>
+                        
+            <p>
+              Opposite over hypotenuse.
+            </p>
+          </li>
+          <li>
+            <title>Cosine</title>
+                        
+            <p>
+              Adjacent over Hypotenuse
+            </p>
+          </li>
+        </dl>
+      </p>
+      
+    </paragraphs>
+
+  </page>
+</handout>
