@@ -1369,6 +1369,114 @@ var ptx_lunr_docs = [
   "body": "  How would you find the equation of the tangent line to the circle at the point ?     a = 3  b =4  L(x) = -a\/b*(x-a) + b  f(x,y) = x^2 + y^2       (${a}, ${b})        "
 },
 {
+  "id": "notes-week-07",
+  "level": "1",
+  "url": "notes-week-07.html",
+  "type": "Section",
+  "number": "",
+  "title": "Week 7",
+  "body": " Week 7   This is an outline of the topics we covered in week 7 of the class, from October 12 to October 16.    Wednesday 10\/14     Practice problems using implicit differentiation.    Take second derivatives using implicit differentiation.       Implicit Differentiation  Last class, we began our discussion of implicit differentiation. What was this process?  What is the key computational trick in this process?       Assume that is a function of . Compute each of the following:                                                                Assume that is a function of . Compute each of the following:                                    Find for the implicit function .        Find for the implicit function .        Consider the equation .     Find .      Determine all points on the graph of this equation where the tangent line is horizontal (will not be able to find by hand).      Find .        Friday 10\/16     Apply implicit differentiation to tangent line problems.       Applications of Implicit Differentiation  As always, the derivative gives us the slope of the tangent line. This means that we can use it to find the equation of the tangent line.    Find the equation of the tangent line to the graph of at the point .         Find the equation of the tangent line to the graph of at the point .        Find all points where the tangent line to is horizontal and vertical.        Find all points on the graph of where the tangent line goes through the point .      "
+},
+{
+  "id": "notes-week-07-3-2",
+  "level": "2",
+  "url": "notes-week-07.html#notes-week-07-3-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "   Practice problems using implicit differentiation.    Take second derivatives using implicit differentiation.    "
+},
+{
+  "id": "notes-week-07-3-4-1",
+  "level": "2",
+  "url": "notes-week-07.html#notes-week-07-3-4-1",
+  "type": "Example",
+  "number": "122",
+  "title": "",
+  "body": "  Assume that is a function of . Compute each of the following:                                                           "
+},
+{
+  "id": "notes-week-07-3-5-1",
+  "level": "2",
+  "url": "notes-week-07.html#notes-week-07-3-5-1",
+  "type": "Example",
+  "number": "123",
+  "title": "",
+  "body": "  Assume that is a function of . Compute each of the following:                               "
+},
+{
+  "id": "notes-week-07-3-6-1",
+  "level": "2",
+  "url": "notes-week-07.html#notes-week-07-3-6-1",
+  "type": "Example",
+  "number": "124",
+  "title": "",
+  "body": "  Find for the implicit function .   "
+},
+{
+  "id": "notes-week-07-3-7-1",
+  "level": "2",
+  "url": "notes-week-07.html#notes-week-07-3-7-1",
+  "type": "Example",
+  "number": "125",
+  "title": "",
+  "body": "  Find for the implicit function .   "
+},
+{
+  "id": "notes-week-07-3-8-1",
+  "level": "2",
+  "url": "notes-week-07.html#notes-week-07-3-8-1",
+  "type": "Example",
+  "number": "126",
+  "title": "",
+  "body": "  Consider the equation .     Find .      Determine all points on the graph of this equation where the tangent line is horizontal (will not be able to find by hand).      Find .    "
+},
+{
+  "id": "notes-week-07-4-2",
+  "level": "2",
+  "url": "notes-week-07.html#notes-week-07-4-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "   Apply implicit differentiation to tangent line problems.    "
+},
+{
+  "id": "notes-week-07-4-3-1-3",
+  "level": "2",
+  "url": "notes-week-07.html#notes-week-07-4-3-1-3",
+  "type": "Example",
+  "number": "127",
+  "title": "",
+  "body": "  Find the equation of the tangent line to the graph of at the point .   "
+},
+{
+  "id": "notes-week-07-4-4-1",
+  "level": "2",
+  "url": "notes-week-07.html#notes-week-07-4-4-1",
+  "type": "Example",
+  "number": "128",
+  "title": "",
+  "body": "  Find the equation of the tangent line to the graph of at the point .   "
+},
+{
+  "id": "notes-week-07-4-5-1",
+  "level": "2",
+  "url": "notes-week-07.html#notes-week-07-4-5-1",
+  "type": "Example",
+  "number": "129",
+  "title": "",
+  "body": "  Find all points where the tangent line to is horizontal and vertical.   "
+},
+{
+  "id": "notes-week-07-4-6-1",
+  "level": "2",
+  "url": "notes-week-07.html#notes-week-07-4-6-1",
+  "type": "Example",
+  "number": "130",
+  "title": "",
+  "body": "  Find all points on the graph of where the tangent line goes through the point .   "
+},
+{
   "id": "wksht-sine-x-over-x",
   "level": "1",
   "url": "wksht-sine-x-over-x.html",
@@ -1963,13 +2071,94 @@ var ptx_lunr_docs = [
   "body": "      "
 },
 {
-  "id": "handouts",
+  "id": "wksht-implicit-diff",
   "level": "1",
-  "url": "handouts.html",
-  "type": "Chapter",
+  "url": "wksht-implicit-diff.html",
+  "type": "Worksheet",
   "number": "",
-  "title": "Handouts",
-  "body": " Handouts     "
+  "title": "Applications of Implicit Differentiation",
+  "body": " Applications of Implicit Differentiation     Dates  Assigned Date: October 14, 2026  Due Date: October 21, 2026   Objective  In this assignment, you will use implicit differentiation to analyze an ellipse and determine many of its graphical properties. You will need to use how the derivative is related to tangent lines and what vertical and horizontal lines look like as equations and on graphs.        Activity   Consider the ellipse defined by the equation . The graph is drawn (without axes) to the right.     f(x,y) = x^2 - x*y + y^2           Compute for this equation.       Find all points on the ellipse where the tangent line is horizontal. Hint: What is the slope when the tangent line is horizontal?      Find all points on the ellipse where the tangent line is vertical. Hint: What is the slope when the tangent line is vertical?       Assume that you were to draw a boundary box around the ellipse with vertical and horizontal lines, each of which is tangent to the ellipse. See the figure to the right. What are the coordinates of each corner of this box?       f(x,y) = x^2 - x*y + y^2                 Find all points on the ellipse where the tangent line has slope . For each of these points, write the equation of the line tangent to the ellipse.       f(x,y) = x^2 - x*y + y^2  l1(x) = x+2  l2(x) = x-2              Find all points on the ellipse where the tangent line has slope . For each of these points, write the equation of the line tangent to the ellipse.       f(x,y) = x^2 - x*y + y^2  l1(x) = -x+2*sqrt(3)  l2(x) = -x-2*sqrt(3)             Find all points on the ellipse where the tangent line goes through the point . Hint: Once you get to a final quadratic to solve for the points, look back to one of the previous two parts. Do any of those lines go through the point ? What does that mean you can do to factor this quadratic?     "
+},
+{
+  "id": "wksht-implicit-diff-3-1-3",
+  "level": "2",
+  "url": "wksht-implicit-diff.html#wksht-implicit-diff-3-1-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Compute for this equation.   "
+},
+{
+  "id": "wksht-implicit-diff-3-2",
+  "level": "2",
+  "url": "wksht-implicit-diff.html#wksht-implicit-diff-3-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Find all points on the ellipse where the tangent line is horizontal. Hint: What is the slope when the tangent line is horizontal?   "
+},
+{
+  "id": "wksht-implicit-diff-3-3",
+  "level": "2",
+  "url": "wksht-implicit-diff.html#wksht-implicit-diff-3-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Find all points on the ellipse where the tangent line is vertical. Hint: What is the slope when the tangent line is vertical?   "
+},
+{
+  "id": "wksht-implicit-diff-3-4-1",
+  "level": "2",
+  "url": "wksht-implicit-diff.html#wksht-implicit-diff-3-4-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Assume that you were to draw a boundary box around the ellipse with vertical and horizontal lines, each of which is tangent to the ellipse. See the figure to the right. What are the coordinates of each corner of this box?   "
+},
+{
+  "id": "wksht-implicit-diff-3-5-1",
+  "level": "2",
+  "url": "wksht-implicit-diff.html#wksht-implicit-diff-3-5-1",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  Find all points on the ellipse where the tangent line has slope . For each of these points, write the equation of the line tangent to the ellipse.   "
+},
+{
+  "id": "wksht-implicit-diff-3-6-1",
+  "level": "2",
+  "url": "wksht-implicit-diff.html#wksht-implicit-diff-3-6-1",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "",
+  "body": "  Find all points on the ellipse where the tangent line has slope . For each of these points, write the equation of the line tangent to the ellipse.   "
+},
+{
+  "id": "wksht-implicit-diff-3-7",
+  "level": "2",
+  "url": "wksht-implicit-diff.html#wksht-implicit-diff-3-7",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "",
+  "body": "  Find all points on the ellipse where the tangent line goes through the point . Hint: Once you get to a final quadratic to solve for the points, look back to one of the previous two parts. Do any of those lines go through the point ? What does that mean you can do to factor this quadratic?   "
+},
+{
+  "id": "handout-trig",
+  "level": "1",
+  "url": "handout-trig.html",
+  "type": "Handout",
+  "number": "",
+  "title": "Trigonometry Facts to Know",
+  "body": " Trigonometry Facts to Know    Definitions of Trigonometric Functions      Sine   .    Cosine       Tangent       Secant       Cosecant       Cotangent           n=4       A  O  H   \\theta            Circle Trigonometry and Special Angles      ang = pi\/3.8  origin = (0,0)  px = (1,0)  pang = (cos(ang), sin(ang))  p2 = (cos(pi-ang), sin(pi-ang))  p4 = (cos(-ang), sin(-ang))       \\theta    (x,y) = (\\cos(\\theta), \\sin(\\theta))     \\theta    (-x,y)     -\\theta    (x,-y)          Special Angles of Trigonometric Functions                   Undefined       Undefined             is an even function; that is, .     is an odd function; that is, .    Shift Identities          Pythagorean Identities       Sum and Difference Identities  For any two angles and :     Double and Half Angle Formulas          Sum and Product Relations  Coming soon! (These are much less common but have a few niche applications.)    Inverse Trigonometric Functions  Coming soon! (We'll actually be working with these in a few weeks.)    "
+},
+{
+  "id": "handout-trig-2-3-2-2",
+  "level": "2",
+  "url": "handout-trig.html#handout-trig-2-3-2-2",
+  "type": "Table",
+  "number": "182",
+  "title": "Special Angles of Trigonometric Functions",
+  "body": " Special Angles of Trigonometric Functions                   Undefined       Undefined       "
 },
 {
   "id": "homework",
