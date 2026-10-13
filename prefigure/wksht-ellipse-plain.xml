@@ -1,0 +1,6 @@
+<diagram xmlns="https://prefigure.org" dimensions="(450,300)" margins="5">
+  <definition> f(x,y) = x^2 - x*y + y^2 </definition>
+  <coordinates bbox="[-3,-3, 3, 3]">
+    <implicit-curve function="f" k="3" stroke="blue" thickness="3"/>
+  </coordinates>
+</diagram>

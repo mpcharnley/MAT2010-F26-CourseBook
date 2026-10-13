@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet component = "cur" xml:id = "wksht-implicit-diff" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Applications of Implicit Differentiation</title>
+
+    <introduction>
+        <p>
+            <ul>
+                <li><title>Dates</title>
+                    <p>Assigned Date: October 14, 2026</p>
+                    <p>Due Date: October 21, 2026</p>
+                </li>
+                <li><title>Objective</title>
+                    <p>
+                        In this assignment, you will use implicit differentiation to analyze an ellipse and determine many of its graphical properties. You will need to use how the derivative is related to tangent lines and what vertical and horizontal lines look like as equations and on graphs.
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </introduction>
+
+<page>
+
+<paragraphs>
+    <title>Activity</title>
+   
+   <sidebyside widths="70% 30%">
+   <p>
+    Consider the ellipse defined by the equation
+    <md number="yes" xml:id="wksht-ellipse-eqn">
+        x^2 - xy + y^2 = 3
+    </md>. The graph is drawn (without axes) to the right.
+    </p>
+
+   <image width="60%">
+  <prefigure xmlns="https://prefigure.org"
+             label="wksht-ellipse-plain">
+    <xi:include href="../../prefigure/wksht-ellipse-plain.xml" />
+  </prefigure>
+</image>
+   </sidebyside>
+   <exercise>
+    <statement>
+        <p>
+            Compute <m>\frac{dy}{dx}</m> for this equation.
+        </p>
+    </statement>
+    <solution component="a">
+        <p>
+            
+        </p>
+    </solution>
+</exercise>
+
+
+</paragraphs>
+
+<exercise>
+    <statement>
+        <p>
+            Find all points on the ellipse <xref ref="wksht-ellipse-eqn"/> where the tangent line is horizontal. <em>Hint:</em> What is the slope when the tangent line is horizontal? 
+        </p>
+    </statement>
+</exercise>
+
+<exercise>
+    <statement>
+        <p>
+            Find all points on the ellipse <xref ref="wksht-ellipse-eqn"/> where the tangent line is vertical. <em>Hint:</em> What is the slope when the tangent line is vertical? 
+        </p>
+    </statement>
+</exercise>
+
+<sidebyside widths="70% 30%">
+    <exercise>
+    <statement>
+        <p>
+            Assume that you were to draw a boundary box around the ellipse with vertical and horizontal lines, each of which is tangent to the ellipse. See the figure to the right. What are the coordinates of each corner of this box?
+        </p>
+    </statement>
+</exercise>
+<image width="60%">
+  <prefigure xmlns="https://prefigure.org"
+             label="wksht-ellipse-bdry">
+    <xi:include href="../../prefigure/wksht-ellipse-bdry.xml" />
+  </prefigure>
+</image>
+</sidebyside>
+
+
+<sidebyside widths="70% 30%">
+<exercise>
+    <statement>
+        <p>
+            Find all points on the ellipse where the tangent line has slope <m>1</m>. For each of these points, write the equation of the line tangent to the ellipse.
+        </p>
+    </statement>
+</exercise>
+<image width="60%">
+  <prefigure xmlns="https://prefigure.org"
+             label="wksht-ellipse-slope1">
+    <xi:include href="../../prefigure/wksht-ellipse-bdry-slope1.xml" />
+  </prefigure>
+</image>
+</sidebyside>
+
+<sidebyside widths="70% 30%">
+<exercise>
+    <statement>
+        <p>
+            Find all points on the ellipse where the tangent line has slope <m>-1</m>. For each of these points, write the equation of the line tangent to the ellipse.
+        </p>
+    </statement>
+</exercise>
+<image width="60%">
+  <prefigure xmlns="https://prefigure.org"
+             label="wksht-ellipse-slopen1">
+    <xi:include href="../../prefigure/wksht-ellipse-bdry-slopen1.xml" />
+  </prefigure>
+</image>
+</sidebyside>
+
+
+<exercise>
+    <statement>
+        <p>
+            Find all points on the ellipse where the tangent line goes through the point <m>(1,3)</m>. <em>Hint:</em> Once you get to a final quadratic to solve for the points, look back to one of the previous two parts. Do any of those lines go through the point <m>(1,3)</m>? What does that mean you can do to factor this quadratic?
+        </p>
+    </statement>
+</exercise>
+
+</page>
+</worksheet>

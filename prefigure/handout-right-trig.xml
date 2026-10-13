@@ -1,0 +1,14 @@
+<diagram xmlns="https://prefigure.org" dimensions="(300,300)" margins="5">
+  <definition> n=4 </definition>
+  <coordinates bbox="[-0.5,-0.5,1.5,1.5]">
+    <grid/>
+    <polygon points="((0,0), (1, 0), (0,1), (0,0))" closed="yes" stroke="black"/>
+    <arc center="(1,0)" radius="0.25" range="(3*pi/4, pi)"
+         degrees="no" stroke="black" thickness="3"/>
+    <polygon points="((0,0), (.1, 0), (.1, .1), (0, .1), (0,0))" closed="yes" stroke="black"/>
+    <label anchor="(0.5,0)" alignment="south"> A </label>
+    <label anchor="(0, 0.5)" alignment="w"> O </label>
+    <label anchor="(0.5, 0.5)" alignment="ne"> H </label>
+    <label anchor="(0.70, 0.1)"> <m>\theta</m> </label>
+  </coordinates>
+</diagram>

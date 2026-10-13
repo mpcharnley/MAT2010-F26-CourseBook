@@ -22,6 +22,7 @@
       <xi:include href="./notes/week04.ptx" />
       <xi:include href="./notes/week05.ptx" />
       <xi:include href="./notes/week06.ptx" />
+      <xi:include href="./notes/week07.ptx" />
       <!-- etc. -->
 
     </chapter>
@@ -36,6 +37,7 @@
       <xi:include href="./activities/04-continuity-IVT.ptx" />
       <xi:include href="./activities/05-def-of-deriv.ptx" />
       <xi:include href="./activities/06-derivative-rules.ptx" />
+      <xi:include href="./activities/07-implicit-diff.ptx" />
 
       <!-- Add more xi:include files here to include them in the main course -->
     </chapter>
@@ -44,8 +46,8 @@
       <title>Handouts</title>
       <!-- Include handouts -->
       <!--<xi:include href="./handouts/handout-filename.ptx"/>-->
-      <!-- <xi:include href="./handouts/handout-trig.ptx"/>
-      <xi:include href="./handouts/handout-deriv.ptx"/> -->
+      <xi:include href="./handouts/handout-trig.ptx"/>
+      <!-- <xi:include href="./handouts/handout-deriv.ptx"/> -->
     </chapter>
 
     <chapter xml:id="homework">

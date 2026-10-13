@@ -1,32 +1,191 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<handout>
+<handout xml:id = "handout-trig" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Trigonometry Facts to Know</title>
 
   <page>
     <paragraphs>
       <title>Definitions of Trigonometric Functions</title>
-
-      <p>
+      <sidebyside>
+        <p>
         <dl>
           <li>
             <title>Sine</title>
                         
             <p>
-              Opposite over hypotenuse.
+              <m>\sin(\theta) = \frac{O}{H}</m>.
             </p>
           </li>
           <li>
             <title>Cosine</title>
                         
             <p>
-              Adjacent over Hypotenuse
+              <m>\cos(\theta) = \frac{A}{H}</m>
+            </p>
+          </li>
+          <li>
+            <title>Tangent</title>            
+            <p>
+              <m>\tan(\theta) = \frac{O}{A} = \frac{\sin(\theta)}{\cos(\theta)}</m>
+            </p>
+          </li>
+          <li>
+            <title>Secant</title>            
+            <p>
+              <m>\sec(\theta) = \frac{H}{A} = {1}{\cos(\theta)}</m>
+            </p>
+          </li>
+          <li>
+            <title>Cosecant</title>            
+            <p>
+              <m>\csc(\theta) = \frac{H}{O} = \frac{1}{\sin(\theta)}</m>
+            </p>
+          </li>
+          <li>
+            <title>Cotangent</title>            
+            <p>
+              <m>\cot(\theta) = \frac{A}{O} = \frac{1}{\tan(\theta)} = \frac{\cos(\theta)}{\sin(\theta)}</m>
             </p>
           </li>
         </dl>
       </p>
-      
+      <image width="60%">
+  <prefigure xmlns="https://prefigure.org"
+             label="handout-right-trig">
+    <xi:include href="../../prefigure/handout-right-trig.xml" />
+  </prefigure>
+</image>
+      </sidebyside>
     </paragraphs>
+<p>
+  
+</p>
+  <paragraphs>
+    <title>Circle Trigonometry and Special Angles</title>
+    <sidebyside>
+    <image width="60%">
+  <prefigure xmlns="https://prefigure.org"
+             label="handout-circle-trig">
+    <xi:include href="../../prefigure/handout-circle-trig.xml" />
+  </prefigure>
+</image>
+      <table>
+        <title>Special Angles of Trigonometric Functions</title>
+        <tabular>
+          <row header = "yes" >
+            <cell><m>\theta</m></cell><cell><m>\sin(\theta)</m></cell><cell><m>\cos(\theta)</m></cell><cell><m>\tan(\theta)</m></cell>
+          </row>
+          <row>
+            <cell><m>0</m></cell><cell><m>0</m></cell><cell><m>1</m></cell><cell><m>0</m></cell>
+          </row>
+          <row>
+            <cell><m>\frac{\pi}{6}</m></cell><cell><m>\frac{1}{2}</m></cell><cell><m>\frac{\sqrt{3}}{2}</m></cell><cell><m>\frac{1}{\sqrt{3}}</m></cell>
+          </row>
+          <row>
+            <cell><m>\frac{\pi}{4}</m></cell><cell><m>\frac{\sqrt{2}}{2}</m></cell><cell><m>\frac{\sqrt{2}}{2}</m></cell><cell><m>1</m></cell>
+          </row>
+          <row>
+            <cell><m>\frac{\pi}{3}</m></cell><cell><m>\frac{\sqrt{3}}{2}</m></cell><cell><m>\frac{1}{2}</m></cell><cell><m>\sqrt{3}</m></cell>
+          </row>
+          <row>
+            <cell><m>\frac{\pi}{2}</m></cell><cell><m>1</m></cell><cell><m>0</m></cell><cell>Undefined</cell>
+          </row>
+          <row>
+            <cell><m>\pi</m></cell><cell><m>0</m></cell><cell><m>-1</m></cell><cell><m>0</m></cell>
+          </row>
+          <row>
+            <cell><m>\frac{3\pi}{2}</m></cell><cell><m>-1</m></cell><cell><m>0</m></cell><cell>Undefined</cell>
+          </row>
+          <row>
+            <cell><m>2\pi</m></cell><cell><m>0</m></cell><cell><m>1</m></cell><cell><m>0</m></cell>
+          </row>
+        </tabular>
+      </table>
+    </sidebyside>
+    <p>
+      <ul>
+        <li>
+          <p>
+            <m>\cos(\theta)</m> is an even function; that is, <m>\cos(-\theta) = \cos(\theta)</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>\sin(\theta)</m> is an odd function; that is, <m>\sin(-\theta) = -\sin(\theta)</m>.
+          </p>
+        </li>
+        <li> <title>Shift Identities</title>
+          <p>
+            <md>
+              <mrow> \cos(\theta) \amp = \sin\left(\frac{\pi}{2} - \theta\right) </mrow>
+              <mrow> \cot(\theta) \amp = \tan\left(\frac{\pi}{2} - \theta\right) </mrow>
+              <mrow> \csc(\theta) \amp = \sec\left(\frac{\pi}{2} - \theta\right) </mrow>
+            </md>
+          </p>
+        </li>
+      </ul>  
+    </p>
+  </paragraphs>
 
+<paragraphs>
+  <title>Pythagorean Identities</title>
+  
+  <p>
+    <md>
+      <mrow> \sin^2(\theta) + \cos^2(\theta) \amp = 1 </mrow>
+      <mrow> \tan^2(\theta) + 1 \amp = \sec^2(\theta) </mrow>
+      <mrow> 1 + \cot^2(\theta) \amp = \csc^2(\theta) </mrow>
+    </md>
+    
+  </p>
+</paragraphs>
+
+<paragraphs>
+  <title>Sum and Difference Identities</title>
+  <p>
+    For any two angles <m>A</m> and <m>B</m>:
+    <md>
+      <mrow> \sin(A + B) \amp = \sin(A)\cos(B) + \cos(A)\sin(B) </mrow>
+      <mrow> \sin(A - B) \amp = \sin(A)\cos(B) - \cos(A)\sin(B) </mrow>
+      <mrow> \cos(A + B) \amp = \cos(A)\cos(B) - \sin(A)\sin(B) </mrow>
+      <mrow> \cos(A - B) \amp = \cos(A)\cos(B) + \sin(A)\sin(B) </mrow>
+    </md>
+    
+  </p>
+  
+</paragraphs>
+
+<paragraphs>
+  <title>Double and Half Angle Formulas</title>
+  <p>
+    <md>
+      <mrow> \sin(2\theta) \amp = 2\sin(\theta)\cos(\theta)</mrow>
+      <mrow> \cos(2\theta) \amp = \cos^2(\theta) - \sin^2(\theta)</mrow>
+      <mrow> \amp = 2\cos^2(\theta) - 1</mrow>
+      <mrow> \amp = 1 - 2\sin^2(\theta)</mrow>
+    </md>
+  </p>
+  <p>
+    <md>
+      <mrow> \sin\left(\frac{\theta}{2}\right) \amp = \sqrt{\frac{1 - \cos(\theta)}{2}} </mrow>
+      <mrow> \cos\left(\frac{\theta}{2}\right) \amp = \sqrt{\frac{1 + \cos(\theta)}{2}} </mrow>
+    </md>
+  </p>
+  
+</paragraphs>
+
+<paragraphs>
+  <title>Sum and Product Relations</title>
+  <p>
+    Coming soon! (These are much less common but have a few niche applications.)
+  </p>
+</paragraphs>
+
+<paragraphs>
+  <title>Inverse Trigonometric Functions</title>
+  <p>
+    Coming soon! (We'll actually be working with these in a few weeks.)
+  </p>
+</paragraphs>
   </page>
 </handout>

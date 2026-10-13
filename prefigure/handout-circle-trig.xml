@@ -1,0 +1,43 @@
+<diagram xmlns="https://prefigure.org" dimensions="(450,300)" margins="5">
+  <definition> ang = pi/3.8 </definition>
+  <definition> origin = (0,0) </definition>
+  <definition> px = (1,0)</definition>
+  <definition> pang = (cos(ang), sin(ang)) </definition>
+  <definition> p2 = (cos(pi-ang), sin(pi-ang)) </definition>
+  <definition> p4 = (cos(-ang), sin(-ang)) </definition>
+  <coordinates bbox="[-1.5,-1.5,3,1.5]">
+    <grid-axes xlabel="x" ylabel="y"/>
+    <circle center="(0,0)" radius="1" fill="none" thickness="2" stroke="black"/>
+
+    <line endpoints="((0,0), (cos(ang), sin(ang)))" stroke="red" />
+    <angle-marker points="(px, origin, pang)"
+      clear-background="no" stroke="red">
+      <m>\theta</m>
+    </angle-marker>
+    <point p="(cos(ang), sin(ang))" fill="red" stroke="black">
+      <m>(x,y) = (\cos(\theta), \sin(\theta))</m>
+      </point>
+
+    <line endpoints="((0,0), (cos(pi-ang), sin(pi-ang)))" stroke="blue" />
+    <angle-marker points="(p2, origin, (-1,0))"
+      clear-background="no" stroke="blue">
+      <m>\theta</m>
+    </angle-marker>
+    <point p="(cos(pi-ang), sin(pi-ang))" fill="blue" stroke="black" alignment="nw">
+      <m>(-x,y)</m>
+      </point>
+
+    <line endpoints="((0,0), (cos(-ang), sin(-ang)))" stroke="orange" />
+    <angle-marker points="(p4, origin, px)"
+      clear-background="no" stroke="orange" radius="50">
+      <m>-\theta</m>
+    </angle-marker>
+    <point p="(cos(-ang), sin(-ang))" fill="orange" stroke="black" alignment="se">
+      <m>(x,-y)</m>
+      </point>
+
+    <line endpoints="(pang, p2)" stroke="black" dash="2 2" thickness="1"/>
+    <line endpoints="(pang, p4)" stroke="black" dash="2 2" thickness="1"/>
+
+  </coordinates>
+</diagram>

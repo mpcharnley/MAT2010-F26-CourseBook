@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="notes-week-07" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Week 7</title>
+
+<introduction>
+    <p>
+        This is an outline of the topics we covered in week 7 of the class, from October 12 to October 16.
+    </p>
+</introduction>
+
+<handout component="cur">
+    <title>Wednesday 10/14</title>
+    <objectives>
+        <ul>
+            <li>
+                <p>
+                    Practice problems using implicit differentiation.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Take second derivatives using implicit differentiation.
+                </p>
+            </li>
+        </ul>
+    </objectives>
+    <page>
+        <paragraphs>
+            <title>Implicit Differentiation</title>
+
+<p component="b" workspace="3in">
+    Last class, we began our discussion of implicit differentiation. What was this process?
+</p>
+<p component="a">
+    Last class, we began our discussion of implicit differentiation. What was this process? Finding the slope without needing to solve for y first.
+</p>
+
+<p component="b" workspace="3in">
+    What is the key computational trick in this process?
+</p>
+<p component="a">
+    What is the key computational trick in this process? Differentiate the entire equation. Any term with a <m>y</m> in it requires the Chain Rule.
+</p>
+
+        </paragraphs>
+    </page>
+
+    <page>
+        <example workspace="0in">
+            <introduction>
+                <p>
+                    Assume that <m>y</m> is a function of <m>x</m>. Compute each of the following:
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>\displaystyle \frac{d}{dx}\left( x\right)</m>
+                    </p>
+                </statement>
+            <solution component="a">
+                <p>
+                    
+                </p>
+            </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\displaystyle \frac{d}{dx}\left( y\right)</m>
+                    </p>
+                </statement>
+            <solution component="a">
+                <p>
+                    
+                </p>
+            </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\displaystyle \frac{d}{dx}\left( x^5\right)</m>
+                    </p>
+                </statement>
+            <solution component="a">
+                <p>
+                    
+                </p>
+            </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\displaystyle \frac{d}{dx}\left( y^4\right)</m>
+                    </p>
+                </statement>
+            <solution component="a">
+                <p>
+                    
+                </p>
+            </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\displaystyle \frac{d}{dx}\left(x^2e^x \right)</m>
+                    </p>
+                </statement>
+            <solution component="a">
+                <p>
+                    
+                </p>
+            </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\displaystyle \frac{d}{dx}\left( x^3y^2\right)</m>
+                    </p>
+                </statement>
+            <solution component="a">
+                <p>
+                    
+                </p>
+            </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\displaystyle \frac{d}{dx}\left( e^y \right)</m>
+                    </p>
+                </statement>
+            <solution component="a">
+                <p>
+                    
+                </p>
+            </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\displaystyle \frac{d}{dx}\left( \sin(xy)\right)</m>
+                    </p>
+                </statement>
+            <solution component="a">
+                <p>
+                    
+                </p>
+            </solution>
+            </task>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <example workspace="0in">
+            <introduction>
+                <p>
+                    Assume that <m>y</m> is a function of <m>x</m>. Compute each of the following:
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>\displaystyle \frac{d}{dx}\left( y^7 \right)</m>
+                    </p>
+                </statement>
+            <solution component="a">
+                <p>
+                    
+                </p>
+            </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\displaystyle \frac{d}{dx}\left( x^4y^8\right)</m>
+                    </p>
+                </statement>
+            <solution component="a">
+                <p>
+                    
+                </p>
+            </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\displaystyle \frac{d}{dx}\left( \cos(x+y)\right)</m>
+                    </p>
+                </statement>
+            <solution component="a">
+                <p>
+                    
+                </p>
+            </solution>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\displaystyle \frac{d}{dx}\left( \sin(x)e^{2y} \right)</m>
+                    </p>
+                </statement>
+            <solution component="a">
+                <p>
+                    
+                </p>
+            </solution>
+            </task>
+        </example>
+        
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Find <m>\frac{dy}{dx}</m> for the implicit function
+                    <md>
+                        x^2e^y - y^2 = 4
+                    </md>.
+                    
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Find <m>\frac{dy}{dx}</m> for the implicit function
+                    <md>
+                        \cos(x+y) = x^2y^3 - \sin(x)e^y
+                    </md>.
+                    
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <example workspace="0in">
+            <introduction>
+                <p>
+                    Consider the equation 
+                    <md>
+                        x^2 + y^4 - 3xy = 16
+                    </md>.
+                    
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Find <m>\frac{dy}{dx}</m>.
+                    </p>
+                </statement>
+        
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Determine all points on the graph of this equation where the tangent line is horizontal (will not be able to find by hand).
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Find <m>\frac{d^2y}{dx^2}</m>.
+                    </p>
+                </statement>
+            </task>
+        
+        </example>
+        
+    </page>
+</handout>
+
+<handout component="cur">
+    <title>Friday 10/16</title>
+    <objectives>
+        <ul>
+            <li>
+                <p>
+                    Apply implicit differentiation to tangent line problems.
+                </p>
+            </li>
+        </ul>
+    </objectives>
+    <page>
+        <paragraphs>
+            <title>Applications of Implicit Differentiation</title>
+
+<p component="b" workspace="3in">
+    As always, the derivative gives us the slope of the tangent line. This means that we can use it to find the equation of the tangent line.
+</p>
+<p component="a">
+    As always, the derivative gives us the slope of the tangent line. This means that we can use it to find the equation of the tangent line. Slope and point again.
+</p>
+
+<example workspace="3in">
+    <statement>
+        <p>
+            Find the equation of the tangent line to the graph of 
+            <md>
+                x^2 + 4y^3 = 5
+            </md> at the point <m>(1,1)</m>.
+            
+        </p>
+    </statement>
+
+</example>
+
+
+        </paragraphs>
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Find the equation of the tangent line to the graph of 
+                    <md>
+                        \cos(x^2y) - 3x = 5y - 2e^{y} 
+                    </md> at the point <m>(1,0)</m>.
+                    
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Find all points where the tangent line to 
+                    <md>
+                        x^2 - y^2 - 2xy = \frac{9}{2}
+                    </md> is horizontal and vertical.
+                    
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Find all points on the graph of 
+                    <md>
+                        x^2 + 2y^2 = 9
+                    </md> where the tangent line goes through the point <m>(5,1)</m>.
+                    
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+</handout>
+
+</section>
