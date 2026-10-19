@@ -296,6 +296,36 @@
         </ul>
     </objectives>
     <page>
+        <example workspace="0in">
+            <introduction>
+                <p>
+                    Consider the equation 
+                    <md>
+                        x^2 + y^4 - 3xy = 16
+                    </md>.
+                    
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Find <m>\frac{dy}{dx}</m>.
+                    </p>
+                </statement>
+        
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Find <m>\frac{d^2y}{dx^2}</m>.
+                    </p>
+                </statement>
+            </task>
+        
+        </example>
+        
+    </page>
+    <page>
         <paragraphs>
             <title>Applications of Implicit Differentiation</title>
 
