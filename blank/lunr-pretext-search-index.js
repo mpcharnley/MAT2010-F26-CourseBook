@@ -1375,7 +1375,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Week 7",
-  "body": " Week 7   This is an outline of the topics we covered in week 7 of the class, from October 12 to October 16.    Wednesday 10\/14     Practice problems using implicit differentiation.    Take second derivatives using implicit differentiation.       Implicit Differentiation  Last class, we began our discussion of implicit differentiation. What was this process?  What is the key computational trick in this process?       Assume that is a function of . Compute each of the following:                                                                Assume that is a function of . Compute each of the following:                                    Find for the implicit function .        Find for the implicit function .        Consider the equation .     Find .      Determine all points on the graph of this equation where the tangent line is horizontal (will not be able to find by hand).      Find .        Friday 10\/16     Apply implicit differentiation to tangent line problems.       Applications of Implicit Differentiation  As always, the derivative gives us the slope of the tangent line. This means that we can use it to find the equation of the tangent line.    Find the equation of the tangent line to the graph of at the point .         Find the equation of the tangent line to the graph of at the point .        Find all points where the tangent line to is horizontal and vertical.        Find all points on the graph of where the tangent line goes through the point .      "
+  "body": " Week 7   This is an outline of the topics we covered in week 7 of the class, from October 12 to October 16.    Wednesday 10\/14     Practice problems using implicit differentiation.    Take second derivatives using implicit differentiation.       Implicit Differentiation  Last class, we began our discussion of implicit differentiation. What was this process?  What is the key computational trick in this process?       Assume that is a function of . Compute each of the following:                                                                Assume that is a function of . Compute each of the following:                                    Find for the implicit function .        Find for the implicit function .        Consider the equation .     Find .      Determine all points on the graph of this equation where the tangent line is horizontal (will not be able to find by hand).      Find .        Friday 10\/16     Apply implicit differentiation to tangent line problems.        Consider the equation .     Find .      Find .        Applications of Implicit Differentiation  As always, the derivative gives us the slope of the tangent line. This means that we can use it to find the equation of the tangent line.    Find the equation of the tangent line to the graph of at the point .         Find the equation of the tangent line to the graph of at the point .        Find all points where the tangent line to is horizontal and vertical.        Find all points on the graph of where the tangent line goes through the point .      "
 },
 {
   "id": "notes-week-07-3-2",
@@ -1441,18 +1441,18 @@ var ptx_lunr_docs = [
   "body": "   Apply implicit differentiation to tangent line problems.    "
 },
 {
-  "id": "notes-week-07-4-3-1-3",
+  "id": "notes-week-07-4-3-1",
   "level": "2",
-  "url": "notes-week-07.html#notes-week-07-4-3-1-3",
+  "url": "notes-week-07.html#notes-week-07-4-3-1",
   "type": "Example",
   "number": "127",
   "title": "",
-  "body": "  Find the equation of the tangent line to the graph of at the point .   "
+  "body": "  Consider the equation .     Find .      Find .    "
 },
 {
-  "id": "notes-week-07-4-4-1",
+  "id": "notes-week-07-4-4-1-3",
   "level": "2",
-  "url": "notes-week-07.html#notes-week-07-4-4-1",
+  "url": "notes-week-07.html#notes-week-07-4-4-1-3",
   "type": "Example",
   "number": "128",
   "title": "",
@@ -1465,7 +1465,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "129",
   "title": "",
-  "body": "  Find all points where the tangent line to is horizontal and vertical.   "
+  "body": "  Find the equation of the tangent line to the graph of at the point .   "
 },
 {
   "id": "notes-week-07-4-6-1",
@@ -1474,7 +1474,88 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "130",
   "title": "",
+  "body": "  Find all points where the tangent line to is horizontal and vertical.   "
+},
+{
+  "id": "notes-week-07-4-7-1",
+  "level": "2",
+  "url": "notes-week-07.html#notes-week-07-4-7-1",
+  "type": "Example",
+  "number": "131",
+  "title": "",
   "body": "  Find all points on the graph of where the tangent line goes through the point .   "
+},
+{
+  "id": "notes-week-08",
+  "level": "1",
+  "url": "notes-week-08.html",
+  "type": "Section",
+  "number": "",
+  "title": "Week 8",
+  "body": " Week 8   This is an outline of the topics we covered in Week 8 of the course, from October 19 to October 24.    Monday 10\/19     Compute derivatives involving natural log using implicit differentiation.    Explore applications of implicit differentiation.       Applications of Implicit Differentiation    Find all points on the graph of where the tangent line goes through the point .        Derivatives of Inverse Functions  Another main application of implicit differentiation is to finding the derivatives of inverse functions.     So how can we actually use this?      Find the derivative of for any .        Find the derivative of         Find the derivative of         Find the derivative of and .        Find the derivative of .       Inverse Trigonometric Functions  The other kind of function we can apply this to is inverse trigonometric functions.     "
+},
+{
+  "id": "notes-week-08-3-2",
+  "level": "2",
+  "url": "notes-week-08.html#notes-week-08-3-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "   Compute derivatives involving natural log using implicit differentiation.    Explore applications of implicit differentiation.    "
+},
+{
+  "id": "notes-week-08-3-3-1-2",
+  "level": "2",
+  "url": "notes-week-08.html#notes-week-08-3-3-1-2",
+  "type": "Example",
+  "number": "132",
+  "title": "",
+  "body": "  Find all points on the graph of where the tangent line goes through the point .   "
+},
+{
+  "id": "notes-week-08-3-6-1",
+  "level": "2",
+  "url": "notes-week-08.html#notes-week-08-3-6-1",
+  "type": "Example",
+  "number": "133",
+  "title": "",
+  "body": "  Find the derivative of for any .   "
+},
+{
+  "id": "notes-week-08-3-7-1",
+  "level": "2",
+  "url": "notes-week-08.html#notes-week-08-3-7-1",
+  "type": "Example",
+  "number": "134",
+  "title": "",
+  "body": "  Find the derivative of    "
+},
+{
+  "id": "notes-week-08-3-8-1",
+  "level": "2",
+  "url": "notes-week-08.html#notes-week-08-3-8-1",
+  "type": "Example",
+  "number": "135",
+  "title": "",
+  "body": "  Find the derivative of    "
+},
+{
+  "id": "notes-week-08-3-9-1",
+  "level": "2",
+  "url": "notes-week-08.html#notes-week-08-3-9-1",
+  "type": "Example",
+  "number": "136",
+  "title": "",
+  "body": "  Find the derivative of and .   "
+},
+{
+  "id": "notes-week-08-3-10-1",
+  "level": "2",
+  "url": "notes-week-08.html#notes-week-08-3-10-1",
+  "type": "Example",
+  "number": "137",
+  "title": "",
+  "body": "  Find the derivative of .   "
 },
 {
   "id": "wksht-sine-x-over-x",
@@ -2156,7 +2237,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handout-trig.html#handout-trig-2-3-2-2",
   "type": "Table",
-  "number": "182",
+  "number": "189",
   "title": "Special Angles of Trigonometric Functions",
   "body": " Special Angles of Trigonometric Functions                   Undefined       Undefined       "
 },
