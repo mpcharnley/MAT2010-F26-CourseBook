@@ -1492,7 +1492,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Week 8",
-  "body": " Week 8   This is an outline of the topics we covered in Week 8 of the course, from October 19 to October 24.    Monday 10\/19     Compute derivatives involving natural log using implicit differentiation.    Explore applications of implicit differentiation.       Applications of Implicit Differentiation    Find all points on the graph of where the tangent line goes through the point .        Derivatives of Inverse Functions  Another main application of implicit differentiation is to finding the derivatives of inverse functions.     So how can we actually use this?      Find the derivative of for any .        Find the derivative of         Find the derivative of         Find the derivative of and .        Find the derivative of .       Inverse Trigonometric Functions  The other kind of function we can apply this to is inverse trigonometric functions.     "
+  "body": " Week 8   This is an outline of the topics we covered in Week 8 of the course, from October 19 to October 24.    Monday 10\/19     Compute derivatives involving natural log using implicit differentiation.    Explore applications of implicit differentiation.       Applications of Implicit Differentiation    Find all points on the graph of where the tangent line goes through the point .        Derivatives of Inverse Functions  Another main application of implicit differentiation is to finding the derivatives of inverse functions.     So how can we actually use this?      Find the derivative of for any .        Find the derivative of         Find the derivative of         Find the derivative of and .        Find the derivative of .       Inverse Trigonometric Functions  The other kind of function we can apply this to is inverse trigonometric functions.      Tuesday 10\/20     Review definitions of inverse functions.    Discuss the inverse trigonometric functions.    Quiz on 3.4 and 3.5.       Inverse Functions  A function takes an input and gives a single output. There are times where we want to undo this operation, and so we want an inverse function to do that. However, not all functions have inverses. What has to happen in order for there to be an inverse?     So, if we have a one-to-one function, we then have an inverse function. What do we know about it?             How do we find this inverse?    Find the inverse of the function . Verify that these functions are inverses.        Find the inverse of the function . Use this information to find the domain and range of both and .       Explicitly Defined Inverse Functions  There are a few functions that we use regularly that are more complicated than algebraic functions, so they have explicitly defined inverses.  The other common type of explicit inverse functions come from the trigonometric functions.       Find the inverse of the function    Graph of x squared.    f(x)=x^2              Making the Trigonometric Functions Invertible  Like we saw in the last example, sometimes we can make a non-invertible function work like one that is invertible by restricting the domain.    Find a domain on which the function is invertible.   Graph of sine of x.    f(x)=sin(x)                Find domains on which each of the 6 main trigonometric functions are invertible and write out the domain and range of the corresponding inverse functions.    Graph of sine of x.    f(x)=sin(x)      \\sin(x)        Graph of cosine of x.    f(x)=cos(x)      \\cos(x)        Graph of tangent of x.    f(x)=tan(x)      \\tan(x)          Graph of cosecant of x.    f(x)=csc(x)      \\csc(x)        Graph of secant of x.    f(x)=sec(x)      \\sec(x)        Graph of cotangent of x.    f(x)=cot(x)      \\cot(x)             Differentiating the Inverse Trigonometric Functions  Now that we have these inverse functions, we want to differentiate them.    Find the derivative of .        Wednesday 10\/21     Compute derivatives of inverse trigonometric functions.    Compute derivatives of logarithms.       Derivatives of Inverse Trigonometric Functions    Find the derivatives of and .       What can we do for the other trigonometric functions?      Find the derivative of .      Find the derivative of .        Find the derivative for each of the functions below.                             Find the derivative for each of the functions below.                           "
 },
 {
   "id": "notes-week-08-3-2",
@@ -1556,6 +1556,132 @@ var ptx_lunr_docs = [
   "number": "137",
   "title": "",
   "body": "  Find the derivative of .   "
+},
+{
+  "id": "notes-week-08-4-2",
+  "level": "2",
+  "url": "notes-week-08.html#notes-week-08-4-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "   Review definitions of inverse functions.    Discuss the inverse trigonometric functions.    Quiz on 3.4 and 3.5.    "
+},
+{
+  "id": "notes-week-08-4-3-1-2",
+  "level": "2",
+  "url": "notes-week-08.html#notes-week-08-4-3-1-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "inverse function "
+},
+{
+  "id": "notes-week-08-4-5-2",
+  "level": "2",
+  "url": "notes-week-08.html#notes-week-08-4-5-2",
+  "type": "Example",
+  "number": "138",
+  "title": "",
+  "body": "  Find the inverse of the function . Verify that these functions are inverses.   "
+},
+{
+  "id": "notes-week-08-4-6-1",
+  "level": "2",
+  "url": "notes-week-08.html#notes-week-08-4-6-1",
+  "type": "Example",
+  "number": "139",
+  "title": "",
+  "body": "  Find the inverse of the function . Use this information to find the domain and range of both and .   "
+},
+{
+  "id": "notes-week-08-4-8-1",
+  "level": "2",
+  "url": "notes-week-08.html#notes-week-08-4-8-1",
+  "type": "Example",
+  "number": "140",
+  "title": "",
+  "body": "  Find the inverse of the function    Graph of x squared.    f(x)=x^2          "
+},
+{
+  "id": "notes-week-08-4-9-1-3",
+  "level": "2",
+  "url": "notes-week-08.html#notes-week-08-4-9-1-3",
+  "type": "Example",
+  "number": "141",
+  "title": "",
+  "body": "  Find a domain on which the function is invertible.   Graph of sine of x.    f(x)=sin(x)          "
+},
+{
+  "id": "notes-week-08-4-10-1",
+  "level": "2",
+  "url": "notes-week-08.html#notes-week-08-4-10-1",
+  "type": "Example",
+  "number": "142",
+  "title": "",
+  "body": "  Find domains on which each of the 6 main trigonometric functions are invertible and write out the domain and range of the corresponding inverse functions.    Graph of sine of x.    f(x)=sin(x)      \\sin(x)        Graph of cosine of x.    f(x)=cos(x)      \\cos(x)        Graph of tangent of x.    f(x)=tan(x)      \\tan(x)          Graph of cosecant of x.    f(x)=csc(x)      \\csc(x)        Graph of secant of x.    f(x)=sec(x)      \\sec(x)        Graph of cotangent of x.    f(x)=cot(x)      \\cot(x)         "
+},
+{
+  "id": "notes-week-08-4-11-1-3",
+  "level": "2",
+  "url": "notes-week-08.html#notes-week-08-4-11-1-3",
+  "type": "Example",
+  "number": "143",
+  "title": "",
+  "body": "  Find the derivative of .   "
+},
+{
+  "id": "notes-week-08-5-2",
+  "level": "2",
+  "url": "notes-week-08.html#notes-week-08-5-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "   Compute derivatives of inverse trigonometric functions.    Compute derivatives of logarithms.    "
+},
+{
+  "id": "notes-week-08-5-3-1-2",
+  "level": "2",
+  "url": "notes-week-08.html#notes-week-08-5-3-1-2",
+  "type": "Example",
+  "number": "144",
+  "title": "",
+  "body": "  Find the derivatives of and .   "
+},
+{
+  "id": "notes-week-08-5-5-1",
+  "level": "2",
+  "url": "notes-week-08.html#notes-week-08-5-5-1",
+  "type": "Example",
+  "number": "145",
+  "title": "",
+  "body": "  Find the derivative of .   "
+},
+{
+  "id": "notes-week-08-5-5-2",
+  "level": "2",
+  "url": "notes-week-08.html#notes-week-08-5-5-2",
+  "type": "Example",
+  "number": "146",
+  "title": "",
+  "body": "  Find the derivative of .   "
+},
+{
+  "id": "notes-week-08-5-6-1",
+  "level": "2",
+  "url": "notes-week-08.html#notes-week-08-5-6-1",
+  "type": "Example",
+  "number": "147",
+  "title": "",
+  "body": "  Find the derivative for each of the functions below.                        "
+},
+{
+  "id": "notes-week-08-5-7-1",
+  "level": "2",
+  "url": "notes-week-08.html#notes-week-08-5-7-1",
+  "type": "Example",
+  "number": "148",
+  "title": "",
+  "body": "  Find the derivative for each of the functions below.                        "
 },
 {
   "id": "wksht-sine-x-over-x",
@@ -2237,7 +2363,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handout-trig.html#handout-trig-2-3-2-2",
   "type": "Table",
-  "number": "189",
+  "number": "200",
   "title": "Special Angles of Trigonometric Functions",
   "body": " Special Angles of Trigonometric Functions                   Undefined       Undefined       "
 },
