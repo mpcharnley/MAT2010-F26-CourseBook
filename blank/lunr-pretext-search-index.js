@@ -1492,7 +1492,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Week 8",
-  "body": " Week 8   This is an outline of the topics we covered in Week 8 of the course, from October 19 to October 24.    Monday 10\/19     Compute derivatives involving natural log using implicit differentiation.    Explore applications of implicit differentiation.       Applications of Implicit Differentiation    Find all points on the graph of where the tangent line goes through the point .        Derivatives of Inverse Functions  Another main application of implicit differentiation is to finding the derivatives of inverse functions.     So how can we actually use this?      Find the derivative of for any .        Find the derivative of         Find the derivative of         Find the derivative of and .        Find the derivative of .       Inverse Trigonometric Functions  The other kind of function we can apply this to is inverse trigonometric functions.      Tuesday 10\/20     Review definitions of inverse functions.    Discuss the inverse trigonometric functions.    Quiz on 3.4 and 3.5.       Inverse Functions  A function takes an input and gives a single output. There are times where we want to undo this operation, and so we want an inverse function to do that. However, not all functions have inverses. What has to happen in order for there to be an inverse?     So, if we have a one-to-one function, we then have an inverse function. What do we know about it?             How do we find this inverse?    Find the inverse of the function . Verify that these functions are inverses.        Find the inverse of the function . Use this information to find the domain and range of both and .       Explicitly Defined Inverse Functions  There are a few functions that we use regularly that are more complicated than algebraic functions, so they have explicitly defined inverses.  The other common type of explicit inverse functions come from the trigonometric functions.       Find the inverse of the function    Graph of x squared.    f(x)=x^2              Making the Trigonometric Functions Invertible  Like we saw in the last example, sometimes we can make a non-invertible function work like one that is invertible by restricting the domain.    Find a domain on which the function is invertible.   Graph of sine of x.    f(x)=sin(x)                Find domains on which each of the 6 main trigonometric functions are invertible and write out the domain and range of the corresponding inverse functions.    Graph of sine of x.    f(x)=sin(x)      \\sin(x)        Graph of cosine of x.    f(x)=cos(x)      \\cos(x)        Graph of tangent of x.    f(x)=tan(x)      \\tan(x)          Graph of cosecant of x.    f(x)=csc(x)      \\csc(x)        Graph of secant of x.    f(x)=sec(x)      \\sec(x)        Graph of cotangent of x.    f(x)=cot(x)      \\cot(x)             Differentiating the Inverse Trigonometric Functions  Now that we have these inverse functions, we want to differentiate them.    Find the derivative of .        Wednesday 10\/21     Compute derivatives of inverse trigonometric functions.    Compute derivatives of logarithms.       Derivatives of Inverse Trigonometric Functions    Find the derivatives of and .       What can we do for the other trigonometric functions?      Find the derivative of .      Find the derivative of .        Find the derivative for each of the functions below.                             Find the derivative for each of the functions below.                           "
+  "body": " Week 8   This is an outline of the topics we covered in Week 8 of the course, from October 19 to October 24.    Monday 10\/19     Compute derivatives involving natural log using implicit differentiation.    Explore applications of implicit differentiation.       Applications of Implicit Differentiation    Find all points on the graph of where the tangent line goes through the point .        Derivatives of Inverse Functions  Another main application of implicit differentiation is to finding the derivatives of inverse functions.     So how can we actually use this?      Find the derivative of for any .        Find the derivative of         Find the derivative of         Find the derivative of and .        Find the derivative of .       Inverse Trigonometric Functions  The other kind of function we can apply this to is inverse trigonometric functions.      Tuesday 10\/20     Review definitions of inverse functions.    Discuss the inverse trigonometric functions.    Quiz on 3.4 and 3.5.       Inverse Functions  A function takes an input and gives a single output. There are times where we want to undo this operation, and so we want an inverse function to do that. However, not all functions have inverses. What has to happen in order for there to be an inverse?     So, if we have a one-to-one function, we then have an inverse function. What do we know about it?             How do we find this inverse?    Find the inverse of the function . Verify that these functions are inverses.        Find the inverse of the function . Use this information to find the domain and range of both and .       Explicitly Defined Inverse Functions  There are a few functions that we use regularly that are more complicated than algebraic functions, so they have explicitly defined inverses.  The other common type of explicit inverse functions come from the trigonometric functions.       Find the inverse of the function    Graph of x squared.    f(x)=x^2              Wednesday 10\/21     Compute derivatives of inverse trigonometric functions.    Compute derivatives of logarithms.       Making the Trigonometric Functions Invertible  Like we saw in the last example, sometimes we can make a non-invertible function work like one that is invertible by restricting the domain.    Find a domain on which the function is invertible.   Graph of sine of x.    f(x)=sin(x)                Find domains on which each of the 6 main trigonometric functions are invertible and write out the domain and range of the corresponding inverse functions.    Graph of sine of x.    f(x)=sin(x)      \\sin(x)        Graph of cosine of x.    f(x)=cos(x)      \\cos(x)        Graph of tangent of x.    f(x)=tan(x)      \\tan(x)          Graph of cosecant of x.    f(x)=csc(x)      \\csc(x)        Graph of secant of x.    f(x)=sec(x)      \\sec(x)        Graph of cotangent of x.    f(x)=cot(x)      \\cot(x)             Differentiating the Inverse Trigonometric Functions  Now that we have these inverse functions, we want to differentiate them.    Find the derivative of .        Derivatives of Inverse Trigonometric Functions    Find the derivatives of and .       What can we do for the other trigonometric functions?      Find the derivative of .      Find the derivative of .        Find the derivative for each of the functions below.                             Find the derivative for each of the functions below.                            Friday 10\/23     Explore applications of derivatives in nature    Solve motion problems using the derivative.       Derivatives in Nature  When thinking about applications of the derivative to physical\/real-world problems, the overarching theme is that the derivative is the rate of change of a function.      Motion Problems    Assume that the position of a remote-controlled car is given by over the time interval .     Where is the car at ?      Where is the car at ?      Find the velocity of the car at .      When is the car at rest? Moving forward?      How would you compute the total distance traveled over the interval ?      What is the acceleration at ?      Graph the position, velocity, and acceleration.      When is the car speeding up? Slowing down?        This type of information can also be learned directly from a graph of either position or velocity.    Consider a particle whos position is given by the graph below.     f1(x) = sin(pi*x\/2)  f2(x) = 1  f3(x) = cos(pi*(x-3)\/2)  f4(x) = -1\/2*(cos( pi*(x-5)\/2)+1)               When is the particle moving forward?      When is the particle moving backwards?      When is the particle moving at rest?      When is the particle speeding up?      When is the particle slowing down?         Consider a particle whos velocity is given by the graph below.     f1(x) = sin(pi*x\/2)  f2(x) = -1  f3(x) = -cos(pi*(x-5)\/2)  f4(x) = 1\/2*(cos( pi*(x-7)\/2)+1)               When is the particle moving forward?      When is the particle moving backwards?      When is the particle moving at rest?      When is the particle speeding up?      When is the particle slowing down?         A ball is thrown upward from the top of a building. The position of the ball is given by where is in feet above the ground and is in seconds.     When does the ball reach its maximum height, and what is this height?      How fast is the ball moving when it hits the ground?        Other Applications  There are many more applications to a variety of fields, and the book has many of them in it. As always, the theme is that the derivative is used to represent a rate of change.    Let be a function that represents the temperature of a metal rod inches from the end. What does represent?      Let be the volume of a sphere as a function of its radius. Compute and explain the physical interpretation of .         Assume that for two subjects that you're trying to learn about, and represents the fraction of the material you remember days after last studying it. If , which of the two classes should you be more concerned about? What do these derivatives represent physically?      "
 },
 {
   "id": "notes-week-08-3-2",
@@ -1603,33 +1603,6 @@ var ptx_lunr_docs = [
   "body": "  Find the inverse of the function    Graph of x squared.    f(x)=x^2          "
 },
 {
-  "id": "notes-week-08-4-9-1-3",
-  "level": "2",
-  "url": "notes-week-08.html#notes-week-08-4-9-1-3",
-  "type": "Example",
-  "number": "141",
-  "title": "",
-  "body": "  Find a domain on which the function is invertible.   Graph of sine of x.    f(x)=sin(x)          "
-},
-{
-  "id": "notes-week-08-4-10-1",
-  "level": "2",
-  "url": "notes-week-08.html#notes-week-08-4-10-1",
-  "type": "Example",
-  "number": "142",
-  "title": "",
-  "body": "  Find domains on which each of the 6 main trigonometric functions are invertible and write out the domain and range of the corresponding inverse functions.    Graph of sine of x.    f(x)=sin(x)      \\sin(x)        Graph of cosine of x.    f(x)=cos(x)      \\cos(x)        Graph of tangent of x.    f(x)=tan(x)      \\tan(x)          Graph of cosecant of x.    f(x)=csc(x)      \\csc(x)        Graph of secant of x.    f(x)=sec(x)      \\sec(x)        Graph of cotangent of x.    f(x)=cot(x)      \\cot(x)         "
-},
-{
-  "id": "notes-week-08-4-11-1-3",
-  "level": "2",
-  "url": "notes-week-08.html#notes-week-08-4-11-1-3",
-  "type": "Example",
-  "number": "143",
-  "title": "",
-  "body": "  Find the derivative of .   "
-},
-{
   "id": "notes-week-08-5-2",
   "level": "2",
   "url": "notes-week-08.html#notes-week-08-5-2",
@@ -1639,49 +1612,148 @@ var ptx_lunr_docs = [
   "body": "   Compute derivatives of inverse trigonometric functions.    Compute derivatives of logarithms.    "
 },
 {
-  "id": "notes-week-08-5-3-1-2",
+  "id": "notes-week-08-5-3-1-3",
   "level": "2",
-  "url": "notes-week-08.html#notes-week-08-5-3-1-2",
+  "url": "notes-week-08.html#notes-week-08-5-3-1-3",
+  "type": "Example",
+  "number": "141",
+  "title": "",
+  "body": "  Find a domain on which the function is invertible.   Graph of sine of x.    f(x)=sin(x)          "
+},
+{
+  "id": "notes-week-08-5-4-1",
+  "level": "2",
+  "url": "notes-week-08.html#notes-week-08-5-4-1",
+  "type": "Example",
+  "number": "142",
+  "title": "",
+  "body": "  Find domains on which each of the 6 main trigonometric functions are invertible and write out the domain and range of the corresponding inverse functions.    Graph of sine of x.    f(x)=sin(x)      \\sin(x)        Graph of cosine of x.    f(x)=cos(x)      \\cos(x)        Graph of tangent of x.    f(x)=tan(x)      \\tan(x)          Graph of cosecant of x.    f(x)=csc(x)      \\csc(x)        Graph of secant of x.    f(x)=sec(x)      \\sec(x)        Graph of cotangent of x.    f(x)=cot(x)      \\cot(x)         "
+},
+{
+  "id": "notes-week-08-5-5-1-3",
+  "level": "2",
+  "url": "notes-week-08.html#notes-week-08-5-5-1-3",
+  "type": "Example",
+  "number": "143",
+  "title": "",
+  "body": "  Find the derivative of .   "
+},
+{
+  "id": "notes-week-08-5-6-1-2",
+  "level": "2",
+  "url": "notes-week-08.html#notes-week-08-5-6-1-2",
   "type": "Example",
   "number": "144",
   "title": "",
   "body": "  Find the derivatives of and .   "
 },
 {
-  "id": "notes-week-08-5-5-1",
+  "id": "notes-week-08-5-8-1",
   "level": "2",
-  "url": "notes-week-08.html#notes-week-08-5-5-1",
+  "url": "notes-week-08.html#notes-week-08-5-8-1",
   "type": "Example",
   "number": "145",
   "title": "",
   "body": "  Find the derivative of .   "
 },
 {
-  "id": "notes-week-08-5-5-2",
+  "id": "notes-week-08-5-8-2",
   "level": "2",
-  "url": "notes-week-08.html#notes-week-08-5-5-2",
+  "url": "notes-week-08.html#notes-week-08-5-8-2",
   "type": "Example",
   "number": "146",
   "title": "",
   "body": "  Find the derivative of .   "
 },
 {
-  "id": "notes-week-08-5-6-1",
+  "id": "notes-week-08-5-9-1",
   "level": "2",
-  "url": "notes-week-08.html#notes-week-08-5-6-1",
+  "url": "notes-week-08.html#notes-week-08-5-9-1",
   "type": "Example",
   "number": "147",
   "title": "",
   "body": "  Find the derivative for each of the functions below.                        "
 },
 {
-  "id": "notes-week-08-5-7-1",
+  "id": "notes-week-08-5-10-1",
   "level": "2",
-  "url": "notes-week-08.html#notes-week-08-5-7-1",
+  "url": "notes-week-08.html#notes-week-08-5-10-1",
   "type": "Example",
   "number": "148",
   "title": "",
   "body": "  Find the derivative for each of the functions below.                        "
+},
+{
+  "id": "notes-week-08-6-2",
+  "level": "2",
+  "url": "notes-week-08.html#notes-week-08-6-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "   Explore applications of derivatives in nature    Solve motion problems using the derivative.    "
+},
+{
+  "id": "notes-week-08-6-4-1-2",
+  "level": "2",
+  "url": "notes-week-08.html#notes-week-08-6-4-1-2",
+  "type": "Example",
+  "number": "149",
+  "title": "",
+  "body": "  Assume that the position of a remote-controlled car is given by over the time interval .     Where is the car at ?      Where is the car at ?      Find the velocity of the car at .      When is the car at rest? Moving forward?      How would you compute the total distance traveled over the interval ?      What is the acceleration at ?      Graph the position, velocity, and acceleration.      When is the car speeding up? Slowing down?    "
+},
+{
+  "id": "notes-week-08-6-5-2",
+  "level": "2",
+  "url": "notes-week-08.html#notes-week-08-6-5-2",
+  "type": "Example",
+  "number": "150",
+  "title": "",
+  "body": "  Consider a particle whos position is given by the graph below.     f1(x) = sin(pi*x\/2)  f2(x) = 1  f3(x) = cos(pi*(x-3)\/2)  f4(x) = -1\/2*(cos( pi*(x-5)\/2)+1)               When is the particle moving forward?      When is the particle moving backwards?      When is the particle moving at rest?      When is the particle speeding up?      When is the particle slowing down?    "
+},
+{
+  "id": "notes-week-08-6-6-1",
+  "level": "2",
+  "url": "notes-week-08.html#notes-week-08-6-6-1",
+  "type": "Example",
+  "number": "151",
+  "title": "",
+  "body": "  Consider a particle whos velocity is given by the graph below.     f1(x) = sin(pi*x\/2)  f2(x) = -1  f3(x) = -cos(pi*(x-5)\/2)  f4(x) = 1\/2*(cos( pi*(x-7)\/2)+1)               When is the particle moving forward?      When is the particle moving backwards?      When is the particle moving at rest?      When is the particle speeding up?      When is the particle slowing down?    "
+},
+{
+  "id": "notes-week-08-6-7-1",
+  "level": "2",
+  "url": "notes-week-08.html#notes-week-08-6-7-1",
+  "type": "Example",
+  "number": "152",
+  "title": "",
+  "body": "  A ball is thrown upward from the top of a building. The position of the ball is given by where is in feet above the ground and is in seconds.     When does the ball reach its maximum height, and what is this height?      How fast is the ball moving when it hits the ground?    "
+},
+{
+  "id": "notes-week-08-6-8-1-3",
+  "level": "2",
+  "url": "notes-week-08.html#notes-week-08-6-8-1-3",
+  "type": "Example",
+  "number": "153",
+  "title": "",
+  "body": "  Let be a function that represents the temperature of a metal rod inches from the end. What does represent?   "
+},
+{
+  "id": "notes-week-08-6-8-1-4",
+  "level": "2",
+  "url": "notes-week-08.html#notes-week-08-6-8-1-4",
+  "type": "Example",
+  "number": "154",
+  "title": "",
+  "body": "  Let be the volume of a sphere as a function of its radius. Compute and explain the physical interpretation of .   "
+},
+{
+  "id": "notes-week-08-6-9-1",
+  "level": "2",
+  "url": "notes-week-08.html#notes-week-08-6-9-1",
+  "type": "Example",
+  "number": "155",
+  "title": "",
+  "body": "  Assume that for two subjects that you're trying to learn about, and represents the fraction of the material you remember days after last studying it. If , which of the two classes should you be more concerned about? What do these derivatives represent physically?   "
 },
 {
   "id": "wksht-sine-x-over-x",
@@ -2363,7 +2435,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handout-trig.html#handout-trig-2-3-2-2",
   "type": "Table",
-  "number": "200",
+  "number": "207",
   "title": "Special Angles of Trigonometric Functions",
   "body": " Special Angles of Trigonometric Functions                   Undefined       Undefined       "
 },
