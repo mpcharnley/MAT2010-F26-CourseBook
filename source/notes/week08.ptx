@@ -160,5 +160,468 @@
     </page>
 </handout>
 
+<handout component="cur">
+    <title>Tuesday 10/20</title>
+    <objectives>
+        <ul>
+            <li>
+                <p>
+                    Review definitions of inverse functions.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Discuss the inverse trigonometric functions.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Quiz on 3.4 and 3.5.
+                </p>
+            </li>
+        </ul>
+    </objectives>
+    <page>
+        <paragraphs>
+            <title>Inverse Functions</title>
+
+<p component="b" workspace="4in">
+    A function takes an input and gives a single output. There are times where we want to <q>undo</q> this operation, and so we want an <term>inverse function</term> to do that. However, not all functions have inverses. What has to happen in order for there to be an inverse?
+</p>
+<p component="a">
+    A function takes an input and gives a single output. There are times where we want to <q>undo</q> this operation, and so we want an <term>inverse function</term> to do that. However, not all functions have inverses. What has to happen in order for there to be an inverse? No two inputs give the same output. If they did, then the inverse map that sends outputs to inputs would not be a function. This means we need the function to be one-to-one. 
+</p>
+
+        </paragraphs>
+    </page>
+
+    <page>
+        
+        <p component="b" workspace="4in">
+            So, if we have a one-to-one function, we then have an inverse function. What do we know about it?
+        </p>
+        <p component="a">
+            So, if we have a one-to-one function, we then have an inverse function. What do we know about it? Define with notation. Domain, range. Points on the graph, connect to reflection over <m>y=x</m>. Composition Rules.
+        </p>
+
+        <image width="50%">
+  <prefigure xmlns="https://prefigure.org"
+             label="inv-fcn-blank-one">
+    <xi:include href="../../prefigure/blank-axes-6-6.xml" />
+  </prefigure>
+</image>
+    </page>
+
+    <page>
+        <p component="b" workspace="2in">
+            How do we find this inverse?
+        </p>
+        <p component="a">
+            How do we find this inverse? Swap x for y, then solve for y, at least for algebraic functions.
+        </p>
+
+        <example workspace="2in">
+            <statement>
+                <p>
+                    Find the inverse of the function <m>f(x) = 5x-1</m>. Verify that these functions are inverses.
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Find the inverse of the function <md>
+                        f(x) = \frac{3x - 5}{2x-7}
+                    </md>. Use this information to find the domain and range of both <m>f(x)</m> and <m>f^{-1}(x)</m>.
+                    
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <paragraphs>
+            <title>Explicitly Defined Inverse Functions</title>
+            
+            <p component="b" workspace="2in">
+                There are a few functions that we use regularly that are more complicated than algebraic functions, so they have explicitly defined inverses.
+            </p>
+            <p component="a">
+                There are a few functions that we use regularly that are more complicated than algebraic functions, so they have explicitly defined inverses. logs are the easist example of this. How is log defined. What does that mean in terms of inverse functions? 
+            </p>
+
+            <p component="b" workspace="1in">
+                The other common type of explicit inverse functions come from the trigonometric functions.
+            </p>
+            <p component="a">
+                The other common type of explicit inverse functions come from the trigonometric functions. 
+            </p>
+
+        </paragraphs>
+    </page>
+    
+<page>
+    <example workspace="4in">
+        <statement>
+            <p>
+                Find the inverse of the function <m>f(x) = x^2</m>
+            </p>
+            <image width="60%">
+                <shortdescription>Graph of x squared.</shortdescription>
+                <prefigure xmlns="https://prefigure.org"
+             label="inv-fcn-x-squared">
+            <diagram xmlns="https://prefigure.org" dimensions="(300,300)" margins="5">
+  <definition> f(x)=x^2 </definition>
+  <coordinates bbox="[-4,-4,4,4]">
+    <grid-axes xlabel="x" ylabel="y"/>
+    <graph function="f"/>
+  </coordinates>
+</diagram>
+            </prefigure>
+            </image>
+        </statement>
+    
+    </example>
+    
+</page>
+
+<page>
+    <paragraphs>
+        <title>Making the Trigonometric Functions Invertible</title>
+        
+<p component="b" workspace="3in">
+    Like we saw in the last example, sometimes we can make a non-invertible function work like one that is invertible by restricting the domain.
+</p>
+<p component="a">
+    Like we saw in the last example, sometimes we can make a non-invertible function work like one that is invertible by restricting the domain. This is the same game we want to play with our trigonometric functions.
+</p>
+
+<example workspace="2in">
+    <statement>
+        <p>
+            Find a domain on which the function <m>f(x) = \sin(x)</m> is invertible.
+        </p>
+        <image width="60%">
+                <shortdescription>Graph of sine of x.</shortdescription>
+                <prefigure xmlns="https://prefigure.org"
+             label="inv-fcn-sine-x">
+            <diagram xmlns="https://prefigure.org" dimensions="(300,300)" margins="5">
+  <definition> f(x)=sin(x) </definition>
+  <coordinates bbox="[-4,-4,4,4]">
+    <grid-axes xlabel="x" ylabel="y"/>
+    <graph function="f"/>
+  </coordinates>
+</diagram>
+            </prefigure>
+            </image>
+    </statement>
+
+</example>
+
+    </paragraphs>
+</page>
+
+<page>
+    <example workspace="3in">
+        <statement>
+            <p>
+                Find domains on which each of the 6 main trigonometric functions are invertible and write out the domain and range of the corresponding inverse functions.
+            </p>
+            <sidebyside widths="30% 30% 30%">
+                <image width="60%">
+                <shortdescription>Graph of sine of x.</shortdescription>
+                <prefigure xmlns="https://prefigure.org"
+             label="inv-fcn-sine-x-two">
+            <diagram xmlns="https://prefigure.org" dimensions="(300,300)" margins="5">
+  <definition> f(x)=sin(x) </definition>
+  <coordinates bbox="[-4,-4,4,4]">
+    <grid-axes xlabel="x" ylabel="y"/>
+    <graph at="f" function="f"/>
+    <legend anchor="(bbox[2], bbox[3])"
+            alignment="sw">
+      <item ref="f"><m>\sin(x)</m></item>
+    </legend>
+  </coordinates>
+</diagram>
+            </prefigure>
+            </image>
+            <image width="60%">
+                <shortdescription>Graph of cosine of x.</shortdescription>
+                <prefigure xmlns="https://prefigure.org"
+             label="inv-fcn-cosine">
+            <diagram xmlns="https://prefigure.org" dimensions="(300,300)" margins="5">
+  <definition> f(x)=cos(x) </definition>
+  <coordinates bbox="[-4,-4,4,4]">
+    <grid-axes xlabel="x" ylabel="y"/>
+    <graph at="f" function="f"/>
+    <legend anchor="(bbox[2], bbox[3])"
+            alignment="sw">
+      <item ref="f"><m>\cos(x)</m></item>
+    </legend>
+  </coordinates>
+</diagram>
+            </prefigure>
+            </image>
+            <image width="60%">
+                <shortdescription>Graph of tangent of x.</shortdescription>
+                <prefigure xmlns="https://prefigure.org"
+             label="inv-fcn-tan-x">
+            <diagram xmlns="https://prefigure.org" dimensions="(300,300)" margins="5">
+  <definition> f(x)=tan(x) </definition>
+  <coordinates bbox="[-4,-4,4,4]">
+    <grid-axes xlabel="x" ylabel="y"/>
+    <graph at="f" function="f"/>
+    <legend anchor="(bbox[2], bbox[3])"
+            alignment="sw">
+      <item ref="f"><m>\tan(x)</m></item>
+    </legend>
+  </coordinates>
+</diagram>
+            </prefigure>
+            </image>
+            </sidebyside>
+            <sidebyside widths="30% 30% 30%">
+                <image width="60%">
+                <shortdescription>Graph of cosecant of x.</shortdescription>
+                <prefigure xmlns="https://prefigure.org"
+             label="inv-fcn-csc-x">
+            <diagram xmlns="https://prefigure.org" dimensions="(300,300)" margins="5">
+  <definition> f(x)=csc(x) </definition>
+  <coordinates bbox="[-6,-6,6,6]">
+    <grid-axes xlabel="x" ylabel="y"/>
+    <graph at="f" function="f"/>
+    <legend anchor="(bbox[2], bbox[3])"
+            alignment="sw">
+      <item ref="f"><m>\csc(x)</m></item>
+    </legend>
+  </coordinates>
+</diagram>
+            </prefigure>
+            </image>
+            <image width="60%">
+                <shortdescription>Graph of secant of x.</shortdescription>
+                <prefigure xmlns="https://prefigure.org"
+             label="inv-fcn-sec-x">
+            <diagram xmlns="https://prefigure.org" dimensions="(300,300)" margins="5">
+  <definition> f(x)=sec(x) </definition>
+  <coordinates bbox="[-6,-6,6,6]">
+    <grid-axes xlabel="x" ylabel="y"/>
+    <graph at="f" function="f"/>
+    <legend anchor="(bbox[2], bbox[3])"
+            alignment="sw">
+      <item ref="f"><m>\sec(x)</m></item>
+    </legend>
+  </coordinates>
+</diagram>
+            </prefigure>
+            </image>
+            <image width="60%">
+                <shortdescription>Graph of cotangent of x.</shortdescription>
+                <prefigure xmlns="https://prefigure.org"
+             label="inv-fcn-cot-x">
+            <diagram xmlns="https://prefigure.org" dimensions="(300,300)" margins="5">
+  <definition> f(x)=cot(x) </definition>
+  <coordinates bbox="[-4,-4,4,4]">
+    <grid-axes xlabel="x" ylabel="y"/>
+    <graph at="f" function="f"/>
+    <legend anchor="(bbox[2], bbox[3])"
+            alignment="sw">
+      <item ref="f"><m>\cot(x)</m></item>
+    </legend>
+  </coordinates>
+</diagram>
+            </prefigure>
+            </image>
+            </sidebyside>
+        </statement>
+    
+    </example>
+    
+</page>
+
+<page>
+    <paragraphs>
+        <title>Differentiating the Inverse Trigonometric Functions</title>
+        
+        <p component="b" workspace="2in">
+            Now that we have these inverse functions, we want to differentiate them. 
+        </p>
+        <p component="a">
+            Now that we have these inverse functions, we want to differentiate them. We will use the fact that we know the derivative of the forward functions and use implicit differentiation.
+        </p>
+
+        <example workspace="3in">
+            <statement>
+                <p>
+                    Find the derivative of <m>f(x) = \sin^{-1}(x)</m>.
+                </p>
+            </statement>
+        
+        </example>
+        
+
+    </paragraphs>
+</page>
+
+</handout>
+
+<handout component="cur">
+    <title>Wednesday 10/21</title>
+    <objectives>
+        <ul>
+            <li>
+                <p>
+                    Compute derivatives of inverse trigonometric functions.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Compute derivatives of logarithms.
+                </p>
+            </li>
+        </ul>
+    </objectives>
+    <page>
+        <paragraphs>
+            <title>Derivatives of Inverse Trigonometric Functions</title>
+
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Find the derivatives of <m>f(x) = \tan^{-1}(x)</m> and <m>g(x) = \sec^{-1}(x)</m>.
+                </p>
+            </statement>
+        
+        </example>
+        
+
+        </paragraphs>
+    </page>
+    
+    <page>
+        <p component="b" workspace="2in">
+            What can we do for the other trigonometric functions?
+        </p>
+        <p component="a">
+            What can we do for the other trigonometric functions? We have cofunction identities! That means these all just get minus signs.
+        </p>
+
+
+    </page>
+
+    <page>
+        <example workspace="2in">
+            <statement>
+                <p>
+                    Find the derivative of <m>f(x) = e^x\tan^{-1}(x)</m>.
+                </p>
+            </statement>
+        
+        </example>
+
+        <example workspace="2in">
+            <statement>
+                <p>
+                    Find the derivative of <m>f(x) = \sin^{-1}(x^3)</m>.
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <example workspace="0in">
+            <introduction>
+                <p>
+                    Find the derivative for each of the functions below.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>\displaystyle f(x) = x^2\sin^{-1}(4x)</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\displaystyle g(x) = \ln(\cos(x))</m>
+                    </p>
+                </statement>
+            </task>
+            <task workspace="4in">
+                <statement>
+                    <p>
+                        <m>\displaystyle h(x) = \sin(x)\sec^{-1}(e^{2x})</m>
+                    </p>
+                </statement>
+            </task>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <example workspace="0in">
+            <introduction>
+                <p>
+                    Find the derivative for each of the functions below.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>\displaystyle f(x) = \tan^{-1}(3x^2 + 5)</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\displaystyle g(x) = \ln\left(\frac{x^2 + 5}{(x^3 - 2x + 1)^2}\right)</m>
+                    </p>
+                </statement>
+            </task>
+            <task workspace="4in">
+                <statement>
+                    <p>
+                        <m>\displaystyle h(x) = x\sec^{-1}(2^x)</m>
+                    </p>
+                </statement>
+            </task>
+        
+        </example>
+        
+    </page>
+</handout>
+
+<handout component="future">
+    <title>Friday 10/23</title>
+    <objectives>
+        <ul>
+            <li>
+                <p>
+                    
+                </p>
+            </li>
+        </ul>
+    </objectives>
+    <page>
+        <paragraphs>
+            <title>Title</title>
+
+        </paragraphs>
+    </page>
+</handout>
+
 
 </section>
