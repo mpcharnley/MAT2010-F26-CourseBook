@@ -292,7 +292,26 @@
     
 </page>
 
-<page>
+</handout>
+
+<handout component="cur">
+    <title>Wednesday 10/21</title>
+    <objectives>
+        <ul>
+            <li>
+                <p>
+                    Compute derivatives of inverse trigonometric functions.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Compute derivatives of logarithms.
+                </p>
+            </li>
+        </ul>
+    </objectives>
+
+    <page>
     <paragraphs>
         <title>Making the Trigonometric Functions Invertible</title>
         
@@ -469,25 +488,6 @@
 
     </paragraphs>
 </page>
-
-</handout>
-
-<handout component="cur">
-    <title>Wednesday 10/21</title>
-    <objectives>
-        <ul>
-            <li>
-                <p>
-                    Compute derivatives of inverse trigonometric functions.
-                </p>
-            </li>
-            <li>
-                <p>
-                    Compute derivatives of logarithms.
-                </p>
-            </li>
-        </ul>
-    </objectives>
     <page>
         <paragraphs>
             <title>Derivatives of Inverse Trigonometric Functions</title>
@@ -604,22 +604,291 @@
     </page>
 </handout>
 
-<handout component="future">
+<handout component="cur">
     <title>Friday 10/23</title>
     <objectives>
         <ul>
             <li>
                 <p>
-                    
+                    Explore applications of derivatives in nature
+                </p>
+            </li>
+            <li>
+                <p>
+                    Solve motion problems using the derivative.
                 </p>
             </li>
         </ul>
     </objectives>
     <page>
         <paragraphs>
-            <title>Title</title>
+            <title>Derivatives in Nature</title>
+
+<p component="b" workspace="4in">
+    When thinking about applications of the derivative to physical/real-world problems, the overarching theme is that the derivative is the rate of change of a function.
+</p>
+<p component="a">
+    When thinking about applications of the derivative to physical/real-world problems, the overarching theme is that the derivative is the rate of change of a function. Anything that is changing can be modeled with a function, and then its rate of change can be calculated using the derivative. If you want to know how fast something is changing, use the derivative/slope.
+</p>
 
         </paragraphs>
+    </page>
+
+    <page>
+        <paragraphs>
+            <title>Motion Problems</title>
+
+            <example>
+                <introduction>
+                    <p>
+                        Assume that the position of a remote-controlled car is given by <md>
+                            s(t) = t^3 - \frac{23}{2}t^2 + 30 t
+                        </md> over the time interval <m>[0,10]</m>.
+                        
+                    </p>
+                </introduction>
+                <task>
+                    <statement>
+                        <p>
+                            Where is the car at <m>t=0</m>?
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Where is the car at <m>t=2</m>?
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Find the velocity of the car at <m>t=1</m>.
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            When is the car at rest? Moving forward?
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            How would you compute the total distance traveled over the interval <m>[0,10]</m>?
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            What is the acceleration at <m>t=3</m>?
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            Graph the position, velocity, and acceleration.
+                        </p>
+                    </statement>
+                </task>
+                <task workspace="1in">
+                    <statement>
+                        <p>
+                            When is the car speeding up? Slowing down?
+                        </p>
+                    </statement>
+                </task>
+            </example>
+            
+            
+        </paragraphs>
+    </page>
+
+    <page>
+        <p>
+            This type of information can also be learned directly from a graph of either position or velocity.
+        </p>
+
+        <example>
+            <introduction>
+                <p>
+                    Consider a particle whose <em>position</em> is given by the graph below.
+                </p>
+                <image width="60%">
+            <prefigure xmlns="https://prefigure.org"
+             label="deriv-nature-ex2-position-graph">
+                <xi:include href="../../prefigure/deriv-nature-ex2-position-graph.xml" />
+            </prefigure>
+            </image>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        When is the particle moving forward?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        When is the particle moving backwards?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        When is the particle moving at rest?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        When is the particle speeding up?
+                    </p>
+                </statement>
+            </task>
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        When is the particle slowing down?
+                    </p>
+                </statement>
+            </task>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <example>
+            <introduction>
+                <p>
+                    Consider a particle whose <em>velocity</em> is given by the graph below.
+                </p>
+                <image width="60%">
+            <prefigure xmlns="https://prefigure.org"
+             label="deriv-nature-ex2-velocity-graph">
+                <xi:include href="../../prefigure/deriv-nature-ex2-velocity-graph.xml" />
+            </prefigure>
+            </image>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        When is the particle moving forward?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        When is the particle moving backwards?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        When is the particle moving at rest?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        When is the particle speeding up?
+                    </p>
+                </statement>
+            </task>
+            <task workspace="1in">
+                <statement>
+                    <p>
+                        When is the particle slowing down?
+                    </p>
+                </statement>
+            </task>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <example workspace="0in">
+            <introduction>
+                <p>
+                    A ball is thrown upward from the top of a building. The position of the ball is given by 
+                    <md>
+                        s(t) = -16t^2 + 40t + 10
+                    </md> where <m>s</m> is in feet above the ground and <m>t</m> is in seconds.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        When does the ball reach its maximum height, and what is this height?
+                    </p>
+                </statement>
+            </task>
+            <task workspace="4in">
+                <statement>
+                    <p>
+                        How fast is the ball moving when it hits the ground?
+                    </p>
+                </statement>
+            </task>
+        </example>
+        
+    </page>
+
+    <page>
+        <paragraphs>
+            <title>Other Applications</title>
+            
+            <p>
+                There are many more applications to a variety of fields, and the book has many of them in it. As always, the theme is that the derivative is used to represent a rate of change.
+            </p>
+
+            <example workspace="1in">
+                <statement>
+                    <p>
+                        Let <m>T(x)</m> be a function that represents the temperature of a metal rod <m>x</m> inches from the end. What does <m>T'(x)</m> represent?
+                    </p>
+                </statement>
+            
+            </example>
+
+            <example workspace="2in">
+                <statement>
+                    <p>
+                        Let <m>V(r)</m> be the volume of a sphere as a function of its radius. Compute <m>V'(r)</m> and explain the physical interpretation of <m>V'(4)</m>.
+                    </p>
+                </statement>
+            
+            </example>
+            
+            
+        </paragraphs>
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Assume that for two subjects that you're trying to learn about, <m>R_1(t)</m> and <m>R_2(t)</m> represents the fraction of the material you remember <m>t</m> days after last studying it. If <md>
+                        R'_1(2) = -0.3 \qquad \text{and} \qquad R'_2(2) = -0.01 
+                    </md>, which of the two classes should you be more concerned about? What do these derivatives represent physically?
+                </p>
+            </statement>
+        
+        </example>
+        
     </page>
 </handout>
 

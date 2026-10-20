@@ -1,0 +1,22 @@
+<diagram xmlns="https://prefigure.org" dimensions="(600,300)" margins="5">
+  <definition> f1(x) = sin(pi*x/2) </definition>
+  <definition> f2(x) = -1 </definition>
+  <definition> f3(x) = -cos(pi*(x-5)/2) </definition>
+  <definition> f4(x) = 1/2*(cos( pi*(x-7)/2)+1)</definition>
+  <coordinates bbox="[0,-2,11,2]">
+    <grid-axes xlabel="t" ylabel="v"/>
+    <graph function="f1" domain="[0,3]"/>
+    <graph function="f2" domain="[3,5]"/>
+    <graph function="f3" domain="[5,7]"/>
+    <graph function="f4" domain="[7,11]"/>
+  </coordinates>
+</diagram>
+
+<!-- include as 
+<image width="60%">
+  <prefigure xmlns="https://prefigure.org"
+             label="wksht-graphing-lines-inter">
+    <xi:include href="../../prefigure/test-diagram.xml" />
+  </prefigure>
+</image>
+-->
