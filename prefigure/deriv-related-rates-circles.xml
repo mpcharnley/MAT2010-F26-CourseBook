@@ -1,0 +1,18 @@
+<diagram xmlns="https://prefigure.org" dimensions="(300,300)" margins="5">
+  <coordinates bbox="[-2.5,-2.5,2.5,2.5]">
+    <grid/>
+    <circle center="(0,0)" radius="2" fill="blue" opacity="0.5" thickness="2" stroke="black"/>
+    <circle center="(0,0)" radius="1" fill="white" thickness="2" stroke="black"/>
+    <line endpoints="(0,0), (1,0)" stroke="black"><m>r</m></line>
+    <line endpoints="(0,0), (0,2)" stroke="black" label-location="0.3" rotate="-90" offset="(0,5)"><m>R</m></line>
+  </coordinates>
+</diagram>
+
+<!-- include as 
+<image width="60%">
+  <prefigure xmlns="https://prefigure.org"
+             label="wksht-graphing-lines-inter">
+    <xi:include href="../../prefigure/test-diagram.xml" />
+  </prefigure>
+</image>
+-->

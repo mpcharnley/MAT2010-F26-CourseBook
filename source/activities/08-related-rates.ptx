@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet component = "cur" xml:id = "wksht-related-rates" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Solving Related Rates Problems</title>
+
+    <introduction>
+        <p>
+            <ul>
+                <li><title>Dates</title>
+                    <p>Assigned Date: October 26, 2026</p>
+                    <p>Due Date: November 2, 2026</p>
+                </li>
+                <li><title>Objective</title>
+                    <p>
+                        In this assignment, you will solve various problems using the techniques of related rates. Make sure you carefully setup the diagram for each problem, define your variables appropriately, and show all of the steps needed to solve the problem.  
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </introduction>
+
+<paragraphs>
+    <title>Part One</title>
+
+<p>
+    Write up the solution to each of the following problems.
+</p>
+
+<exercise>
+    <statement>
+        <p>
+            If <m>y = 5x^2</m>, then what is <m>\frac{dy}{dt}</m> when <m>x = 2</m> if <m>\frac{dx}{dt} = 1</m> at this time?
+        </p>
+    </statement>
+</exercise>
+
+<exercise>
+    <statement>
+        <p>
+            Assume that <m>x</m> and <m>y</m> are related by <m>y^3 - 3x^2 = 5</m>. If <m>\frac{dx}{dt} = -2</m> when <m>x = 1</m>, find <m>\frac{dy}{dt}</m>.
+        </p>
+    </statement>
+</exercise>
+
+<exercise>
+    <statement>
+        <p>
+            Assume that the length of a rectangle is increasing at a rate of <quantity><mag>5</mag><unit base="inch"/><per base="second"/></quantity> while the width decreases at a rate of <quantity><mag>4</mag><unit base="inch"/><per base="second"/></quantity>. Determine the rate of change of the area and perimeter when <m>l = 10</m> and <m>w = 15</m>. Would either of these rates be different if <m>l</m> or <m>w</m> were different? <em>Hint:</em> Both <m>l</m> and <m>w</m> are changing. What does that mean you have to do with the derivative of <m>A = lw</m>?
+        </p>
+    </statement>
+</exercise>
+
+<exercise>
+    <statement>
+        <p>
+            A triangle is drawn in the xy plane with vertices at <m>(0,0)</m>, <m>(x,0)</m>, and <m>(0,x)</m>. Each of the non-zero coordinates <m>x</m> moves away from the origin at a rate of <quantity><mag>4</mag><unit base="inch"/><per base="second"/></quantity>. How fast is the area of the triangle changing when the area is <quantity><mag>18</mag><unit base="inch" exp="2"/></quantity>?
+        </p>
+    </statement>
+</exercise>
+
+</paragraphs>
+
+<paragraphs>
+    <title>Part Two</title>
+
+<exercise>
+    <statement>
+        <p>
+            A <quantity><mag>6</mag><unit base="foot"/></quantity> tall man is walking away from a <quantity><mag>15</mag><unit base="foot"/></quantity> lamppost at a rate of <quantity><mag>5</mag><unit base="foot"/><per base="second"/></quantity>. When he is <quantity><mag>8</mag><unit base="foot"/></quantity> from the lamppost, how long is his shadow? How fast is the length of his shadow changing at this time?
+        </p>
+    </statement>
+</exercise>
+
+<exercise>
+    <statement>
+        <p>
+            A person is watching the launch of a model rocket from <quantity><mag>50</mag><unit base="meter"/></quantity> away. The rocket takes off vertically, and when the angle of inclination to the rocket is <m>\frac{\pi}{6}</m> radians, the angle is increasing at a rate of <m>0.8</m> radians per minute. How fast is the rocket moving at that moment?
+        </p>
+    </statement>
+</exercise>
+
+<exercise>
+    <statement>
+        <p>
+            Car A passed through an intersection at 1pm at a speed of 48 mph heading north. Car B passes throuh the same intersection exactly 1 minute later traveling east at a speed of 45 mpm. Both cars continue at the same speed and direction for the next 10 minutes. At 1:05 pm, how fast is the distance between the cars changing?
+        </p>
+    </statement>
+</exercise>
+
+<sidebyside widths="60% 40%">
+<exercise>
+    <statement>
+        <p>
+            Two circles have the same center. The inner circle has radius <m>r</m> which is increasing at a rate of <quantity><mag>3</mag><unit base="inch"/><per base="second"/></quantity>. The outer circle has radius <m>R</m> which is increasing at a rate of <quantity><mag>2</mag><unit base="inch"/><per base="second"/></quantity>. Suppose that <m>A</m> is the shaded area between the two circles. How fast is <m>A</m> changing when <m>r = 7</m> and <m>R = 10</m>? Is <m>A</m> increasing or decreasing?
+        </p>
+    </statement>
+</exercise>
+<image width="60%">
+  <prefigure xmlns="https://prefigure.org"
+             label="wksht-related-rates-circles">
+    <xi:include href="../../prefigure/deriv-related-rates-circles.xml" />
+  </prefigure>
+</image>
+</sidebyside>
+
+<sidebyside widths="60% 40%">
+<exercise>
+    <statement>
+        <p>
+            Two roads intersect at an angle of <m>\frac{\pi}{3}</m> radians. A police car is parked on the northern road, <quantity><mag>10</mag><unit base="meter"/></quantity> from the intersection. A van drives east away from the interction. At some moment, the policeman uses his radar gun to determine that the distance between the police car and the van is <quantity><mag>20</mag><unit base="meter"/></quantity> and increasing at a rate of <quantity><mag>6</mag><unit base="meter"/><per base="second"/></quantity>. Find the speed of the van.
+        </p>
+    </statement>
+</exercise>
+<image width="60%">
+  <prefigure xmlns="https://prefigure.org"
+             label="wksht-related-rates-police">
+    <xi:include href="../../prefigure/deriv-related-rates-police.xml" />
+  </prefigure>
+</image>
+</sidebyside>
+
+
+<exercise>
+    <statement>
+        <p>
+            A snowball melts in such a way that the surface area decreases at a rate of <quantity><mag>2\pi</mag><unit base="meter" prefix="centi" exp="2"/><per base="second"/></quantity>. Determine how fast the volume is decreasing when the radius is <quantity><mag>10</mag><unit base="meter" prefix="centi"/></quantity>.
+        </p>
+    </statement>
+</exercise>
+
+</paragraphs>
+
+<paragraphs>
+    <title>Challenge Problem</title>
+
+<exercise>
+    <statement>
+        <p>
+            A weight is being lifted by a pulley that is suspended <quantity><mag>26</mag><unit base="foot"/></quantity> above the ground. It is being lifted by a <quantity><mag>6</mag><unit base="foot"/></quantity> tall man who is holding the end of a <quantity><mag>70</mag><unit base="foot"/></quantity> rope. He is walking away from the pulley at a rate of <quantity><mag>4</mag><unit base="foot"/><per base="second" /></quantity>. How fast is the weight being lifted up when the man is <quantity><mag>48</mag><unit base="foot"/></quantity> from directly under the pulley?
+        </p>
+    </statement>
+</exercise>
+
+</paragraphs>
+
+</worksheet>

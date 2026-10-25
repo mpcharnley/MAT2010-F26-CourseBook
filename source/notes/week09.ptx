@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="notes-week-09" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Week 9</title>
+
+<introduction>
+    <p>
+        This is an outline of the topics we covered in week 9 of the course, from October 26 to October 30.
+    </p>
+</introduction>
+
+<handout component="cur">
+    <title>Monday 10/26</title>
+    <objectives>
+        <ul>
+            <li>
+                <p>
+                    Discuss applications of the derivative in nature.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Review derivative formulas from the past few classes.
+                </p>
+            </li>
+        </ul>
+    </objectives>
+
+
+    <page>
+        <example workspace="0in">
+            <introduction>
+                <p>
+                    A ball is thrown upward from the top of a building. The position of the ball is given by 
+                    <md>
+                        s(t) = -16t^2 + 40t + 10
+                    </md> where <m>s</m> is in feet above the ground and <m>t</m> is in seconds.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        When does the ball reach its maximum height, and what is this height?
+                    </p>
+                </statement>
+            </task>
+            <task workspace="4in">
+                <statement>
+                    <p>
+                        How fast is the ball moving when it hits the ground?
+                    </p>
+                </statement>
+            </task>
+        </example>
+        
+    </page>
+
+    <page>
+        <paragraphs>
+            <title>Other Applications</title>
+            
+            <p>
+                There are many more applications to a variety of fields, and the book has many of them in it. As always, the theme is that the derivative is used to represent a rate of change.
+            </p>
+
+            <example workspace="1in">
+                <statement>
+                    <p>
+                        Let <m>T(x)</m> be a function that represents the temperature of a metal rod <m>x</m> inches from the end. What does <m>T'(x)</m> represent?
+                    </p>
+                </statement>
+            
+            </example>
+
+            <example workspace="2in">
+                <statement>
+                    <p>
+                        Let <m>V(r)</m> be the volume of a sphere as a function of its radius. Compute <m>V'(r)</m> and explain the physical interpretation of <m>V'(4)</m>.
+                    </p>
+                </statement>
+            
+            </example>
+            
+            
+        </paragraphs>
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Assume that for two subjects that you're trying to learn about, <m>R_1(t)</m> and <m>R_2(t)</m> represents the fraction of the material you remember <m>t</m> days after last studying it. If <md>
+                        R'_1(2) = -0.3 \qquad \text{and} \qquad R'_2(2) = -0.01 
+                    </md>, which of the two classes should you be more concerned about? What do these derivatives represent physically?
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+
+<page>
+    <paragraphs>
+        <title>Derivatives of Inverse Functions</title>
+        
+        <p component="b" workspace="3in">
+            Over the last few classes, we used implicit differentiation to find the derivative of inverse functions. What did that process look like?
+        </p>
+        <p component="a">
+            Over the last few classes, we used implicit differentiation to find the derivative of inverse functions. What did that process look like? Un-invert the function, then differentiate using implicit differentiation. What kind of functions did we apply this to?
+        </p>
+    </paragraphs>
+</page>
+
+<page>
+    <p component="b" workspace="4in">
+        What were the resulting formulas that we got out of this process?
+    </p>
+    <p component="a">
+        What were the resulting formulas that we got out of this process? ln, inverse trig derivatives.
+    </p>
+</page>
+
+<page>
+    <example workspace="3in">
+        <statement>
+            <p>
+                Find the derivative of <m>f(x) = \log_{10}(x)</m> and <m>g(x) = \log_b(x)</m> for any <m>b \gt 0</m> with <m>b \neq 1</m>.
+            </p>
+        </statement>
+    </example>
+</page>
+
+    <page>
+        <example workspace="0in">
+            <introduction>
+                <p>
+                    Find the derivative for each of the functions below.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>\displaystyle f(x) = \tan^{-1}(4e^x + 1)</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>\displaystyle g(x) = \tan(x)\arcsin\left(\frac{1}{x^2 + 1}\right)</m>
+                    </p>
+                </statement>
+            </task>
+            <task workspace="4in">
+                <statement>
+                    <p>
+                        <m>\displaystyle h(x) = \frac{\ln\left(e^{3x} - 4x^2\right)}{\sec^{-1}(x^2)}</m>
+                    </p>
+                </statement>
+            </task>
+        
+        </example>
+        
+    </page>
+
+</handout>
+
+<handout component="cur">
+    <title>Tuesday 10/27</title>
+    <objectives>
+        <ul>
+            <li>
+                <p>
+                    Understand related rates as an application of the Chain Rule.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Solve related rates problems.
+                </p>
+            </li>
+        </ul>
+    </objectives>
+    <page>
+        <paragraphs>
+            <title>Related Rates</title>
+
+<p>
+    Related rates is one of our first applications of the derivative. These problems generally look something like this:
+</p>
+
+<example workspace="0in">
+    <statement>
+        <p>
+            You are blowing up a spherical balloon. Air is going into the balloon ar a rate of <quantity><mag>12</mag><unit base="inch" exp="3"/><per base="minute"/></quantity>. How fast is the radius increasing when the radius is <quantity><mag>4</mag><unit base="inch"/></quantity>?
+        </p>
+    </statement>
+
+</example>
+
+<p component="b" workspace="3in">
+    <nbsp />
+</p>
+<p component="a">
+    By related rates, we mean that we want to connect one rate of change to another. We know how to connect <m>V</m> and <m>r</m>. Both of these are changing, so we can think of them as functions of <m>t</m>, then differentiate the entire equation in <m>t</m>. This gives us the rate equation, which should connect <m>\frac{dV}{dt}</m> to <m>\frac{dr}{dt}</m>. Then we can solve.
+</p>
+
+        </paragraphs>
+    </page>
+
+    <page>
+        <example workspace="4in">
+    <statement>
+        <p>
+            You are blowing up a spherical balloon. Air is going into the balloon at a rate of <quantity><mag>12</mag><unit base="inch" exp="3"/><per base="minute"/></quantity>. How fast is the radius increasing when the radius is <quantity><mag>4</mag><unit base="inch"/></quantity>?
+        </p>
+    </statement>
+
+</example>
+    </page>
+
+    <page>
+        <p component="b" workspace="4in">
+            What is the overall idea of related rates problems, and how do you solve them?
+        </p>
+        <p component="a">
+            What is the overall idea of related rates problems, and how do you solve them? Draw a picture/sketch and label variables. Make sure you know which things are changing in time and which are constant. Build an equation that connects all of these variables together. For each variable in your equation, you need to know how it's changing, otherwise you have the wrong equation. Differentiate (chain rule) with respect to <m>t</m>, then plug in to get the answer that you want.
+        </p>
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    A <quantity><mag>13</mag><unit base="foot"/></quantity> long ladder is leaning against a wall. The base of the ladder is sliding away from the wall at a rate of <quantity><mag>3</mag><unit base="foot"/><per base="second"/></quantity>. How fast is the top of the ladder falling down the wall when the base of the ladder is <quantity><mag>5</mag><unit base="foot"/></quantity> away from the base of the wall?
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+</handout>
+
+<handout component="future">
+    <title>Wednesday 10/28</title>
+    <objectives>
+        <ul>
+            <li>
+                <p>
+                    Continue practicing related rates problems.
+                </p>
+            </li>
+        </ul>
+    </objectives>
+    <page>
+        <paragraphs>
+            <title>Related Rates part 2</title>
+
+<example workspace="4in">
+    <statement>
+        <p>
+            As part of a movie scene, a spotlight is lowered straight down at a rate of <quantity><mag>2</mag><unit base="foot"/><per base="second"/></quantity>. As it does, it shines on an <quantity><mag>8</mag><unit base="foot"/></quantity> tall monster costume that is <quantity><mag>4</mag><unit base="foot"/></quantity> from directly below the spotlight. When the spotlight is <quantity><mag>20</mag><unit base="foot"/></quantity> off the ground, how fast is the length of the monster costume's shadow increasing?
+        </p>
+    </statement>
+
+</example>
+
+
+        </paragraphs>
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Water is flowing into a circular conical tank with the point facing downwards. The full tank has radius <quantity><mag>5</mag><unit base="meter"/></quantity> and height <quantity><mag>8</mag><unit base="meter"/></quantity>, and the water is flowing in at a rate of <quantity><mag>6</mag><unit base="meter" exp="3"/><per base="minute"/></quantity>. How fast is the height of water in the tank changing when the height is <quantity><mag>3</mag><unit base="meter"/></quantity>?
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+</handout>
+
+
+</section>

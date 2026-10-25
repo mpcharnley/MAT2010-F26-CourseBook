@@ -24,6 +24,7 @@
       <xi:include href="./notes/week06.ptx" />
       <xi:include href="./notes/week07.ptx" />
       <xi:include href="./notes/week08.ptx" />
+      <xi:include href="./notes/week09.ptx" />
       <!-- etc. -->
 
     </chapter>
@@ -39,6 +40,7 @@
       <xi:include href="./activities/05-def-of-deriv.ptx" />
       <xi:include href="./activities/06-derivative-rules.ptx" />
       <xi:include href="./activities/07-implicit-diff.ptx" />
+      <xi:include href="./activities/08-related-rates.ptx" />
 
       <!-- Add more xi:include files here to include them in the main course -->
     </chapter>

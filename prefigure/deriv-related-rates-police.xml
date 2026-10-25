@@ -1,0 +1,20 @@
+<diagram xmlns="https://prefigure.org" dimensions="(300,300)" margins="5">
+  <coordinates bbox="[-.5,-0.5,3.5,3.5]">
+    <grid/>
+    <line endpoints="((0,0), (2,2*sqrt(3)))" stroke="black"></line>
+    <point p="(1, sqrt(3))" alignment="nw">P</point>
+    <line endpoints="((0,0), (3,0))" stroke="black"></line>
+    <point p="(1.5, 0)" alignment="s">V</point>
+    <line endpoints="((1, sqrt(3)), (1.5,0))" dash="4 4"/>
+  </coordinates>
+</diagram>
+
+
+<!-- include as 
+<image width="60%">
+  <prefigure xmlns="https://prefigure.org"
+             label="wksht-graphing-lines-inter">
+    <xi:include href="../../prefigure/test-diagram.xml" />
+  </prefigure>
+</image>
+-->
