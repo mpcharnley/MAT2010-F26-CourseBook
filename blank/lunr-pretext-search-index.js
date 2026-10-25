@@ -1492,7 +1492,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Week 8",
-  "body": " Week 8   This is an outline of the topics we covered in Week 8 of the course, from October 19 to October 24.    Monday 10\/19     Compute derivatives involving natural log using implicit differentiation.    Explore applications of implicit differentiation.       Applications of Implicit Differentiation    Find all points on the graph of where the tangent line goes through the point .        Derivatives of Inverse Functions  Another main application of implicit differentiation is to finding the derivatives of inverse functions.     So how can we actually use this?      Find the derivative of for any .        Find the derivative of         Find the derivative of         Find the derivative of and .        Find the derivative of .       Inverse Trigonometric Functions  The other kind of function we can apply this to is inverse trigonometric functions.      Tuesday 10\/20     Review definitions of inverse functions.    Discuss the inverse trigonometric functions.    Quiz on 3.4 and 3.5.       Inverse Functions  A function takes an input and gives a single output. There are times where we want to undo this operation, and so we want an inverse function to do that. However, not all functions have inverses. What has to happen in order for there to be an inverse?     So, if we have a one-to-one function, we then have an inverse function. What do we know about it?             How do we find this inverse?    Find the inverse of the function . Verify that these functions are inverses.        Find the inverse of the function . Use this information to find the domain and range of both and .       Explicitly Defined Inverse Functions  There are a few functions that we use regularly that are more complicated than algebraic functions, so they have explicitly defined inverses.  The other common type of explicit inverse functions come from the trigonometric functions.       Find the inverse of the function    Graph of x squared.    f(x)=x^2              Wednesday 10\/21     Compute derivatives of inverse trigonometric functions.    Compute derivatives of logarithms.       Making the Trigonometric Functions Invertible  Like we saw in the last example, sometimes we can make a non-invertible function work like one that is invertible by restricting the domain.    Find a domain on which the function is invertible.   Graph of sine of x.    f(x)=sin(x)                Find domains on which each of the 6 main trigonometric functions are invertible and write out the domain and range of the corresponding inverse functions.    Graph of sine of x.    f(x)=sin(x)      \\sin(x)        Graph of cosine of x.    f(x)=cos(x)      \\cos(x)        Graph of tangent of x.    f(x)=tan(x)      \\tan(x)          Graph of cosecant of x.    f(x)=csc(x)      \\csc(x)        Graph of secant of x.    f(x)=sec(x)      \\sec(x)        Graph of cotangent of x.    f(x)=cot(x)      \\cot(x)             Differentiating the Inverse Trigonometric Functions  Now that we have these inverse functions, we want to differentiate them.    Find the derivative of .        Derivatives of Inverse Trigonometric Functions    Find the derivatives of and .       What can we do for the other trigonometric functions?      Find the derivative of .      Find the derivative of .        Find the derivative for each of the functions below.                             Find the derivative for each of the functions below.                            Friday 10\/23     Explore applications of derivatives in nature    Solve motion problems using the derivative.       Derivatives in Nature  When thinking about applications of the derivative to physical\/real-world problems, the overarching theme is that the derivative is the rate of change of a function.      Motion Problems    Assume that the position of a remote-controlled car is given by over the time interval .     Where is the car at ?      Where is the car at ?      Find the velocity of the car at .      When is the car at rest? Moving forward?      How would you compute the total distance traveled over the interval ?      What is the acceleration at ?      Graph the position, velocity, and acceleration.      When is the car speeding up? Slowing down?        This type of information can also be learned directly from a graph of either position or velocity.    Consider a particle whos position is given by the graph below.     f1(x) = sin(pi*x\/2)  f2(x) = 1  f3(x) = cos(pi*(x-3)\/2)  f4(x) = -1\/2*(cos( pi*(x-5)\/2)+1)               When is the particle moving forward?      When is the particle moving backwards?      When is the particle moving at rest?      When is the particle speeding up?      When is the particle slowing down?         Consider a particle whos velocity is given by the graph below.     f1(x) = sin(pi*x\/2)  f2(x) = -1  f3(x) = -cos(pi*(x-5)\/2)  f4(x) = 1\/2*(cos( pi*(x-7)\/2)+1)               When is the particle moving forward?      When is the particle moving backwards?      When is the particle moving at rest?      When is the particle speeding up?      When is the particle slowing down?         A ball is thrown upward from the top of a building. The position of the ball is given by where is in feet above the ground and is in seconds.     When does the ball reach its maximum height, and what is this height?      How fast is the ball moving when it hits the ground?        Other Applications  There are many more applications to a variety of fields, and the book has many of them in it. As always, the theme is that the derivative is used to represent a rate of change.    Let be a function that represents the temperature of a metal rod inches from the end. What does represent?      Let be the volume of a sphere as a function of its radius. Compute and explain the physical interpretation of .         Assume that for two subjects that you're trying to learn about, and represents the fraction of the material you remember days after last studying it. If , which of the two classes should you be more concerned about? What do these derivatives represent physically?      "
+  "body": " Week 8   This is an outline of the topics we covered in Week 8 of the course, from October 19 to October 24.    Monday 10\/19     Compute derivatives involving natural log using implicit differentiation.    Explore applications of implicit differentiation.       Applications of Implicit Differentiation    Find all points on the graph of where the tangent line goes through the point .        Derivatives of Inverse Functions  Another main application of implicit differentiation is to finding the derivatives of inverse functions.     So how can we actually use this?      Find the derivative of for any .        Find the derivative of         Find the derivative of         Find the derivative of and .        Find the derivative of .       Inverse Trigonometric Functions  The other kind of function we can apply this to is inverse trigonometric functions.      Tuesday 10\/20     Review definitions of inverse functions.    Discuss the inverse trigonometric functions.    Quiz on 3.4 and 3.5.       Inverse Functions  A function takes an input and gives a single output. There are times where we want to undo this operation, and so we want an inverse function to do that. However, not all functions have inverses. What has to happen in order for there to be an inverse?     So, if we have a one-to-one function, we then have an inverse function. What do we know about it?             How do we find this inverse?    Find the inverse of the function . Verify that these functions are inverses.        Find the inverse of the function . Use this information to find the domain and range of both and .       Explicitly Defined Inverse Functions  There are a few functions that we use regularly that are more complicated than algebraic functions, so they have explicitly defined inverses.  The other common type of explicit inverse functions come from the trigonometric functions.       Find the inverse of the function    Graph of x squared.    f(x)=x^2              Wednesday 10\/21     Compute derivatives of inverse trigonometric functions.    Compute derivatives of logarithms.       Making the Trigonometric Functions Invertible  Like we saw in the last example, sometimes we can make a non-invertible function work like one that is invertible by restricting the domain.    Find a domain on which the function is invertible.   Graph of sine of x.    f(x)=sin(x)                Find domains on which each of the 6 main trigonometric functions are invertible and write out the domain and range of the corresponding inverse functions.    Graph of sine of x.    f(x)=sin(x)      \\sin(x)        Graph of cosine of x.    f(x)=cos(x)      \\cos(x)        Graph of tangent of x.    f(x)=tan(x)      \\tan(x)          Graph of cosecant of x.    f(x)=csc(x)      \\csc(x)        Graph of secant of x.    f(x)=sec(x)      \\sec(x)        Graph of cotangent of x.    f(x)=cot(x)      \\cot(x)             Differentiating the Inverse Trigonometric Functions  Now that we have these inverse functions, we want to differentiate them.    Find the derivative of .        Derivatives of Inverse Trigonometric Functions    Find the derivatives of and .       What can we do for the other trigonometric functions?      Find the derivative of .      Find the derivative of .        Find the derivative for each of the functions below.                             Find the derivative for each of the functions below.                            Friday 10\/23     Explore applications of derivatives in nature    Solve motion problems using the derivative.       Derivatives in Nature  When thinking about applications of the derivative to physical\/real-world problems, the overarching theme is that the derivative is the rate of change of a function.      Motion Problems    Assume that the position of a remote-controlled car is given by over the time interval .     Where is the car at ?      Where is the car at ?      Find the velocity of the car at .      When is the car at rest? Moving forward?      How would you compute the total distance traveled over the interval ?      What is the acceleration at ?      Graph the position, velocity, and acceleration.      When is the car speeding up? Slowing down?        This type of information can also be learned directly from a graph of either position or velocity.    Consider a particle whose position is given by the graph below.     f1(x) = sin(pi*x\/2)  f2(x) = 1  f3(x) = cos(pi*(x-3)\/2)  f4(x) = -1\/2*(cos( pi*(x-5)\/2)+1)               When is the particle moving forward?      When is the particle moving backwards?      When is the particle moving at rest?      When is the particle speeding up?      When is the particle slowing down?         Consider a particle whose velocity is given by the graph below.     f1(x) = sin(pi*x\/2)  f2(x) = -1  f3(x) = -cos(pi*(x-5)\/2)  f4(x) = 1\/2*(cos( pi*(x-7)\/2)+1)               When is the particle moving forward?      When is the particle moving backwards?      When is the particle moving at rest?      When is the particle speeding up?      When is the particle slowing down?       "
 },
 {
   "id": "notes-week-08-3-2",
@@ -1708,7 +1708,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "150",
   "title": "",
-  "body": "  Consider a particle whos position is given by the graph below.     f1(x) = sin(pi*x\/2)  f2(x) = 1  f3(x) = cos(pi*(x-3)\/2)  f4(x) = -1\/2*(cos( pi*(x-5)\/2)+1)               When is the particle moving forward?      When is the particle moving backwards?      When is the particle moving at rest?      When is the particle speeding up?      When is the particle slowing down?    "
+  "body": "  Consider a particle whose position is given by the graph below.     f1(x) = sin(pi*x\/2)  f2(x) = 1  f3(x) = cos(pi*(x-3)\/2)  f4(x) = -1\/2*(cos( pi*(x-5)\/2)+1)               When is the particle moving forward?      When is the particle moving backwards?      When is the particle moving at rest?      When is the particle speeding up?      When is the particle slowing down?    "
 },
 {
   "id": "notes-week-08-6-6-1",
@@ -1717,43 +1717,115 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "151",
   "title": "",
-  "body": "  Consider a particle whos velocity is given by the graph below.     f1(x) = sin(pi*x\/2)  f2(x) = -1  f3(x) = -cos(pi*(x-5)\/2)  f4(x) = 1\/2*(cos( pi*(x-7)\/2)+1)               When is the particle moving forward?      When is the particle moving backwards?      When is the particle moving at rest?      When is the particle speeding up?      When is the particle slowing down?    "
+  "body": "  Consider a particle whose velocity is given by the graph below.     f1(x) = sin(pi*x\/2)  f2(x) = -1  f3(x) = -cos(pi*(x-5)\/2)  f4(x) = 1\/2*(cos( pi*(x-7)\/2)+1)               When is the particle moving forward?      When is the particle moving backwards?      When is the particle moving at rest?      When is the particle speeding up?      When is the particle slowing down?    "
 },
 {
-  "id": "notes-week-08-6-7-1",
+  "id": "notes-week-09",
+  "level": "1",
+  "url": "notes-week-09.html",
+  "type": "Section",
+  "number": "",
+  "title": "Week 9",
+  "body": " Week 9   This is an outline of the topics we covered in week 9 of the course, from October 26 to October 30.    Monday 10\/26     Discuss applications of the derivative in nature.    Review derivative formulas from the past few classes.        A ball is thrown upward from the top of a building. The position of the ball is given by where is in feet above the ground and is in seconds.     When does the ball reach its maximum height, and what is this height?      How fast is the ball moving when it hits the ground?        Other Applications  There are many more applications to a variety of fields, and the book has many of them in it. As always, the theme is that the derivative is used to represent a rate of change.    Let be a function that represents the temperature of a metal rod inches from the end. What does represent?      Let be the volume of a sphere as a function of its radius. Compute and explain the physical interpretation of .         Assume that for two subjects that you're trying to learn about, and represents the fraction of the material you remember days after last studying it. If , which of the two classes should you be more concerned about? What do these derivatives represent physically?       Derivatives of Inverse Functions  Over the last few classes, we used implicit differentiation to find the derivative of inverse functions. What did that process look like?     What were the resulting formulas that we got out of this process?      Find the derivative of and for any with .        Find the derivative for each of the functions below.                            Tuesday 10\/27     Understand related rates as an application of the Chain Rule.    Solve related rates problems.       Related Rates  Related rates is one of our first applications of the derivative. These problems generally look something like this:    You are blowing up a spherical balloon. Air is going into the balloon ar a rate of 12 . How fast is the radiums increasing when the radius is 4 ?            You are blowing up a spherical balloon. Air is going into the balloon at a rate of 12 . How fast is the radiums increasing when the radius is 4 ?      What is the overall idea of related rates problems, and how do you solve them?      A 13 long ladder is leaning against a wall. The base of the ladder is sliding away from the wall at a rate of 3 . How fast is the top of the ladder falling down the wall when the base of the ladder is 5 away from the base of the wall?      "
+},
+{
+  "id": "notes-week-09-3-2",
   "level": "2",
-  "url": "notes-week-08.html#notes-week-08-6-7-1",
+  "url": "notes-week-09.html#notes-week-09-3-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "   Discuss applications of the derivative in nature.    Review derivative formulas from the past few classes.    "
+},
+{
+  "id": "notes-week-09-3-3-1",
+  "level": "2",
+  "url": "notes-week-09.html#notes-week-09-3-3-1",
   "type": "Example",
   "number": "152",
   "title": "",
   "body": "  A ball is thrown upward from the top of a building. The position of the ball is given by where is in feet above the ground and is in seconds.     When does the ball reach its maximum height, and what is this height?      How fast is the ball moving when it hits the ground?    "
 },
 {
-  "id": "notes-week-08-6-8-1-3",
+  "id": "notes-week-09-3-4-1-3",
   "level": "2",
-  "url": "notes-week-08.html#notes-week-08-6-8-1-3",
+  "url": "notes-week-09.html#notes-week-09-3-4-1-3",
   "type": "Example",
   "number": "153",
   "title": "",
   "body": "  Let be a function that represents the temperature of a metal rod inches from the end. What does represent?   "
 },
 {
-  "id": "notes-week-08-6-8-1-4",
+  "id": "notes-week-09-3-4-1-4",
   "level": "2",
-  "url": "notes-week-08.html#notes-week-08-6-8-1-4",
+  "url": "notes-week-09.html#notes-week-09-3-4-1-4",
   "type": "Example",
   "number": "154",
   "title": "",
   "body": "  Let be the volume of a sphere as a function of its radius. Compute and explain the physical interpretation of .   "
 },
 {
-  "id": "notes-week-08-6-9-1",
+  "id": "notes-week-09-3-5-1",
   "level": "2",
-  "url": "notes-week-08.html#notes-week-08-6-9-1",
+  "url": "notes-week-09.html#notes-week-09-3-5-1",
   "type": "Example",
   "number": "155",
   "title": "",
   "body": "  Assume that for two subjects that you're trying to learn about, and represents the fraction of the material you remember days after last studying it. If , which of the two classes should you be more concerned about? What do these derivatives represent physically?   "
+},
+{
+  "id": "notes-week-09-3-8-1",
+  "level": "2",
+  "url": "notes-week-09.html#notes-week-09-3-8-1",
+  "type": "Example",
+  "number": "156",
+  "title": "",
+  "body": "  Find the derivative of and for any with .   "
+},
+{
+  "id": "notes-week-09-3-9-1",
+  "level": "2",
+  "url": "notes-week-09.html#notes-week-09-3-9-1",
+  "type": "Example",
+  "number": "157",
+  "title": "",
+  "body": "  Find the derivative for each of the functions below.                        "
+},
+{
+  "id": "notes-week-09-4-2",
+  "level": "2",
+  "url": "notes-week-09.html#notes-week-09-4-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "   Understand related rates as an application of the Chain Rule.    Solve related rates problems.    "
+},
+{
+  "id": "notes-week-09-4-3-1-3",
+  "level": "2",
+  "url": "notes-week-09.html#notes-week-09-4-3-1-3",
+  "type": "Example",
+  "number": "158",
+  "title": "",
+  "body": "  You are blowing up a spherical balloon. Air is going into the balloon ar a rate of 12 . How fast is the radiums increasing when the radius is 4 ?   "
+},
+{
+  "id": "notes-week-09-4-4-1",
+  "level": "2",
+  "url": "notes-week-09.html#notes-week-09-4-4-1",
+  "type": "Example",
+  "number": "159",
+  "title": "",
+  "body": "  You are blowing up a spherical balloon. Air is going into the balloon at a rate of 12 . How fast is the radiums increasing when the radius is 4 ?   "
+},
+{
+  "id": "notes-week-09-4-6-1",
+  "level": "2",
+  "url": "notes-week-09.html#notes-week-09-4-6-1",
+  "type": "Example",
+  "number": "160",
+  "title": "",
+  "body": "  A 13 long ladder is leaning against a wall. The base of the ladder is sliding away from the wall at a rate of 3 . How fast is the top of the ladder falling down the wall when the base of the ladder is 5 away from the base of the wall?   "
 },
 {
   "id": "wksht-sine-x-over-x",
@@ -2422,6 +2494,114 @@ var ptx_lunr_docs = [
   "body": "  Find all points on the ellipse where the tangent line goes through the point . Hint: Once you get to a final quadratic to solve for the points, look back to one of the previous two parts. Do any of those lines go through the point ? What does that mean you can do to factor this quadratic?   "
 },
 {
+  "id": "wksht-related-rates",
+  "level": "1",
+  "url": "wksht-related-rates.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Solving Related Rates Problems",
+  "body": " Solving Related Rates Problems     Dates  Assigned Date: October 26, 2026  Due Date: November 2, 2026   Objective  In this assignment, you will solve various problems using the techniques of related rates. Make sure you carefully setup the diagram for each problem, define your variables appropriately, and show all of the steps needed to solve the problem.       Part One  Write up the solution to each of the following problems.    If , then what is when if at this time?      Assume that and are related by . If when , find .      Assume that the length of a rectangle is increasing at a rate of 5 while the width decreases at a rate of 4 . Determine the rate of change of the area and perimeter when and . Would either of these rates be different if or were different? Hint: Both and are changing. What does that mean you have to do with the derivative of ?      A triangle is drawn in the xy plane with vertices at , , and . Each of the non-zero coordinates moves away from the origin at a rate of 4 . How fast is the area of the triangle changing when the area is 18 ?      Part Two    A 6 tall man is walking away from a 15 lamppost at a rate of 5 . When he is 8 from the lamppost, how long is his shadow? How fast is the length of his shadow changing at this time?      A person is watching the launch of a model rocket from 50 away. The rocket takes off vertically, and when the angle of inclination to the rocket is radians, the angle is increasing at a rate of radians per minute. How fast is the rocket moving at that moment?      Car A passed through an intersection at 1pm at a speed of 48 mph heading north. Car B passes throuh the same intersection exactly 1 minute later traveling east at a speed of 45 mpm. Both cars continue at the same speed and direction for the next 10 minutes. At 1:05 pm, how fast is the distance between the cars changing?       Two circles have the same center. The inner circle has radius which is increasing at a rate of 3 . The outer circle has radius which is increasing at a rate of 2 . Suppose that is the shaded area between the two circles. How fast is changing when and ? Is increasing or decreasing?           r  R          Two roads intersect at an angle of radians. A police car is parked on the northern road, 10 from the intersection. A van drives east away from the interction. At some moment, the policeman uses his radar gun to determine that the distance between the police car and the van is 20 and increasing at a rate of 6 . Find the speed of the van.          P   V          A snowball melts in such a way that the surface area decreases at a rate of 2\\pi . Determine how fast the volume is decreasing when the radius is 10 .      Challenge Problem    A weight is being lifted by a pulley that is suspended 26 above the ground. It is being lifted by a 6 tall man who is holding the end of a 70 rope. He is walking away from the pulley at a rate of 4 . How fast is the weight being lifted up when the man is 48 from directly under the pulley?     "
+},
+{
+  "id": "wksht-related-rates-3-3",
+  "level": "2",
+  "url": "wksht-related-rates.html#wksht-related-rates-3-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  If , then what is when if at this time?   "
+},
+{
+  "id": "wksht-related-rates-3-4",
+  "level": "2",
+  "url": "wksht-related-rates.html#wksht-related-rates-3-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Assume that and are related by . If when , find .   "
+},
+{
+  "id": "wksht-related-rates-3-5",
+  "level": "2",
+  "url": "wksht-related-rates.html#wksht-related-rates-3-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Assume that the length of a rectangle is increasing at a rate of 5 while the width decreases at a rate of 4 . Determine the rate of change of the area and perimeter when and . Would either of these rates be different if or were different? Hint: Both and are changing. What does that mean you have to do with the derivative of ?   "
+},
+{
+  "id": "wksht-related-rates-3-6",
+  "level": "2",
+  "url": "wksht-related-rates.html#wksht-related-rates-3-6",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  A triangle is drawn in the xy plane with vertices at , , and . Each of the non-zero coordinates moves away from the origin at a rate of 4 . How fast is the area of the triangle changing when the area is 18 ?   "
+},
+{
+  "id": "wksht-related-rates-4-2",
+  "level": "2",
+  "url": "wksht-related-rates.html#wksht-related-rates-4-2",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  A 6 tall man is walking away from a 15 lamppost at a rate of 5 . When he is 8 from the lamppost, how long is his shadow? How fast is the length of his shadow changing at this time?   "
+},
+{
+  "id": "wksht-related-rates-4-3",
+  "level": "2",
+  "url": "wksht-related-rates.html#wksht-related-rates-4-3",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "",
+  "body": "  A person is watching the launch of a model rocket from 50 away. The rocket takes off vertically, and when the angle of inclination to the rocket is radians, the angle is increasing at a rate of radians per minute. How fast is the rocket moving at that moment?   "
+},
+{
+  "id": "wksht-related-rates-4-4",
+  "level": "2",
+  "url": "wksht-related-rates.html#wksht-related-rates-4-4",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "",
+  "body": "  Car A passed through an intersection at 1pm at a speed of 48 mph heading north. Car B passes throuh the same intersection exactly 1 minute later traveling east at a speed of 45 mpm. Both cars continue at the same speed and direction for the next 10 minutes. At 1:05 pm, how fast is the distance between the cars changing?   "
+},
+{
+  "id": "wksht-related-rates-4-5-1",
+  "level": "2",
+  "url": "wksht-related-rates.html#wksht-related-rates-4-5-1",
+  "type": "Worksheet Exercise",
+  "number": "8",
+  "title": "",
+  "body": "  Two circles have the same center. The inner circle has radius which is increasing at a rate of 3 . The outer circle has radius which is increasing at a rate of 2 . Suppose that is the shaded area between the two circles. How fast is changing when and ? Is increasing or decreasing?   "
+},
+{
+  "id": "wksht-related-rates-4-6-1",
+  "level": "2",
+  "url": "wksht-related-rates.html#wksht-related-rates-4-6-1",
+  "type": "Worksheet Exercise",
+  "number": "9",
+  "title": "",
+  "body": "  Two roads intersect at an angle of radians. A police car is parked on the northern road, 10 from the intersection. A van drives east away from the interction. At some moment, the policeman uses his radar gun to determine that the distance between the police car and the van is 20 and increasing at a rate of 6 . Find the speed of the van.   "
+},
+{
+  "id": "wksht-related-rates-4-7",
+  "level": "2",
+  "url": "wksht-related-rates.html#wksht-related-rates-4-7",
+  "type": "Worksheet Exercise",
+  "number": "10",
+  "title": "",
+  "body": "  A snowball melts in such a way that the surface area decreases at a rate of 2\\pi . Determine how fast the volume is decreasing when the radius is 10 .   "
+},
+{
+  "id": "wksht-related-rates-5-2",
+  "level": "2",
+  "url": "wksht-related-rates.html#wksht-related-rates-5-2",
+  "type": "Worksheet Exercise",
+  "number": "11",
+  "title": "",
+  "body": "  A weight is being lifted by a pulley that is suspended 26 above the ground. It is being lifted by a 6 tall man who is holding the end of a 70 rope. He is walking away from the pulley at a rate of 4 . How fast is the weight being lifted up when the man is 48 from directly under the pulley?   "
+},
+{
   "id": "handout-trig",
   "level": "1",
   "url": "handout-trig.html",
@@ -2435,7 +2615,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handout-trig.html#handout-trig-2-3-2-2",
   "type": "Table",
-  "number": "207",
+  "number": "221",
   "title": "Special Angles of Trigonometric Functions",
   "body": " Special Angles of Trigonometric Functions                   Undefined       Undefined       "
 },

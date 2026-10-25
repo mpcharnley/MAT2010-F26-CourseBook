@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="wksht-related-rates-police-figure" width="310" height="310" viewBox="0 0 310 310">
+  <defs>
+    <clipPath id="wksht-related-rates-police-__clipPath-0">
+      <rect x="5.0" y="5.0" width="300.0" height="300.0"/>
+    </clipPath>
+    <clipPath id="wksht-related-rates-police-__clipPath-1">
+      <rect x="5.0" y="5.0" width="300.0" height="300.0"/>
+    </clipPath>
+  </defs>
+  <g id="wksht-related-rates-police-grid" stroke="#ccc" stroke-width="1">
+    <line x1="5.0" y1="305.0" x2="5.0" y2="5.0"/>
+    <line x1="42.5" y1="305.0" x2="42.5" y2="5.0"/>
+    <line x1="80.0" y1="305.0" x2="80.0" y2="5.0"/>
+    <line x1="117.5" y1="305.0" x2="117.5" y2="5.0"/>
+    <line x1="155.0" y1="305.0" x2="155.0" y2="5.0"/>
+    <line x1="192.5" y1="305.0" x2="192.5" y2="5.0"/>
+    <line x1="230.0" y1="305.0" x2="230.0" y2="5.0"/>
+    <line x1="267.5" y1="305.0" x2="267.5" y2="5.0"/>
+    <line x1="305.0" y1="305.0" x2="305.0" y2="5.0"/>
+    <line x1="5.0" y1="305.0" x2="305.0" y2="305.0"/>
+    <line x1="5.0" y1="267.5" x2="305.0" y2="267.5"/>
+    <line x1="5.0" y1="230.0" x2="305.0" y2="230.0"/>
+    <line x1="5.0" y1="192.5" x2="305.0" y2="192.5"/>
+    <line x1="5.0" y1="155.0" x2="305.0" y2="155.0"/>
+    <line x1="5.0" y1="117.5" x2="305.0" y2="117.5"/>
+    <line x1="5.0" y1="80.0" x2="305.0" y2="80.0"/>
+    <line x1="5.0" y1="42.5" x2="305.0" y2="42.5"/>
+    <line x1="5.0" y1="5.0" x2="305.0" y2="5.0"/>
+  </g>
+  <line id="wksht-related-rates-police-__line-18" x1="42.5" y1="267.5" x2="192.5" y2="7.7" stroke="black" stroke-width="2" fill="none"/>
+  <g id="wksht-related-rates-police-__g-0">
+    <g id="wksht-related-rates-police-__label-0" transform="translate(112.5,132.6) translate(-9.3,-12.0)">
+      <g id="wksht-related-rates-police-__g-2">
+        <text font-family="sans-serif" font-size="14" x="0.0" y="11.0">P</text>
+      </g>
+    </g>
+    <circle cx="117.5" cy="137.6" r="4" stroke="black" stroke-width="2" fill="red"/>
+  </g>
+  <line id="wksht-related-rates-police-__line-19" x1="42.5" y1="267.5" x2="267.5" y2="267.5" stroke="black" stroke-width="2" fill="none"/>
+  <g id="wksht-related-rates-police-__g-1">
+    <g id="wksht-related-rates-police-__label-1" transform="translate(155.0,275.5) translate(-4.7,-0.0)">
+      <g id="wksht-related-rates-police-__g-3">
+        <text font-family="sans-serif" font-size="14" x="0.0" y="11.0">V</text>
+      </g>
+    </g>
+    <circle cx="155.0" cy="267.5" r="4" stroke="black" stroke-width="2" fill="red"/>
+  </g>
+  <line id="wksht-related-rates-police-__line-20" x1="117.5" y1="137.6" x2="155.0" y2="267.5" stroke="black" stroke-width="2" stroke-dasharray="4 4" fill="none"/>
+</svg>
