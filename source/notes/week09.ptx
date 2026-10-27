@@ -242,7 +242,7 @@
     </page>
 </handout>
 
-<handout component="future">
+<handout component="cur">
     <title>Wednesday 10/28</title>
     <objectives>
         <ul>
@@ -257,6 +257,15 @@
         <paragraphs>
             <title>Related Rates part 2</title>
 
+            <p component="b" workspace="4in">
+                What was the overall process of solving related rates problems?
+            </p>
+            <p component="a">
+                What was the overall process of solving related rates problems? Overall: Get an equation that connects the two things you want, then differentiate to get an equation that connects their rates of change. More detailed: Draw a picture, write an equation based on it, differentiate, then plug in. 
+            </p>
+            </paragraphs>
+</page>
+<page>
 <example workspace="4in">
     <statement>
         <p>
@@ -267,7 +276,6 @@
 </example>
 
 
-        </paragraphs>
     </page>
 
     <page>
@@ -275,6 +283,117 @@
             <statement>
                 <p>
                     Water is flowing into a circular conical tank with the point facing downwards. The full tank has radius <quantity><mag>5</mag><unit base="meter"/></quantity> and height <quantity><mag>8</mag><unit base="meter"/></quantity>, and the water is flowing in at a rate of <quantity><mag>6</mag><unit base="meter" exp="3"/><per base="minute"/></quantity>. How fast is the height of water in the tank changing when the height is <quantity><mag>3</mag><unit base="meter"/></quantity>?
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+</handout>
+
+<handout component="cur">
+    <title>Friday 10/30</title>
+    <objectives>
+        <ul>
+            <li>
+                <p>
+                    Understand tangent lines as linear approximations.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Quiz on 3.6 and 3.7.
+                </p>
+            </li>
+        </ul>
+    </objectives>
+    <page>
+        <paragraphs>
+            <title>Linear Approximation</title>
+
+<p component="b" workspace="2in">
+    We started off the whole discussion of derivatives talking about tangent lines. The point was that we wanted to find a line that had the "same slope" as the curve.
+</p>
+<p component="a">
+    We started off the whole discussion of derivatives talking about tangent lines. The point was that we wanted to find a line that had the <q>same slope</q> as the curve. Another fact based on this is that the tangent line is the <q>best linear approximation</q> to a function at the given point. We can see this by zooming in on a graph.
+</p>
+
+        </paragraphs>
+    </page>
+
+    <page>
+        <p component="b" workspace="4in">
+            So, if we have the differentiable function <m>f(x)</m>, what is the equation of its tangent line at the point <m>x=a</m>?
+        </p>
+        <p component="a">
+            So, if we have the differentiable function <m>f(x)</m>, what is the equation of its tangent line at the point <m>x=a</m>? Find point, find slope, write equation. 
+        </p>
+    </page>
+
+    <page>
+        <definition xml:id="def-linear-approximation">
+            <statement>
+                <p component="b" workspace="3in">
+                    <em>Linear Approximation</em> says that 
+                </p>
+                <p component="a">
+                     <em>Linear Approximation</em> says that the tangent line is close to the function as long as we stay close to the base point. 
+                </p>
+
+            </statement>
+        </definition>
+        
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Use linear approximation to approximate the value of <m>\sqrt{35}</m>.
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Use linear approximation to approximate the value of <m>(8.5)^{4/3}</m>.
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <paragraphs>
+            <title>Differentials and Error</title>
+            
+            <p component="b" workspace="4in">
+                A <em>differential</em> is a small change in a variable. So for <m>y = f(x)</m>, the differential <m>dx</m> is a small change in <m>x</m>. With this, we can define
+                <md>
+                    dy = f'(x) \ dx
+                </md> which should be a small change in <m>y</m>. How can we see that?
+                
+            </p>
+            <p component="a">
+                A <em>differential</em> is a small change in a variable. So for <m>y = f(x)</m>, the differential <m>dx</m> is a small change in <m>x</m>. With this, we can define
+                <md>
+                    dy = f'(x) \ dx
+                </md> which should be a small change in <m>y</m>. How can we see that? dx is <m>\Delta x</m> and pull from linear approximation.
+            </p>
+        </paragraphs>
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Assume that a sphere is made of radius <quantity><mag>5</mag><unit base="inch"/></quantity> with error of <quantity><mag>0.3</mag><unit base="inch"/></quantity>. What is the expected error in the volume of the sphere?
                 </p>
             </statement>
         
