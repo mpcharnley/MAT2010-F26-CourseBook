@@ -1726,7 +1726,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Week 9",
-  "body": " Week 9   This is an outline of the topics we covered in week 9 of the course, from October 26 to October 30.    Monday 10\/26     Discuss applications of the derivative in nature.    Review derivative formulas from the past few classes.        A ball is thrown upward from the top of a building. The position of the ball is given by where is in feet above the ground and is in seconds.     When does the ball reach its maximum height, and what is this height?      How fast is the ball moving when it hits the ground?        Other Applications  There are many more applications to a variety of fields, and the book has many of them in it. As always, the theme is that the derivative is used to represent a rate of change.    Let be a function that represents the temperature of a metal rod inches from the end. What does represent?      Let be the volume of a sphere as a function of its radius. Compute and explain the physical interpretation of .         Assume that for two subjects that you're trying to learn about, and represents the fraction of the material you remember days after last studying it. If , which of the two classes should you be more concerned about? What do these derivatives represent physically?       Derivatives of Inverse Functions  Over the last few classes, we used implicit differentiation to find the derivative of inverse functions. What did that process look like?     What were the resulting formulas that we got out of this process?      Find the derivative of and for any with .        Find the derivative for each of the functions below.                            Tuesday 10\/27     Understand related rates as an application of the Chain Rule.    Solve related rates problems.       Related Rates  Related rates is one of our first applications of the derivative. These problems generally look something like this:    You are blowing up a spherical balloon. Air is going into the balloon ar a rate of 12 . How fast is the radiums increasing when the radius is 4 ?            You are blowing up a spherical balloon. Air is going into the balloon at a rate of 12 . How fast is the radiums increasing when the radius is 4 ?      What is the overall idea of related rates problems, and how do you solve them?      A 13 long ladder is leaning against a wall. The base of the ladder is sliding away from the wall at a rate of 3 . How fast is the top of the ladder falling down the wall when the base of the ladder is 5 away from the base of the wall?      "
+  "body": " Week 9   This is an outline of the topics we covered in week 9 of the course, from October 26 to October 30.    Monday 10\/26     Discuss applications of the derivative in nature.    Review derivative formulas from the past few classes.        A ball is thrown upward from the top of a building. The position of the ball is given by where is in feet above the ground and is in seconds.     When does the ball reach its maximum height, and what is this height?      How fast is the ball moving when it hits the ground?        Other Applications  There are many more applications to a variety of fields, and the book has many of them in it. As always, the theme is that the derivative is used to represent a rate of change.    Let be a function that represents the temperature of a metal rod inches from the end. What does represent?      Let be the volume of a sphere as a function of its radius. Compute and explain the physical interpretation of .         Assume that for two subjects that you're trying to learn about, and represents the fraction of the material you remember days after last studying it. If , which of the two classes should you be more concerned about? What do these derivatives represent physically?       Derivatives of Inverse Functions  Over the last few classes, we used implicit differentiation to find the derivative of inverse functions. What did that process look like?     What were the resulting formulas that we got out of this process?      Find the derivative of and for any with .        Find the derivative for each of the functions below.                            Tuesday 10\/27     Understand related rates as an application of the Chain Rule.    Solve related rates problems.       Related Rates  Related rates is one of our first applications of the derivative. These problems generally look something like this:    You are blowing up a spherical balloon. Air is going into the balloon ar a rate of 12 . How fast is the radius increasing when the radius is 4 ?            You are blowing up a spherical balloon. Air is going into the balloon at a rate of 12 . How fast is the radius increasing when the radius is 4 ?      What is the overall idea of related rates problems, and how do you solve them?      A 13 long ladder is leaning against a wall. The base of the ladder is sliding away from the wall at a rate of 3 . How fast is the top of the ladder falling down the wall when the base of the ladder is 5 away from the base of the wall?       Wednesday 10\/28     Continue practicing related rates problems.       Related Rates part 2  What was the overall process of solving related rates problems?       As part of a movie scene, a spotlight is lowered straight down at a rate of 2 . As it does, it shines on an 8 tall monster costume that is 4 from directly below the spotlight. When the spotlight is 20 off the ground, how fast is the length of the monster costume's shadow increasing?        Water is flowing into a circular conical tank with the point facing downwards. The full tank has radius 5 and height 8 , and the water is flowing in at a rate of 6 . How fast is the height of water in the tank changing when the height is 3 ?       Friday 10\/30     Understand tangent lines as linear approximations.    Quiz on 3.6 and 3.7.       Linear Approximation  We started off the whole discussion of derivatives talking about tangent lines. The point was that we wanted to find a line that had the \"same slope\" as the curve.     So, if we have the differentiable function , what is the equation of its tangent line at the point ?       Linear Approximation says that        Use linear approximation to approximate the value of .        Use linear approximation to approximate the value of .       Differentials and Error  A differential is a small change in a variable. So for , the differential is a small change in . With this, we can define which should be a small change in . How can we see that?       Assume that a sphere is made of radius 5 with error of 0.3 . What is the expected error in the volume of the sphere?      "
 },
 {
   "id": "notes-week-09-3-2",
@@ -1807,7 +1807,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "158",
   "title": "",
-  "body": "  You are blowing up a spherical balloon. Air is going into the balloon ar a rate of 12 . How fast is the radiums increasing when the radius is 4 ?   "
+  "body": "  You are blowing up a spherical balloon. Air is going into the balloon ar a rate of 12 . How fast is the radius increasing when the radius is 4 ?   "
 },
 {
   "id": "notes-week-09-4-4-1",
@@ -1816,7 +1816,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "159",
   "title": "",
-  "body": "  You are blowing up a spherical balloon. Air is going into the balloon at a rate of 12 . How fast is the radiums increasing when the radius is 4 ?   "
+  "body": "  You are blowing up a spherical balloon. Air is going into the balloon at a rate of 12 . How fast is the radius increasing when the radius is 4 ?   "
 },
 {
   "id": "notes-week-09-4-6-1",
@@ -1826,6 +1826,78 @@ var ptx_lunr_docs = [
   "number": "160",
   "title": "",
   "body": "  A 13 long ladder is leaning against a wall. The base of the ladder is sliding away from the wall at a rate of 3 . How fast is the top of the ladder falling down the wall when the base of the ladder is 5 away from the base of the wall?   "
+},
+{
+  "id": "notes-week-09-5-2",
+  "level": "2",
+  "url": "notes-week-09.html#notes-week-09-5-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "   Continue practicing related rates problems.    "
+},
+{
+  "id": "notes-week-09-5-4-1",
+  "level": "2",
+  "url": "notes-week-09.html#notes-week-09-5-4-1",
+  "type": "Example",
+  "number": "161",
+  "title": "",
+  "body": "  As part of a movie scene, a spotlight is lowered straight down at a rate of 2 . As it does, it shines on an 8 tall monster costume that is 4 from directly below the spotlight. When the spotlight is 20 off the ground, how fast is the length of the monster costume's shadow increasing?   "
+},
+{
+  "id": "notes-week-09-5-5-1",
+  "level": "2",
+  "url": "notes-week-09.html#notes-week-09-5-5-1",
+  "type": "Example",
+  "number": "162",
+  "title": "",
+  "body": "  Water is flowing into a circular conical tank with the point facing downwards. The full tank has radius 5 and height 8 , and the water is flowing in at a rate of 6 . How fast is the height of water in the tank changing when the height is 3 ?   "
+},
+{
+  "id": "notes-week-09-6-2",
+  "level": "2",
+  "url": "notes-week-09.html#notes-week-09-6-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "   Understand tangent lines as linear approximations.    Quiz on 3.6 and 3.7.    "
+},
+{
+  "id": "def-linear-approximation",
+  "level": "2",
+  "url": "notes-week-09.html#def-linear-approximation",
+  "type": "Definition",
+  "number": "163",
+  "title": "",
+  "body": "   Linear Approximation says that   "
+},
+{
+  "id": "notes-week-09-6-6-1",
+  "level": "2",
+  "url": "notes-week-09.html#notes-week-09-6-6-1",
+  "type": "Example",
+  "number": "164",
+  "title": "",
+  "body": "  Use linear approximation to approximate the value of .   "
+},
+{
+  "id": "notes-week-09-6-7-1",
+  "level": "2",
+  "url": "notes-week-09.html#notes-week-09-6-7-1",
+  "type": "Example",
+  "number": "165",
+  "title": "",
+  "body": "  Use linear approximation to approximate the value of .   "
+},
+{
+  "id": "notes-week-09-6-9-1",
+  "level": "2",
+  "url": "notes-week-09.html#notes-week-09-6-9-1",
+  "type": "Example",
+  "number": "166",
+  "title": "",
+  "body": "  Assume that a sphere is made of radius 5 with error of 0.3 . What is the expected error in the volume of the sphere?   "
 },
 {
   "id": "wksht-sine-x-over-x",
@@ -2615,7 +2687,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handout-trig.html#handout-trig-2-3-2-2",
   "type": "Table",
-  "number": "221",
+  "number": "227",
   "title": "Special Angles of Trigonometric Functions",
   "body": " Special Angles of Trigonometric Functions                   Undefined       Undefined       "
 },
