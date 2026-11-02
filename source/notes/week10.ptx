@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="notes-week-10" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Week 10</title>
+
+<introduction>
+    <p>
+        This is an outline of the topics we covered in Week 10 of the course, from November 2 to November 6.
+    </p>
+</introduction>
+
+<handout component="cur">
+    <title>Monday 11/2</title>
+    <objectives>
+        <ul>
+            <li>
+                <p>
+                    Group presentations on Related Rates.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Wrap-up Linear Approximation.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Start L'Hospital's Rule.
+                </p>
+            </li>
+        </ul>
+    </objectives>
+    <page>
+        <paragraphs>
+            <title>Related Rates</title>
+
+            <p workspace="1in">
+                Today is group presentation day! Each group (or at least someone from each group) will come up to present their problem. The worksheet, where you are turning in all of Part 1, and the particular problem your group did from Part 2, is due on Wednesday.
+            </p>
+
+        </paragraphs>
+    </page>
+
+    <page>
+        <paragraphs>
+            <title>Linear Approximation and Differentials</title>
+            
+            <p component="b" workspace="4in">
+                A <em>differential</em> is a small change in a variable. So for <m>y = f(x)</m>, the differential <m>dx</m> is a small change in <m>x</m>. With this, we can define
+                <md>
+                    dy = f'(x) \ dx
+                </md> which should be a small change in <m>y</m>. How can we see that?
+                
+            </p>
+            <p component="a">
+                A <em>differential</em> is a small change in a variable. So for <m>y = f(x)</m>, the differential <m>dx</m> is a small change in <m>x</m>. With this, we can define
+                <md>
+                    dy = f'(x) \ dx
+                </md> which should be a small change in <m>y</m>. How can we see that? dx is <m>\Delta x</m> and pull from linear approximation.
+            </p>
+        </paragraphs>
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Assume that a sphere is made of radius <quantity><mag>5</mag><unit base="inch"/></quantity> with error of <quantity><mag>0.3</mag><unit base="inch"/></quantity>. What is the expected error in the volume of the sphere?
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <paragraphs>
+            <title>L'Hospital's Rule</title>
+
+            <p>
+                For one of our first applications of the derivative, we will return to limits.
+            </p>
+
+            <example workspace="2in">
+                <introduction>
+                    <p>
+                        Evaluate each of the following limits:
+                    </p>
+                </introduction>
+                <task>
+                    <statement>
+                        <p>
+                            <m>\displaystyle \lim_{x\rightarrow 4} \frac{\sqrt{x+5}-3}{x-4}</m>.
+                        </p>
+                    </statement>
+            
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            <m>\displaystyle \lim_{x\rightarrow 1} \frac{x^2 + 2x - 3}{x^2-1}</m>.
+                        </p>
+                    </statement>
+                </task>
+                <task>
+                    <statement>
+                        <p>
+                            <m>\displaystyle \lim_{x\rightarrow 0} \frac{\sin(x) - x}{x^3}</m>.
+                        </p>
+                    </statement>
+                </task>
+            
+            </example>
+            
+            
+        </paragraphs>
+    </page>
+
+    <page>
+        <p component="b" workspace="2in">
+            Recall the definition of the derivative.
+        </p>
+        <p component="a">
+            Recall the definition of the derivative. This is also an indeterminate limit, so maybe there's some hope that we can leverage this indeterminate limit into allowing us to evaluate other, more complicated ones.
+        </p>
+
+        <theorem xml:id="thm-Lhospital-rule">
+            <title>L'Hospital's Rule</title>
+            
+            <statement>
+                <p component="b" workspace="4in">
+                    Let <m>f(x)</m> and <m>g(x)</m> be differentiable functions so that 
+                </p>
+                <p component="a">
+                    Let <m>f(x)</m> and <m>g(x)</m> be differentiable functions so that <md>
+                        \lim_{x\rightarrow a} f(x) = 0 \text{ and } \lim_{x\rightarrow a} g(x) = 0
+                    </md> or 
+                    <md>
+                        \lim_{x\rightarrow a} f(x) = \pm \infty \text{ and } \lim_{x\rightarrow a} g(x) = \pm \infty
+                    </md>.
+                    Then
+                    <md>
+                        \lim_{x\rightarrow a} \frac{f(x)}{g(x)} = \lim_{x\rightarrow a} \frac{f'(x)}{g'(x)}
+                    </md>, provided this limit exists or is <m>\pm \infty</m>.
+                                         
+                </p>
+            </statement>
+        </theorem>
+        
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Evaluate <m>\displaystyle \lim_{x\rightarrow 1}\frac{x^2 + 2x - 3}{x^2 - 1}</m>.
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <p component="b" workspace="3in">
+            There are some important remarks on using L'Hospital's Rule:
+        </p>
+        <p component="a">
+            There are some important remarks on using L'Hospital's Rule: It's not the quotient rule. Make sure the conditions apply. It's also valid for one-sided limits and limits where the input goes to infinity.
+        </p>
+    </page>
+
+<page>
+    <example workspace="2in">
+        <introduction>
+            <p>
+                Evaluate each of the following.
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    <m>\displaystyle \lim_{x\rightarrow 1} \frac{\ln(x)}{x-1}</m>.
+                </p>
+            </statement>
+    
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>\displaystyle \lim_{x\rightarrow 4} \frac{x^2 + 3x - 1}{x+2}</m>.
+                </p>
+            </statement>
+    
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>\displaystyle \lim_{x\rightarrow 0} \frac{\sin(5x)}{\tan(4x)}</m>.
+                </p>
+            </statement>
+    
+        </task>
+    
+    </example>
+    
+</page>
+
+</handout>
+
+
+</section>
