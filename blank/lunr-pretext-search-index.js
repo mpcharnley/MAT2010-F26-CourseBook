@@ -1900,6 +1900,69 @@ var ptx_lunr_docs = [
   "body": "  Assume that a sphere is made of radius 5 with error of 0.3 . What is the expected error in the volume of the sphere?   "
 },
 {
+  "id": "notes-week-10",
+  "level": "1",
+  "url": "notes-week-10.html",
+  "type": "Section",
+  "number": "",
+  "title": "Week 10",
+  "body": " Week 10   This is an outline of the topics we covered in Week 10 of the course, from November 2 to November 6.    Monday 11\/2     Group presentations on Related Rates.    Wrap-up Linear Approximation.    Start L'Hospital's Rule.       Related Rates  Today is group presentation day! Each group (or at least someone from each group) will come up to present their problem. The worksheet, where you are turning in all of Part 1, and the particular problem your group did from Part 2, is due on Wednesday.      Linear Approximation and Differentials  A differential is a small change in a variable. So for , the differential is a small change in . With this, we can define which should be a small change in . How can we see that?       Assume that a sphere is made of radius 5 with error of 0.3 . What is the expected error in the volume of the sphere?       L'Hospital's Rule  For one of our first applications of the derivative, we will return to limits.    Evaluate each of the following limits:      .       .       .        Recall the definition of the derivative.   L'Hospital's Rule   Let and be differentiable functions so that        Evaluate .      There are some important remarks on using L'Hospital's Rule:      Evaluate each of the following.      .       .       .       "
+},
+{
+  "id": "notes-week-10-3-2",
+  "level": "2",
+  "url": "notes-week-10.html#notes-week-10-3-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "   Group presentations on Related Rates.    Wrap-up Linear Approximation.    Start L'Hospital's Rule.    "
+},
+{
+  "id": "notes-week-10-3-5-1",
+  "level": "2",
+  "url": "notes-week-10.html#notes-week-10-3-5-1",
+  "type": "Example",
+  "number": "167",
+  "title": "",
+  "body": "  Assume that a sphere is made of radius 5 with error of 0.3 . What is the expected error in the volume of the sphere?   "
+},
+{
+  "id": "notes-week-10-3-6-1-3",
+  "level": "2",
+  "url": "notes-week-10.html#notes-week-10-3-6-1-3",
+  "type": "Example",
+  "number": "168",
+  "title": "",
+  "body": "  Evaluate each of the following limits:      .       .       .    "
+},
+{
+  "id": "thm-Lhospital-rule",
+  "level": "2",
+  "url": "notes-week-10.html#thm-Lhospital-rule",
+  "type": "Theorem",
+  "number": "169",
+  "title": "L’Hospital’s Rule.",
+  "body": " L'Hospital's Rule   Let and be differentiable functions so that   "
+},
+{
+  "id": "notes-week-10-3-8-1",
+  "level": "2",
+  "url": "notes-week-10.html#notes-week-10-3-8-1",
+  "type": "Example",
+  "number": "170",
+  "title": "",
+  "body": "  Evaluate .   "
+},
+{
+  "id": "notes-week-10-3-10-1",
+  "level": "2",
+  "url": "notes-week-10.html#notes-week-10-3-10-1",
+  "type": "Example",
+  "number": "171",
+  "title": "",
+  "body": "  Evaluate each of the following.      .       .       .    "
+},
+{
   "id": "wksht-sine-x-over-x",
   "level": "1",
   "url": "wksht-sine-x-over-x.html",
@@ -2687,7 +2750,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handout-trig.html#handout-trig-2-3-2-2",
   "type": "Table",
-  "number": "227",
+  "number": "232",
   "title": "Special Angles of Trigonometric Functions",
   "body": " Special Angles of Trigonometric Functions                   Undefined       Undefined       "
 },
