@@ -161,7 +161,88 @@
         
     </page>
 
+</handout>
+
+<handout component="cur">
+    <title>Wednesday 11/4</title>
+    <objectives>
+        <ul>
+            <li>
+                <p>
+                    Apply L'Hospital's Rule in a variety of scenarios.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Understand when L'Hospital's Rule does and does not apply.
+                </p>
+            </li>
+        </ul>
+    </objectives>
     <page>
+        <paragraphs>
+            <title>L'Hospital's Rule</title>
+
+<p>
+    Last time, we introduced L'Hospital's Rule as a method for computing specific indeterminate limits.
+</p>
+
+<theorem xml:id="thm-Lhospital-rule-two">
+            <title>L'Hospital's Rule</title>
+            
+            <statement>
+                <p component="b" workspace="4in">
+                    Let <m>f(x)</m> and <m>g(x)</m> be differentiable functions so that 
+                </p>
+                <p component="a">
+                    Let <m>f(x)</m> and <m>g(x)</m> be differentiable functions so that <md>
+                        \lim_{x\rightarrow a} f(x) = 0 \text{ and } \lim_{x\rightarrow a} g(x) = 0
+                    </md> or 
+                    <md>
+                        \lim_{x\rightarrow a} f(x) = \pm \infty \text{ and } \lim_{x\rightarrow a} g(x) = \pm \infty
+                    </md>.
+                    Then
+                    <md>
+                        \lim_{x\rightarrow a} \frac{f(x)}{g(x)} = \lim_{x\rightarrow a} \frac{f'(x)}{g'(x)}
+                    </md>, provided this limit exists or is <m>\pm \infty</m>.
+                                         
+                </p>
+            </statement>
+        </theorem>
+
+        </paragraphs>
+    </page>
+
+    <page>
+        <example workspace="2in">
+            <statement>
+                <p>
+                    The Rayleigh-Jeans law for black-body radiation of wavelength <m>\lambda</m> is <md>
+                        B_{RJ}(\lambda) = \frac{K}{\lambda^4}
+                    </md>. Factoring in quantum mechanics gives Planck's law for radiation as
+                 <md>
+                    B_P(\lambda) = \frac{k_1}{\lambda^5} \frac{1}{e^{k_2/\lambda} - 1}
+                 </md>. What happens to Planck's radiation as <m>\lambda \rightarrow \infty</m>? What about as <m>\lambda \rightarrow 0</m>?
+                </p>
+            </statement>
+        
+        </example>
+    </page>
+
+   <page>
+        <example workspace="2in">
+            <statement>
+                <p>
+                    The <q>entropy</q> or uncertainty of a probabilistic experiment is computed as the sum over all outcomes of <m>-x \log(p(x))</m>, where <m>p(x)</m> is the probability of the outcome <m>x</m> happening. What is the uncertainty if <m>p(x) = 1</m>? What about if it is zero? Can we see this from the entropy?
+                </p>
+            </statement>
+        
+        </example>
+        
+        
+    </page>
+
+   <page>
         <p component="b" workspace="3in">
             There are some important remarks on using L'Hospital's Rule:
         </p>
@@ -206,7 +287,344 @@
     
 </page>
 
+<page>
+    <example workspace="4in">
+        <statement>
+            <p>
+                Compute the following limit using L'Hopital's Rule.
+                <md>
+                    \lim_{x\rightarrow 0} \frac{e^{3x} - \cos(7x)}{\sin(4x)}
+                </md>.
+            </p>
+        </statement>
+    
+    </example>
+    
+</page>
+
+<page>
+    <example workspace="4in">
+        <statement>
+            <p>
+                Compute the following limit using L'Hopital's Rule.
+                <md>
+                    \lim_{x\rightarrow 0} \frac{\sin(x) - x}{x^3}
+                </md>.
+            </p>
+        </statement>
+    
+    </example>
+    
+</page>
+
+<page>
+    <example workspace="2in">
+        <statement>
+            <p>
+                Compute the following limit using L'Hopital's Rule.
+                <md>
+                    \lim_{x\rightarrow \infty} \frac{3x^2 - 2x + 4}{2x^2 - 5x + 9}
+                </md>.
+            </p>
+        </statement>
+    
+    </example>
+
+    <example workspace="2in">
+        <statement>
+            <p>
+                Compute the following limit using L'Hopital's Rule.
+                <md>
+                    \lim_{x\rightarrow \infty} \frac{e^x}{x^4}
+                </md>.
+            </p>
+        </statement>
+    
+    </example>
+    
+</page>
+
+<page>
+    <paragraphs>
+        <title>Other Indeterminate Forms</title>
+        
+<p component="b" workspace="3in">
+    So far, we have seen <m>\frac{0}{0}</m> and <m>\frac{\infty}{\infty}</m> as indeterminate forms and how to use L'Hospital's rule to solve them. However, there are several other indeterminate forms:
+</p>
+<p component="a">
+    So far, we have seen <m>\frac{0}{0}</m> and <m>\frac{\infty}{\infty}</m> as indeterminate forms and how to use L'Hospital's rule to solve them. However, there are several other indeterminate forms: Product, difference, powers. The trick is to convert it into a fraction and then apply the normal L'Hospital's rule. 
+</p>
+
+    </paragraphs>
+</page>
+
+<page>
+    <paragraphs>
+        <title>Indeterminate Products</title>
+        
+        <p component="b" workspace="2in">
+            An indeterminate product is one of the form <m>0 \cdot \infty</m>. What can we do here?
+        </p>
+        <p component="a">
+            An indeterminate product is one of the form <m>0 \cdot \infty</m>. What can we do here? Write out with functions f and g. Rewrite as a fraction.
+        </p>
+    </paragraphs>
+
+<example workspace="2in">
+    <statement>
+        <p>
+            Compute <m>\displaystyle \lim_{x\rightarrow 0^+} x \ln(x)</m>.
+        </p>
+    </statement>
+
+</example>
+
+</page>
+
+<page>
+    <example workspace="3in">
+        <introduction>
+            <p>
+                Compute each of the limits using L'Hospital's Rule.
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    <m>\displaystyle \lim_{x\rightarrow \frac{pi}{2}^-} \left(x^2 - \frac{\pi^2}{4}\right)\tan(x)</m>.
+                </p>
+            </statement>
+    
+        </task>
+        <task>
+            <statement>
+                <p>
+                    <m>\displaystyle \lim_{x\rightarrow 0^+} \sqrt{x}\ln(x)</m>.
+                </p>
+            </statement>
+        </task>
+    
+    </example>
+    
+</page>
+
+<page>
+    <paragraphs>
+        <title>Indeterminate Differences</title>
+        
+<p component="b" workspace="2in">
+    Indeterminate Differences are of the form <m>\infty - \infty</m>. 
+</p>
+<p component="a">
+    Indeterminate Differences are of the form <m>\infty - \infty</m> What's the approach here? Make it a single fraction, then apply L'Hospital's Rule.
+</p>
+
+<example workspace="2in">
+    <statement>
+        <p>
+            Compute <md>
+                \lim_{x\rightarrow 0} \frac{1}{x} - \frac{1}{\sin(x)}
+            </md>.
+            
+        </p>
+    </statement>
+
+</example>
+
+
+    </paragraphs>
+</page>
+
+<page>
+    <example workspace="4in">
+        <statement>
+            <p>
+                Compute <md>
+                    \lim_{x\rightarrow \infty} x - \sqrt{x^2 + 1}
+                </md>.
+                
+            </p>
+        </statement>
+    
+    </example>
+    
+</page>
+
+<page>
+    <paragraphs>
+        <title>Indeterminate Powers</title>
+        <p component="b" workspace="4in">
+            There are several forms of indeterminate powers: <m>0^0</m>, <m>\infty^0</m>, <m>1^\infty</m>. How can we get the issue out of the exponent?
+        </p>
+        <p component="a">
+            There are several forms of indeterminate powers: <m>0^0</m>, <m>\infty^0</m>, <m>1^\infty</m>. How can we get the issue out of the exponent? Take logs! Then it's a product and we know how to handle those. Make sure to undo the log at the end.
+        </p>
+    </paragraphs>
+</page>
+
+<page>
+    <example workspace="2in">
+        <statement>
+            <p>
+                Compute the limit 
+                <md>
+                    \lim_{x\rightarrow \infty} \left(1 + \frac{1}{x}\right)^x
+                </md>.
+                
+            </p>
+        </statement>
+    
+    </example>
+
+    </page>
+
+<page>
+
+    <example workspace="2in">
+        <statement>
+            <p>
+                Compute the limit 
+                <md>
+                    \lim_{x\rightarrow 0^+} \left(1 + \sin(3x)\right)^{1/x}
+                </md>.
+                
+            </p>
+        </statement>
+    
+    </example>
+    
+</page>
 </handout>
 
+<handout component="cur">
+    <title>Friday 11/6</title>
+    <objectives>
+        <ul>
+            <li>
+                <p>
+                    Understand the Mean Value Theorem in terms of average and instantaneous velocity.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Apply the Mean Value Theorem to analyze functions.
+                </p>
+            </li>
+        </ul>
+    </objectives>
+    <page>
+        <paragraphs>
+            <title>The Mean Value Theorem</title>
+
+<p component="b" workspace="4in">
+    The next portion of this course is all about how we can use the derivative to analyze functions.
+</p>
+<p component="a">
+    The next portion of this course is all about how we can use the derivative to analyze functions. These include finding max/min of functions, determining behavior, and drawing graphs. For today, we'll get a part of overall behavior and tie that in to everything else next week.
+</p>
+
+        </paragraphs>
+    </page>
+
+    <page>
+        <p>
+            The Mean Value Theorem allows us to discuss the general behavior of a function given information about the derivative. It also has a fairly intuitive statement in terms of velocity.
+        </p>
+
+        <theorem xml:id="thm-mvt">
+            <title>The Mean Value Theorem</title>          
+            <statement>
+                <p component="b" workspace="3in">
+                    Let <m>f(x)</m> be a function defined on an interval <m>[a,b]</m> so that
+                </p>
+                <p component="a">
+                    Let <m>f(x)</m> be a function defined on an interval <m>[a,b]</m> so that f is continuous on the closed interval and differentiable on the open. Then secant tangent. Tie in to velocities. 
+                </p>
+            </statement>
+        </theorem>
+        
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Determine if the function <m>f(x) = x^3 - 2x</m> satifies the conditions of the Mean Value Theorem on the interval <m>[1,4]</m>. If so, find the value of <m>c</m> that is guaranteed to exist by this theorem. 
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <paragraphs>
+            <title>Consquences of the Mean Value Theorem</title>
+
+            <p>
+                There are a lot of useful consequences of the Mean Value Theorem, since it allows us to tie the derivative to function values.
+            </p>
+
+            <corollary xml:id="cor-constant-deriv">
+                <statement>
+                    <p component="b" workspace="2in">
+                        Let <m>f(x)</m> be a function that is continuous on <m>[a,b]</m> and differentiable on <m>(a,b)</m>. If <m>f'(x) = 0</m> on <m>(a,b)</m>, 
+                    </p>
+                    <p component="a">
+                        Let <m>f(x)</m> be a function that is continuous on <m>[a,b]</m> and differentiable on <m>(a,b)</m>. If <m>f'(x) = 0</m> on <m>(a,b)</m>, then <m>f(x)</m> is constant on <m>[a,b]</m>.
+                    </p>
+                </statement>
+            </corollary>
+
+            <corollary xml:id="cor-same-deriv">
+                <statement>
+                    <p component="b" workspace="2in">
+                        Let <m>f(x)</m> and <m>g(x)</m> be a functions that are continuous on <m>[a,b]</m> and differentiable on <m>(a,b)</m>. If <m>f'(x) = g'(x)</m> on <m>[a,b]</m>, 
+                    </p>
+                    <p component="a">
+                        Let <m>f(x)</m> and <m>g(x)</m> be a functions that are continuous on <m>[a,b]</m> and differentiable on <m>(a,b)</m>. If <m>f'(x) = g'(x)</m> on <m>[a,b]</m>, then <m>f(x) = g(x) + C</m> for some constant <m>C</m>.
+                    </p>
+                </statement>
+            </corollary>
+            
+        </paragraphs>
+    </page>
+    <page>
+        <paragraphs>
+            <title>Increasing and Decreasing Functions</title>
+            
+            <p>
+                The other main application of the Mean Value Theorem is to analyzing increasing and decreasing functions.
+            </p>
+
+            <definition xml:id="def-inc-dec-fcns">
+                <statement>
+                    <p component="b" workspace="3in">
+                        Let <m>f(x)</m> be a function defined on an interval <m>(a,b)</m>. We say that <m>f(x)</m> is
+                    </p>
+                    <p component="a">
+                        Let <m>f(x)</m> be a function defined on an interval <m>(a,b)</m>. We say that <m>f(x)</m> is increasing, decreasing on <m>(a,b)</m>. This is really hard to check.
+                    </p>
+                </statement>
+            </definition>
+
+        </paragraphs>
+    </page>
+
+    <page>
+        <corollary xml:id="cor-inc-dec-mvt">
+            <statement>
+                    <p component="b" workspace="2in">
+                        Let <m>f(x)</m> be a function that is continuous on <m>[a,b]</m> and differentiable on <m>(a,b)</m>. 
+                        If <m>f'(x) \gt 0</m> on <m>(a,b)</m>, 
+                    </p>
+                    <p component="a">
+                        Let <m>f(x)</m> be a function that is continuous on <m>[a,b]</m> and differentiable on <m>(a,b)</m>. If <m>f'(x) \gt 0</m> on <m>(a,b)</m>, then <m>f(x)</m> is increasing on <m>(a,b)</m>.
+                    </p>
+                </statement>
+            </corollary>
+    </page>
+
+</handout>
 
 </section>
