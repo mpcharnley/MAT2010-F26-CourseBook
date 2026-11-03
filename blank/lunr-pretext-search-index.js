@@ -1906,7 +1906,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Week 10",
-  "body": " Week 10   This is an outline of the topics we covered in Week 10 of the course, from November 2 to November 6.    Monday 11\/2     Group presentations on Related Rates.    Wrap-up Linear Approximation.    Start L'Hospital's Rule.       Related Rates  Today is group presentation day! Each group (or at least someone from each group) will come up to present their problem. The worksheet, where you are turning in all of Part 1, and the particular problem your group did from Part 2, is due on Wednesday.      Linear Approximation and Differentials  A differential is a small change in a variable. So for , the differential is a small change in . With this, we can define which should be a small change in . How can we see that?       Assume that a sphere is made of radius 5 with error of 0.3 . What is the expected error in the volume of the sphere?       L'Hospital's Rule  For one of our first applications of the derivative, we will return to limits.    Evaluate each of the following limits:      .       .       .        Recall the definition of the derivative.   L'Hospital's Rule   Let and be differentiable functions so that        Evaluate .      There are some important remarks on using L'Hospital's Rule:      Evaluate each of the following.      .       .       .       "
+  "body": " Week 10   This is an outline of the topics we covered in Week 10 of the course, from November 2 to November 6.    Monday 11\/2     Group presentations on Related Rates.    Wrap-up Linear Approximation.    Start L'Hospital's Rule.       Related Rates  Today is group presentation day! Each group (or at least someone from each group) will come up to present their problem. The worksheet, where you are turning in all of Part 1, and the particular problem your group did from Part 2, is due on Wednesday.      Linear Approximation and Differentials  A differential is a small change in a variable. So for , the differential is a small change in . With this, we can define which should be a small change in . How can we see that?       Assume that a sphere is made of radius 5 with error of 0.3 . What is the expected error in the volume of the sphere?       L'Hospital's Rule  For one of our first applications of the derivative, we will return to limits.    Evaluate each of the following limits:      .       .       .        Recall the definition of the derivative.   L'Hospital's Rule   Let and be differentiable functions so that        Evaluate .       Wednesday 11\/4     Apply L'Hospital's Rule in a variety of scenarios.    Understand when L'Hospital's Rule does and does not apply.       L'Hospital's Rule  Last time, we introduced L'Hospital's Rule as a method for computing specific indeterminate limits.   L'Hospital's Rule   Let and be differentiable functions so that         The Rayleigh-Jeans law for black-body radiation of wavelength is . Factoring in quantum mechanics gives Planck's law for radiation as . What happens to Planck's radiation as ? What about as ?        The entropy or uncertainty of a probabilistic experiment is computed as the sum over all outcomes of , where is the probability of the outcome happening. What is the uncertainty if ? What about if it is zero? Can we see this from the entropy?      There are some important remarks on using L'Hospital's Rule:      Evaluate each of the following.      .       .       .         Compute the following limit using L'Hopital's Rule. .        Compute the following limit using L'Hopital's Rule. .        Compute the following limit using L'Hopital's Rule. .      Compute the following limit using L'Hopital's Rule. .       Other Indeterminate Forms  So far, we have seen and as indeterminate forms and how to use L'Hospital's rule to solve them. However, there are several other indeterminate forms:      Indeterminate Products  An indeterminate product is one of the form . What can we do here?     Compute .        Compute each of the limits using L'Hospital's Rule.      .       .        Indeterminate Differences  Indeterminate Differences are of the form .    Compute .         Compute .       Indeterminate Powers  There are several forms of indeterminate powers: , , . How can we get the issue out of the exponent?       Compute the limit .        Compute the limit .       Friday 11\/6     Understand the Mean Value Theorem in terms of average and instantaneous velocity.    Apply the Mean Value Theorem to analyze functions.       The Mean Value Theorem  The next portion of this course is all about how we can use the derivative to analyze functions.     The Mean Value Theorem allows us to discuss the general behavior of a function given information about the derivative. It also has a fairly intuitive statement in terms of velocity.   The Mean Value Theorem   Let be a function defined on an interval so that        Determine if the function satifies the conditions of the Mean Value Theorem on the interval . If so, find the value of that is guaranteed to exist by this theorem.       Consquences of the Mean Value Theorem  There are a lot of useful consequences of the Mean Value Theorem, since it allows us to tie the derivative to function values.    Let be a function that is continuous on and differentiable on . If on ,      Let and be a functions that are continuous on and differentiable on . If on ,        Increasing and Decreasing Functions  The other main application of the Mean Value Theorem is to analyzing increasing and decreasing functions.    Let be a function defined on an interval . We say that is         Let be a function that is continuous on and differentiable on . If on ,      "
 },
 {
   "id": "notes-week-10-3-2",
@@ -1954,13 +1954,202 @@ var ptx_lunr_docs = [
   "body": "  Evaluate .   "
 },
 {
-  "id": "notes-week-10-3-10-1",
+  "id": "notes-week-10-4-2",
   "level": "2",
-  "url": "notes-week-10.html#notes-week-10-3-10-1",
-  "type": "Example",
+  "url": "notes-week-10.html#notes-week-10-4-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "   Apply L'Hospital's Rule in a variety of scenarios.    Understand when L'Hospital's Rule does and does not apply.    "
+},
+{
+  "id": "thm-Lhospital-rule-two",
+  "level": "2",
+  "url": "notes-week-10.html#thm-Lhospital-rule-two",
+  "type": "Theorem",
   "number": "171",
+  "title": "L’Hospital’s Rule.",
+  "body": " L'Hospital's Rule   Let and be differentiable functions so that   "
+},
+{
+  "id": "notes-week-10-4-4-1",
+  "level": "2",
+  "url": "notes-week-10.html#notes-week-10-4-4-1",
+  "type": "Example",
+  "number": "172",
+  "title": "",
+  "body": "  The Rayleigh-Jeans law for black-body radiation of wavelength is . Factoring in quantum mechanics gives Planck's law for radiation as . What happens to Planck's radiation as ? What about as ?   "
+},
+{
+  "id": "notes-week-10-4-5-1",
+  "level": "2",
+  "url": "notes-week-10.html#notes-week-10-4-5-1",
+  "type": "Example",
+  "number": "173",
+  "title": "",
+  "body": "  The entropy or uncertainty of a probabilistic experiment is computed as the sum over all outcomes of , where is the probability of the outcome happening. What is the uncertainty if ? What about if it is zero? Can we see this from the entropy?   "
+},
+{
+  "id": "notes-week-10-4-7-1",
+  "level": "2",
+  "url": "notes-week-10.html#notes-week-10-4-7-1",
+  "type": "Example",
+  "number": "174",
   "title": "",
   "body": "  Evaluate each of the following.      .       .       .    "
+},
+{
+  "id": "notes-week-10-4-8-1",
+  "level": "2",
+  "url": "notes-week-10.html#notes-week-10-4-8-1",
+  "type": "Example",
+  "number": "175",
+  "title": "",
+  "body": "  Compute the following limit using L'Hopital's Rule. .   "
+},
+{
+  "id": "notes-week-10-4-9-1",
+  "level": "2",
+  "url": "notes-week-10.html#notes-week-10-4-9-1",
+  "type": "Example",
+  "number": "176",
+  "title": "",
+  "body": "  Compute the following limit using L'Hopital's Rule. .   "
+},
+{
+  "id": "notes-week-10-4-10-1",
+  "level": "2",
+  "url": "notes-week-10.html#notes-week-10-4-10-1",
+  "type": "Example",
+  "number": "177",
+  "title": "",
+  "body": "  Compute the following limit using L'Hopital's Rule. .   "
+},
+{
+  "id": "notes-week-10-4-10-2",
+  "level": "2",
+  "url": "notes-week-10.html#notes-week-10-4-10-2",
+  "type": "Example",
+  "number": "178",
+  "title": "",
+  "body": "  Compute the following limit using L'Hopital's Rule. .   "
+},
+{
+  "id": "notes-week-10-4-12-2",
+  "level": "2",
+  "url": "notes-week-10.html#notes-week-10-4-12-2",
+  "type": "Example",
+  "number": "179",
+  "title": "",
+  "body": "  Compute .   "
+},
+{
+  "id": "notes-week-10-4-13-1",
+  "level": "2",
+  "url": "notes-week-10.html#notes-week-10-4-13-1",
+  "type": "Example",
+  "number": "180",
+  "title": "",
+  "body": "  Compute each of the limits using L'Hospital's Rule.      .       .    "
+},
+{
+  "id": "notes-week-10-4-14-1-3",
+  "level": "2",
+  "url": "notes-week-10.html#notes-week-10-4-14-1-3",
+  "type": "Example",
+  "number": "181",
+  "title": "",
+  "body": "  Compute .   "
+},
+{
+  "id": "notes-week-10-4-15-1",
+  "level": "2",
+  "url": "notes-week-10.html#notes-week-10-4-15-1",
+  "type": "Example",
+  "number": "182",
+  "title": "",
+  "body": "  Compute .   "
+},
+{
+  "id": "notes-week-10-4-17-1",
+  "level": "2",
+  "url": "notes-week-10.html#notes-week-10-4-17-1",
+  "type": "Example",
+  "number": "183",
+  "title": "",
+  "body": "  Compute the limit .   "
+},
+{
+  "id": "notes-week-10-4-18-1",
+  "level": "2",
+  "url": "notes-week-10.html#notes-week-10-4-18-1",
+  "type": "Example",
+  "number": "184",
+  "title": "",
+  "body": "  Compute the limit .   "
+},
+{
+  "id": "notes-week-10-5-2",
+  "level": "2",
+  "url": "notes-week-10.html#notes-week-10-5-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "   Understand the Mean Value Theorem in terms of average and instantaneous velocity.    Apply the Mean Value Theorem to analyze functions.    "
+},
+{
+  "id": "thm-mvt",
+  "level": "2",
+  "url": "notes-week-10.html#thm-mvt",
+  "type": "Theorem",
+  "number": "185",
+  "title": "The Mean Value Theorem.",
+  "body": " The Mean Value Theorem   Let be a function defined on an interval so that   "
+},
+{
+  "id": "notes-week-10-5-5-1",
+  "level": "2",
+  "url": "notes-week-10.html#notes-week-10-5-5-1",
+  "type": "Example",
+  "number": "186",
+  "title": "",
+  "body": "  Determine if the function satifies the conditions of the Mean Value Theorem on the interval . If so, find the value of that is guaranteed to exist by this theorem.   "
+},
+{
+  "id": "cor-constant-deriv",
+  "level": "2",
+  "url": "notes-week-10.html#cor-constant-deriv",
+  "type": "Corollary",
+  "number": "187",
+  "title": "",
+  "body": "  Let be a function that is continuous on and differentiable on . If on ,   "
+},
+{
+  "id": "cor-same-deriv",
+  "level": "2",
+  "url": "notes-week-10.html#cor-same-deriv",
+  "type": "Corollary",
+  "number": "188",
+  "title": "",
+  "body": "  Let and be a functions that are continuous on and differentiable on . If on ,   "
+},
+{
+  "id": "def-inc-dec-fcns",
+  "level": "2",
+  "url": "notes-week-10.html#def-inc-dec-fcns",
+  "type": "Definition",
+  "number": "189",
+  "title": "",
+  "body": "  Let be a function defined on an interval . We say that is   "
+},
+{
+  "id": "cor-inc-dec-mvt",
+  "level": "2",
+  "url": "notes-week-10.html#cor-inc-dec-mvt",
+  "type": "Corollary",
+  "number": "190",
+  "title": "",
+  "body": "  Let be a function that is continuous on and differentiable on . If on ,   "
 },
 {
   "id": "wksht-sine-x-over-x",
@@ -2750,7 +2939,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handout-trig.html#handout-trig-2-3-2-2",
   "type": "Table",
-  "number": "232",
+  "number": "251",
   "title": "Special Angles of Trigonometric Functions",
   "body": " Special Angles of Trigonometric Functions                   Undefined       Undefined       "
 },
