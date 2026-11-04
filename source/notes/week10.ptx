@@ -512,6 +512,34 @@
             </li>
         </ul>
     </objectives>
+
+    <page>
+    <paragraphs>
+        <title>Indeterminate Differences</title>
+        
+<p component="b" workspace="2in">
+    Indeterminate Differences are of the form <m>\infty - \infty</m>. 
+</p>
+<p component="a">
+    Indeterminate Differences are of the form <m>\infty - \infty</m> What's the approach here? Make it a single fraction, then apply L'Hospital's Rule.
+</p>
+
+<example workspace="2in">
+    <statement>
+        <p>
+            Compute <md>
+                \lim_{x\rightarrow 0} \frac{1}{x} - \frac{1}{\sin(x)}
+            </md>.
+            
+        </p>
+    </statement>
+
+</example>
+
+
+    </paragraphs>
+</page>
+
     <page>
         <paragraphs>
             <title>The Mean Value Theorem</title>
