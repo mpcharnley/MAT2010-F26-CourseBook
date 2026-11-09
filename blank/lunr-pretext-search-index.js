@@ -1906,7 +1906,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Week 10",
-  "body": " Week 10   This is an outline of the topics we covered in Week 10 of the course, from November 2 to November 6.    Monday 11\/2     Group presentations on Related Rates.    Wrap-up Linear Approximation.    Start L'Hospital's Rule.       Related Rates  Today is group presentation day! Each group (or at least someone from each group) will come up to present their problem. The worksheet, where you are turning in all of Part 1, and the particular problem your group did from Part 2, is due on Wednesday.      Linear Approximation and Differentials  A differential is a small change in a variable. So for , the differential is a small change in . With this, we can define which should be a small change in . How can we see that?       Assume that a sphere is made of radius 5 with error of 0.3 . What is the expected error in the volume of the sphere?       L'Hospital's Rule  For one of our first applications of the derivative, we will return to limits.    Evaluate each of the following limits:      .       .       .        Recall the definition of the derivative.   L'Hospital's Rule   Let and be differentiable functions so that        Evaluate .       Wednesday 11\/4     Apply L'Hospital's Rule in a variety of scenarios.    Understand when L'Hospital's Rule does and does not apply.       L'Hospital's Rule  Last time, we introduced L'Hospital's Rule as a method for computing specific indeterminate limits.   L'Hospital's Rule   Let and be differentiable functions so that         The Rayleigh-Jeans law for black-body radiation of wavelength is . Factoring in quantum mechanics gives Planck's law for radiation as . What happens to Planck's radiation as ? What about as ?        The entropy or uncertainty of a probabilistic experiment is computed as the sum over all outcomes of , where is the probability of the outcome happening. What is the uncertainty if ? What about if it is zero? Can we see this from the entropy?      There are some important remarks on using L'Hospital's Rule:      Evaluate each of the following.      .       .       .         Compute the following limit using L'Hopital's Rule. .        Compute the following limit using L'Hopital's Rule. .        Compute the following limit using L'Hopital's Rule. .      Compute the following limit using L'Hopital's Rule. .       Other Indeterminate Forms  So far, we have seen and as indeterminate forms and how to use L'Hospital's rule to solve them. However, there are several other indeterminate forms:      Indeterminate Products  An indeterminate product is one of the form . What can we do here?     Compute .        Compute each of the limits using L'Hospital's Rule.      .       .        Indeterminate Differences  Indeterminate Differences are of the form .    Compute .         Compute .       Indeterminate Powers  There are several forms of indeterminate powers: , , . How can we get the issue out of the exponent?       Compute the limit .        Compute the limit .       Friday 11\/6     Understand the Mean Value Theorem in terms of average and instantaneous velocity.    Apply the Mean Value Theorem to analyze functions.       Indeterminate Differences  Indeterminate Differences are of the form .    Compute .        The Mean Value Theorem  The next portion of this course is all about how we can use the derivative to analyze functions.     The Mean Value Theorem allows us to discuss the general behavior of a function given information about the derivative. It also has a fairly intuitive statement in terms of velocity.   The Mean Value Theorem   Let be a function defined on an interval so that        Determine if the function satifies the conditions of the Mean Value Theorem on the interval . If so, find the value of that is guaranteed to exist by this theorem.       Consquences of the Mean Value Theorem  There are a lot of useful consequences of the Mean Value Theorem, since it allows us to tie the derivative to function values.    Let be a function that is continuous on and differentiable on . If on ,      Let and be a functions that are continuous on and differentiable on . If on ,        Increasing and Decreasing Functions  The other main application of the Mean Value Theorem is to analyzing increasing and decreasing functions.    Let be a function defined on an interval . We say that is         Let be a function that is continuous on and differentiable on . If on ,      "
+  "body": " Week 10   This is an outline of the topics we covered in Week 10 of the course, from November 2 to November 6.    Monday 11\/2     Group presentations on Related Rates.    Wrap-up Linear Approximation.    Start L'Hospital's Rule.       Related Rates  Today is group presentation day! Each group (or at least someone from each group) will come up to present their problem. The worksheet, where you are turning in all of Part 1, and the particular problem your group did from Part 2, is due on Wednesday.      Linear Approximation and Differentials  A differential is a small change in a variable. So for , the differential is a small change in . With this, we can define which should be a small change in . How can we see that?       Assume that a sphere is made of radius 5 with error of 0.3 . What is the expected error in the volume of the sphere?       L'Hospital's Rule  For one of our first applications of the derivative, we will return to limits.    Evaluate each of the following limits:      .       .       .        Recall the definition of the derivative.   L'Hospital's Rule   Let and be differentiable functions so that        Evaluate .       Wednesday 11\/4     Apply L'Hospital's Rule in a variety of scenarios.    Understand when L'Hospital's Rule does and does not apply.       L'Hospital's Rule  Last time, we introduced L'Hospital's Rule as a method for computing specific indeterminate limits.   L'Hospital's Rule   Let and be differentiable functions so that         The Rayleigh-Jeans law for black-body radiation of wavelength is . Factoring in quantum mechanics gives Planck's law for radiation as . What happens to Planck's radiation as ? What about as ?        The entropy or uncertainty of a probabilistic experiment is computed as the sum over all outcomes of , where is the probability of the outcome happening. What is the uncertainty if ? What about if it is zero? Can we see this from the entropy?      There are some important remarks on using L'Hospital's Rule:      Evaluate each of the following.      .       .       .         Compute the following limit using L'Hopital's Rule. .        Compute the following limit using L'Hopital's Rule. .        Compute the following limit using L'Hopital's Rule. .      Compute the following limit using L'Hopital's Rule. .       Other Indeterminate Forms  So far, we have seen and as indeterminate forms and how to use L'Hospital's rule to solve them. However, there are several other indeterminate forms:      Indeterminate Products  An indeterminate product is one of the form . What can we do here?     Compute .        Compute each of the limits using L'Hospital's Rule.      .       .        Indeterminate Differences  Indeterminate Differences are of the form .    Compute .         Compute .       Indeterminate Powers  There are several forms of indeterminate powers: , , . How can we get the issue out of the exponent?       Compute the limit .        Compute the limit .       Friday 11\/6     Understand the Mean Value Theorem in terms of average and instantaneous velocity.    Apply the Mean Value Theorem to analyze functions.       Indeterminate Differences  Indeterminate Differences are of the form .    Compute .        The Mean Value Theorem  The next portion of this course is all about how we can use the derivative to analyze functions.     The Mean Value Theorem allows us to discuss the general behavior of a function given information about the derivative. It also has a fairly intuitive statement in terms of velocity.   The Mean Value Theorem   Let be a function defined on an interval so that        Determine if the function satifies the conditions of the Mean Value Theorem on the interval . If so, find the value of that is guaranteed to exist by this theorem.      "
 },
 {
   "id": "notes-week-10-3-2",
@@ -2125,9 +2125,27 @@ var ptx_lunr_docs = [
   "body": "  Determine if the function satifies the conditions of the Mean Value Theorem on the interval . If so, find the value of that is guaranteed to exist by this theorem.   "
 },
 {
+  "id": "notes-week-11",
+  "level": "1",
+  "url": "notes-week-11.html",
+  "type": "Section",
+  "number": "",
+  "title": "Week 11",
+  "body": " Week 11   This is an outline of the topics we covered in Week 11 of the course, from November 9 to November 13.    Monday 11\/9     Understand applications of the Mean Value Theorem    Find maximum and minimum values of functions using the derivative.       The Mean Value Theorem  Recall the Mean Value Theorem from last class:      Consquences of the Mean Value Theorem  There are a lot of useful consequences of the Mean Value Theorem, since it allows us to tie the derivative to function values.    Let be a function that is continuous on and differentiable on . If on ,      Let and be a functions that are continuous on and differentiable on . If on ,        Increasing and Decreasing Functions  The other main application of the Mean Value Theorem is to analyzing increasing and decreasing functions.    Let be a function defined on an interval . We say that is         Let be a function that is continuous on and differentiable on . If on ,       Max and Min Values of Functions  The next application we want to analyze is finding the maximum and minimum values of functions.     So, what are we looking for here? We're looking for the biggest and smallest values that takes on over an interval.    Let be a function defined on some interval and be some point in .         Let be a function defined on some interval and be some point in .        Consider the graph of the function given below:   Graph of x squared.    f(x)=3*x^5-15*x^4-55*x^3 + 225*x^2         Identify any absolute and local maximum\/minimum values on .      For simpler examples, we can look at and .       Let be a function defined on . If      That theorem tells us that there will be a maximum and minimum value in specific situations, but it gives us no way to actually find these points.    If is a local maximum or minimum value for and           Find the absolute maximum and minimum values of the function on .        Find the absolute maximum and minimum values of the function on .        Find the absolute maximum and minimum values of the function on .      So, what does the full process of solving one of these problems look like?      Find the absolute maximum and minimum values of the function on .        Find the absolute maximum and minimum values of the function on .        Find the absolute maximum and minimum values of the function on .        Find the absolute maximum and minimum values of the function on .      "
+},
+{
+  "id": "notes-week-11-3-2",
+  "level": "2",
+  "url": "notes-week-11.html#notes-week-11-3-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "   Understand applications of the Mean Value Theorem    Find maximum and minimum values of functions using the derivative.    "
+},
+{
   "id": "cor-constant-deriv",
   "level": "2",
-  "url": "notes-week-10.html#cor-constant-deriv",
+  "url": "notes-week-11.html#cor-constant-deriv",
   "type": "Corollary",
   "number": "188",
   "title": "",
@@ -2136,7 +2154,7 @@ var ptx_lunr_docs = [
 {
   "id": "cor-same-deriv",
   "level": "2",
-  "url": "notes-week-10.html#cor-same-deriv",
+  "url": "notes-week-11.html#cor-same-deriv",
   "type": "Corollary",
   "number": "189",
   "title": "",
@@ -2145,7 +2163,7 @@ var ptx_lunr_docs = [
 {
   "id": "def-inc-dec-fcns",
   "level": "2",
-  "url": "notes-week-10.html#def-inc-dec-fcns",
+  "url": "notes-week-11.html#def-inc-dec-fcns",
   "type": "Definition",
   "number": "190",
   "title": "",
@@ -2154,11 +2172,119 @@ var ptx_lunr_docs = [
 {
   "id": "cor-inc-dec-mvt",
   "level": "2",
-  "url": "notes-week-10.html#cor-inc-dec-mvt",
+  "url": "notes-week-11.html#cor-inc-dec-mvt",
   "type": "Corollary",
   "number": "191",
   "title": "",
   "body": "  Let be a function that is continuous on and differentiable on . If on ,   "
+},
+{
+  "id": "def-extreme-values",
+  "level": "2",
+  "url": "notes-week-11.html#def-extreme-values",
+  "type": "Definition",
+  "number": "192",
+  "title": "",
+  "body": "  Let be a function defined on some interval and be some point in .   "
+},
+{
+  "id": "def-local-extreme-values",
+  "level": "2",
+  "url": "notes-week-11.html#def-local-extreme-values",
+  "type": "Definition",
+  "number": "193",
+  "title": "",
+  "body": "  Let be a function defined on some interval and be some point in .   "
+},
+{
+  "id": "notes-week-11-3-9-1",
+  "level": "2",
+  "url": "notes-week-11.html#notes-week-11-3-9-1",
+  "type": "Example",
+  "number": "194",
+  "title": "",
+  "body": "  Consider the graph of the function given below:   Graph of x squared.    f(x)=3*x^5-15*x^4-55*x^3 + 225*x^2         Identify any absolute and local maximum\/minimum values on .   "
+},
+{
+  "id": "thm-extreme-vales",
+  "level": "2",
+  "url": "notes-week-11.html#thm-extreme-vales",
+  "type": "Theorem",
+  "number": "195",
+  "title": "",
+  "body": "  Let be a function defined on . If   "
+},
+{
+  "id": "thm-fermat-extreme",
+  "level": "2",
+  "url": "notes-week-11.html#thm-fermat-extreme",
+  "type": "Theorem",
+  "number": "196",
+  "title": "",
+  "body": "  If is a local maximum or minimum value for and   "
+},
+{
+  "id": "notes-week-11-3-12-1",
+  "level": "2",
+  "url": "notes-week-11.html#notes-week-11-3-12-1",
+  "type": "Example",
+  "number": "197",
+  "title": "",
+  "body": "  Find the absolute maximum and minimum values of the function on .   "
+},
+{
+  "id": "notes-week-11-3-13-1",
+  "level": "2",
+  "url": "notes-week-11.html#notes-week-11-3-13-1",
+  "type": "Example",
+  "number": "198",
+  "title": "",
+  "body": "  Find the absolute maximum and minimum values of the function on .   "
+},
+{
+  "id": "notes-week-11-3-14-1",
+  "level": "2",
+  "url": "notes-week-11.html#notes-week-11-3-14-1",
+  "type": "Example",
+  "number": "199",
+  "title": "",
+  "body": "  Find the absolute maximum and minimum values of the function on .   "
+},
+{
+  "id": "notes-week-11-3-16-1",
+  "level": "2",
+  "url": "notes-week-11.html#notes-week-11-3-16-1",
+  "type": "Example",
+  "number": "200",
+  "title": "",
+  "body": "  Find the absolute maximum and minimum values of the function on .   "
+},
+{
+  "id": "notes-week-11-3-17-1",
+  "level": "2",
+  "url": "notes-week-11.html#notes-week-11-3-17-1",
+  "type": "Example",
+  "number": "201",
+  "title": "",
+  "body": "  Find the absolute maximum and minimum values of the function on .   "
+},
+{
+  "id": "notes-week-11-3-18-1",
+  "level": "2",
+  "url": "notes-week-11.html#notes-week-11-3-18-1",
+  "type": "Example",
+  "number": "202",
+  "title": "",
+  "body": "  Find the absolute maximum and minimum values of the function on .   "
+},
+{
+  "id": "notes-week-11-3-19-1",
+  "level": "2",
+  "url": "notes-week-11.html#notes-week-11-3-19-1",
+  "type": "Example",
+  "number": "203",
+  "title": "",
+  "body": "  Find the absolute maximum and minimum values of the function on .   "
 },
 {
   "id": "wksht-sine-x-over-x",
@@ -2948,7 +3074,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handout-trig.html#handout-trig-2-3-2-2",
   "type": "Table",
-  "number": "252",
+  "number": "264",
   "title": "Special Angles of Trigonometric Functions",
   "body": " Special Angles of Trigonometric Functions                   Undefined       Undefined       "
 },
