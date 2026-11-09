@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="notes-week-11" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Week 11</title>
+
+<introduction>
+    <p>
+        This is an outline of the topics we covered in Week 11 of the course, from November 9 to November 13.
+    </p>
+</introduction>
+
+<handout component="cur">
+    <title>Monday 11/9</title>
+    <objectives>
+        <ul>
+            <li>
+                <p>
+                    Understand applications of the Mean Value Theorem
+                </p>
+            </li>
+            <li>
+                <p>
+                    Find maximum and minimum values of functions using the derivative.
+                </p>
+            </li>
+        </ul>
+    </objectives>
+    <page>
+        <paragraphs>
+            <title>The Mean Value Theorem</title>
+
+        <p component="b" workspace="3in">
+            Recall the Mean Value Theorem from last class:
+        </p>
+        <p component="a">
+            Recall the Mean Value Theorem from last class: Full theorem statement.
+        </p>
+
+
+        </paragraphs>
+    </page>
+
+<page>
+        <paragraphs>
+            <title>Consquences of the Mean Value Theorem</title>
+
+            <p>
+                There are a lot of useful consequences of the Mean Value Theorem, since it allows us to tie the derivative to function values.
+            </p>
+
+            <corollary xml:id="cor-constant-deriv">
+                <statement>
+                    <p component="b" workspace="2in">
+                        Let <m>f(x)</m> be a function that is continuous on <m>[a,b]</m> and differentiable on <m>(a,b)</m>. If <m>f'(x) = 0</m> on <m>(a,b)</m>, 
+                    </p>
+                    <p component="a">
+                        Let <m>f(x)</m> be a function that is continuous on <m>[a,b]</m> and differentiable on <m>(a,b)</m>. If <m>f'(x) = 0</m> on <m>(a,b)</m>, then <m>f(x)</m> is constant on <m>[a,b]</m>.
+                    </p>
+                </statement>
+            </corollary>
+
+            <corollary xml:id="cor-same-deriv">
+                <statement>
+                    <p component="b" workspace="2in">
+                        Let <m>f(x)</m> and <m>g(x)</m> be a functions that are continuous on <m>[a,b]</m> and differentiable on <m>(a,b)</m>. If <m>f'(x) = g'(x)</m> on <m>[a,b]</m>, 
+                    </p>
+                    <p component="a">
+                        Let <m>f(x)</m> and <m>g(x)</m> be a functions that are continuous on <m>[a,b]</m> and differentiable on <m>(a,b)</m>. If <m>f'(x) = g'(x)</m> on <m>[a,b]</m>, then <m>f(x) = g(x) + C</m> for some constant <m>C</m>.
+                    </p>
+                </statement>
+            </corollary>
+            
+        </paragraphs>
+    </page>
+    <page>
+        <paragraphs>
+            <title>Increasing and Decreasing Functions</title>
+            
+            <p>
+                The other main application of the Mean Value Theorem is to analyzing increasing and decreasing functions.
+            </p>
+
+            <definition xml:id="def-inc-dec-fcns">
+                <statement>
+                    <p component="b" workspace="3in">
+                        Let <m>f(x)</m> be a function defined on an interval <m>(a,b)</m>. We say that <m>f(x)</m> is
+                    </p>
+                    <p component="a">
+                        Let <m>f(x)</m> be a function defined on an interval <m>(a,b)</m>. We say that <m>f(x)</m> is increasing, decreasing on <m>(a,b)</m>. This is really hard to check.
+                    </p>
+                </statement>
+            </definition>
+
+        </paragraphs>
+    </page>
+
+    <page>
+        <corollary xml:id="cor-inc-dec-mvt">
+            <statement>
+                    <p component="b" workspace="2in">
+                        Let <m>f(x)</m> be a function that is continuous on <m>[a,b]</m> and differentiable on <m>(a,b)</m>. 
+                        If <m>f'(x) \gt 0</m> on <m>(a,b)</m>, 
+                    </p>
+                    <p component="a">
+                        Let <m>f(x)</m> be a function that is continuous on <m>[a,b]</m> and differentiable on <m>(a,b)</m>. If <m>f'(x) \gt 0</m> on <m>(a,b)</m>, then <m>f(x)</m> is increasing on <m>(a,b)</m>.
+                    </p>
+                </statement>
+            </corollary>
+    </page>
+
+
+    <page>
+        <paragraphs>
+            <title>Max and Min Values of Functions</title>
+
+            <p component="b" workspace="4in">
+                The next application we want to analyze is finding the maximum and minimum values of functions.
+            </p>
+            <p component="a">
+                The next application we want to analyze is finding the maximum and minimum values of functions. Foreshadowing of optimization problems, where we'll want to do this for word problems.
+            </p>
+            
+        </paragraphs>
+    </page>
+
+    <page>
+        <p>
+            So, what are we looking for here? We're looking for the biggest and smallest values that <m>f(x)</m> takes on over an interval.
+        </p>
+
+        <definition xml:id="def-extreme-values">
+            <statement>
+                <p component="b" workspace="2in">
+                    Let <m>f(x)</m> be a function defined on some interval <m>[a,b]</m> and <m>c</m> be some point in <m>[a,b]</m>.
+                </p>
+                <p component="a">
+                    Let <m>f(x)</m> be a function defined on some interval <m>[a,b]</m> and <m>c</m> be some point in <m>[a,b]</m>. Absolute maximum, Absolute minimum.
+                </p>
+            </statement>
+        </definition>
+
+        <p component="b" workspace="3in">
+            <nbsp />
+        </p>
+        <p component="a">
+            Graph that has max, min, locals.
+        </p>
+
+        <definition xml:id="def-local-extreme-values">
+            <statement>
+                <p component="b" workspace="2in">
+                    Let <m>f(x)</m> be a function defined on some interval <m>[a,b]</m> and <m>c</m> be some point in <m>[a,b]</m>.
+                </p>
+                <p component="a">
+                    Let <m>f(x)</m> be a function defined on some interval <m>[a,b]</m> and <m>c</m> be some point in <m>[a,b]</m>. Local maximum, Local minimum.
+                </p>
+            </statement>
+        </definition>
+    </page>
+
+    <page>
+        <example workspace="3in">
+            <statement>
+                <p>
+                    Consider the graph of the function given below:
+                </p>
+                <image width="60%">
+                <shortdescription>Graph of a polynomial.</shortdescription>
+                <prefigure xmlns="https://prefigure.org"
+             label="max-min-poly-one">
+            <diagram xmlns="https://prefigure.org" dimensions="(300,300)" margins="5">
+  <definition> f(x)=3*x^5-15*x^4-55*x^3 + 225*x^2</definition>
+  <coordinates bbox="[-6,-2000,8,2000]">
+    <grid-axes xlabel="x" ylabel="y"/>
+    <graph function="f"/>
+  </coordinates>
+</diagram>
+            </prefigure>
+            </image>
+                <p>
+                    Identify any absolute and local maximum/minimum values on <m>[-4, 7]</m>.
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <p>
+            For simpler examples, we can look at <m>x^2</m> and <m>x^3</m>.
+        </p>
+        <p component="b" workspace="2in">
+            <nbsp />
+        </p>
+        <p component="a">
+            
+        </p>
+
+        <theorem xml:id="thm-extreme-vales">
+            <statement>
+                <p component="b" workspace="2in">
+                    Let <m>f(x)</m> be a function defined on <m>[a,b]</m>. If 
+                </p>
+                <p component="a">
+                    Let <m>f(x)</m> be a function defined on <m>[a,b]</m>. If  continuous, then attains max and min.
+                </p>
+            </statement>
+        </theorem>
+        
+    </page>
+
+    <page>
+        <p component="b" workspace="2in">
+            That theorem tells us that there will be a maximum and minimum value in specific situations, but it gives us no way to actually find these points.
+        </p>
+        <p component="a">
+            That theorem tells us that there will be a maximum and minimum value in specific situations, but it gives us no way to actually find these points. It turns out that local extreme values are easier to find, and local + endpoints are the only possibilities for the absolute max and min.
+        </p>
+
+        <theorem xml:id="thm-fermat-extreme">
+            <statement>
+                <p component="b" workspace="3in">
+                    If <m>f(c)</m> is a local maximum or minimum value for <m>f(x)</m> and 
+                </p>
+                <p component="a">
+                    If <m>f(c)</m> is a local maximum or minimum value for <m>f(x)</m> and  <m>f'(c)</m> exists, then <m>f'(c) = 0</m>.
+                </p>
+            </statement>
+        </theorem>
+
+        <p component="b" workspace="1in">
+            <nbsp />
+        </p>
+        <p component="a">
+            Define critical points as well. And the process.
+        </p>
+        
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Find the absolute maximum and minimum values of the function <m>f(x) = 2x^3 + 9x^2 - 60x + 8</m> on <m>[-8, 4]</m>.
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Find the absolute maximum and minimum values of the function <m>f(x) = x^{2/3}(10-x)</m> on <m>[-1, 12]</m>.
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Find the absolute maximum and minimum values of the function <m>f(x) = x^2e^x</m> on <m>[-10, 0]</m>.
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        
+        <p component="b" workspace="4in">
+            So, what does the full process of solving one of these problems look like?
+        </p>
+        <p component="a">
+            So, what does the full process of solving one of these problems look like? Critical points, endpoints, pick which is the biggest and smallest.
+        </p>
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Find the absolute maximum and minimum values of the function <m>f(x) = 2x^3 +9x^2 - 24x + 5</m> on <m>[-2, 2]</m>.
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Find the absolute maximum and minimum values of the function <m>f(x) = 2 - |x|</m> on <m>[-1, 3]</m>.
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Find the absolute maximum and minimum values of the function <m>f(x) = x^3 - 27x</m> on <m>[-4, 2]</m>.
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Find the absolute maximum and minimum values of the function <m>f(x) = \left(x + \frac{1}{2}\right)</m> on <m>(-\infty, \infty)</m>.
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+</handout>
+
+
+</section>
