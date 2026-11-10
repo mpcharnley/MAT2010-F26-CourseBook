@@ -539,5 +539,92 @@
 
 </handout>
 
+<handout component="cur">
+    <title>Wednesday 11/11</title>
+    <objectives>
+        <ul>
+            <li>
+                <p>
+                    Review for Exam 2
+                </p>
+            </li>
+        </ul>
+    </objectives>
+    <page>
+        <paragraphs>
+            <title>Exam 2 Topics</title>
+
+            <p>
+                Exam 2 is coming up on Friday, November 13. It covers:
+                <ul>
+                    <li>
+                        <p>
+                            Section 3.1: Basic derivative formulas (powers, exponential, sum, difference)
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Section 3.2: Product and Quotient Rules
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Section 3.3: Derivatives of Trigonometric Functions
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Section 3.4: Chain Rule
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Section 3.5: Implicit Differentiation
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Section 3.6: Derivatives of Inverse Functions (ln, inverse trig, exponential with non-e base) 
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Section 3.7: Derivatives in Nature (velocity and motion problems)
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Section 3.9: Related Rates
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Section 3.10: Linear Approximation
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Section 4.4: L'Hospital's Rule
+                        </p>
+                    </li>
+                </ul>
+            </p>
+            <p>
+                You should expect all of the derivative rules to be combined together. The problem will likely say something like <q>Take the derivative of this function</q> and you'll need to know how to handle it from there.
+            </p>
+
+        </paragraphs>
+    </page>
+
+    <page>
+        <paragraphs>
+            <title>Exam Review</title>
+            <p>
+                Where do we want to start?
+            </p>
+        </paragraphs>
+    </page>
+</handout>
+
 
 </section>
