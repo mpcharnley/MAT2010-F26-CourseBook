@@ -2131,7 +2131,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Week 11",
-  "body": " Week 11   This is an outline of the topics we covered in Week 11 of the course, from November 9 to November 13.    Monday 11\/9     Understand applications of the Mean Value Theorem    Find maximum and minimum values of functions using the derivative.       The Mean Value Theorem  Recall the Mean Value Theorem from last class:      Consquences of the Mean Value Theorem  There are a lot of useful consequences of the Mean Value Theorem, since it allows us to tie the derivative to function values.    Let be a function that is continuous on and differentiable on . If on ,      Let and be a functions that are continuous on and differentiable on . If on ,        Increasing and Decreasing Functions  The other main application of the Mean Value Theorem is to analyzing increasing and decreasing functions.    Let be a function defined on an interval . We say that is         Let be a function that is continuous on and differentiable on . If on ,       Max and Min Values of Functions  The next application we want to analyze is finding the maximum and minimum values of functions.     So, what are we looking for here? We're looking for the biggest and smallest values that takes on over an interval.    Let be a function defined on some interval and be some point in .         Let be a function defined on some interval and be some point in .        Consider the graph of the function given below:   Graph of x squared.    f(x)=3*x^5-15*x^4-55*x^3 + 225*x^2         Identify any absolute and local maximum\/minimum values on .      For simpler examples, we can look at and .       Let be a function defined on . If      That theorem tells us that there will be a maximum and minimum value in specific situations, but it gives us no way to actually find these points.    If is a local maximum or minimum value for and           Find the absolute maximum and minimum values of the function on .        Find the absolute maximum and minimum values of the function on .        Find the absolute maximum and minimum values of the function on .      So, what does the full process of solving one of these problems look like?      Find the absolute maximum and minimum values of the function on .        Find the absolute maximum and minimum values of the function on .        Find the absolute maximum and minimum values of the function on .        Find the absolute maximum and minimum values of the function on .      "
+  "body": " Week 11   This is an outline of the topics we covered in Week 11 of the course, from November 9 to November 13.    Monday 11\/9     Understand applications of the Mean Value Theorem    Find maximum and minimum values of functions using the derivative.       The Mean Value Theorem  Recall the Mean Value Theorem from last class:      Consquences of the Mean Value Theorem  There are a lot of useful consequences of the Mean Value Theorem, since it allows us to tie the derivative to function values.    Let be a function that is continuous on and differentiable on . If on ,      Let and be a functions that are continuous on and differentiable on . If on ,        Increasing and Decreasing Functions  The other main application of the Mean Value Theorem is to analyzing increasing and decreasing functions.    Let be a function defined on an interval . We say that is         Let be a function that is continuous on and differentiable on . If on ,       Max and Min Values of Functions  The next application we want to analyze is finding the maximum and minimum values of functions.     So, what are we looking for here? We're looking for the biggest and smallest values that takes on over an interval.    Let be a function defined on some interval and be some point in .         Let be a function defined on some interval and be some point in .        Consider the graph of the function given below:   Graph of a polynomial.    f(x)=3*x^5-15*x^4-55*x^3 + 225*x^2         Identify any absolute and local maximum\/minimum values on .      For simpler examples, we can look at and .       Let be a function defined on . If      That theorem tells us that there will be a maximum and minimum value in specific situations, but it gives us no way to actually find these points.    If is a local maximum or minimum value for and           Find the absolute maximum and minimum values of the function on .        Find the absolute maximum and minimum values of the function on .       Tuesday 11\/10     Find absolute maxima and minima of functions on closed intervals using Calculus.    Use the derivative to determine when a function is increasing and decreasing.    Use the second derivative to analyze the shape of a graph.       Absolute Maximum and Minimum Values    Find the critical points of the function .       So, what does the full process of solving one of these problems look like?      Find the absolute maximum and minimum values of the function on .        Find the absolute maximum and minimum values of the function on .        Find the absolute maximum and minimum values of the function on .       Derivatives and the Shape of a Graph  Now, we want to use the derivative to help us analyze the shape of a graph. We looked at one part of this last time.       Find all intervals where the function is increasing and decreasing.       Sign Charts  Our main tool in this process is the sign chart, which you may have seen previously. What is this process?       Make the sign chart for the function .        Make the sign chart for the function .      If we want to use this to talk about functions increasing or decreasing, we want the sign chart for , not for .    Use a sign chart to determine where the function is increasing and decreasing.       The First Derivative Test  The first derivative test is a way to determine if a critical point is a local maximum or local minimum without plugging in values. How does our function have to be set up to get a local maximum?      The Second Derivative  If measures the rate of change of the function , what does measure?      Test for Concavity  How do we know if a function is concave up or concave down?     So, given a function, how can we determine where it is concave up and concave down?      Consider the function .     Create a sign chart for , , and .      Determine on which intervals is increasing.      Determine on which intervals is decreasing.      Find and classify any local maxima or minima of .      Determine on which intervals is concave up.      Determine on which intervals is concave down.       "
 },
 {
   "id": "notes-week-11-3-2",
@@ -2203,7 +2203,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "194",
   "title": "",
-  "body": "  Consider the graph of the function given below:   Graph of x squared.    f(x)=3*x^5-15*x^4-55*x^3 + 225*x^2         Identify any absolute and local maximum\/minimum values on .   "
+  "body": "  Consider the graph of the function given below:   Graph of a polynomial.    f(x)=3*x^5-15*x^4-55*x^3 + 225*x^2         Identify any absolute and local maximum\/minimum values on .   "
 },
 {
   "id": "thm-extreme-vales",
@@ -2242,49 +2242,94 @@ var ptx_lunr_docs = [
   "body": "  Find the absolute maximum and minimum values of the function on .   "
 },
 {
-  "id": "notes-week-11-3-14-1",
+  "id": "notes-week-11-4-2",
   "level": "2",
-  "url": "notes-week-11.html#notes-week-11-3-14-1",
+  "url": "notes-week-11.html#notes-week-11-4-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "   Find absolute maxima and minima of functions on closed intervals using Calculus.    Use the derivative to determine when a function is increasing and decreasing.    Use the second derivative to analyze the shape of a graph.    "
+},
+{
+  "id": "notes-week-11-4-3-1-2",
+  "level": "2",
+  "url": "notes-week-11.html#notes-week-11-4-3-1-2",
   "type": "Example",
   "number": "199",
   "title": "",
-  "body": "  Find the absolute maximum and minimum values of the function on .   "
+  "body": "  Find the critical points of the function .   "
 },
 {
-  "id": "notes-week-11-3-16-1",
+  "id": "notes-week-11-4-5-1",
   "level": "2",
-  "url": "notes-week-11.html#notes-week-11-3-16-1",
+  "url": "notes-week-11.html#notes-week-11-4-5-1",
   "type": "Example",
   "number": "200",
   "title": "",
   "body": "  Find the absolute maximum and minimum values of the function on .   "
 },
 {
-  "id": "notes-week-11-3-17-1",
+  "id": "notes-week-11-4-6-1",
   "level": "2",
-  "url": "notes-week-11.html#notes-week-11-3-17-1",
+  "url": "notes-week-11.html#notes-week-11-4-6-1",
   "type": "Example",
   "number": "201",
   "title": "",
   "body": "  Find the absolute maximum and minimum values of the function on .   "
 },
 {
-  "id": "notes-week-11-3-18-1",
+  "id": "notes-week-11-4-7-1",
   "level": "2",
-  "url": "notes-week-11.html#notes-week-11-3-18-1",
+  "url": "notes-week-11.html#notes-week-11-4-7-1",
   "type": "Example",
   "number": "202",
   "title": "",
   "body": "  Find the absolute maximum and minimum values of the function on .   "
 },
 {
-  "id": "notes-week-11-3-19-1",
+  "id": "notes-week-11-4-9-1",
   "level": "2",
-  "url": "notes-week-11.html#notes-week-11-3-19-1",
+  "url": "notes-week-11.html#notes-week-11-4-9-1",
   "type": "Example",
   "number": "203",
   "title": "",
-  "body": "  Find the absolute maximum and minimum values of the function on .   "
+  "body": "  Find all intervals where the function is increasing and decreasing.   "
+},
+{
+  "id": "notes-week-11-4-11-1",
+  "level": "2",
+  "url": "notes-week-11.html#notes-week-11-4-11-1",
+  "type": "Example",
+  "number": "204",
+  "title": "",
+  "body": "  Make the sign chart for the function .   "
+},
+{
+  "id": "notes-week-11-4-12-1",
+  "level": "2",
+  "url": "notes-week-11.html#notes-week-11-4-12-1",
+  "type": "Example",
+  "number": "205",
+  "title": "",
+  "body": "  Make the sign chart for the function .   "
+},
+{
+  "id": "notes-week-11-4-13-2",
+  "level": "2",
+  "url": "notes-week-11.html#notes-week-11-4-13-2",
+  "type": "Example",
+  "number": "206",
+  "title": "",
+  "body": "  Use a sign chart to determine where the function is increasing and decreasing.   "
+},
+{
+  "id": "notes-week-11-4-18-1",
+  "level": "2",
+  "url": "notes-week-11.html#notes-week-11-4-18-1",
+  "type": "Example",
+  "number": "207",
+  "title": "",
+  "body": "  Consider the function .     Create a sign chart for , , and .      Determine on which intervals is increasing.      Determine on which intervals is decreasing.      Find and classify any local maxima or minima of .      Determine on which intervals is concave up.      Determine on which intervals is concave down.    "
 },
 {
   "id": "wksht-sine-x-over-x",
@@ -3074,7 +3119,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handout-trig.html#handout-trig-2-3-2-2",
   "type": "Table",
-  "number": "264",
+  "number": "268",
   "title": "Special Angles of Trigonometric Functions",
   "body": " Special Angles of Trigonometric Functions                   Undefined       Undefined       "
 },
