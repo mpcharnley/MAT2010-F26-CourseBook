@@ -260,17 +260,42 @@
         </example>
         
     </page>
+</handout>
 
+<handout component="cur">
+    <title>Tuesday 11/10</title>
+    <objectives>
+        <ul>
+            <li>
+                <p>
+                    Find absolute maxima and minima of functions on closed intervals using Calculus.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Use the derivative to determine when a function is increasing and decreasing.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Use the second derivative to analyze the shape of a graph.
+                </p>
+            </li>
+        </ul>
+    </objectives>
     <page>
+        <paragraphs>
+            <title>Absolute Maximum and Minimum Values</title>
+
         <example workspace="4in">
             <statement>
                 <p>
-                    Find the absolute maximum and minimum values of the function <m>f(x) = x^2e^x</m> on <m>[-10, 0]</m>.
+                    Find the critical points of the function <m>f(x) = x^2e^x</m>.
                 </p>
             </statement>
         
         </example>
-        
+        </paragraphs>
     </page>
 
     <page>
@@ -320,16 +345,198 @@
     </page>
 
     <page>
+        <paragraphs>
+            <title>Derivatives and the Shape of a Graph</title>
+
+            <p component="b" workspace="4in">
+                Now, we want to use the derivative to help us analyze the shape of a graph. We looked at one part of this last time.
+            </p>
+            <p component="a">
+                Now, we want to use the derivative to help us analyze the shape of a graph. We looked at one part of this last time. Increasing and Decreasing.
+            </p>
+            
+        </paragraphs>
+    </page>
+
+    <page>
         <example workspace="4in">
             <statement>
                 <p>
-                    Find the absolute maximum and minimum values of the function <m>f(x) = \left(x + \frac{1}{2}\right)</m> on <m>(-\infty, \infty)</m>.
+                    Find all intervals where the function <m>f(x) = 2x^3 + 9x^2 - 60x + 8</m> is increasing and decreasing.
                 </p>
             </statement>
         
         </example>
         
     </page>
+
+    <page>
+        <paragraphs>
+            <title>Sign Charts</title>
+            
+        <p component="b" workspace="4in">
+            Our main tool in this process is the sign chart, which you may have seen previously. What is this process?
+        </p>
+        <p component="a">
+            Our main tool in this process is the sign chart, which you may have seen previously. What is this process? Zeros and undefined, plug in points to get positive or negative.
+        </p>
+
+        </paragraphs>
+    </page>
+
+    <page>
+       <example workspace="4in">
+        <statement>
+            <p>
+                Make the sign chart for the function <md>
+                    f(x) = \frac{x^2 - 4x - 5}{x+3}
+                </md>.
+                
+            </p>
+        </statement>
+       
+       </example>
+       
+    </page>
+
+    <page>
+       <example workspace="4in">
+        <statement>
+            <p>
+                Make the sign chart for the function <md>
+                    f(x) = \frac{x-5}{x^2 + 3x + 2}
+                </md>.
+                
+            </p>
+        </statement>
+       
+       </example>
+       
+    </page>
+
+    <page>
+        <p>
+            If we want to use this to talk about functions increasing or decreasing, we want the sign chart for <m>f'(x)</m>, not for <m>f(x)</m>.
+        </p>
+
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Use a sign chart to determine where the function <m>f(x) = 2x^3 - 15x^2 - 36x + 1</m> is increasing and decreasing.
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <paragraphs>
+            <title>The First Derivative Test</title>
+            <p component="b" workspace="3in">
+                The first derivative test is a way to determine if a critical point is a local maximum or local minimum without plugging in values. How does our function have to be set up to get a local maximum?
+            </p>
+            <p component="a">
+                The first derivative test is a way to determine if a critical point is a local maximum or local minimum without plugging in values. How does our function have to be set up to get a local maximum? Increase before, decrease after. This gives us the test.
+            </p>
+            
+        </paragraphs>
+    </page>
+
+    <page>
+        <paragraphs>
+            <title>The Second Derivative</title>
+            
+            <p component="b" workspace="4in">
+                If <m>f'(x)</m> measures the rate of change of the function <m>f(x)</m>, what does <m>f''(x)</m> measure?
+            </p>
+            <p component="a">
+                If <m>f'(x)</m> measures the rate of change of the function <m>f(x)</m>, what does <m>f''(x)</m> measure? It's the rate of change of the slopes. If <m>f''(x) \gt 0</m>, then the slopes have to be increasing, which means we're above our tangent lines. This is what we mean by concave up.
+            </p>
+
+        </paragraphs>
+    </page>
+
+    <page>
+        <paragraphs>
+            <title>Test for Concavity</title>
+            
+            <p component="b" workspace="4in">
+                How do we know if a function is concave up or concave down?
+            </p>
+            <p component="a">
+                How do we know if a function is concave up or concave down? We use the second derivative.
+            </p>
+        </paragraphs>
+    </page>
+
+    <page>
+        <p component="b" workspace="4in">
+            So, given a function, how can we determine where it is concave up and concave down?
+        </p>
+        <p component="a">
+            So, given a function, how can we determine where it is concave up and concave down? We need a sign chart for <m>f''(x)</m>.
+        </p>
+    </page>
+
+    <page>
+        <example workspace="0in">
+            <introduction>
+                <p>
+                    Consider the function <md>
+                        f(x) = \frac{x}{x^2 + 1}
+                    </md>.
+                    
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Create a sign chart for <m>f</m>, <m>f'</m>, and <m>f''</m>.
+                    </p>
+                </statement>
+        
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Determine on which intervals <m>f(x)</m> is increasing.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Determine on which intervals <m>f(x)</m> is decreasing.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Find and classify any local maxima or minima of <m>f(x)</m>.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Determine on which intervals <m>f(x)</m> is concave up.
+                    </p>
+                </statement>
+            </task>
+            <task workspace="2in">
+                <statement>
+                    <p>
+                        Determine on which intervals <m>f(x)</m> is concave down.
+                    </p>
+                </statement>
+            </task>
+        
+        </example>
+        
+    </page>
+
 </handout>
 
 
