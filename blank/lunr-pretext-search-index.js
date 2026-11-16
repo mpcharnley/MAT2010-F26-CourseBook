@@ -2341,6 +2341,69 @@ var ptx_lunr_docs = [
   "body": "   Review for Exam 2    "
 },
 {
+  "id": "notes-week-12",
+  "level": "1",
+  "url": "notes-week-12.html",
+  "type": "Section",
+  "number": "",
+  "title": "Week 12",
+  "body": " Week 12   This is an outline of the topics we covered in Week 12 of the course, from November 16 to 20.    Monday 11\/16     Analyze functions to determine when they are increasing\/decreasing and concave up\/down.    Use the first and second derivative test to determine if a critical point is a local maximum or minimum.    Find inflection points of a graph.       Function Behaviors using the Derivative  We saw last class that we can use the first derivative to determine where a function is increasing and decreasing.    Determine the intervals of increase and decrease for function .        The First Derivative Test  The first derivative test is a way to determine if a critical point is a local maximum or local minimum without plugging in values. How does our function have to be set up to get a local maximum?       Use the first derivative test to determine if the critical points of are local maxima or minima.       The Second Derivative  If measures the rate of change of the function , what does measure?      Test for Concavity  How do we know if a function is concave up or concave down?     So, given a function, how can we determine where it is concave up and concave down?      Consider the function .     Create a sign chart for , , and .      Determine on which intervals is increasing.      Determine on which intervals is decreasing.      Find and classify any local maxima or minima of .      Determine on which intervals is concave up.      Determine on which intervals is concave down.         Consider the function .     Create a sign chart for , , and .      Determine on which intervals is increasing.      Determine on which intervals is decreasing.      Find and classify any local maxima or minima of .      Determine on which intervals is concave up.      Determine on which intervals is concave down.        Inflection Points  Inflection points somewhat play the role of critical points but for the second derivative. However, for these, we do want to guarantee a change in concavity.      Second Derivative Test  We can also use the second derivative to help us analyze critical points to see if they are local maxima or minima.       Find all critical points, inflection points, and use the second derivative test to analyze the critical points of .       Summary  So, what have we learned and done so far?     "
+},
+{
+  "id": "notes-week-12-3-2",
+  "level": "2",
+  "url": "notes-week-12.html#notes-week-12-3-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "   Analyze functions to determine when they are increasing\/decreasing and concave up\/down.    Use the first and second derivative test to determine if a critical point is a local maximum or minimum.    Find inflection points of a graph.    "
+},
+{
+  "id": "notes-week-12-3-3-1-3",
+  "level": "2",
+  "url": "notes-week-12.html#notes-week-12-3-3-1-3",
+  "type": "Example",
+  "number": "208",
+  "title": "",
+  "body": "  Determine the intervals of increase and decrease for function .   "
+},
+{
+  "id": "notes-week-12-3-5-1",
+  "level": "2",
+  "url": "notes-week-12.html#notes-week-12-3-5-1",
+  "type": "Example",
+  "number": "209",
+  "title": "",
+  "body": "  Use the first derivative test to determine if the critical points of are local maxima or minima.   "
+},
+{
+  "id": "notes-week-12-3-9-1",
+  "level": "2",
+  "url": "notes-week-12.html#notes-week-12-3-9-1",
+  "type": "Example",
+  "number": "210",
+  "title": "",
+  "body": "  Consider the function .     Create a sign chart for , , and .      Determine on which intervals is increasing.      Determine on which intervals is decreasing.      Find and classify any local maxima or minima of .      Determine on which intervals is concave up.      Determine on which intervals is concave down.    "
+},
+{
+  "id": "notes-week-12-3-10-1",
+  "level": "2",
+  "url": "notes-week-12.html#notes-week-12-3-10-1",
+  "type": "Example",
+  "number": "211",
+  "title": "",
+  "body": "  Consider the function .     Create a sign chart for , , and .      Determine on which intervals is increasing.      Determine on which intervals is decreasing.      Find and classify any local maxima or minima of .      Determine on which intervals is concave up.      Determine on which intervals is concave down.    "
+},
+{
+  "id": "notes-week-12-3-13-1",
+  "level": "2",
+  "url": "notes-week-12.html#notes-week-12-3-13-1",
+  "type": "Example",
+  "number": "212",
+  "title": "",
+  "body": "  Find all critical points, inflection points, and use the second derivative test to analyze the critical points of .   "
+},
+{
   "id": "wksht-sine-x-over-x",
   "level": "1",
   "url": "wksht-sine-x-over-x.html",
@@ -3128,7 +3191,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handout-trig.html#handout-trig-2-3-2-2",
   "type": "Table",
-  "number": "268",
+  "number": "273",
   "title": "Special Angles of Trigonometric Functions",
   "body": " Special Angles of Trigonometric Functions                   Undefined       Undefined       "
 },
