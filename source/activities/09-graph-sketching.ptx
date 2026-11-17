@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet component = "cur" xml:id = "wksht-graph-sketching" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Graph Sketching</title>
+
+    <introduction>
+        <p>
+            <ul>
+                <li><title>Dates</title>
+                    <p>Assigned Date: November 17, 2026</p>
+                    <p>Due Date: November 24, 2026</p>
+                </li>
+                <li><title>Objective</title>
+                    <p>
+                        In this assignment, you will work through various types of graph sketching problems to learn how to analyze the graph of a function using the derivative. Take your time and lay out all of the information for the problem before you try to draw the graph. Use the included organizers and axes to collect the information and draw the graph. 
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </introduction>
+
+    <page>
+        <paragraphs>
+            <title>Shape of Graphs</title>
+            
+<sidebyside width="40%">
+        <image width="40%">
+  <prefigure xmlns="https://prefigure.org"
+             label="wksht-sketch-notes-deriv-table">
+    <xi:include href="../../prefigure/sketch-process-derivs.xml" />
+  </prefigure>
+</image>
+
+        <image width="40%">
+  <prefigure xmlns="https://prefigure.org"
+             label="wksht-sketch-notes-maxmin-table">
+    <xi:include href="../../prefigure/sketch-process-max-min.xml" />
+  </prefigure>
+</image>
+</sidebyside>
+            <image width="45%">
+  <prefigure xmlns="https://prefigure.org"
+             label="wksht-sketch-notes-asymp-table">
+    <xi:include href="../../prefigure/sketch-process-asymptotes.xml" />
+  </prefigure>
+</image>
+
+        </paragraphs>
+    </page>
+
+<page>
+<paragraphs>
+    <title>Warm-Up</title>
+
+<exercise>
+    <statement>
+        <p>
+            Sketch the graph of the function <m>
+                f(x) = \frac{x+4}{x-1}
+            </m>.
+            
+        </p>
+    </statement>
+</exercise>
+</paragraphs>
+
+<paragraphs>
+    <title>Turn-In Exercises</title>
+
+<exercise>
+    <statement>
+        <p>
+            Sketch the graph of the function <m>
+                f(x) = \frac{3}{x^2 - 9}
+            </m>.
+            
+        </p>
+    </statement>
+</exercise>
+
+<exercise>
+    <statement>
+        <p>
+            Sketch the graph of the function <m>
+                f(x) = \frac{x}{x^2 - 4}
+            </m>.
+            
+        </p>
+    </statement>
+</exercise>
+
+<exercise>
+    <introduction>
+        <p>
+            Let <m>f(x)</m> be the function whose formula and first two derivatives are given below:
+            <md>
+                f(x) = \frac{x+2}{(x-1)^2} \qquad f'(x) = -\frac{x+5}{(x-1)^3} \qquad f''(x) = \frac{2(x+8)}{(x-1)^4}
+            </md>.
+        </p>
+    </introduction>
+    <task>
+        <statement>
+            <p>
+                Find all critical points of <m>f(x)</m> and determine if they are local maxima or local minima.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Find all intervals where <m>f(x)</m> is increasing.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Find all inflection points of <m>f(x)</m>.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Find all intervals where <m>f(x)</m> is concave down.
+            </p>
+        </statement>
+    </task>
+</exercise>
+
+<exercise>
+    <statement>
+        <p>
+            Sketch a graph of a function <m>f(x)</m> that satifies all of the following properties.
+            <ul>
+                <li>
+                    <p>
+                        <m>f(0) = 2</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>\displaystyle \lim_{x\rightarrow \infty} f(x) = -2</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>\displaystyle \lim_{x\rightarrow -3^+} = -\infty</m> and <m>\displaystyle \lim_{x\rightarrow -3^-} = \infty</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>\displaystyle \lim_{x\rightarrow -\infty} f(x) = 0</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Sign chart of <m>f'</m>
+                    </p>
+                    <image width="60%">
+            <shortdescription>Sign Chart for f prime</shortdescription>
+            <prefigure xmlns="https://prefigure.org"
+             label="wksht-graph-sketching-sign-example-one">
+<diagram xmlns="https://prefigure.org" dimensions="(500,100)" margins="5">
+        <definition> numPts = 2 </definition>
+         <definition> locs = [-5, 3] </definition>
+         <definition substitution="no"> vals = ['-5', '3'] </definition>
+         <definition> valMarks = ['UND', 'ZERO'] </definition>
+         <definition> signs = ['+', '+', '-'] </definition>
+         <definition> signs_loc = (-7, 0, 5) </definition>
+          <coordinates bbox="[-10,-1,10,1]">
+         <line endpoints="((-9,0), (9,0))" stroke="black" arrows="2" thickness="3"/>
+        <repeat parameter="k=0..numPts-1">
+            <line endpoints="((locs[k], -0.2), (locs[k], 0.2))" stroke="black" thickness="2"/>
+            <label anchor="(locs[k], -0.2)" alignment="s"><m>${vals[k]}</m></label>
+            <label anchor="(locs[k], 0.2)" alignment="n">${valMarks[k]}</label>
+            <label anchor="(signs_loc[k], 0.3)" alignment="n"><m>${signs[k]}</m></label>
+        </repeat>
+        <label anchor="(signs_loc[numPts], 0.3)" alignment="n"><m>${signs[numPts]}</m></label>
+  </coordinates>
+</diagram>
+  </prefigure>
+        </image>
+                </li>
+                <li>
+                    <p>
+                        Sign chart of <m>f''</m>
+                    </p>
+                    <image width="60%">
+            <shortdescription>Sign Chart for f double prime</shortdescription>
+            <prefigure xmlns="https://prefigure.org"
+             label="wksht-graph-sketching-sign-example-two">
+<diagram xmlns="https://prefigure.org" dimensions="(500,100)" margins="5">
+        <definition> numPts = 2 </definition>
+         <definition> locs = [-5, 5] </definition>
+         <definition substitution="no"> vals = ['-5', '6'] </definition>
+         <definition> valMarks = ['UND', 'ZERO'] </definition>
+         <definition> signs = ['+', '-', '+'] </definition>
+         <definition> signs_loc = (-7, 0, 7) </definition>
+          <coordinates bbox="[-10,-1,10,1]">
+         <line endpoints="((-9,0), (9,0))" stroke="black" arrows="2" thickness="3"/>
+        <repeat parameter="k=0..numPts-1">
+            <line endpoints="((locs[k], -0.2), (locs[k], 0.2))" stroke="black" thickness="2"/>
+            <label anchor="(locs[k], -0.2)" alignment="s"><m>${vals[k]}</m></label>
+            <label anchor="(locs[k], 0.2)" alignment="n">${valMarks[k]}</label>
+            <label anchor="(signs_loc[k], 0.3)" alignment="n"><m>${signs[k]}</m></label>
+        </repeat>
+        <label anchor="(signs_loc[numPts], 0.3)" alignment="n"><m>${signs[numPts]}</m></label>
+  </coordinates>
+</diagram>
+  </prefigure>
+        </image>
+                </li>
+            </ul>
+        </p>
+    </statement>
+</exercise>
+
+</paragraphs>
+</page>
+
+<page>
+    <image width="90%">
+  <prefigure xmlns="https://prefigure.org"
+             label="wksht-graph-sketch-organizer-1">
+    <xi:include href="../../prefigure/sketch-full-organizer-blank.xml" />
+  </prefigure>
+</image>
+</page>
+
+<page>
+    <image width="90%">
+  <prefigure xmlns="https://prefigure.org"
+             label="wksht-graph-sketch-organizer-2">
+    <xi:include href="../../prefigure/sketch-full-organizer-blank.xml" />
+  </prefigure>
+</image>
+</page>
+
+<page>
+    <image width="90%">
+  <prefigure xmlns="https://prefigure.org"
+             label="wksht-graph-sketch-organizer-3">
+    <xi:include href="../../prefigure/sketch-full-organizer-blank.xml" />
+  </prefigure>
+</image>
+</page>
+
+<page>
+    <image width="90%">
+  <prefigure xmlns="https://prefigure.org"
+             label="wksht-graph-sketch-organizer-4">
+    <xi:include href="../../prefigure/sketch-full-organizer-blank.xml" />
+  </prefigure>
+</image>
+</page>
+
+<page>
+              <image width="70%">
+  <prefigure xmlns="https://prefigure.org"
+             label="wksht-graph-sketch-axes-1">
+    <xi:include href="../../prefigure/blank-axes-6-6.xml" />
+  </prefigure>
+</image>
+</page>
+
+<page>
+              <image width="70%">
+  <prefigure xmlns="https://prefigure.org"
+             label="wksht-graph-sketch-axes-2">
+    <xi:include href="../../prefigure/blank-axes-6-6.xml" />
+  </prefigure>
+</image>
+</page>
+
+<page>
+              <image width="70%">
+  <prefigure xmlns="https://prefigure.org"
+             label="wksht-graph-sketch-axes-3">
+    <xi:include href="../../prefigure/blank-axes-6-6.xml" />
+  </prefigure>
+</image>
+</page>
+
+<page>
+              <image width="70%">
+  <prefigure xmlns="https://prefigure.org"
+             label="wksht-graph-sketch-axes-4">
+    <xi:include href="../../prefigure/blank-axes-6-6.xml" />
+  </prefigure>
+</image>
+</page>
+
+</worksheet>

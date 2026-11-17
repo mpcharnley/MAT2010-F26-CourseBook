@@ -1,0 +1,17 @@
+<diagram xmlns="https://prefigure.org" dimensions="(300,300)" margins="5">
+  <coordinates bbox="[-0.5,-0.5, 8.5, 10.5]">
+    <polygon points="((0,0), (0,8), (8,8), (8,0), (0,0))" closed="yes" stroke="black" thickness="2"/>
+    <line endpoints="((0,3), (8,3))" stroke="black" thickness="2"/>
+    <line endpoints="((0,6), (8,6))" stroke="black" thickness="2"/>
+    <line endpoints="((2,0), (2,8))" stroke="black" thickness="2"/>
+    <line endpoints="((5,0), (5,8))" stroke="black" thickness="2"/>
+   <label anchor="(3.5, 7)" alignment="c" scale="0.8"><m>\displaystyle \lim_{x\rightarrow a^+} f(x) = \infty</m>
+   </label>
+   <label anchor="(6.5, 7)" alignment="c" scale="0.75"><m> \displaystyle \lim_{x\rightarrow a^+} f(x) = -\infty</m>
+   </label>
+    <label anchor="(1, 4.5)" alignment="c" rotate="90" scale="0.8"><m>\displaystyle \lim_{x\rightarrow a^-} f(x)</m> <newline/> <m> = \infty</m>
+    </label>
+    <label anchor="(1, 1.5)" alignment="c" rotate="90" scale="0.8"><m>\displaystyle \lim_{x\rightarrow a^-} f(x) </m> <newline/> <m>= -\infty</m>
+    </label>
+  </coordinates>
+</diagram>

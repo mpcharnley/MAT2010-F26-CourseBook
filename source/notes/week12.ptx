@@ -279,4 +279,289 @@
 </handout>
 
 
+<handout component="cur">
+    <title>Tuesday 11/17</title>
+    <objectives>
+        <ul>
+            <li>
+                <p>
+                    Define inflection point and learn how to use the second derivative test.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Sketch graphs of functions from derivative information.
+                </p>
+            </li>
+        </ul>
+    </objectives>
+    <page>
+        <paragraphs>
+            <title>Inflection Points</title>
+            
+            <p component="b" workspace="4in">
+                Inflection points somewhat play the role of critical points but for the second derivative. However, for these, we do want to guarantee a change in concavity.
+            </p>
+            <p component="a">
+                Inflection points somewhat play the role of critical points but for the second derivative. However, for these, we do want to guarantee a change in concavity. What does this mean? Point in the domain of the function where the concavity changes sign.
+            </p>
+        </paragraphs>
+    </page>
+
+    <page>
+        <paragraphs>
+            <title>Second Derivative Test</title>
+            
+            <p component="b" workspace="4in">
+                We can also use the second derivative to help us analyze critical points to see if they are local maxima or minima.
+            </p>
+            <p component="a">
+                We can also use the second derivative to help us analyze critical points to see if they are local maxima or minima. If <m>f'' \gt 0</m>, the derivative is increasing, meaning it must go from negative to positive, hence local min. Also it looks like <m>x^2</m>.
+            </p>
+        </paragraphs>
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Find all critical points, inflection points, and use the second derivative test to analyze the critical points of <m>f(x) = 2x^3 - 3x^2 - 12x + 5</m>.
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <paragraphs>
+            <title>Graph Sketching</title>
+            <p component="b" workspace="4in">
+                So, what have we learned and done so far?
+            </p>
+            <p component="a">
+                So, what have we learned and done so far? Increasing and decreasing, concavity, local max and min. Now we want to tie all of that together to help us sketch the graph of a function from derivative information. 
+            </p>
+        </paragraphs>
+    </page>
+
+    <page>
+        <paragraphs>
+            <title>Shape of Graphs</title>
+            
+        <p>
+            The derivative tells us information about the graph of a function. What does that look like in terms of actual pictures?
+        </p>
+
+        <image width="50%">
+  <prefigure xmlns="https://prefigure.org"
+             label="sketch-notes-deriv-table">
+    <xi:include href="../../prefigure/sketch-process-derivs.xml" />
+  </prefigure>
+</image>
+
+        <image width="50%">
+  <prefigure xmlns="https://prefigure.org"
+             label="sketch-notes-maxmin-table">
+    <xi:include href="../../prefigure/sketch-process-max-min.xml" />
+  </prefigure>
+</image>
+
+        </paragraphs>
+    </page>
+
+    <page>
+        <paragraphs>
+            <title>Other Things to Consider</title>
+
+
+            <p component="b" workspace="4in">
+                Two other things to take into consideration when trying to plot graphs: Domain and Asymptotes.
+            </p>
+            <p component="a">
+                Two other things to take into consideration when trying to plot graphs: Domain and Asymptotes. Need to know if there are any gaps in the domain, as well as vertical and horizontal asymptotes.
+            </p>
+
+            <image width="60%">
+  <prefigure xmlns="https://prefigure.org"
+             label="sketch-notes-asymp-table">
+    <xi:include href="../../prefigure/sketch-process-asymptotes.xml" />
+  </prefigure>
+</image>
+
+            
+        </paragraphs>
+    </page>
+
+
+    <page>
+        <example workspace="2in">
+            <statement>
+                <p>
+                    Use Calculus techniques to sketch the graph of the function <md>
+                        f(x) = \frac{x+4}{x-1}
+                    </md>.
+                 </p>   
+                    <image width="90%">
+  <prefigure xmlns="https://prefigure.org"
+             label="sketch-notes-organizer-blank">
+    <xi:include href="../../prefigure/sketch-full-organizer-blank.xml" />
+  </prefigure>
+</image>
+                
+            </statement>
+        
+        </example>
+        
+    </page>
+
+    <page>
+          <image width="70%">
+  <prefigure xmlns="https://prefigure.org"
+             label="graph-sketch-example-1-blank">
+    <xi:include href="../../prefigure/blank-axes-6-6.xml" />
+  </prefigure>
+</image>
+    </page>
+
+    <page>
+        <paragraphs>
+            <title>Split Problems</title>
+            
+        <p>
+            While it is good to know the entire process of sketching one of these graphs, you may also see these problems presented in two separate parts.
+        </p>
+
+        <exercise>
+    <introduction>
+        <p>
+            Let <m>f(x)</m> be the function whose formula and first two derivatives are given below:
+            <md>
+                f(x) = \frac{x+2}{(x-1)^2} \qquad f'(x) = -\frac{x+5}{(x-1)^3} \qquad f''(x) = \frac{2(x+8)}{(x-1)^4}
+            </md>.
+        </p>
+    </introduction>
+    <task>
+        <statement>
+            <p>
+                Find all critical points of <m>f(x)</m> and determine if they are local maxima or local minima.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Find all intervals where <m>f(x)</m> is increasing.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Find all inflection points of <m>f(x)</m>.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Find all intervals where <m>f(x)</m> is concave down.
+            </p>
+        </statement>
+    </task>
+</exercise>
+
+<exercise>
+    <statement>
+        <p>
+            Sketch a graph of a function <m>f(x)</m> that satifies all of the following properties.
+            <ul>
+                <li>
+                    <p>
+                        <m>f(0) = 2</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>\displaystyle \lim_{x\rightarrow \infty} f(x) = -2</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>\displaystyle \lim_{x\rightarrow -3^+} = -\infty</m> and <m>\displaystyle \lim_{x\rightarrow -3^-} = \infty</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>\displaystyle \lim_{x\rightarrow -\infty} f(x) = 0</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Sign chart of <m>f'</m>
+                    </p>
+                    <image>
+            <shortdescription>Sign Chart for f prime</shortdescription>
+            <prefigure xmlns="https://prefigure.org"
+             label="notes-wksht-graph-sketching-sign-example-one">
+<diagram xmlns="https://prefigure.org" dimensions="(500,100)" margins="5">
+        <definition> numPts = 2 </definition>
+         <definition> locs = [-5, 3] </definition>
+         <definition substitution="no"> vals = ['-5', '3'] </definition>
+         <definition> valMarks = ['UND', 'ZERO'] </definition>
+         <definition> signs = ['+', '+', '-'] </definition>
+         <definition> signs_loc = (-7, 0, 5) </definition>
+          <coordinates bbox="[-10,-1,10,1]">
+         <line endpoints="((-9,0), (9,0))" stroke="black" arrows="2" thickness="3"/>
+        <repeat parameter="k=0..numPts-1">
+            <line endpoints="((locs[k], -0.2), (locs[k], 0.2))" stroke="black" thickness="2"/>
+            <label anchor="(locs[k], -0.2)" alignment="s"><m>${vals[k]}</m></label>
+            <label anchor="(locs[k], 0.2)" alignment="n">${valMarks[k]}</label>
+            <label anchor="(signs_loc[k], 0.3)" alignment="n"><m>${signs[k]}</m></label>
+        </repeat>
+        <label anchor="(signs_loc[numPts], 0.3)" alignment="n"><m>${signs[numPts]}</m></label>
+  </coordinates>
+</diagram>
+  </prefigure>
+        </image>
+                </li>
+                <li>
+                    <p>
+                        Sign chart of <m>f''</m>
+                    </p>
+                    <image>
+            <shortdescription>Sign Chart for f double prime</shortdescription>
+            <prefigure xmlns="https://prefigure.org"
+             label="notes-wksht-graph-sketching-sign-example-two">
+<diagram xmlns="https://prefigure.org" dimensions="(500,100)" margins="5">
+        <definition> numPts = 2 </definition>
+         <definition> locs = [-5, 5] </definition>
+         <definition substitution="no"> vals = ['-5', '6'] </definition>
+         <definition> valMarks = ['UND', 'ZERO'] </definition>
+         <definition> signs = ['+', '-', '+'] </definition>
+         <definition> signs_loc = (-7, 0, 7) </definition>
+          <coordinates bbox="[-10,-1,10,1]">
+         <line endpoints="((-9,0), (9,0))" stroke="black" arrows="2" thickness="3"/>
+        <repeat parameter="k=0..numPts-1">
+            <line endpoints="((locs[k], -0.2), (locs[k], 0.2))" stroke="black" thickness="2"/>
+            <label anchor="(locs[k], -0.2)" alignment="s"><m>${vals[k]}</m></label>
+            <label anchor="(locs[k], 0.2)" alignment="n">${valMarks[k]}</label>
+            <label anchor="(signs_loc[k], 0.3)" alignment="n"><m>${signs[k]}</m></label>
+        </repeat>
+        <label anchor="(signs_loc[numPts], 0.3)" alignment="n"><m>${signs[numPts]}</m></label>
+  </coordinates>
+</diagram>
+  </prefigure>
+        </image>
+                </li>
+            </ul>
+        </p>
+    </statement>
+</exercise>
+
+        </paragraphs>
+    </page>
+</handout>
+
+
 </section>

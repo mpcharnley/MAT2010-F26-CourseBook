@@ -1,0 +1,17 @@
+<diagram xmlns="https://prefigure.org" dimensions="(300,300)" margins="5">
+  <coordinates bbox="[-0.5,-0.5, 7.5, 7.5]">
+    <polygon points="((0,0), (0,7), (7,7), (7,0), (0,0))" closed="yes" stroke="black" thickness="2"/>
+    <line endpoints="((0,3), (7,3))" stroke="black" thickness="2"/>
+    <line endpoints="((0,6), (7,6))" stroke="black" thickness="2"/>
+    <line endpoints="((1,0), (1,7))" stroke="black" thickness="2"/>
+    <line endpoints="((4,0), (4,7))" stroke="black" thickness="2"/>
+   <label anchor="(2.5, 6.5)" alignment="c"><m>f'(x) \gt 0</m>
+   </label>
+   <label anchor="(5.5, 6.5)" alignment="c"><m>f'(x)</m> <m>&lt;</m> <m>0</m>
+   </label>
+    <label anchor="(0.5, 4.5)" alignment="c" rotate="90"><m>f''(x) \gt 0</m>
+    </label>
+    <label anchor="(0.5, 1.5)" alignment="c" rotate="90"><m>f''(x)</m> <m>\lt</m> <m>0</m>
+    </label>
+  </coordinates>
+</diagram>

@@ -1,0 +1,43 @@
+<diagram xmlns="https://prefigure.org" dimensions="(600,700)" margins="5">
+  <coordinates bbox="[-0.5,-0.5, 9.5, 19.5]">
+  <label anchor="(4.5, 19)" alignment="c" scale="1.7"><b>Graph Sketching Organizer</b>
+   </label>
+<label anchor="(0, 17.5)" alignment="c"><m>f(x) = </m>
+   </label>
+   <label anchor="(4, 17.5)" alignment="c"><m>f'(x) = </m>
+   </label>
+   <label anchor="(8, 17.5)" alignment="c"><m>f''(x) = </m>
+   </label>
+   <line endpoints="((0.5, 15.5), (8.5, 15.5))" arrows="2" stroke="black" thickness="2"/>
+  <label anchor="(9, 15.5)" alignment="c"><m>f'</m>
+   </label>
+   <line endpoints="((0.5, 13), (8.5, 13))" arrows="2" stroke="black" thickness="2"/>
+   <label anchor="(9, 13)" alignment="c"><m>f''</m>
+   </label>
+   
+    <polygon points="((0,0), (0,11), (9,11), (9,0), (0,0))" closed="yes" stroke="black" thickness="3"/>
+    <line endpoints="((3,0), (3,11))" stroke="black" thickness="2"/>
+    <label anchor="(1.5, 10.5)" alignment="c">Domain</label>
+    <line endpoints="((0,10), (9,10))" stroke="black" thickness="2"/>
+    <label anchor="(1.5, 9.5)" alignment="c">X-intercepts</label>
+    <line endpoints="((0,9), (9,9))" stroke="black" thickness="2"/>
+    <label anchor="(1.5, 8.5)" alignment="c">Y-intercepts</label>
+    <line endpoints="((0,8), (9,8))" stroke="black" thickness="2"/>
+    <label anchor="(1.5, 7.5)" alignment="c">Vertical Asymptotes</label>
+    <line endpoints="((0,7), (9,7))" stroke="black" thickness="2"/>
+    <label anchor="(1.5, 6.5)" alignment="c">Horizontal Asymptotes</label>
+    <line endpoints="((0,6), (9,6))" stroke="black" thickness="2"/>
+    <label anchor="(1.5, 5.5)" alignment="c">Increasing</label>
+    <line endpoints="((0,5), (9,5))" stroke="black" thickness="2"/>
+    <label anchor="(1.5, 4.5)" alignment="c">Decreasing</label>
+    <line endpoints="((0,4), (9,4))" stroke="black" thickness="2"/>
+    <label anchor="(1.5, 3.5)" alignment="c">Local Max and Mins</label>
+    <line endpoints="((0,3), (9,3))" stroke="black" thickness="2"/>
+    <label anchor="(1.5, 2.5)" alignment="c">Concave Up</label>
+    <line endpoints="((0,2), (9,2))" stroke="black" thickness="2"/>
+    <label anchor="(1.5, 1.5)" alignment="c">Concave Down</label>
+    <line endpoints="((0,1), (9,1))" stroke="black" thickness="2"/>
+    <label anchor="(1.5, 0.5)" alignment="c">Inflection Points</label>  
+
+  </coordinates>
+</diagram>
