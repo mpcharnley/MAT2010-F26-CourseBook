@@ -2131,7 +2131,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Week 11",
-  "body": " Week 11   This is an outline of the topics we covered in Week 11 of the course, from November 9 to November 13.    Monday 11\/9     Understand applications of the Mean Value Theorem    Find maximum and minimum values of functions using the derivative.       The Mean Value Theorem  Recall the Mean Value Theorem from last class:      Consquences of the Mean Value Theorem  There are a lot of useful consequences of the Mean Value Theorem, since it allows us to tie the derivative to function values.    Let be a function that is continuous on and differentiable on . If on ,      Let and be a functions that are continuous on and differentiable on . If on ,        Increasing and Decreasing Functions  The other main application of the Mean Value Theorem is to analyzing increasing and decreasing functions.    Let be a function defined on an interval . We say that is         Let be a function that is continuous on and differentiable on . If on ,       Max and Min Values of Functions  The next application we want to analyze is finding the maximum and minimum values of functions.     So, what are we looking for here? We're looking for the biggest and smallest values that takes on over an interval.    Let be a function defined on some interval and be some point in .         Let be a function defined on some interval and be some point in .        Consider the graph of the function given below:   Graph of a polynomial.    f(x)=3*x^5-15*x^4-55*x^3 + 225*x^2         Identify any absolute and local maximum\/minimum values on .      For simpler examples, we can look at and .       Let be a function defined on . If      That theorem tells us that there will be a maximum and minimum value in specific situations, but it gives us no way to actually find these points.    If is a local maximum or minimum value for and           Find the absolute maximum and minimum values of the function on .        Find the absolute maximum and minimum values of the function on .       Tuesday 11\/10     Find absolute maxima and minima of functions on closed intervals using Calculus.    Use the derivative to determine when a function is increasing and decreasing.    Use the second derivative to analyze the shape of a graph.       Absolute Maximum and Minimum Values    Find the critical points of the function .       So, what does the full process of solving one of these problems look like?      Find the absolute maximum and minimum values of the function on .        Find the absolute maximum and minimum values of the function on .        Find the absolute maximum and minimum values of the function on .       Derivatives and the Shape of a Graph  Now, we want to use the derivative to help us analyze the shape of a graph. We looked at one part of this last time.       Find all intervals where the function is increasing and decreasing.       Sign Charts  Our main tool in this process is the sign chart, which you may have seen previously. What is this process?       Make the sign chart for the function .        Make the sign chart for the function .      If we want to use this to talk about functions increasing or decreasing, we want the sign chart for , not for .    Use a sign chart to determine where the function is increasing and decreasing.       The First Derivative Test  The first derivative test is a way to determine if a critical point is a local maximum or local minimum without plugging in values. How does our function have to be set up to get a local maximum?      The Second Derivative  If measures the rate of change of the function , what does measure?      Test for Concavity  How do we know if a function is concave up or concave down?     So, given a function, how can we determine where it is concave up and concave down?      Consider the function .     Create a sign chart for , , and .      Determine on which intervals is increasing.      Determine on which intervals is decreasing.      Find and classify any local maxima or minima of .      Determine on which intervals is concave up.      Determine on which intervals is concave down.        Wednesday 11\/11     Review for Exam 2       Exam 2 Topics  Exam 2 is coming up on Friday, November 13. It covers:   Section 3.1: Basic derivative formulas (powers, exponential, sum, difference)    Section 3.2: Product and Quotient Rules    Section 3.3: Derivatives of Trigonometric Functions    Section 3.4: Chain Rule    Section 3.5: Implicit Differentiation    Section 3.6: Derivatives of Inverse Functions (ln, inverse trig, exponential with non-e base)    Section 3.7: Derivatives in Nature (velocity and motion problems)    Section 3.9: Related Rates    Section 3.10: Linear Approximation    Section 4.4: L'Hospital's Rule     You should expect all of the derivative rules to be combined together. The problem will likely say something like Take the derivative of this function and you'll need to know how to handle it from there.      Exam Review  Where do we want to start?     "
+  "body": " Week 11   This is an outline of the topics we covered in Week 11 of the course, from November 9 to November 13.    Monday 11\/9     Understand applications of the Mean Value Theorem    Find maximum and minimum values of functions using the derivative.       The Mean Value Theorem  Recall the Mean Value Theorem from last class:      Consquences of the Mean Value Theorem  There are a lot of useful consequences of the Mean Value Theorem, since it allows us to tie the derivative to function values.    Let be a function that is continuous on and differentiable on . If on ,      Let and be a functions that are continuous on and differentiable on . If on ,        Increasing and Decreasing Functions  The other main application of the Mean Value Theorem is to analyzing increasing and decreasing functions.    Let be a function defined on an interval . We say that is         Let be a function that is continuous on and differentiable on . If on ,       Max and Min Values of Functions  The next application we want to analyze is finding the maximum and minimum values of functions.     So, what are we looking for here? We're looking for the biggest and smallest values that takes on over an interval.    Let be a function defined on some interval and be some point in .         Let be a function defined on some interval and be some point in .        Consider the graph of the function given below:   Graph of a polynomial.    f(x)=3*x^5-15*x^4-55*x^3 + 225*x^2         Identify any absolute and local maximum\/minimum values on .      For simpler examples, we can look at and .       Let be a function defined on . If      That theorem tells us that there will be a maximum and minimum value in specific situations, but it gives us no way to actually find these points.    If is a local maximum or minimum value for and           Find the absolute maximum and minimum values of the function on .        Find the absolute maximum and minimum values of the function on .       Tuesday 11\/10     Find absolute maxima and minima of functions on closed intervals using Calculus.    Use the derivative to determine when a function is increasing and decreasing.    Use the second derivative to analyze the shape of a graph.       Absolute Maximum and Minimum Values    Find the critical points of the function .       So, what does the full process of solving one of these problems look like?      Find the absolute maximum and minimum values of the function on .        Find the absolute maximum and minimum values of the function on .        Find the absolute maximum and minimum values of the function on .       Derivatives and the Shape of a Graph  Now, we want to use the derivative to help us analyze the shape of a graph. We looked at one part of this last time.       Find all intervals where the function is increasing and decreasing.       Sign Charts  Our main tool in this process is the sign chart, which you may have seen previously. What is this process?       Make the sign chart for the function .        Make the sign chart for the function .      If we want to use this to talk about functions increasing or decreasing, we want the sign chart for , not for .    Use a sign chart to determine where the function is increasing and decreasing.       Wednesday 11\/11     Review for Exam 2       Exam 2 Topics  Exam 2 is coming up on Friday, November 13. It covers:   Section 3.1: Basic derivative formulas (powers, exponential, sum, difference)    Section 3.2: Product and Quotient Rules    Section 3.3: Derivatives of Trigonometric Functions    Section 3.4: Chain Rule    Section 3.5: Implicit Differentiation    Section 3.6: Derivatives of Inverse Functions (ln, inverse trig, exponential with non-e base)    Section 3.7: Derivatives in Nature (velocity and motion problems)    Section 3.9: Related Rates    Section 3.10: Linear Approximation    Section 4.4: L'Hospital's Rule     You should expect all of the derivative rules to be combined together. The problem will likely say something like Take the derivative of this function and you'll need to know how to handle it from there.      Exam Review  Where do we want to start?     "
 },
 {
   "id": "notes-week-11-3-2",
@@ -2323,15 +2323,6 @@ var ptx_lunr_docs = [
   "body": "  Use a sign chart to determine where the function is increasing and decreasing.   "
 },
 {
-  "id": "notes-week-11-4-18-1",
-  "level": "2",
-  "url": "notes-week-11.html#notes-week-11-4-18-1",
-  "type": "Example",
-  "number": "207",
-  "title": "",
-  "body": "  Consider the function .     Create a sign chart for , , and .      Determine on which intervals is increasing.      Determine on which intervals is decreasing.      Find and classify any local maxima or minima of .      Determine on which intervals is concave up.      Determine on which intervals is concave down.    "
-},
-{
   "id": "notes-week-11-5-2",
   "level": "2",
   "url": "notes-week-11.html#notes-week-11-5-2",
@@ -2347,7 +2338,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Week 12",
-  "body": " Week 12   This is an outline of the topics we covered in Week 12 of the course, from November 16 to 20.    Monday 11\/16     Analyze functions to determine when they are increasing\/decreasing and concave up\/down.    Use the first and second derivative test to determine if a critical point is a local maximum or minimum.    Find inflection points of a graph.       Function Behaviors using the Derivative  We saw last class that we can use the first derivative to determine where a function is increasing and decreasing.    Determine the intervals of increase and decrease for function .        The First Derivative Test  The first derivative test is a way to determine if a critical point is a local maximum or local minimum without plugging in values. How does our function have to be set up to get a local maximum?       Use the first derivative test to determine if the critical points of are local maxima or minima.       The Second Derivative  If measures the rate of change of the function , what does measure?      Test for Concavity  How do we know if a function is concave up or concave down?     So, given a function, how can we determine where it is concave up and concave down?      Consider the function .     Create a sign chart for , , and .      Determine on which intervals is increasing.      Determine on which intervals is decreasing.      Find and classify any local maxima or minima of .      Determine on which intervals is concave up.      Determine on which intervals is concave down.         Consider the function .     Create a sign chart for , , and .      Determine on which intervals is increasing.      Determine on which intervals is decreasing.      Find and classify any local maxima or minima of .      Determine on which intervals is concave up.      Determine on which intervals is concave down.        Inflection Points  Inflection points somewhat play the role of critical points but for the second derivative. However, for these, we do want to guarantee a change in concavity.      Second Derivative Test  We can also use the second derivative to help us analyze critical points to see if they are local maxima or minima.       Find all critical points, inflection points, and use the second derivative test to analyze the critical points of .       Summary  So, what have we learned and done so far?     "
+  "body": " Week 12   This is an outline of the topics we covered in Week 12 of the course, from November 16 to 20.    Monday 11\/16     Analyze functions to determine when they are increasing\/decreasing and concave up\/down.    Use the first and second derivative test to determine if a critical point is a local maximum or minimum.    Find inflection points of a graph.       Function Behaviors using the Derivative  We saw last class that we can use the first derivative to determine where a function is increasing and decreasing.    Determine the intervals of increase and decrease for function .        The First Derivative Test  The first derivative test is a way to determine if a critical point is a local maximum or local minimum without plugging in values. How does our function have to be set up to get a local maximum?       Use the first derivative test to determine if the critical points of are local maxima or minima.       The Second Derivative  If measures the rate of change of the function , what does measure?      Test for Concavity  How do we know if a function is concave up or concave down?     So, given a function, how can we determine where it is concave up and concave down?      Consider the function .     Create a sign chart for , , and .      Determine on which intervals is increasing.      Determine on which intervals is decreasing.      Find and classify any local maxima or minima of .      Determine on which intervals is concave up.      Determine on which intervals is concave down.         Consider the function .     Create a sign chart for , , and .      Determine on which intervals is increasing.      Determine on which intervals is decreasing.      Find and classify any local maxima or minima of .      Determine on which intervals is concave up.      Determine on which intervals is concave down.        Inflection Points  Inflection points somewhat play the role of critical points but for the second derivative. However, for these, we do want to guarantee a change in concavity.      Second Derivative Test  We can also use the second derivative to help us analyze critical points to see if they are local maxima or minima.       Find all critical points, inflection points, and use the second derivative test to analyze the critical points of .       Summary  So, what have we learned and done so far?      Tuesday 11\/17     Define inflection point and learn how to use the second derivative test.    Sketch graphs of functions from derivative information.       Inflection Points  Inflection points somewhat play the role of critical points but for the second derivative. However, for these, we do want to guarantee a change in concavity.      Second Derivative Test  We can also use the second derivative to help us analyze critical points to see if they are local maxima or minima.       Find all critical points, inflection points, and use the second derivative test to analyze the critical points of .       Graph Sketching  So, what have we learned and done so far?      Shape of Graphs  The derivative tells us information about the graph of a function. What does that look like in terms of actual pictures?           f'(x) \\gt 0   f'(x)  <  0   f''(x) \\gt 0   f''(x)  \\lt  0                f'(x) = 0   f'(x) DNE  Local Max  Local Min          Other Things to Consider  Two other things to take into consideration when trying to plot graphs: Domain and Asymptotes.           \\displaystyle \\lim_{x\\rightarrow a^+} f(x) = \\infty   \\displaystyle \\lim_{x\\rightarrow a^+} f(x) = -\\infty   \\displaystyle \\lim_{x\\rightarrow a^-} f(x)   = \\infty   \\displaystyle \\lim_{x\\rightarrow a^-} f(x)   = -\\infty            Use Calculus techniques to sketch the graph of the function .      Graph Sketching Organizer   f(x) =   f'(x) =   f''(x) =    f'    f''     Domain   X-intercepts   Y-intercepts   Vertical Asymptotes   Horizontal Asymptotes   Increasing   Decreasing   Local Max and Mins   Concave Up   Concave Down   Inflection Points                      Split Problems  While it is good to know the entire process of sketching one of these graphs, you may also see these problems presented in two separate parts.    Let be the function whose formula and first two derivatives are given below: .     Find all critical points of and determine if they are local maxima or local minima.      Find all intervals where is increasing.      Find all inflection points of .      Find all intervals where is concave down.       Sketch a graph of a function that satifies all of the following properties.              and .         Sign chart of    Sign Chart for f prime    numPts = 2  locs = [-5, 3]  vals = ['-5', '3']  valMarks = ['UND', 'ZERO']  signs = ['+', '+', '-']  signs_loc = (-7, 0, 5)      ${vals[k]}  ${valMarks[k]}  ${signs[k]}   ${signs[numPts]}        Sign chart of    Sign Chart for f double prime    numPts = 2  locs = [-5, 5]  vals = ['-5', '6']  valMarks = ['UND', 'ZERO']  signs = ['+', '-', '+']  signs_loc = (-7, 0, 7)      ${vals[k]}  ${valMarks[k]}  ${signs[k]}   ${signs[numPts]}              "
 },
 {
   "id": "notes-week-12-3-2",
@@ -2363,7 +2354,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "notes-week-12.html#notes-week-12-3-3-1-3",
   "type": "Example",
-  "number": "208",
+  "number": "207",
   "title": "",
   "body": "  Determine the intervals of increase and decrease for function .   "
 },
@@ -2372,7 +2363,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "notes-week-12.html#notes-week-12-3-5-1",
   "type": "Example",
-  "number": "209",
+  "number": "208",
   "title": "",
   "body": "  Use the first derivative test to determine if the critical points of are local maxima or minima.   "
 },
@@ -2381,7 +2372,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "notes-week-12.html#notes-week-12-3-9-1",
   "type": "Example",
-  "number": "210",
+  "number": "209",
   "title": "",
   "body": "  Consider the function .     Create a sign chart for , , and .      Determine on which intervals is increasing.      Determine on which intervals is decreasing.      Find and classify any local maxima or minima of .      Determine on which intervals is concave up.      Determine on which intervals is concave down.    "
 },
@@ -2390,7 +2381,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "notes-week-12.html#notes-week-12-3-10-1",
   "type": "Example",
-  "number": "211",
+  "number": "210",
   "title": "",
   "body": "  Consider the function .     Create a sign chart for , , and .      Determine on which intervals is increasing.      Determine on which intervals is decreasing.      Find and classify any local maxima or minima of .      Determine on which intervals is concave up.      Determine on which intervals is concave down.    "
 },
@@ -2399,9 +2390,54 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "notes-week-12.html#notes-week-12-3-13-1",
   "type": "Example",
+  "number": "211",
+  "title": "",
+  "body": "  Find all critical points, inflection points, and use the second derivative test to analyze the critical points of .   "
+},
+{
+  "id": "notes-week-12-4-2",
+  "level": "2",
+  "url": "notes-week-12.html#notes-week-12-4-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "   Define inflection point and learn how to use the second derivative test.    Sketch graphs of functions from derivative information.    "
+},
+{
+  "id": "notes-week-12-4-5-1",
+  "level": "2",
+  "url": "notes-week-12.html#notes-week-12-4-5-1",
+  "type": "Example",
   "number": "212",
   "title": "",
   "body": "  Find all critical points, inflection points, and use the second derivative test to analyze the critical points of .   "
+},
+{
+  "id": "notes-week-12-4-9-1",
+  "level": "2",
+  "url": "notes-week-12.html#notes-week-12-4-9-1",
+  "type": "Example",
+  "number": "213",
+  "title": "",
+  "body": "  Use Calculus techniques to sketch the graph of the function .      Graph Sketching Organizer   f(x) =   f'(x) =   f''(x) =    f'    f''     Domain   X-intercepts   Y-intercepts   Vertical Asymptotes   Horizontal Asymptotes   Increasing   Decreasing   Local Max and Mins   Concave Up   Concave Down   Inflection Points       "
+},
+{
+  "id": "notes-week-12-4-11-1-3",
+  "level": "2",
+  "url": "notes-week-12.html#notes-week-12-4-11-1-3",
+  "type": "Checkpoint",
+  "number": "214",
+  "title": "",
+  "body": "  Let be the function whose formula and first two derivatives are given below: .     Find all critical points of and determine if they are local maxima or local minima.      Find all intervals where is increasing.      Find all inflection points of .      Find all intervals where is concave down.    "
+},
+{
+  "id": "notes-week-12-4-11-1-4",
+  "level": "2",
+  "url": "notes-week-12.html#notes-week-12-4-11-1-4",
+  "type": "Checkpoint",
+  "number": "215",
+  "title": "",
+  "body": "  Sketch a graph of a function that satifies all of the following properties.              and .         Sign chart of    Sign Chart for f prime    numPts = 2  locs = [-5, 3]  vals = ['-5', '3']  valMarks = ['UND', 'ZERO']  signs = ['+', '+', '-']  signs_loc = (-7, 0, 5)      ${vals[k]}  ${valMarks[k]}  ${signs[k]}   ${signs[numPts]}        Sign chart of    Sign Chart for f double prime    numPts = 2  locs = [-5, 5]  vals = ['-5', '6']  valMarks = ['UND', 'ZERO']  signs = ['+', '-', '+']  signs_loc = (-7, 0, 7)      ${vals[k]}  ${valMarks[k]}  ${signs[k]}   ${signs[numPts]}          "
 },
 {
   "id": "wksht-sine-x-over-x",
@@ -3178,6 +3214,60 @@ var ptx_lunr_docs = [
   "body": "  A weight is being lifted by a pulley that is suspended 26 above the ground. It is being lifted by a 6 tall man who is holding the end of a 70 rope. He is walking away from the pulley at a rate of 4 . How fast is the weight being lifted up when the man is 48 from directly under the pulley?   "
 },
 {
+  "id": "wksht-graph-sketching",
+  "level": "1",
+  "url": "wksht-graph-sketching.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Graph Sketching",
+  "body": " Graph Sketching     Dates  Assigned Date: November 17, 2026  Due Date: November 24, 2026   Objective  In this assignment, you will work through various types of graph sketching problems to learn how to analyze the graph of a function using the derivative. Take your time and lay out all of the information for the problem before you try to draw the graph. Use the included organizers and axes to collect the information and draw the graph.        Shape of Graphs            f'(x) \\gt 0   f'(x)  <  0   f''(x) \\gt 0   f''(x)  \\lt  0                f'(x) = 0   f'(x) DNE  Local Max  Local Min                \\displaystyle \\lim_{x\\rightarrow a^+} f(x) = \\infty   \\displaystyle \\lim_{x\\rightarrow a^+} f(x) = -\\infty   \\displaystyle \\lim_{x\\rightarrow a^-} f(x)   = \\infty   \\displaystyle \\lim_{x\\rightarrow a^-} f(x)   = -\\infty           Warm-Up    Sketch the graph of the function .      Turn-In Exercises    Sketch the graph of the function .      Sketch the graph of the function .      Let be the function whose formula and first two derivatives are given below: .     Find all critical points of and determine if they are local maxima or local minima.      Find all intervals where is increasing.      Find all inflection points of .      Find all intervals where is concave down.       Sketch a graph of a function that satifies all of the following properties.              and .         Sign chart of    Sign Chart for f prime    numPts = 2  locs = [-5, 3]  vals = ['-5', '3']  valMarks = ['UND', 'ZERO']  signs = ['+', '+', '-']  signs_loc = (-7, 0, 5)      ${vals[k]}  ${valMarks[k]}  ${signs[k]}   ${signs[numPts]}        Sign chart of    Sign Chart for f double prime    numPts = 2  locs = [-5, 5]  vals = ['-5', '6']  valMarks = ['UND', 'ZERO']  signs = ['+', '-', '+']  signs_loc = (-7, 0, 7)      ${vals[k]}  ${valMarks[k]}  ${signs[k]}   ${signs[numPts]}                  Graph Sketching Organizer   f(x) =   f'(x) =   f''(x) =    f'    f''     Domain   X-intercepts   Y-intercepts   Vertical Asymptotes   Horizontal Asymptotes   Increasing   Decreasing   Local Max and Mins   Concave Up   Concave Down   Inflection Points            Graph Sketching Organizer   f(x) =   f'(x) =   f''(x) =    f'    f''     Domain   X-intercepts   Y-intercepts   Vertical Asymptotes   Horizontal Asymptotes   Increasing   Decreasing   Local Max and Mins   Concave Up   Concave Down   Inflection Points            Graph Sketching Organizer   f(x) =   f'(x) =   f''(x) =    f'    f''     Domain   X-intercepts   Y-intercepts   Vertical Asymptotes   Horizontal Asymptotes   Increasing   Decreasing   Local Max and Mins   Concave Up   Concave Down   Inflection Points            Graph Sketching Organizer   f(x) =   f'(x) =   f''(x) =    f'    f''     Domain   X-intercepts   Y-intercepts   Vertical Asymptotes   Horizontal Asymptotes   Increasing   Decreasing   Local Max and Mins   Concave Up   Concave Down   Inflection Points                                                   "
+},
+{
+  "id": "wksht-graph-sketching-4-1-2",
+  "level": "2",
+  "url": "wksht-graph-sketching.html#wksht-graph-sketching-4-1-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Sketch the graph of the function .   "
+},
+{
+  "id": "wksht-graph-sketching-4-2-2",
+  "level": "2",
+  "url": "wksht-graph-sketching.html#wksht-graph-sketching-4-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Sketch the graph of the function .   "
+},
+{
+  "id": "wksht-graph-sketching-4-2-3",
+  "level": "2",
+  "url": "wksht-graph-sketching.html#wksht-graph-sketching-4-2-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Sketch the graph of the function .   "
+},
+{
+  "id": "wksht-graph-sketching-4-2-4",
+  "level": "2",
+  "url": "wksht-graph-sketching.html#wksht-graph-sketching-4-2-4",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Let be the function whose formula and first two derivatives are given below: .     Find all critical points of and determine if they are local maxima or local minima.      Find all intervals where is increasing.      Find all inflection points of .      Find all intervals where is concave down.    "
+},
+{
+  "id": "wksht-graph-sketching-4-2-5",
+  "level": "2",
+  "url": "wksht-graph-sketching.html#wksht-graph-sketching-4-2-5",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  Sketch a graph of a function that satifies all of the following properties.              and .         Sign chart of    Sign Chart for f prime    numPts = 2  locs = [-5, 3]  vals = ['-5', '3']  valMarks = ['UND', 'ZERO']  signs = ['+', '+', '-']  signs_loc = (-7, 0, 5)      ${vals[k]}  ${valMarks[k]}  ${signs[k]}   ${signs[numPts]}        Sign chart of    Sign Chart for f double prime    numPts = 2  locs = [-5, 5]  vals = ['-5', '6']  valMarks = ['UND', 'ZERO']  signs = ['+', '-', '+']  signs_loc = (-7, 0, 7)      ${vals[k]}  ${valMarks[k]}  ${signs[k]}   ${signs[numPts]}          "
+},
+{
   "id": "handout-trig",
   "level": "1",
   "url": "handout-trig.html",
@@ -3191,7 +3281,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handout-trig.html#handout-trig-2-3-2-2",
   "type": "Table",
-  "number": "273",
+  "number": "281",
   "title": "Special Angles of Trigonometric Functions",
   "body": " Special Angles of Trigonometric Functions                   Undefined       Undefined       "
 },
