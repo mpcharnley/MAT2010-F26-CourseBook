@@ -507,7 +507,7 @@
 <diagram xmlns="https://prefigure.org" dimensions="(500,100)" margins="5">
         <definition> numPts = 2 </definition>
          <definition> locs = [-5, 3] </definition>
-         <definition substitution="no"> vals = ['-5', '3'] </definition>
+         <definition substitution="no"> vals = ['-3', '3'] </definition>
          <definition> valMarks = ['UND', 'ZERO'] </definition>
          <definition> signs = ['+', '+', '-'] </definition>
          <definition> signs_loc = (-7, 0, 5) </definition>
@@ -536,7 +536,7 @@
 <diagram xmlns="https://prefigure.org" dimensions="(500,100)" margins="5">
         <definition> numPts = 2 </definition>
          <definition> locs = [-5, 5] </definition>
-         <definition substitution="no"> vals = ['-5', '6'] </definition>
+         <definition substitution="no"> vals = ['-3', '6'] </definition>
          <definition> valMarks = ['UND', 'ZERO'] </definition>
          <definition> signs = ['+', '-', '+'] </definition>
          <definition> signs_loc = (-7, 0, 7) </definition>
@@ -558,6 +558,309 @@
         </p>
     </statement>
 </exercise>
+
+        </paragraphs>
+    </page>
+</handout>
+
+<handout component="cur">
+    <title>Wednesday 11/18</title>
+    <objectives>
+        <ul>
+            <li>
+                <p>
+                    Understand optimization problems as an application of finding the max and min value of functions.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Set up and solve optimization problems using Calculus.
+                </p>
+            </li>
+        </ul>
+    </objectives>
+    <page>
+        <paragraphs>
+            <title>Graph Sketching Review</title>
+
+<exercise>
+    <statement>
+        <p>
+            Sketch a graph of a function <m>f(x)</m> that satifies all of the following properties.
+            <ul>
+                <li>
+                    <p>
+                        <m>f(0) = 2</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>\displaystyle \lim_{x\rightarrow \infty} f(x) = -2</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>\displaystyle \lim_{x\rightarrow -3^+} = -\infty</m> and <m>\displaystyle \lim_{x\rightarrow -3^-} = \infty</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <m>\displaystyle \lim_{x\rightarrow -\infty} f(x) = 0</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Sign chart of <m>f'</m>
+                    </p>
+                    <image>
+            <shortdescription>Sign Chart for f prime</shortdescription>
+            <prefigure xmlns="https://prefigure.org"
+             label="notes-wksht-graph-sketching-sign-example-one-2">
+<diagram xmlns="https://prefigure.org" dimensions="(500,100)" margins="5">
+        <definition> numPts = 2 </definition>
+         <definition> locs = [-5, 3] </definition>
+         <definition substitution="no"> vals = ['-3', '3'] </definition>
+         <definition> valMarks = ['UND', 'ZERO'] </definition>
+         <definition> signs = ['+', '+', '-'] </definition>
+         <definition> signs_loc = (-7, 0, 5) </definition>
+          <coordinates bbox="[-10,-1,10,1]">
+         <line endpoints="((-9,0), (9,0))" stroke="black" arrows="2" thickness="3"/>
+        <repeat parameter="k=0..numPts-1">
+            <line endpoints="((locs[k], -0.2), (locs[k], 0.2))" stroke="black" thickness="2"/>
+            <label anchor="(locs[k], -0.2)" alignment="s"><m>${vals[k]}</m></label>
+            <label anchor="(locs[k], 0.2)" alignment="n">${valMarks[k]}</label>
+            <label anchor="(signs_loc[k], 0.3)" alignment="n"><m>${signs[k]}</m></label>
+        </repeat>
+        <label anchor="(signs_loc[numPts], 0.3)" alignment="n"><m>${signs[numPts]}</m></label>
+  </coordinates>
+</diagram>
+  </prefigure>
+        </image>
+                </li>
+                <li>
+                    <p>
+                        Sign chart of <m>f''</m>
+                    </p>
+                    <image>
+            <shortdescription>Sign Chart for f double prime</shortdescription>
+            <prefigure xmlns="https://prefigure.org"
+             label="notes-wksht-graph-sketching-sign-example-two-2">
+<diagram xmlns="https://prefigure.org" dimensions="(500,100)" margins="5">
+        <definition> numPts = 2 </definition>
+         <definition> locs = [-5, 5] </definition>
+         <definition substitution="no"> vals = ['-3', '6'] </definition>
+         <definition> valMarks = ['UND', 'ZERO'] </definition>
+         <definition> signs = ['+', '-', '+'] </definition>
+         <definition> signs_loc = (-7, 0, 7) </definition>
+          <coordinates bbox="[-10,-1,10,1]">
+         <line endpoints="((-9,0), (9,0))" stroke="black" arrows="2" thickness="3"/>
+        <repeat parameter="k=0..numPts-1">
+            <line endpoints="((locs[k], -0.2), (locs[k], 0.2))" stroke="black" thickness="2"/>
+            <label anchor="(locs[k], -0.2)" alignment="s"><m>${vals[k]}</m></label>
+            <label anchor="(locs[k], 0.2)" alignment="n">${valMarks[k]}</label>
+            <label anchor="(signs_loc[k], 0.3)" alignment="n"><m>${signs[k]}</m></label>
+        </repeat>
+        <label anchor="(signs_loc[numPts], 0.3)" alignment="n"><m>${signs[numPts]}</m></label>
+  </coordinates>
+</diagram>
+  </prefigure>
+        </image>
+                </li>
+            </ul>
+        </p>
+    </statement>
+</exercise>
+
+          <image width="70%">
+  <prefigure xmlns="https://prefigure.org"
+             label="graph-sketch-example-2-blank">
+    <xi:include href="../../prefigure/blank-axes-6-6.xml" />
+  </prefigure>
+</image>
+
+        </paragraphs>
+    </page>
+
+    <page>
+        <paragraphs>
+            <title>Optimization</title>
+            <p component="b" workspace="1in">
+                Thinking outside of the mathematics context, what does it mean to optimize something?
+            </p>
+            <p component="a">
+                Thinking outside of the mathematics context, what does it mean to optimize something? To make it as good as possible, for whatever good means.
+            </p>
+
+            <p component="b" workspace="3in">
+                How do we formulate this idea mathematically?
+            </p>
+            <p component="a">
+                How do we formulate this idea mathematically? Maximizing or minimizing an objective function on an interval with respect to some constraints. All of these parts come out of the word problem that is given to you. Once you do that, it's a standard calc problem.
+            </p>
+
+        </paragraphs>
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Find the maximum value of the function <m>f(x) = x(10-x)</m> on the interval <m>[0,10]</m>.
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Find the maximum possible product of two non-negative numbers whose sum is <m>10</m>.
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <paragraphs>
+            <title>Optimization Process</title>
+            <p component="b" workspace="5in">
+                How can we summarize the process of applied optimization?
+            </p>
+            <p component="a">
+                How can we summarize the process of applied optimization? Picture, objective, constraints, combine, interval. Solve, restate.
+            </p>
+
+        </paragraphs>
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Find the dimensions of the rectangle with perimeter 80 feet that has the maximum area.
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Farmer Brown is building a pen for sheep. This pen will be built in a rectangular shape next to a straight river, so the side that is adjacent to the river does not to be fenced. If Farmer Brown has <quantity><mag>150</mag><unit base="foot"/></quantity> of fencing, what are the dimensions of the largest pen (by area) that can be made?
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Find the area of the largest rectangle that can be inscribed above the <m>x</m>-axis and below the graph of <m>y = 27-x^2</m>.
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Farmer Brown is building a pen for sheep. This pen will be built in a rectangular shape next to a 10 foot long barn, so the part of one side that is adjacent to the barn wall does not need to be fenced. If Farmer Brown has <quantity><mag>80</mag><unit base="foot"/></quantity> of fencing, what are the dimensions of the largest pen (by area) that can be made?
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Farmer Brown is building a pen for sheep. This pen will be built in a rectangular shape next to a 50 foot long barn, so the part of one side that is adjacent to the barn wall does not need to be fenced. If Farmer Brown has <quantity><mag>80</mag><unit base="foot"/></quantity> of fencing, what are the dimensions of the largest pen (by area) that can be made?
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    I want to build a rectangular display case to be mounted on the wall. The front should be made of glass, which costs $5 per square foot. The sides will be made of wood, costing $1 per square foot, and the back will be reinforced at a cost of $2 per square foot. Assume that I need the display case to be exactly 2 feet deep. What are the dimensions of the largest case (by volume) that I can make with $240?
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    You want to build a rectangular, open-topped box out of a sheet of metal by cutting away the corners and folding up the sides. What is the volume of the largest box you can build if the initial sheet of metal is 5 inches by 8 inches?
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    I am standing on the beach, right on the edge of the water, and want to reach a buoy out in the water. The edge of the water is a straight line, and the buoy is <quantity><mag>24</mag><unit base="foot"/></quantity> out in the water and <quantity><mag>40</mag><unit base="foot"/></quantity> down the shore. If I can run at a rate of <quantity><mag>13</mag><unit base="foot"/><per base="second"/></quantity> and can swim at a rate of <quantity><mag>5</mag><unit base="foot"/><per base="second"/></quantity>, how far should I run down the shore before jumping in the water to get to the buoy in the minimum amount of time?
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+</handout>
+
+<handout component="future">
+    <title>Friday 11/20</title>
+    <objectives>
+        <ul>
+            <li>
+                <p>
+                    Compute antiderivatives of common functions.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Relate antiderivatives to differential equations and motion problems.
+                </p>
+            </li>
+        </ul>
+    </objectives>
+    <page>
+        <paragraphs>
+            <title>Antiderivatives</title>
+
+<p component="b" workspace="4in">
+    What might we mean by the antiderivative of a function?
+</p>
+<p component="a">
+    What might we mean by the antiderivative of a function? Undo the differentiation; find a function whose derivative is the one that I care about. Then look at general antiderivatives and connect to mean value theorem.
+</p>
 
         </paragraphs>
     </page>

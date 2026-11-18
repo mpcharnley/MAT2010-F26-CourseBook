@@ -164,7 +164,7 @@
 <diagram xmlns="https://prefigure.org" dimensions="(500,100)" margins="5">
         <definition> numPts = 2 </definition>
          <definition> locs = [-5, 3] </definition>
-         <definition substitution="no"> vals = ['-5', '3'] </definition>
+         <definition substitution="no"> vals = ['-3', '3'] </definition>
          <definition> valMarks = ['UND', 'ZERO'] </definition>
          <definition> signs = ['+', '+', '-'] </definition>
          <definition> signs_loc = (-7, 0, 5) </definition>
@@ -193,7 +193,7 @@
 <diagram xmlns="https://prefigure.org" dimensions="(500,100)" margins="5">
         <definition> numPts = 2 </definition>
          <definition> locs = [-5, 5] </definition>
-         <definition substitution="no"> vals = ['-5', '6'] </definition>
+         <definition substitution="no"> vals = ['-3', '6'] </definition>
          <definition> valMarks = ['UND', 'ZERO'] </definition>
          <definition> signs = ['+', '-', '+'] </definition>
          <definition> signs_loc = (-7, 0, 7) </definition>
