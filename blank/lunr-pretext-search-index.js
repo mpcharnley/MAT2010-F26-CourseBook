@@ -2338,7 +2338,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Week 12",
-  "body": " Week 12   This is an outline of the topics we covered in Week 12 of the course, from November 16 to 20.    Monday 11\/16     Analyze functions to determine when they are increasing\/decreasing and concave up\/down.    Use the first and second derivative test to determine if a critical point is a local maximum or minimum.    Find inflection points of a graph.       Function Behaviors using the Derivative  We saw last class that we can use the first derivative to determine where a function is increasing and decreasing.    Determine the intervals of increase and decrease for function .        The First Derivative Test  The first derivative test is a way to determine if a critical point is a local maximum or local minimum without plugging in values. How does our function have to be set up to get a local maximum?       Use the first derivative test to determine if the critical points of are local maxima or minima.       The Second Derivative  If measures the rate of change of the function , what does measure?      Test for Concavity  How do we know if a function is concave up or concave down?     So, given a function, how can we determine where it is concave up and concave down?      Consider the function .     Create a sign chart for , , and .      Determine on which intervals is increasing.      Determine on which intervals is decreasing.      Find and classify any local maxima or minima of .      Determine on which intervals is concave up.      Determine on which intervals is concave down.         Consider the function .     Create a sign chart for , , and .      Determine on which intervals is increasing.      Determine on which intervals is decreasing.      Find and classify any local maxima or minima of .      Determine on which intervals is concave up.      Determine on which intervals is concave down.        Inflection Points  Inflection points somewhat play the role of critical points but for the second derivative. However, for these, we do want to guarantee a change in concavity.      Second Derivative Test  We can also use the second derivative to help us analyze critical points to see if they are local maxima or minima.       Find all critical points, inflection points, and use the second derivative test to analyze the critical points of .       Summary  So, what have we learned and done so far?      Tuesday 11\/17     Define inflection point and learn how to use the second derivative test.    Sketch graphs of functions from derivative information.       Inflection Points  Inflection points somewhat play the role of critical points but for the second derivative. However, for these, we do want to guarantee a change in concavity.      Second Derivative Test  We can also use the second derivative to help us analyze critical points to see if they are local maxima or minima.       Find all critical points, inflection points, and use the second derivative test to analyze the critical points of .       Graph Sketching  So, what have we learned and done so far?      Shape of Graphs  The derivative tells us information about the graph of a function. What does that look like in terms of actual pictures?           f'(x) \\gt 0   f'(x)  <  0   f''(x) \\gt 0   f''(x)  \\lt  0                f'(x) = 0   f'(x) DNE  Local Max  Local Min          Other Things to Consider  Two other things to take into consideration when trying to plot graphs: Domain and Asymptotes.           \\displaystyle \\lim_{x\\rightarrow a^+} f(x) = \\infty   \\displaystyle \\lim_{x\\rightarrow a^+} f(x) = -\\infty   \\displaystyle \\lim_{x\\rightarrow a^-} f(x)   = \\infty   \\displaystyle \\lim_{x\\rightarrow a^-} f(x)   = -\\infty            Use Calculus techniques to sketch the graph of the function .      Graph Sketching Organizer   f(x) =   f'(x) =   f''(x) =    f'    f''     Domain   X-intercepts   Y-intercepts   Vertical Asymptotes   Horizontal Asymptotes   Increasing   Decreasing   Local Max and Mins   Concave Up   Concave Down   Inflection Points                      Split Problems  While it is good to know the entire process of sketching one of these graphs, you may also see these problems presented in two separate parts.    Let be the function whose formula and first two derivatives are given below: .     Find all critical points of and determine if they are local maxima or local minima.      Find all intervals where is increasing.      Find all inflection points of .      Find all intervals where is concave down.       Sketch a graph of a function that satifies all of the following properties.              and .         Sign chart of    Sign Chart for f prime    numPts = 2  locs = [-5, 3]  vals = ['-5', '3']  valMarks = ['UND', 'ZERO']  signs = ['+', '+', '-']  signs_loc = (-7, 0, 5)      ${vals[k]}  ${valMarks[k]}  ${signs[k]}   ${signs[numPts]}        Sign chart of    Sign Chart for f double prime    numPts = 2  locs = [-5, 5]  vals = ['-5', '6']  valMarks = ['UND', 'ZERO']  signs = ['+', '-', '+']  signs_loc = (-7, 0, 7)      ${vals[k]}  ${valMarks[k]}  ${signs[k]}   ${signs[numPts]}              "
+  "body": " Week 12   This is an outline of the topics we covered in Week 12 of the course, from November 16 to 20.    Monday 11\/16     Analyze functions to determine when they are increasing\/decreasing and concave up\/down.    Use the first and second derivative test to determine if a critical point is a local maximum or minimum.    Find inflection points of a graph.       Function Behaviors using the Derivative  We saw last class that we can use the first derivative to determine where a function is increasing and decreasing.    Determine the intervals of increase and decrease for function .        The First Derivative Test  The first derivative test is a way to determine if a critical point is a local maximum or local minimum without plugging in values. How does our function have to be set up to get a local maximum?       Use the first derivative test to determine if the critical points of are local maxima or minima.       The Second Derivative  If measures the rate of change of the function , what does measure?      Test for Concavity  How do we know if a function is concave up or concave down?     So, given a function, how can we determine where it is concave up and concave down?      Consider the function .     Create a sign chart for , , and .      Determine on which intervals is increasing.      Determine on which intervals is decreasing.      Find and classify any local maxima or minima of .      Determine on which intervals is concave up.      Determine on which intervals is concave down.         Consider the function .     Create a sign chart for , , and .      Determine on which intervals is increasing.      Determine on which intervals is decreasing.      Find and classify any local maxima or minima of .      Determine on which intervals is concave up.      Determine on which intervals is concave down.        Inflection Points  Inflection points somewhat play the role of critical points but for the second derivative. However, for these, we do want to guarantee a change in concavity.      Second Derivative Test  We can also use the second derivative to help us analyze critical points to see if they are local maxima or minima.       Find all critical points, inflection points, and use the second derivative test to analyze the critical points of .       Summary  So, what have we learned and done so far?      Tuesday 11\/17     Define inflection point and learn how to use the second derivative test.    Sketch graphs of functions from derivative information.       Inflection Points  Inflection points somewhat play the role of critical points but for the second derivative. However, for these, we do want to guarantee a change in concavity.      Second Derivative Test  We can also use the second derivative to help us analyze critical points to see if they are local maxima or minima.       Find all critical points, inflection points, and use the second derivative test to analyze the critical points of .       Graph Sketching  So, what have we learned and done so far?      Shape of Graphs  The derivative tells us information about the graph of a function. What does that look like in terms of actual pictures?           f'(x) \\gt 0   f'(x)  <  0   f''(x) \\gt 0   f''(x)  \\lt  0                f'(x) = 0   f'(x) DNE  Local Max  Local Min          Other Things to Consider  Two other things to take into consideration when trying to plot graphs: Domain and Asymptotes.           \\displaystyle \\lim_{x\\rightarrow a^+} f(x) = \\infty   \\displaystyle \\lim_{x\\rightarrow a^+} f(x) = -\\infty   \\displaystyle \\lim_{x\\rightarrow a^-} f(x)   = \\infty   \\displaystyle \\lim_{x\\rightarrow a^-} f(x)   = -\\infty            Use Calculus techniques to sketch the graph of the function .      Graph Sketching Organizer   f(x) =   f'(x) =   f''(x) =    f'    f''     Domain   X-intercepts   Y-intercepts   Vertical Asymptotes   Horizontal Asymptotes   Increasing   Decreasing   Local Max and Mins   Concave Up   Concave Down   Inflection Points                      Split Problems  While it is good to know the entire process of sketching one of these graphs, you may also see these problems presented in two separate parts.    Let be the function whose formula and first two derivatives are given below: .     Find all critical points of and determine if they are local maxima or local minima.      Find all intervals where is increasing.      Find all inflection points of .      Find all intervals where is concave down.       Sketch a graph of a function that satifies all of the following properties.              and .         Sign chart of    Sign Chart for f prime    numPts = 2  locs = [-5, 3]  vals = ['-3', '3']  valMarks = ['UND', 'ZERO']  signs = ['+', '+', '-']  signs_loc = (-7, 0, 5)      ${vals[k]}  ${valMarks[k]}  ${signs[k]}   ${signs[numPts]}        Sign chart of    Sign Chart for f double prime    numPts = 2  locs = [-5, 5]  vals = ['-3', '6']  valMarks = ['UND', 'ZERO']  signs = ['+', '-', '+']  signs_loc = (-7, 0, 7)      ${vals[k]}  ${valMarks[k]}  ${signs[k]}   ${signs[numPts]}               Wednesday 11\/18     Understand optimization problems as an application of finding the max and min value of functions.    Set up and solve optimization problems using Calculus.       Graph Sketching Review    Sketch a graph of a function that satifies all of the following properties.              and .         Sign chart of    Sign Chart for f prime    numPts = 2  locs = [-5, 3]  vals = ['-3', '3']  valMarks = ['UND', 'ZERO']  signs = ['+', '+', '-']  signs_loc = (-7, 0, 5)      ${vals[k]}  ${valMarks[k]}  ${signs[k]}   ${signs[numPts]}        Sign chart of    Sign Chart for f double prime    numPts = 2  locs = [-5, 5]  vals = ['-3', '6']  valMarks = ['UND', 'ZERO']  signs = ['+', '-', '+']  signs_loc = (-7, 0, 7)      ${vals[k]}  ${valMarks[k]}  ${signs[k]}   ${signs[numPts]}                        Optimization  Thinking outside of the mathematics context, what does it mean to optimize something?  How do we formulate this idea mathematically?       Find the maximum value of the function on the interval .        Find the maximum possible product of two non-negative numbers whose sum is .       Optimization Process  How can we summarize the process of applied optimization?       Find the dimensions of the rectangle with perimeter 80 feet that has the maximum area.        Farmer Brown is building a pen for sheep. This pen will be built in a rectangular shape next to a straight river, so the side that is adjacent to the river does not to be fenced. If Farmer Brown has 150 of fencing, what are the dimensions of the largest pen (by area) that can be made?        Find the area of the largest rectangle that can be inscribed above the -axis and below the graph of .        Farmer Brown is building a pen for sheep. This pen will be built in a rectangular shape next to a 10 foot long barn, so the part of one side that is adjacent to the barn wall does not need to be fenced. If Farmer Brown has 80 of fencing, what are the dimensions of the largest pen (by area) that can be made?        Farmer Brown is building a pen for sheep. This pen will be built in a rectangular shape next to a 50 foot long barn, so the part of one side that is adjacent to the barn wall does not need to be fenced. If Farmer Brown has 80 of fencing, what are the dimensions of the largest pen (by area) that can be made?        I want to build a rectangular display case to be mounted on the wall. The front should be made of glass, which costs $5 per square foot. The sides will be made of wood, costing $1 per square foot, and the back will be reinforced at a cost of $2 per square foot. Assume that I need the display case to be exactly 2 feet deep. What are the dimensions of the largest case (by volume) that I can make with $240?        You want to build a rectangular, open-topped box out of a sheet of metal by cutting away the corners and folding up the sides. What is the volume of the largest box you can build if the initial sheet of metal is 5 inches by 8 inches?        I am standing on the beach, right on the edge of the water, and want to reach a buoy out in the water. The edge of the water is a straight line, and the buoy is 24 out in the water and 40 down the shore. If I can run at a rate of 13 and can swim at a rate of 5 , how far should I run down the shore before jumping in the water to get to the buoy in the minimum amount of time?      "
 },
 {
   "id": "notes-week-12-3-2",
@@ -2437,7 +2437,115 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "215",
   "title": "",
-  "body": "  Sketch a graph of a function that satifies all of the following properties.              and .         Sign chart of    Sign Chart for f prime    numPts = 2  locs = [-5, 3]  vals = ['-5', '3']  valMarks = ['UND', 'ZERO']  signs = ['+', '+', '-']  signs_loc = (-7, 0, 5)      ${vals[k]}  ${valMarks[k]}  ${signs[k]}   ${signs[numPts]}        Sign chart of    Sign Chart for f double prime    numPts = 2  locs = [-5, 5]  vals = ['-5', '6']  valMarks = ['UND', 'ZERO']  signs = ['+', '-', '+']  signs_loc = (-7, 0, 7)      ${vals[k]}  ${valMarks[k]}  ${signs[k]}   ${signs[numPts]}          "
+  "body": "  Sketch a graph of a function that satifies all of the following properties.              and .         Sign chart of    Sign Chart for f prime    numPts = 2  locs = [-5, 3]  vals = ['-3', '3']  valMarks = ['UND', 'ZERO']  signs = ['+', '+', '-']  signs_loc = (-7, 0, 5)      ${vals[k]}  ${valMarks[k]}  ${signs[k]}   ${signs[numPts]}        Sign chart of    Sign Chart for f double prime    numPts = 2  locs = [-5, 5]  vals = ['-3', '6']  valMarks = ['UND', 'ZERO']  signs = ['+', '-', '+']  signs_loc = (-7, 0, 7)      ${vals[k]}  ${valMarks[k]}  ${signs[k]}   ${signs[numPts]}          "
+},
+{
+  "id": "notes-week-12-5-2",
+  "level": "2",
+  "url": "notes-week-12.html#notes-week-12-5-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "   Understand optimization problems as an application of finding the max and min value of functions.    Set up and solve optimization problems using Calculus.    "
+},
+{
+  "id": "notes-week-12-5-3-1-2",
+  "level": "2",
+  "url": "notes-week-12.html#notes-week-12-5-3-1-2",
+  "type": "Checkpoint",
+  "number": "216",
+  "title": "",
+  "body": "  Sketch a graph of a function that satifies all of the following properties.              and .         Sign chart of    Sign Chart for f prime    numPts = 2  locs = [-5, 3]  vals = ['-3', '3']  valMarks = ['UND', 'ZERO']  signs = ['+', '+', '-']  signs_loc = (-7, 0, 5)      ${vals[k]}  ${valMarks[k]}  ${signs[k]}   ${signs[numPts]}        Sign chart of    Sign Chart for f double prime    numPts = 2  locs = [-5, 5]  vals = ['-3', '6']  valMarks = ['UND', 'ZERO']  signs = ['+', '-', '+']  signs_loc = (-7, 0, 7)      ${vals[k]}  ${valMarks[k]}  ${signs[k]}   ${signs[numPts]}          "
+},
+{
+  "id": "notes-week-12-5-5-1",
+  "level": "2",
+  "url": "notes-week-12.html#notes-week-12-5-5-1",
+  "type": "Example",
+  "number": "217",
+  "title": "",
+  "body": "  Find the maximum value of the function on the interval .   "
+},
+{
+  "id": "notes-week-12-5-6-1",
+  "level": "2",
+  "url": "notes-week-12.html#notes-week-12-5-6-1",
+  "type": "Example",
+  "number": "218",
+  "title": "",
+  "body": "  Find the maximum possible product of two non-negative numbers whose sum is .   "
+},
+{
+  "id": "notes-week-12-5-8-1",
+  "level": "2",
+  "url": "notes-week-12.html#notes-week-12-5-8-1",
+  "type": "Example",
+  "number": "219",
+  "title": "",
+  "body": "  Find the dimensions of the rectangle with perimeter 80 feet that has the maximum area.   "
+},
+{
+  "id": "notes-week-12-5-9-1",
+  "level": "2",
+  "url": "notes-week-12.html#notes-week-12-5-9-1",
+  "type": "Example",
+  "number": "220",
+  "title": "",
+  "body": "  Farmer Brown is building a pen for sheep. This pen will be built in a rectangular shape next to a straight river, so the side that is adjacent to the river does not to be fenced. If Farmer Brown has 150 of fencing, what are the dimensions of the largest pen (by area) that can be made?   "
+},
+{
+  "id": "notes-week-12-5-10-1",
+  "level": "2",
+  "url": "notes-week-12.html#notes-week-12-5-10-1",
+  "type": "Example",
+  "number": "221",
+  "title": "",
+  "body": "  Find the area of the largest rectangle that can be inscribed above the -axis and below the graph of .   "
+},
+{
+  "id": "notes-week-12-5-11-1",
+  "level": "2",
+  "url": "notes-week-12.html#notes-week-12-5-11-1",
+  "type": "Example",
+  "number": "222",
+  "title": "",
+  "body": "  Farmer Brown is building a pen for sheep. This pen will be built in a rectangular shape next to a 10 foot long barn, so the part of one side that is adjacent to the barn wall does not need to be fenced. If Farmer Brown has 80 of fencing, what are the dimensions of the largest pen (by area) that can be made?   "
+},
+{
+  "id": "notes-week-12-5-12-1",
+  "level": "2",
+  "url": "notes-week-12.html#notes-week-12-5-12-1",
+  "type": "Example",
+  "number": "223",
+  "title": "",
+  "body": "  Farmer Brown is building a pen for sheep. This pen will be built in a rectangular shape next to a 50 foot long barn, so the part of one side that is adjacent to the barn wall does not need to be fenced. If Farmer Brown has 80 of fencing, what are the dimensions of the largest pen (by area) that can be made?   "
+},
+{
+  "id": "notes-week-12-5-13-1",
+  "level": "2",
+  "url": "notes-week-12.html#notes-week-12-5-13-1",
+  "type": "Example",
+  "number": "224",
+  "title": "",
+  "body": "  I want to build a rectangular display case to be mounted on the wall. The front should be made of glass, which costs $5 per square foot. The sides will be made of wood, costing $1 per square foot, and the back will be reinforced at a cost of $2 per square foot. Assume that I need the display case to be exactly 2 feet deep. What are the dimensions of the largest case (by volume) that I can make with $240?   "
+},
+{
+  "id": "notes-week-12-5-14-1",
+  "level": "2",
+  "url": "notes-week-12.html#notes-week-12-5-14-1",
+  "type": "Example",
+  "number": "225",
+  "title": "",
+  "body": "  You want to build a rectangular, open-topped box out of a sheet of metal by cutting away the corners and folding up the sides. What is the volume of the largest box you can build if the initial sheet of metal is 5 inches by 8 inches?   "
+},
+{
+  "id": "notes-week-12-5-15-1",
+  "level": "2",
+  "url": "notes-week-12.html#notes-week-12-5-15-1",
+  "type": "Example",
+  "number": "226",
+  "title": "",
+  "body": "  I am standing on the beach, right on the edge of the water, and want to reach a buoy out in the water. The edge of the water is a straight line, and the buoy is 24 out in the water and 40 down the shore. If I can run at a rate of 13 and can swim at a rate of 5 , how far should I run down the shore before jumping in the water to get to the buoy in the minimum amount of time?   "
 },
 {
   "id": "wksht-sine-x-over-x",
@@ -3220,7 +3328,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Graph Sketching",
-  "body": " Graph Sketching     Dates  Assigned Date: November 17, 2026  Due Date: November 24, 2026   Objective  In this assignment, you will work through various types of graph sketching problems to learn how to analyze the graph of a function using the derivative. Take your time and lay out all of the information for the problem before you try to draw the graph. Use the included organizers and axes to collect the information and draw the graph.        Shape of Graphs            f'(x) \\gt 0   f'(x)  <  0   f''(x) \\gt 0   f''(x)  \\lt  0                f'(x) = 0   f'(x) DNE  Local Max  Local Min                \\displaystyle \\lim_{x\\rightarrow a^+} f(x) = \\infty   \\displaystyle \\lim_{x\\rightarrow a^+} f(x) = -\\infty   \\displaystyle \\lim_{x\\rightarrow a^-} f(x)   = \\infty   \\displaystyle \\lim_{x\\rightarrow a^-} f(x)   = -\\infty           Warm-Up    Sketch the graph of the function .      Turn-In Exercises    Sketch the graph of the function .      Sketch the graph of the function .      Let be the function whose formula and first two derivatives are given below: .     Find all critical points of and determine if they are local maxima or local minima.      Find all intervals where is increasing.      Find all inflection points of .      Find all intervals where is concave down.       Sketch a graph of a function that satifies all of the following properties.              and .         Sign chart of    Sign Chart for f prime    numPts = 2  locs = [-5, 3]  vals = ['-5', '3']  valMarks = ['UND', 'ZERO']  signs = ['+', '+', '-']  signs_loc = (-7, 0, 5)      ${vals[k]}  ${valMarks[k]}  ${signs[k]}   ${signs[numPts]}        Sign chart of    Sign Chart for f double prime    numPts = 2  locs = [-5, 5]  vals = ['-5', '6']  valMarks = ['UND', 'ZERO']  signs = ['+', '-', '+']  signs_loc = (-7, 0, 7)      ${vals[k]}  ${valMarks[k]}  ${signs[k]}   ${signs[numPts]}                  Graph Sketching Organizer   f(x) =   f'(x) =   f''(x) =    f'    f''     Domain   X-intercepts   Y-intercepts   Vertical Asymptotes   Horizontal Asymptotes   Increasing   Decreasing   Local Max and Mins   Concave Up   Concave Down   Inflection Points            Graph Sketching Organizer   f(x) =   f'(x) =   f''(x) =    f'    f''     Domain   X-intercepts   Y-intercepts   Vertical Asymptotes   Horizontal Asymptotes   Increasing   Decreasing   Local Max and Mins   Concave Up   Concave Down   Inflection Points            Graph Sketching Organizer   f(x) =   f'(x) =   f''(x) =    f'    f''     Domain   X-intercepts   Y-intercepts   Vertical Asymptotes   Horizontal Asymptotes   Increasing   Decreasing   Local Max and Mins   Concave Up   Concave Down   Inflection Points            Graph Sketching Organizer   f(x) =   f'(x) =   f''(x) =    f'    f''     Domain   X-intercepts   Y-intercepts   Vertical Asymptotes   Horizontal Asymptotes   Increasing   Decreasing   Local Max and Mins   Concave Up   Concave Down   Inflection Points                                                   "
+  "body": " Graph Sketching     Dates  Assigned Date: November 17, 2026  Due Date: November 24, 2026   Objective  In this assignment, you will work through various types of graph sketching problems to learn how to analyze the graph of a function using the derivative. Take your time and lay out all of the information for the problem before you try to draw the graph. Use the included organizers and axes to collect the information and draw the graph.        Shape of Graphs            f'(x) \\gt 0   f'(x)  <  0   f''(x) \\gt 0   f''(x)  \\lt  0                f'(x) = 0   f'(x) DNE  Local Max  Local Min                \\displaystyle \\lim_{x\\rightarrow a^+} f(x) = \\infty   \\displaystyle \\lim_{x\\rightarrow a^+} f(x) = -\\infty   \\displaystyle \\lim_{x\\rightarrow a^-} f(x)   = \\infty   \\displaystyle \\lim_{x\\rightarrow a^-} f(x)   = -\\infty           Warm-Up    Sketch the graph of the function .      Turn-In Exercises    Sketch the graph of the function .      Sketch the graph of the function .      Let be the function whose formula and first two derivatives are given below: .     Find all critical points of and determine if they are local maxima or local minima.      Find all intervals where is increasing.      Find all inflection points of .      Find all intervals where is concave down.       Sketch a graph of a function that satifies all of the following properties.              and .         Sign chart of    Sign Chart for f prime    numPts = 2  locs = [-5, 3]  vals = ['-3', '3']  valMarks = ['UND', 'ZERO']  signs = ['+', '+', '-']  signs_loc = (-7, 0, 5)      ${vals[k]}  ${valMarks[k]}  ${signs[k]}   ${signs[numPts]}        Sign chart of    Sign Chart for f double prime    numPts = 2  locs = [-5, 5]  vals = ['-3', '6']  valMarks = ['UND', 'ZERO']  signs = ['+', '-', '+']  signs_loc = (-7, 0, 7)      ${vals[k]}  ${valMarks[k]}  ${signs[k]}   ${signs[numPts]}                  Graph Sketching Organizer   f(x) =   f'(x) =   f''(x) =    f'    f''     Domain   X-intercepts   Y-intercepts   Vertical Asymptotes   Horizontal Asymptotes   Increasing   Decreasing   Local Max and Mins   Concave Up   Concave Down   Inflection Points            Graph Sketching Organizer   f(x) =   f'(x) =   f''(x) =    f'    f''     Domain   X-intercepts   Y-intercepts   Vertical Asymptotes   Horizontal Asymptotes   Increasing   Decreasing   Local Max and Mins   Concave Up   Concave Down   Inflection Points            Graph Sketching Organizer   f(x) =   f'(x) =   f''(x) =    f'    f''     Domain   X-intercepts   Y-intercepts   Vertical Asymptotes   Horizontal Asymptotes   Increasing   Decreasing   Local Max and Mins   Concave Up   Concave Down   Inflection Points            Graph Sketching Organizer   f(x) =   f'(x) =   f''(x) =    f'    f''     Domain   X-intercepts   Y-intercepts   Vertical Asymptotes   Horizontal Asymptotes   Increasing   Decreasing   Local Max and Mins   Concave Up   Concave Down   Inflection Points                                                   "
 },
 {
   "id": "wksht-graph-sketching-4-1-2",
@@ -3265,7 +3373,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "",
-  "body": "  Sketch a graph of a function that satifies all of the following properties.              and .         Sign chart of    Sign Chart for f prime    numPts = 2  locs = [-5, 3]  vals = ['-5', '3']  valMarks = ['UND', 'ZERO']  signs = ['+', '+', '-']  signs_loc = (-7, 0, 5)      ${vals[k]}  ${valMarks[k]}  ${signs[k]}   ${signs[numPts]}        Sign chart of    Sign Chart for f double prime    numPts = 2  locs = [-5, 5]  vals = ['-5', '6']  valMarks = ['UND', 'ZERO']  signs = ['+', '-', '+']  signs_loc = (-7, 0, 7)      ${vals[k]}  ${valMarks[k]}  ${signs[k]}   ${signs[numPts]}          "
+  "body": "  Sketch a graph of a function that satifies all of the following properties.              and .         Sign chart of    Sign Chart for f prime    numPts = 2  locs = [-5, 3]  vals = ['-3', '3']  valMarks = ['UND', 'ZERO']  signs = ['+', '+', '-']  signs_loc = (-7, 0, 5)      ${vals[k]}  ${valMarks[k]}  ${signs[k]}   ${signs[numPts]}        Sign chart of    Sign Chart for f double prime    numPts = 2  locs = [-5, 5]  vals = ['-3', '6']  valMarks = ['UND', 'ZERO']  signs = ['+', '-', '+']  signs_loc = (-7, 0, 7)      ${vals[k]}  ${valMarks[k]}  ${signs[k]}   ${signs[numPts]}          "
 },
 {
   "id": "handout-trig",
@@ -3281,7 +3389,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handout-trig.html#handout-trig-2-3-2-2",
   "type": "Table",
-  "number": "281",
+  "number": "292",
   "title": "Special Angles of Trigonometric Functions",
   "body": " Special Angles of Trigonometric Functions                   Undefined       Undefined       "
 },
