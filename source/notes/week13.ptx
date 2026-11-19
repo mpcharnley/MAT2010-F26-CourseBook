@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="notes-week-13" xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Week 13</title>
+
+<introduction>
+    <p>
+        This is an outline of the topics we covered in Week 13 of the course, from November 23 to November 27.
+    </p>
+</introduction>
+
+<handout component="future">
+    <title>Monday 11/23</title>
+    <objectives>
+        <ul>
+            <li>
+                <p>
+                    Review the process of optimization.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Solve more optimization problems.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Solve optimization problems on open intervals.
+                </p>
+            </li>
+        </ul>
+    </objectives>
+    <page>
+        <paragraphs>
+            <title>Optimization Problems</title>
+
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Find the dimensions of the rectangle with perimeter 80 feet that has the maximum area.
+                </p>
+            </statement>
+        
+        </example>
+        </paragraphs>
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Farmer Brown is building a pen for sheep. This pen will be built in a rectangular shape next to a straight river, so the side that is adjacent to the river does not to be fenced. If Farmer Brown has <quantity><mag>150</mag><unit base="foot"/></quantity> of fencing, what are the dimensions of the largest pen (by area) that can be made?
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Find the area of the largest rectangle that can be inscribed above the <m>x</m>-axis and below the graph of <m>y = 27-x^2</m>.
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Farmer Brown is building a pen for sheep. This pen will be built in a rectangular shape next to a 10 foot long barn, so the part of one side that is adjacent to the barn wall does not need to be fenced. If Farmer Brown has <quantity><mag>80</mag><unit base="foot"/></quantity> of fencing, what are the dimensions of the largest pen (by area) that can be made?
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Farmer Brown is building a pen for sheep. This pen will be built in a rectangular shape next to a 50 foot long barn, so the part of one side that is adjacent to the barn wall does not need to be fenced. If Farmer Brown has <quantity><mag>80</mag><unit base="foot"/></quantity> of fencing, what are the dimensions of the largest pen (by area) that can be made?
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    I want to build a rectangular display case to be mounted on the wall. The front should be made of glass, which costs $5 per square foot. The sides will be made of wood, costing $1 per square foot, and the back will be reinforced at a cost of $2 per square foot. Assume that I need the display case to be exactly 2 feet deep. What are the dimensions of the largest case (by volume) that I can make with $240?
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    You want to build a rectangular, open-topped box out of a sheet of metal by cutting away the corners and folding up the sides. What is the volume of the largest box you can build if the initial sheet of metal is 5 inches by 8 inches?
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    I am standing on the beach, right on the edge of the water, and want to reach a buoy out in the water. The edge of the water is a straight line, and the buoy is <quantity><mag>24</mag><unit base="foot"/></quantity> out in the water and <quantity><mag>40</mag><unit base="foot"/></quantity> down the shore. If I can run at a rate of <quantity><mag>13</mag><unit base="foot"/><per base="second"/></quantity> and can swim at a rate of <quantity><mag>5</mag><unit base="foot"/><per base="second"/></quantity>, how far should I run down the shore before jumping in the water to get to the buoy in the minimum amount of time?
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+</handout>
+
+
+</section>

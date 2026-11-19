@@ -738,8 +738,8 @@
         </paragraphs>
     </page>
 
-    <page>
-        <example workspace="4in">
+<page>
+    <example workspace="4in">
             <statement>
                 <p>
                     Find the dimensions of the rectangle with perimeter 80 feet that has the maximum area.
@@ -747,95 +747,10 @@
             </statement>
         
         </example>
-        
-    </page>
-
-    <page>
-        <example workspace="4in">
-            <statement>
-                <p>
-                    Farmer Brown is building a pen for sheep. This pen will be built in a rectangular shape next to a straight river, so the side that is adjacent to the river does not to be fenced. If Farmer Brown has <quantity><mag>150</mag><unit base="foot"/></quantity> of fencing, what are the dimensions of the largest pen (by area) that can be made?
-                </p>
-            </statement>
-        
-        </example>
-        
-    </page>
-
-    <page>
-        <example workspace="4in">
-            <statement>
-                <p>
-                    Find the area of the largest rectangle that can be inscribed above the <m>x</m>-axis and below the graph of <m>y = 27-x^2</m>.
-                </p>
-            </statement>
-        
-        </example>
-        
-    </page>
-
-    <page>
-        <example workspace="4in">
-            <statement>
-                <p>
-                    Farmer Brown is building a pen for sheep. This pen will be built in a rectangular shape next to a 10 foot long barn, so the part of one side that is adjacent to the barn wall does not need to be fenced. If Farmer Brown has <quantity><mag>80</mag><unit base="foot"/></quantity> of fencing, what are the dimensions of the largest pen (by area) that can be made?
-                </p>
-            </statement>
-        
-        </example>
-        
-    </page>
-
-    <page>
-        <example workspace="4in">
-            <statement>
-                <p>
-                    Farmer Brown is building a pen for sheep. This pen will be built in a rectangular shape next to a 50 foot long barn, so the part of one side that is adjacent to the barn wall does not need to be fenced. If Farmer Brown has <quantity><mag>80</mag><unit base="foot"/></quantity> of fencing, what are the dimensions of the largest pen (by area) that can be made?
-                </p>
-            </statement>
-        
-        </example>
-        
-    </page>
-
-    <page>
-        <example workspace="4in">
-            <statement>
-                <p>
-                    I want to build a rectangular display case to be mounted on the wall. The front should be made of glass, which costs $5 per square foot. The sides will be made of wood, costing $1 per square foot, and the back will be reinforced at a cost of $2 per square foot. Assume that I need the display case to be exactly 2 feet deep. What are the dimensions of the largest case (by volume) that I can make with $240?
-                </p>
-            </statement>
-        
-        </example>
-        
-    </page>
-
-    <page>
-        <example workspace="4in">
-            <statement>
-                <p>
-                    You want to build a rectangular, open-topped box out of a sheet of metal by cutting away the corners and folding up the sides. What is the volume of the largest box you can build if the initial sheet of metal is 5 inches by 8 inches?
-                </p>
-            </statement>
-        
-        </example>
-        
-    </page>
-
-    <page>
-        <example workspace="4in">
-            <statement>
-                <p>
-                    I am standing on the beach, right on the edge of the water, and want to reach a buoy out in the water. The edge of the water is a straight line, and the buoy is <quantity><mag>24</mag><unit base="foot"/></quantity> out in the water and <quantity><mag>40</mag><unit base="foot"/></quantity> down the shore. If I can run at a rate of <quantity><mag>13</mag><unit base="foot"/><per base="second"/></quantity> and can swim at a rate of <quantity><mag>5</mag><unit base="foot"/><per base="second"/></quantity>, how far should I run down the shore before jumping in the water to get to the buoy in the minimum amount of time?
-                </p>
-            </statement>
-        
-        </example>
-        
-    </page>
+</page>
 </handout>
 
-<handout component="future">
+<handout component="cur">
     <title>Friday 11/20</title>
     <objectives>
         <ul>
@@ -862,6 +777,124 @@
     What might we mean by the antiderivative of a function? Undo the differentiation; find a function whose derivative is the one that I care about. Then look at general antiderivatives and connect to mean value theorem.
 </p>
 
+        </paragraphs>
+    </page>
+
+    <page>
+        <p component="b" workspace="4in">
+            How do general antiderivatives relate to each other? How could you determine which of them you actually want?
+        </p>
+        <p component="a">
+            How do general antiderivatives relate to each other? How could you determine which of them you actually want? They are all vertical shifts of each other. If you pick any one point on the curve, that fixes which curve you want.
+        </p>
+    </page>
+
+    <page>
+        <example workspace="1in">
+            <introduction>
+                <p>
+                    Find the general antiderivative of each of the following functions.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>f(x) = x^4 + 1</m>
+                    </p>
+                </statement>
+        
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>f(x) = \sin(x)</m>
+                    </p>
+                </statement>
+        
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>f(x) = e^x</m>
+                    </p>
+                </statement>
+        
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>f(x) = x^n</m>, for any <m>n \neq -1</m>.
+                    </p>
+                </statement>
+        
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>f(x) = \frac{1}{x}</m>
+                    </p>
+                </statement>
+        
+            </task>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <paragraphs>
+            <title>Antidifferentiation Formulas</title>
+            
+            <p component="b" workspace="4in">
+                This means we can develop antidifferentiation formulas based on all of the differentiation formulas that we had previously. It's just all of them written backwards.
+            </p>
+            <p component="a">
+                This means we can develop antidifferentiation formulas based on all of the differentiation formulas that we had previously. It's just all of them written backwards. Antiderivative of powers, exponentials, trig functions, inverse trig functions.
+            </p>
+        </paragraphs>
+    </page>
+
+    <page>
+        <paragraphs>
+            <title>Differential Equations</title>
+            
+            <p component="b" workspace="3in">
+                The idea of antidifferentiation ties directly to differential equations, which is the idea of solving an equation that involves a derivative. 
+            </p>
+            <p component="a">
+                The idea of antidifferentiation ties directly to differential equations, which is the idea of solving an equation that involves a derivative. The normal context that we will have in this course is: given <m>f'(x)</m> and an initial condition, solve for <m>f</m>.
+            </p>
+
+            <example workspace="3in">
+                <statement>
+                    <p>
+                        If <m>f'(x) = 3x^2 - \cos(x) + 5e^x</m> and <m>f(0) = 2</m>, find the function <m>f(x)</m>.
+                    </p>
+                </statement>
+            </example>
+            
+        </paragraphs>
+    </page>
+
+    <page>
+        <paragraphs>
+            <title>Motion Problems</title>
+            <p component="b" workspace="2in">
+                The same ideas apply to motion problems.
+            </p>
+            <p component="a">
+                The same ideas apply to motion problems. Now we can go back from acceleration and velocity to position.
+            </p>
+
+            <example workspace="3in">
+                <statement>
+                    <p>
+                        Assume that the acceleration of an object is a constant <m>-a</m>. If the object is thrown upward with initial velocity <m>v_0</m> from initial height <m>s_0</m>, find a formula for the height of the object as a function of time.
+                    </p>
+                </statement>
+            
+            </example>
+            
         </paragraphs>
     </page>
 </handout>
