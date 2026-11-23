@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="wksht-optimization-foldBox-figure" width="910" height="310" viewBox="0 0 910 310">
+  <defs>
+    <clipPath id="wksht-optimization-foldBox-__clipPath-0">
+      <rect x="5.0" y="5.0" width="900.0" height="300.0"/>
+    </clipPath>
+    <clipPath id="wksht-optimization-foldBox-__clipPath-1">
+      <rect x="5.0" y="5.0" width="900.0" height="300.0"/>
+    </clipPath>
+    <marker id="wksht-optimization-foldBox-arrow-head-end-5_None_24_60-black" markerWidth="22.5" markerHeight="20.0" markerUnits="userSpaceOnUse" orient="auto" refX="16.3" refY="10.0">
+      <path d="M 22.5 10.0L 0.0 20.0L 4.3 12.5L 4.3 7.5L 0.0 0.0Z" fill="black" stroke="none"/>
+    </marker>
+    <marker id="wksht-optimization-foldBox-arrow-head-end-5_None_24_60-black-outline" markerWidth="26.5" markerHeight="24.0" markerUnits="userSpaceOnUse" orient="auto" refX="18.3" refY="12.0">
+      <path d="M 25.3 13.8 L 2.8 23.8 A 2 2 0 0 1 0.0 22.0 L 0.0 2.0 A 2 2 0 0 1 2.8 0.2 L 25.3 10.2 A 2 2 0 0 1 25.3 13.8 Z" fill="white" stroke="none"/>
+    </marker>
+    <marker id="wksht-optimization-foldBox-arrow-head-start-5_None_24_60-black" markerWidth="22.5" markerHeight="20.0" markerUnits="userSpaceOnUse" orient="auto" refX="6.199999999999999" refY="10.0">
+      <g transform="rotate(180, 11.25, 10.0)">
+        <path d="M 22.5 10.0L 0.0 20.0L 4.3 12.5L 4.3 7.5L 0.0 0.0Z" fill="black" stroke="none"/>
+      </g>
+    </marker>
+    <marker id="wksht-optimization-foldBox-arrow-head-start-5_None_24_60-black-outline" markerWidth="26.5" markerHeight="24.0" markerUnits="userSpaceOnUse" orient="auto" refX="8.2" refY="12.0">
+      <g transform="rotate(180, 13.25, 12.0)">
+        <path d="M 25.3 13.8 L 2.8 23.8 A 2 2 0 0 1 0.0 22.0 L 0.0 2.0 A 2 2 0 0 1 2.8 0.2 L 25.3 10.2 A 2 2 0 0 1 25.3 13.8 Z" fill="white" stroke="none"/>
+      </g>
+    </marker>
+  </defs>
+  <path id="wksht-optimization-foldBox-__path-0" d="M 95.0 215.0 L 95.0 95.0 L 335.0 95.0 L 335.0 215.0 L 95.0 215.0 Z" stroke="none" opacity="0.5" stroke-width="2" fill="blue" clip-path="url(#wksht-optimization-foldBox-__clipPath-1)"/>
+  <path id="wksht-optimization-foldBox-__path-1" d="M 95.0 215.0 L 95.0 95.0 L 35.0 95.0 L 35.0 215.0 L 95.0 215.0 Z" stroke="none" stroke-width="2" fill="red" clip-path="url(#wksht-optimization-foldBox-__clipPath-1)"/>
+  <path id="wksht-optimization-foldBox-__path-2" d="M 95.0 95.0 L 335.0 95.0 L 335.0 35.0 L 95.0 35.0 L 95.0 95.0 Z" stroke="none" stroke-width="2" fill="red" clip-path="url(#wksht-optimization-foldBox-__clipPath-1)"/>
+  <path id="wksht-optimization-foldBox-__path-3" d="M 335.0 95.0 L 335.0 215.0 L 395.0 215.0 L 395.0 95.0 L 335.0 95.0 Z" stroke="none" stroke-width="2" fill="red" clip-path="url(#wksht-optimization-foldBox-__clipPath-1)"/>
+  <path id="wksht-optimization-foldBox-__path-4" d="M 335.0 215.0 L 95.0 215.0 L 95.0 275.0 L 335.0 275.0 L 335.0 215.0 Z" stroke="none" stroke-width="2" fill="red" clip-path="url(#wksht-optimization-foldBox-__clipPath-1)"/>
+  <path id="wksht-optimization-foldBox-__path-5" d="M 35.0 275.0 L 35.0 35.0 L 395.0 35.0 L 395.0 275.0 L 35.0 275.0 Z" stroke="black" stroke-width="3" fill="none" clip-path="url(#wksht-optimization-foldBox-__clipPath-1)"/>
+  <line id="wksht-optimization-foldBox-__line-0" x1="35.0" y1="215.0" x2="395.0" y2="215.0" stroke="black" stroke-width="2" stroke-dasharray="4 4" fill="none"/>
+  <line id="wksht-optimization-foldBox-__line-1" x1="35.0" y1="95.0" x2="395.0" y2="95.0" stroke="black" stroke-width="2" stroke-dasharray="4 4" fill="none"/>
+  <line id="wksht-optimization-foldBox-__line-2" x1="95.0" y1="275.0" x2="95.0" y2="35.0" stroke="black" stroke-width="2" stroke-dasharray="4 4" fill="none"/>
+  <line id="wksht-optimization-foldBox-__line-3" x1="335.0" y1="275.0" x2="335.0" y2="35.0" stroke="black" stroke-width="2" stroke-dasharray="4 4" fill="none"/>
+  <g id="wksht-optimization-foldBox-__line-4">
+    <g transform="translate(35.0,287.0) rotate(0.0)">
+      <g id="wksht-optimization-foldBox-__label-0" transform="translate(180.0,4.0) translate(-3.9,-0.0)">
+        <g id="wksht-optimization-foldBox-__g-0">
+          <text font-family="sans-serif" font-size="14" x="0.0" y="11.1">8</text>
+        </g>
+      </g>
+    </g>
+    <line x1="35.0" y1="287.0" x2="395.0" y2="287.0" stroke="black" stroke-width="2" fill="none"/>
+  </g>
+  <g id="wksht-optimization-foldBox-__line-5">
+    <g transform="translate(23.0,35.0) rotate(90.0)">
+      <g id="wksht-optimization-foldBox-__label-1" transform="translate(120.0,9.0) rotate(-90.0) translate(-3.9,-0.0)">
+        <g id="wksht-optimization-foldBox-__g-1">
+          <text font-family="sans-serif" font-size="14" x="0.0" y="10.9">5</text>
+        </g>
+      </g>
+    </g>
+    <line x1="23.0" y1="35.0" x2="23.0" y2="275.0" stroke="black" stroke-width="2" fill="none"/>
+  </g>
+  <line id="wksht-optimization-foldBox-__line-6" x1="35.0" y1="281.0" x2="35.0" y2="293.0" stroke="black" stroke-width="2" fill="none"/>
+  <line id="wksht-optimization-foldBox-__line-7" x1="395.0" y1="281.0" x2="395.0" y2="293.0" stroke="black" stroke-width="2" fill="none"/>
+  <line id="wksht-optimization-foldBox-__line-8" x1="29.0" y1="275.0" x2="17.0" y2="275.0" stroke="black" stroke-width="2" fill="none"/>
+  <line id="wksht-optimization-foldBox-__line-9" x1="29.0" y1="35.0" x2="17.0" y2="35.0" stroke="black" stroke-width="2" fill="none"/>
+  <g id="wksht-optimization-foldBox-__label-2" transform="translate(91.0,245.0) translate(-7.0,-4.6)">
+    <g id="wksht-optimization-foldBox-__g-2">
+      <text font-family="sans-serif" font-size="14" x="0.0" y="8.3">x</text>
+    </g>
+  </g>
+  <g id="wksht-optimization-foldBox-__label-3" transform="translate(91.0,65.0) translate(-7.0,-4.6)">
+    <g id="wksht-optimization-foldBox-__g-3">
+      <text font-family="sans-serif" font-size="14" x="0.0" y="8.3">x</text>
+    </g>
+  </g>
+  <g id="wksht-optimization-foldBox-__label-4" transform="translate(339.0,245.0) translate(0.0,-4.6)">
+    <g id="wksht-optimization-foldBox-__g-4">
+      <text font-family="sans-serif" font-size="14" x="0.0" y="8.3">x</text>
+    </g>
+  </g>
+  <g id="wksht-optimization-foldBox-__label-5" transform="translate(339.0,65.0) translate(0.0,-4.6)">
+    <g id="wksht-optimization-foldBox-__g-5">
+      <text font-family="sans-serif" font-size="14" x="0.0" y="8.3">x</text>
+    </g>
+  </g>
+  <g id="wksht-optimization-foldBox-__label-6" transform="translate(65.0,219.0) translate(-3.5,-0.0)">
+    <g id="wksht-optimization-foldBox-__g-6">
+      <text font-family="sans-serif" font-size="14" x="0.0" y="8.3">x</text>
+    </g>
+  </g>
+  <g id="wksht-optimization-foldBox-__label-7" transform="translate(365.0,219.0) translate(-3.5,-0.0)">
+    <g id="wksht-optimization-foldBox-__g-7">
+      <text font-family="sans-serif" font-size="14" x="0.0" y="8.3">x</text>
+    </g>
+  </g>
+  <g id="wksht-optimization-foldBox-__label-8" transform="translate(65.0,91.0) translate(-3.5,-9.3)">
+    <g id="wksht-optimization-foldBox-__g-8">
+      <text font-family="sans-serif" font-size="14" x="0.0" y="8.3">x</text>
+    </g>
+  </g>
+  <g id="wksht-optimization-foldBox-__label-9" transform="translate(365.0,91.0) translate(-3.5,-9.3)">
+    <g id="wksht-optimization-foldBox-__g-9">
+      <text font-family="sans-serif" font-size="14" x="0.0" y="8.3">x</text>
+    </g>
+  </g>
+  <line id="wksht-optimization-foldBox-__line-10" x1="425.0" y1="155.0" x2="478.9" y2="155.0" stroke="black" stroke-width="5" fill="none" marker-end="url(#wksht-optimization-foldBox-arrow-head-end-5_None_24_60-black)"/>
+  <path id="wksht-optimization-foldBox-__path-6" d="M 515.0 215.0 L 695.0 275.0 L 875.0 155.0 L 695.0 95.0 Z" stroke="black" opacity="0.5" stroke-width="3" fill="blue" clip-path="url(#wksht-optimization-foldBox-__clipPath-1)"/>
+  <path id="wksht-optimization-foldBox-__path-7" d="M 515.0 155.0 L 695.0 215.0 L 875.0 95.0 L 695.0 35.0 Z" stroke="black" stroke-width="3" fill="none" clip-path="url(#wksht-optimization-foldBox-__clipPath-1)"/>
+  <path id="wksht-optimization-foldBox-__path-8" d="M 515.0 155.0 L 695.0 215.0 L 695.0 275.0 L 515.0 215.0 Z" stroke="none" stroke-width="3" fill="red" clip-path="url(#wksht-optimization-foldBox-__clipPath-1)"/>
+  <path id="wksht-optimization-foldBox-__path-9" d="M 695.0 215.0 L 695.0 275.0 L 875.0 155.0 L 875.0 95.0 Z" stroke="none" stroke-width="3" fill="red" clip-path="url(#wksht-optimization-foldBox-__clipPath-1)"/>
+  <path id="wksht-optimization-foldBox-__path-10" d="M 875.0 95.0 L 875.0 155.0 L 695.0 95.0 L 695.0 35.0 Z" stroke="none" stroke-width="3" fill="red" clip-path="url(#wksht-optimization-foldBox-__clipPath-1)"/>
+  <path id="wksht-optimization-foldBox-__path-11" d="M 695.0 35.0 L 695.0 95.0 L 515.0 215.0 L 515.0 155.0 Z" stroke="none" stroke-width="3" fill="red" clip-path="url(#wksht-optimization-foldBox-__clipPath-1)"/>
+  <path id="wksht-optimization-foldBox-__path-12" d="M 515.0 155.0 L 695.0 215.0 L 875.0 95.0 L 695.0 35.0 Z" stroke="black" stroke-width="3" fill="none" clip-path="url(#wksht-optimization-foldBox-__clipPath-1)"/>
+  <line id="wksht-optimization-foldBox-__line-11" x1="695.0" y1="215.0" x2="695.0" y2="275.0" stroke="black" stroke-width="3" fill="none"/>
+  <line id="wksht-optimization-foldBox-__line-12" x1="515.0" y1="155.0" x2="515.0" y2="215.0" stroke="black" stroke-width="3" fill="none"/>
+  <line id="wksht-optimization-foldBox-__line-13" x1="875.0" y1="95.0" x2="875.0" y2="155.0" stroke="black" stroke-width="3" fill="none"/>
+  <line id="wksht-optimization-foldBox-__line-14" x1="695.0" y1="35.0" x2="695.0" y2="95.0" stroke="black" stroke-width="3" fill="none"/>
+  <g id="wksht-optimization-foldBox-__label-10" transform="translate(699.0,247.0) translate(0.0,-9.3)">
+    <g id="wksht-optimization-foldBox-__g-10">
+      <text font-family="sans-serif" font-size="14" x="0.0" y="8.3">x</text>
+    </g>
+  </g>
+  <g id="wksht-optimization-foldBox-__label-11" transform="translate(879.0,130.0) translate(0.0,-9.3)">
+    <g id="wksht-optimization-foldBox-__g-11">
+      <text font-family="sans-serif" font-size="14" x="0.0" y="8.3">x</text>
+    </g>
+  </g>
+  <g id="wksht-optimization-foldBox-__label-12" transform="translate(511.0,190.0) translate(-7.0,-9.3)">
+    <g id="wksht-optimization-foldBox-__g-12">
+      <text font-family="sans-serif" font-size="14" x="0.0" y="8.3">x</text>
+    </g>
+  </g>
+</svg>
