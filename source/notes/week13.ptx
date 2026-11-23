@@ -9,7 +9,7 @@
     </p>
 </introduction>
 
-<handout component="future">
+<handout component="cur">
     <title>Monday 11/23</title>
     <objectives>
         <ul>
@@ -92,6 +92,34 @@
         </example>
         
     </page>
+        
+        
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Find the point on the graph of <m>y = \frac{1}{2}x^2</m> that minimizes the distance to the point <m>(-4, 1)</m>.
+                </p>
+            </statement>
+        
+        </example>
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Find the radius and height of a cylindrical can that will minimze the amount of material needed to build it given that the can must hold a volume of <quantity><mag>54\pi</mag><unit base="inch" exp="3"/></quantity>.
+                    <md>
+                        V = \pi r^2 h \qquad SA = 2\pi r^2 + 2\pi r h
+                    </md>
+                    
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
 
     <page>
         <example workspace="4in">
@@ -122,6 +150,166 @@
             <statement>
                 <p>
                     I am standing on the beach, right on the edge of the water, and want to reach a buoy out in the water. The edge of the water is a straight line, and the buoy is <quantity><mag>24</mag><unit base="foot"/></quantity> out in the water and <quantity><mag>40</mag><unit base="foot"/></quantity> down the shore. If I can run at a rate of <quantity><mag>13</mag><unit base="foot"/><per base="second"/></quantity> and can swim at a rate of <quantity><mag>5</mag><unit base="foot"/><per base="second"/></quantity>, how far should I run down the shore before jumping in the water to get to the buoy in the minimum amount of time?
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+</handout>
+
+
+<handout component="cur">
+    <title>Tuesday 11/24</title>
+    <objectives>
+        <ul>
+            <li>
+                <p>
+                    Approximate areas under graphs using rectangles and Riemann Sums.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Understand how to compute the actual area under a curve as a limit of these sums.
+                </p>
+            </li>
+        </ul>
+    </objectives>
+    <page>
+        <paragraphs>
+            <title>Areas Under Curves</title>
+
+        <p component="b" workspace="4in">
+            For the rest of the semester, we will be dealing with a different topic that, it turns out, isn't all that different after all. 
+        </p>
+        <p component="a">
+            For the rest of the semester, we will be dealing with a different topic that, it turns out, isn't all that different after all. The thing we are going to discuss is area under curves. We know how to talk about area for specific shapes (triangles, rectangles, circles), but what does that mean for weirder shapes, like areas under curves? We will approximate by rectangles. 
+        </p>
+
+        </paragraphs>
+    </page>
+
+    <page>
+        <example workspace="5in">
+            <statement>
+                <p>
+                    Approximate the area under the graph of <m>y = x^2</m> over the interval <m>[0,4]</m>.
+                </p>
+            </statement>
+            <solution component="a">
+                <p>
+                    As written, this still leaves a lot of open questions for solving this problem. How many rectangles? Where do we put them? How do we draw them and fit them in? Go through the process, get to left, right, and midpoint sums with equally spaced rectangles. Do both examples.              
+                </p>
+            </solution>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <p component="b" workspace="4in">
+            With all of that, we can write a general formula for how to compute these sums and approximate the area under a curve.
+        </p>
+        <p component="a">
+            With all of that, we can write a general formula for how to compute these sums and approximate the area under a curve. Use <m>f(x_i^*)</m> first, then illustrate how it can be any of the desired options.
+        </p>
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Approximate the area under the graph of <m>y = \frac{1}{1+x^2}</m> over the interval <m>[-1,2]</m> using a right Riemann sum with 3 rectangles.
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Approximate the area under the graph of <m>y = x+1</m> on <m>[0,4]</m> using a left Riemann sum with 4 rectangles. Compare this to the actual area. Does this comparison make sense if you draw a sketch of the situation?
+                </p>
+            </statement>
+            <solution component="a">
+                <p>
+                    The goal is to get to overestimate and underestimate through this example.
+                </p>
+            </solution>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <paragraphs>
+            <title>Sigma Notation</title>
+             <p component="b" workspace="4in">
+                A common way of working with these sums is to use <q>Sigma Notation</q>. This is a short-hand way of writing a large sum.
+             </p>
+             <p component="a">
+                A common way of working with these sums is to use <q>Sigma Notation</q>. This is a short-hand way of writing a large sum. Notation, setup.
+             </p>
+
+             <example workspace="2in">
+                <statement>
+                    <p>
+                        Evaluate <m>\displaystyle \sum_{k = 1}^5 k^2</m>.
+                    </p>
+                </statement>
+             
+             </example>
+             
+        </paragraphs>
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Write out a sum to approximate the area under the graph of <m>e^{-x}</m> on <m>[1,5]</m> using a right Riemann sum with 8 rectangles.
+                </p>
+            </statement>
+        
+        </example>
+        
+    </page>
+
+    <page>
+        <paragraphs>
+            <title>Physical Applications</title>
+            
+            <p component="b" workspace="4in">
+                We can also think about this type of sum in terms of velocity and distance.
+            </p>
+            <p component="a">
+                We can also think about this type of sum in terms of velocity and distance. If you tell me the speed you want to go, I can tell you how far you'll get in the next minute. Even if your speed changes a bit, the one value I have for your speed, mulitplied by the length of time, is a decent estimate for how far you'll get in the next minute. Especially if velociy doesn't change that quickly, or you have short enough time intervals where it doesn't really matter. Tie this into the idea of if you would multiply if things are constant, you find the area under the curve when they are not.
+            </p>
+        </paragraphs>
+    </page>
+
+    <page>
+        <paragraphs>
+            <title>Exact Area</title>
+            
+            <p component="b" workspace="4in">
+                These are all approximations to the area. How do we get the actual area under the curve?
+            </p>
+            <p component="a">
+                These are all approximations to the area. How do we get the actual area under the curve? If we take more rectangles, the approximation gets better. So, we can take a limit. A limit as the number of rectangles goes to infinity.
+            </p>
+
+        </paragraphs>
+    </page>
+
+    <page>
+        <example workspace="4in">
+            <statement>
+                <p>
+                    Set up a limit and sum to determine the area under the graph of <m>y = x^2</m> over the interval <m>[1,5]</m>.
                 </p>
             </statement>
         
