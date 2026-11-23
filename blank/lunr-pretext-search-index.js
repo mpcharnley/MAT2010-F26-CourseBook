@@ -2338,7 +2338,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Week 12",
-  "body": " Week 12   This is an outline of the topics we covered in Week 12 of the course, from November 16 to 20.    Monday 11\/16     Analyze functions to determine when they are increasing\/decreasing and concave up\/down.    Use the first and second derivative test to determine if a critical point is a local maximum or minimum.    Find inflection points of a graph.       Function Behaviors using the Derivative  We saw last class that we can use the first derivative to determine where a function is increasing and decreasing.    Determine the intervals of increase and decrease for function .        The First Derivative Test  The first derivative test is a way to determine if a critical point is a local maximum or local minimum without plugging in values. How does our function have to be set up to get a local maximum?       Use the first derivative test to determine if the critical points of are local maxima or minima.       The Second Derivative  If measures the rate of change of the function , what does measure?      Test for Concavity  How do we know if a function is concave up or concave down?     So, given a function, how can we determine where it is concave up and concave down?      Consider the function .     Create a sign chart for , , and .      Determine on which intervals is increasing.      Determine on which intervals is decreasing.      Find and classify any local maxima or minima of .      Determine on which intervals is concave up.      Determine on which intervals is concave down.         Consider the function .     Create a sign chart for , , and .      Determine on which intervals is increasing.      Determine on which intervals is decreasing.      Find and classify any local maxima or minima of .      Determine on which intervals is concave up.      Determine on which intervals is concave down.        Inflection Points  Inflection points somewhat play the role of critical points but for the second derivative. However, for these, we do want to guarantee a change in concavity.      Second Derivative Test  We can also use the second derivative to help us analyze critical points to see if they are local maxima or minima.       Find all critical points, inflection points, and use the second derivative test to analyze the critical points of .       Summary  So, what have we learned and done so far?      Tuesday 11\/17     Define inflection point and learn how to use the second derivative test.    Sketch graphs of functions from derivative information.       Inflection Points  Inflection points somewhat play the role of critical points but for the second derivative. However, for these, we do want to guarantee a change in concavity.      Second Derivative Test  We can also use the second derivative to help us analyze critical points to see if they are local maxima or minima.       Find all critical points, inflection points, and use the second derivative test to analyze the critical points of .       Graph Sketching  So, what have we learned and done so far?      Shape of Graphs  The derivative tells us information about the graph of a function. What does that look like in terms of actual pictures?           f'(x) \\gt 0   f'(x)  <  0   f''(x) \\gt 0   f''(x)  \\lt  0                f'(x) = 0   f'(x) DNE  Local Max  Local Min          Other Things to Consider  Two other things to take into consideration when trying to plot graphs: Domain and Asymptotes.           \\displaystyle \\lim_{x\\rightarrow a^+} f(x) = \\infty   \\displaystyle \\lim_{x\\rightarrow a^+} f(x) = -\\infty   \\displaystyle \\lim_{x\\rightarrow a^-} f(x)   = \\infty   \\displaystyle \\lim_{x\\rightarrow a^-} f(x)   = -\\infty            Use Calculus techniques to sketch the graph of the function .      Graph Sketching Organizer   f(x) =   f'(x) =   f''(x) =    f'    f''     Domain   X-intercepts   Y-intercepts   Vertical Asymptotes   Horizontal Asymptotes   Increasing   Decreasing   Local Max and Mins   Concave Up   Concave Down   Inflection Points                      Split Problems  While it is good to know the entire process of sketching one of these graphs, you may also see these problems presented in two separate parts.    Let be the function whose formula and first two derivatives are given below: .     Find all critical points of and determine if they are local maxima or local minima.      Find all intervals where is increasing.      Find all inflection points of .      Find all intervals where is concave down.       Sketch a graph of a function that satifies all of the following properties.              and .         Sign chart of    Sign Chart for f prime    numPts = 2  locs = [-5, 3]  vals = ['-3', '3']  valMarks = ['UND', 'ZERO']  signs = ['+', '+', '-']  signs_loc = (-7, 0, 5)      ${vals[k]}  ${valMarks[k]}  ${signs[k]}   ${signs[numPts]}        Sign chart of    Sign Chart for f double prime    numPts = 2  locs = [-5, 5]  vals = ['-3', '6']  valMarks = ['UND', 'ZERO']  signs = ['+', '-', '+']  signs_loc = (-7, 0, 7)      ${vals[k]}  ${valMarks[k]}  ${signs[k]}   ${signs[numPts]}               Wednesday 11\/18     Understand optimization problems as an application of finding the max and min value of functions.    Set up and solve optimization problems using Calculus.       Graph Sketching Review    Sketch a graph of a function that satifies all of the following properties.              and .         Sign chart of    Sign Chart for f prime    numPts = 2  locs = [-5, 3]  vals = ['-3', '3']  valMarks = ['UND', 'ZERO']  signs = ['+', '+', '-']  signs_loc = (-7, 0, 5)      ${vals[k]}  ${valMarks[k]}  ${signs[k]}   ${signs[numPts]}        Sign chart of    Sign Chart for f double prime    numPts = 2  locs = [-5, 5]  vals = ['-3', '6']  valMarks = ['UND', 'ZERO']  signs = ['+', '-', '+']  signs_loc = (-7, 0, 7)      ${vals[k]}  ${valMarks[k]}  ${signs[k]}   ${signs[numPts]}                        Optimization  Thinking outside of the mathematics context, what does it mean to optimize something?  How do we formulate this idea mathematically?       Find the maximum value of the function on the interval .        Find the maximum possible product of two non-negative numbers whose sum is .       Optimization Process  How can we summarize the process of applied optimization?       Find the dimensions of the rectangle with perimeter 80 feet that has the maximum area.        Farmer Brown is building a pen for sheep. This pen will be built in a rectangular shape next to a straight river, so the side that is adjacent to the river does not to be fenced. If Farmer Brown has 150 of fencing, what are the dimensions of the largest pen (by area) that can be made?        Find the area of the largest rectangle that can be inscribed above the -axis and below the graph of .        Farmer Brown is building a pen for sheep. This pen will be built in a rectangular shape next to a 10 foot long barn, so the part of one side that is adjacent to the barn wall does not need to be fenced. If Farmer Brown has 80 of fencing, what are the dimensions of the largest pen (by area) that can be made?        Farmer Brown is building a pen for sheep. This pen will be built in a rectangular shape next to a 50 foot long barn, so the part of one side that is adjacent to the barn wall does not need to be fenced. If Farmer Brown has 80 of fencing, what are the dimensions of the largest pen (by area) that can be made?        I want to build a rectangular display case to be mounted on the wall. The front should be made of glass, which costs $5 per square foot. The sides will be made of wood, costing $1 per square foot, and the back will be reinforced at a cost of $2 per square foot. Assume that I need the display case to be exactly 2 feet deep. What are the dimensions of the largest case (by volume) that I can make with $240?        You want to build a rectangular, open-topped box out of a sheet of metal by cutting away the corners and folding up the sides. What is the volume of the largest box you can build if the initial sheet of metal is 5 inches by 8 inches?        I am standing on the beach, right on the edge of the water, and want to reach a buoy out in the water. The edge of the water is a straight line, and the buoy is 24 out in the water and 40 down the shore. If I can run at a rate of 13 and can swim at a rate of 5 , how far should I run down the shore before jumping in the water to get to the buoy in the minimum amount of time?       Friday 11\/20     Compute antiderivatives of common functions.    Relate antiderivatives to differential equations and motion problems.       Antiderivatives  What might we mean by the antiderivative of a function?     How do general antiderivatives relate to each other? How could you determine which of them you actually want?      Find the general antiderivative of each of the following functions.                           , for any .               Antidifferentiation Formulas  This means we can develop antidifferentiation formulas based on all of the differentiation formulas that we had previously. It's just all of them written backwards.      Differential Equations  The idea of antidifferentiation ties directly to differential equations, which is the idea of solving an equation that involves a derivative.    If and , find the function .        Motion Problems  The same ideas apply to motion problems.    Assume that the acceleration of an object is a constant . If the object is thrown upward with initial velocity from initial height , find a formula for the height of the object as a function of time.       "
+  "body": " Week 12   This is an outline of the topics we covered in Week 12 of the course, from November 16 to 20.    Monday 11\/16     Analyze functions to determine when they are increasing\/decreasing and concave up\/down.    Use the first and second derivative test to determine if a critical point is a local maximum or minimum.    Find inflection points of a graph.       Function Behaviors using the Derivative  We saw last class that we can use the first derivative to determine where a function is increasing and decreasing.    Determine the intervals of increase and decrease for function .        The First Derivative Test  The first derivative test is a way to determine if a critical point is a local maximum or local minimum without plugging in values. How does our function have to be set up to get a local maximum?       Use the first derivative test to determine if the critical points of are local maxima or minima.       The Second Derivative  If measures the rate of change of the function , what does measure?      Test for Concavity  How do we know if a function is concave up or concave down?     So, given a function, how can we determine where it is concave up and concave down?      Consider the function .     Create a sign chart for , , and .      Determine on which intervals is increasing.      Determine on which intervals is decreasing.      Find and classify any local maxima or minima of .      Determine on which intervals is concave up.      Determine on which intervals is concave down.         Consider the function .     Create a sign chart for , , and .      Determine on which intervals is increasing.      Determine on which intervals is decreasing.      Find and classify any local maxima or minima of .      Determine on which intervals is concave up.      Determine on which intervals is concave down.        Inflection Points  Inflection points somewhat play the role of critical points but for the second derivative. However, for these, we do want to guarantee a change in concavity.      Second Derivative Test  We can also use the second derivative to help us analyze critical points to see if they are local maxima or minima.       Find all critical points, inflection points, and use the second derivative test to analyze the critical points of .       Summary  So, what have we learned and done so far?      Tuesday 11\/17     Define inflection point and learn how to use the second derivative test.    Sketch graphs of functions from derivative information.       Inflection Points  Inflection points somewhat play the role of critical points but for the second derivative. However, for these, we do want to guarantee a change in concavity.      Second Derivative Test  We can also use the second derivative to help us analyze critical points to see if they are local maxima or minima.       Find all critical points, inflection points, and use the second derivative test to analyze the critical points of .       Graph Sketching  So, what have we learned and done so far?      Shape of Graphs  The derivative tells us information about the graph of a function. What does that look like in terms of actual pictures?           f'(x) \\gt 0   f'(x)  <  0   f''(x) \\gt 0   f''(x)  \\lt  0                f'(x) = 0   f'(x) DNE  Local Max  Local Min          Other Things to Consider  Two other things to take into consideration when trying to plot graphs: Domain and Asymptotes.           \\displaystyle \\lim_{x\\rightarrow a^+} f(x) = \\infty   \\displaystyle \\lim_{x\\rightarrow a^+} f(x) = -\\infty   \\displaystyle \\lim_{x\\rightarrow a^-} f(x)   = \\infty   \\displaystyle \\lim_{x\\rightarrow a^-} f(x)   = -\\infty            Use Calculus techniques to sketch the graph of the function .      Graph Sketching Organizer   f(x) =   f'(x) =   f''(x) =    f'    f''     Domain   X-intercepts   Y-intercepts   Vertical Asymptotes   Horizontal Asymptotes   Increasing   Decreasing   Local Max and Mins   Concave Up   Concave Down   Inflection Points                      Split Problems  While it is good to know the entire process of sketching one of these graphs, you may also see these problems presented in two separate parts.    Let be the function whose formula and first two derivatives are given below: .     Find all critical points of and determine if they are local maxima or local minima.      Find all intervals where is increasing.      Find all inflection points of .      Find all intervals where is concave down.       Sketch a graph of a function that satifies all of the following properties.              and .         Sign chart of    Sign Chart for f prime    numPts = 2  locs = [-5, 3]  vals = ['-3', '3']  valMarks = ['UND', 'ZERO']  signs = ['+', '+', '-']  signs_loc = (-7, 0, 5)      ${vals[k]}  ${valMarks[k]}  ${signs[k]}   ${signs[numPts]}        Sign chart of    Sign Chart for f double prime    numPts = 2  locs = [-5, 5]  vals = ['-3', '6']  valMarks = ['UND', 'ZERO']  signs = ['+', '-', '+']  signs_loc = (-7, 0, 7)      ${vals[k]}  ${valMarks[k]}  ${signs[k]}   ${signs[numPts]}               Wednesday 11\/18     Understand optimization problems as an application of finding the max and min value of functions.    Set up and solve optimization problems using Calculus.       Graph Sketching Review    Sketch a graph of a function that satifies all of the following properties.              and .         Sign chart of    Sign Chart for f prime    numPts = 2  locs = [-5, 3]  vals = ['-3', '3']  valMarks = ['UND', 'ZERO']  signs = ['+', '+', '-']  signs_loc = (-7, 0, 5)      ${vals[k]}  ${valMarks[k]}  ${signs[k]}   ${signs[numPts]}        Sign chart of    Sign Chart for f double prime    numPts = 2  locs = [-5, 5]  vals = ['-3', '6']  valMarks = ['UND', 'ZERO']  signs = ['+', '-', '+']  signs_loc = (-7, 0, 7)      ${vals[k]}  ${valMarks[k]}  ${signs[k]}   ${signs[numPts]}                        Optimization  Thinking outside of the mathematics context, what does it mean to optimize something?  How do we formulate this idea mathematically?       Find the maximum value of the function on the interval .        Find the maximum possible product of two non-negative numbers whose sum is .       Optimization Process  How can we summarize the process of applied optimization?       Find the dimensions of the rectangle with perimeter 80 feet that has the maximum area.       Friday 11\/20     Compute antiderivatives of common functions.    Relate antiderivatives to differential equations and motion problems.       Antiderivatives  What might we mean by the antiderivative of a function?     How do general antiderivatives relate to each other? How could you determine which of them you actually want?      Find the general antiderivative of each of the following functions.                           , for any .               Antidifferentiation Formulas  This means we can develop antidifferentiation formulas based on all of the differentiation formulas that we had previously. It's just all of them written backwards.      Differential Equations  The idea of antidifferentiation ties directly to differential equations, which is the idea of solving an equation that involves a derivative.    If and , find the function .        Motion Problems  The same ideas apply to motion problems.    Assume that the acceleration of an object is a constant . If the object is thrown upward with initial velocity from initial height , find a formula for the height of the object as a function of time.       "
 },
 {
   "id": "notes-week-12-3-2",
@@ -2485,69 +2485,6 @@ var ptx_lunr_docs = [
   "body": "  Find the dimensions of the rectangle with perimeter 80 feet that has the maximum area.   "
 },
 {
-  "id": "notes-week-12-5-9-1",
-  "level": "2",
-  "url": "notes-week-12.html#notes-week-12-5-9-1",
-  "type": "Example",
-  "number": "220",
-  "title": "",
-  "body": "  Farmer Brown is building a pen for sheep. This pen will be built in a rectangular shape next to a straight river, so the side that is adjacent to the river does not to be fenced. If Farmer Brown has 150 of fencing, what are the dimensions of the largest pen (by area) that can be made?   "
-},
-{
-  "id": "notes-week-12-5-10-1",
-  "level": "2",
-  "url": "notes-week-12.html#notes-week-12-5-10-1",
-  "type": "Example",
-  "number": "221",
-  "title": "",
-  "body": "  Find the area of the largest rectangle that can be inscribed above the -axis and below the graph of .   "
-},
-{
-  "id": "notes-week-12-5-11-1",
-  "level": "2",
-  "url": "notes-week-12.html#notes-week-12-5-11-1",
-  "type": "Example",
-  "number": "222",
-  "title": "",
-  "body": "  Farmer Brown is building a pen for sheep. This pen will be built in a rectangular shape next to a 10 foot long barn, so the part of one side that is adjacent to the barn wall does not need to be fenced. If Farmer Brown has 80 of fencing, what are the dimensions of the largest pen (by area) that can be made?   "
-},
-{
-  "id": "notes-week-12-5-12-1",
-  "level": "2",
-  "url": "notes-week-12.html#notes-week-12-5-12-1",
-  "type": "Example",
-  "number": "223",
-  "title": "",
-  "body": "  Farmer Brown is building a pen for sheep. This pen will be built in a rectangular shape next to a 50 foot long barn, so the part of one side that is adjacent to the barn wall does not need to be fenced. If Farmer Brown has 80 of fencing, what are the dimensions of the largest pen (by area) that can be made?   "
-},
-{
-  "id": "notes-week-12-5-13-1",
-  "level": "2",
-  "url": "notes-week-12.html#notes-week-12-5-13-1",
-  "type": "Example",
-  "number": "224",
-  "title": "",
-  "body": "  I want to build a rectangular display case to be mounted on the wall. The front should be made of glass, which costs $5 per square foot. The sides will be made of wood, costing $1 per square foot, and the back will be reinforced at a cost of $2 per square foot. Assume that I need the display case to be exactly 2 feet deep. What are the dimensions of the largest case (by volume) that I can make with $240?   "
-},
-{
-  "id": "notes-week-12-5-14-1",
-  "level": "2",
-  "url": "notes-week-12.html#notes-week-12-5-14-1",
-  "type": "Example",
-  "number": "225",
-  "title": "",
-  "body": "  You want to build a rectangular, open-topped box out of a sheet of metal by cutting away the corners and folding up the sides. What is the volume of the largest box you can build if the initial sheet of metal is 5 inches by 8 inches?   "
-},
-{
-  "id": "notes-week-12-5-15-1",
-  "level": "2",
-  "url": "notes-week-12.html#notes-week-12-5-15-1",
-  "type": "Example",
-  "number": "226",
-  "title": "",
-  "body": "  I am standing on the beach, right on the edge of the water, and want to reach a buoy out in the water. The edge of the water is a straight line, and the buoy is 24 out in the water and 40 down the shore. If I can run at a rate of 13 and can swim at a rate of 5 , how far should I run down the shore before jumping in the water to get to the buoy in the minimum amount of time?   "
-},
-{
   "id": "notes-week-12-6-2",
   "level": "2",
   "url": "notes-week-12.html#notes-week-12-6-2",
@@ -2561,7 +2498,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "notes-week-12.html#notes-week-12-6-5-1",
   "type": "Example",
-  "number": "227",
+  "number": "220",
   "title": "",
   "body": "  Find the general antiderivative of each of the following functions.                           , for any .           "
 },
@@ -2570,7 +2507,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "notes-week-12.html#notes-week-12-6-7-1-3",
   "type": "Example",
-  "number": "228",
+  "number": "221",
   "title": "",
   "body": "  If and , find the function .   "
 },
@@ -2579,9 +2516,180 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "notes-week-12.html#notes-week-12-6-8-1-3",
   "type": "Example",
-  "number": "229",
+  "number": "222",
   "title": "",
   "body": "  Assume that the acceleration of an object is a constant . If the object is thrown upward with initial velocity from initial height , find a formula for the height of the object as a function of time.   "
+},
+{
+  "id": "notes-week-13",
+  "level": "1",
+  "url": "notes-week-13.html",
+  "type": "Section",
+  "number": "",
+  "title": "Week 13",
+  "body": " Week 13   This is an outline of the topics we covered in Week 13 of the course, from November 23 to November 27.    Monday 11\/23     Review the process of optimization.    Solve more optimization problems.    Solve optimization problems on open intervals.       Optimization Problems    Find the dimensions of the rectangle with perimeter 80 feet that has the maximum area.         Farmer Brown is building a pen for sheep. This pen will be built in a rectangular shape next to a straight river, so the side that is adjacent to the river does not to be fenced. If Farmer Brown has 150 of fencing, what are the dimensions of the largest pen (by area) that can be made?        Find the area of the largest rectangle that can be inscribed above the -axis and below the graph of .        Farmer Brown is building a pen for sheep. This pen will be built in a rectangular shape next to a 10 foot long barn, so the part of one side that is adjacent to the barn wall does not need to be fenced. If Farmer Brown has 80 of fencing, what are the dimensions of the largest pen (by area) that can be made?        Farmer Brown is building a pen for sheep. This pen will be built in a rectangular shape next to a 50 foot long barn, so the part of one side that is adjacent to the barn wall does not need to be fenced. If Farmer Brown has 80 of fencing, what are the dimensions of the largest pen (by area) that can be made?        Find the point on the graph of that minimizes the distance to the point .        Find the radius and height of a cylindrical can that will minimze the amount of material needed to build it given that the can must hold a volume of 54\\pi .         I want to build a rectangular display case to be mounted on the wall. The front should be made of glass, which costs $5 per square foot. The sides will be made of wood, costing $1 per square foot, and the back will be reinforced at a cost of $2 per square foot. Assume that I need the display case to be exactly 2 feet deep. What are the dimensions of the largest case (by volume) that I can make with $240?        You want to build a rectangular, open-topped box out of a sheet of metal by cutting away the corners and folding up the sides. What is the volume of the largest box you can build if the initial sheet of metal is 5 inches by 8 inches?        I am standing on the beach, right on the edge of the water, and want to reach a buoy out in the water. The edge of the water is a straight line, and the buoy is 24 out in the water and 40 down the shore. If I can run at a rate of 13 and can swim at a rate of 5 , how far should I run down the shore before jumping in the water to get to the buoy in the minimum amount of time?       Tuesday 11\/24     Approximate areas under graphs using rectangles and Riemann Sums.    Understand how to compute the actual area under a curve as a limit of these sums.       Areas Under Curves  For the rest of the semester, we will be dealing with a different topic that, it turns out, isn't all that different after all.       Approximate the area under the graph of over the interval .      With all of that, we can write a general formula for how to compute these sums and approximate the area under a curve.      Approximate the area under the graph of over the interval using a right Riemann sum with 3 rectangles.        Approximate the area under the graph of on using a left Riemann sum with 4 rectangles. Compare this to the actual area. Does this comparison make sense if you draw a sketch of the situation?       Sigma Notation  A common way of working with these sums is to use Sigma Notation . This is a short-hand way of writing a large sum.    Evaluate .         Write out a sum to approximate the area under the graph of on using a right Riemann sum with 8 rectangles.       Physical Applications  We can also think about this type of sum in terms of velocity and distance.      Exact Area  These are all approximations to the area. How do we get the actual area under the curve?       Set up a limit and sum to determine the area under the graph of over the interval .      "
+},
+{
+  "id": "notes-week-13-3-2",
+  "level": "2",
+  "url": "notes-week-13.html#notes-week-13-3-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "   Review the process of optimization.    Solve more optimization problems.    Solve optimization problems on open intervals.    "
+},
+{
+  "id": "notes-week-13-3-3-1-2",
+  "level": "2",
+  "url": "notes-week-13.html#notes-week-13-3-3-1-2",
+  "type": "Example",
+  "number": "223",
+  "title": "",
+  "body": "  Find the dimensions of the rectangle with perimeter 80 feet that has the maximum area.   "
+},
+{
+  "id": "notes-week-13-3-4-1",
+  "level": "2",
+  "url": "notes-week-13.html#notes-week-13-3-4-1",
+  "type": "Example",
+  "number": "224",
+  "title": "",
+  "body": "  Farmer Brown is building a pen for sheep. This pen will be built in a rectangular shape next to a straight river, so the side that is adjacent to the river does not to be fenced. If Farmer Brown has 150 of fencing, what are the dimensions of the largest pen (by area) that can be made?   "
+},
+{
+  "id": "notes-week-13-3-5-1",
+  "level": "2",
+  "url": "notes-week-13.html#notes-week-13-3-5-1",
+  "type": "Example",
+  "number": "225",
+  "title": "",
+  "body": "  Find the area of the largest rectangle that can be inscribed above the -axis and below the graph of .   "
+},
+{
+  "id": "notes-week-13-3-6-1",
+  "level": "2",
+  "url": "notes-week-13.html#notes-week-13-3-6-1",
+  "type": "Example",
+  "number": "226",
+  "title": "",
+  "body": "  Farmer Brown is building a pen for sheep. This pen will be built in a rectangular shape next to a 10 foot long barn, so the part of one side that is adjacent to the barn wall does not need to be fenced. If Farmer Brown has 80 of fencing, what are the dimensions of the largest pen (by area) that can be made?   "
+},
+{
+  "id": "notes-week-13-3-7-1",
+  "level": "2",
+  "url": "notes-week-13.html#notes-week-13-3-7-1",
+  "type": "Example",
+  "number": "227",
+  "title": "",
+  "body": "  Farmer Brown is building a pen for sheep. This pen will be built in a rectangular shape next to a 50 foot long barn, so the part of one side that is adjacent to the barn wall does not need to be fenced. If Farmer Brown has 80 of fencing, what are the dimensions of the largest pen (by area) that can be made?   "
+},
+{
+  "id": "notes-week-13-3-8-1",
+  "level": "2",
+  "url": "notes-week-13.html#notes-week-13-3-8-1",
+  "type": "Example",
+  "number": "228",
+  "title": "",
+  "body": "  Find the point on the graph of that minimizes the distance to the point .   "
+},
+{
+  "id": "notes-week-13-3-9-1",
+  "level": "2",
+  "url": "notes-week-13.html#notes-week-13-3-9-1",
+  "type": "Example",
+  "number": "229",
+  "title": "",
+  "body": "  Find the radius and height of a cylindrical can that will minimze the amount of material needed to build it given that the can must hold a volume of 54\\pi .    "
+},
+{
+  "id": "notes-week-13-3-10-1",
+  "level": "2",
+  "url": "notes-week-13.html#notes-week-13-3-10-1",
+  "type": "Example",
+  "number": "230",
+  "title": "",
+  "body": "  I want to build a rectangular display case to be mounted on the wall. The front should be made of glass, which costs $5 per square foot. The sides will be made of wood, costing $1 per square foot, and the back will be reinforced at a cost of $2 per square foot. Assume that I need the display case to be exactly 2 feet deep. What are the dimensions of the largest case (by volume) that I can make with $240?   "
+},
+{
+  "id": "notes-week-13-3-11-1",
+  "level": "2",
+  "url": "notes-week-13.html#notes-week-13-3-11-1",
+  "type": "Example",
+  "number": "231",
+  "title": "",
+  "body": "  You want to build a rectangular, open-topped box out of a sheet of metal by cutting away the corners and folding up the sides. What is the volume of the largest box you can build if the initial sheet of metal is 5 inches by 8 inches?   "
+},
+{
+  "id": "notes-week-13-3-12-1",
+  "level": "2",
+  "url": "notes-week-13.html#notes-week-13-3-12-1",
+  "type": "Example",
+  "number": "232",
+  "title": "",
+  "body": "  I am standing on the beach, right on the edge of the water, and want to reach a buoy out in the water. The edge of the water is a straight line, and the buoy is 24 out in the water and 40 down the shore. If I can run at a rate of 13 and can swim at a rate of 5 , how far should I run down the shore before jumping in the water to get to the buoy in the minimum amount of time?   "
+},
+{
+  "id": "notes-week-13-4-2",
+  "level": "2",
+  "url": "notes-week-13.html#notes-week-13-4-2",
+  "type": "Objectives",
+  "number": "",
+  "title": "",
+  "body": "   Approximate areas under graphs using rectangles and Riemann Sums.    Understand how to compute the actual area under a curve as a limit of these sums.    "
+},
+{
+  "id": "notes-week-13-4-4-1",
+  "level": "2",
+  "url": "notes-week-13.html#notes-week-13-4-4-1",
+  "type": "Example",
+  "number": "233",
+  "title": "",
+  "body": "  Approximate the area under the graph of over the interval .   "
+},
+{
+  "id": "notes-week-13-4-6-1",
+  "level": "2",
+  "url": "notes-week-13.html#notes-week-13-4-6-1",
+  "type": "Example",
+  "number": "234",
+  "title": "",
+  "body": "  Approximate the area under the graph of over the interval using a right Riemann sum with 3 rectangles.   "
+},
+{
+  "id": "notes-week-13-4-7-1",
+  "level": "2",
+  "url": "notes-week-13.html#notes-week-13-4-7-1",
+  "type": "Example",
+  "number": "235",
+  "title": "",
+  "body": "  Approximate the area under the graph of on using a left Riemann sum with 4 rectangles. Compare this to the actual area. Does this comparison make sense if you draw a sketch of the situation?   "
+},
+{
+  "id": "notes-week-13-4-8-1-3",
+  "level": "2",
+  "url": "notes-week-13.html#notes-week-13-4-8-1-3",
+  "type": "Example",
+  "number": "236",
+  "title": "",
+  "body": "  Evaluate .   "
+},
+{
+  "id": "notes-week-13-4-9-1",
+  "level": "2",
+  "url": "notes-week-13.html#notes-week-13-4-9-1",
+  "type": "Example",
+  "number": "237",
+  "title": "",
+  "body": "  Write out a sum to approximate the area under the graph of on using a right Riemann sum with 8 rectangles.   "
+},
+{
+  "id": "notes-week-13-4-12-1",
+  "level": "2",
+  "url": "notes-week-13.html#notes-week-13-4-12-1",
+  "type": "Example",
+  "number": "238",
+  "title": "",
+  "body": "  Set up a limit and sum to determine the area under the graph of over the interval .   "
 },
 {
   "id": "wksht-sine-x-over-x",
@@ -3425,7 +3533,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "handout-trig.html#handout-trig-2-3-2-2",
   "type": "Table",
-  "number": "295",
+  "number": "304",
   "title": "Special Angles of Trigonometric Functions",
   "body": " Special Angles of Trigonometric Functions                   Undefined       Undefined       "
 },
