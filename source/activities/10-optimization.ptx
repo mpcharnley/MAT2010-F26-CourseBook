@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet component = "cur" xml:id = "wksht-optimization" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Optimization</title>
+
+    <introduction>
+        <p>
+            <ul>
+                <li><title>Dates</title>
+                    <p>Assigned Date: November 24, 2026</p>
+                    <p>Due Date: December 4, 2026</p>
+                </li>
+                <li><title>Objective</title>
+                    <p>
+                        In this assignment, you will work through several scaffolded optimization problems. The steps will guide you through the process of how to structure and solve these problems. The problems to turn in at the end will not have this scaffolding, but you'll want to follow the same process to solve it correctly.
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </introduction>
+
+<page>
+<paragraphs>
+    <title>Scaffolded Problems</title>
+
+<exercise workspace="0.1in">
+    <introduction>
+        <p>
+            Farmer Brown is building a pen for sheep. This pen will be built in a rectangular shape next to a 10 foot long barn, so the part of one side that is adjacent to the barn wall does not need to be fenced. If Farmer Brown has <quantity><mag>90</mag><unit base="foot"/></quantity> of fencing, what are the dimensions of the largest pen (by area) that can be made?
+        </p>
+    </introduction>
+    <task>
+        <statement>
+            <p>
+                Draw a picture for this problem. Your sketch should be a rectangle, and part of one side of that rectangle is blocked by a barn. Since we're looking for dimensions in this problem, what should our variables be? Label each side of your diagram with those variables. Make sure to factor in the barn length when you do this.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                What is our objective function? What are we trying to maximize? How can we write that in terms of our variables from the previous part?
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                What constraints do we have on this problem? One of the constraints involves the amount of fencing that Farmer Brown has. The other constraints involve the fact that every length in your picture must be non-negative. Make sure your constraints make every length non-negative, not just some of them.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Use the constraints to convert this problem into a maximization problem for a function of one variable on an interval. You'll need to solve out for one of the variables in one of the constraits, plug that into the objective function, and then determine the interval from the physical constraints. 
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Solve the calculus problem. This will involve taking the derivative, setting to zero to find critical points, and then plugging all valid points into the original function. Do we want to consider the critical point here? Is it in the correct interval? Where is the maximum value?
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                State your answer in terms of the original context of the problem. What did the problem ask you for and how can you state that based on the information that you know?
+            </p>
+        </statement>
+    </task>
+</exercise>
+
+</paragraphs>
+</page>
+<page>
+
+<exercise workspace="0.1in">
+    <introduction>
+        <p>
+            Farmer Brown is building a pen for sheep. This pen will be built in a rectangular shape next to a 50 foot long barn, so the part of one side that is adjacent to the barn wall does not need to be fenced. If Farmer Brown has <quantity><mag>90</mag><unit base="foot"/></quantity> of fencing, what are the dimensions of the largest pen (by area) that can be made?
+        </p>
+    </introduction>
+    <task>
+        <statement>
+            <p>
+                Draw a picture for this problem. Your sketch should be a rectangle, and part of one side of that rectangle is blocked by a barn. Since we're looking for dimensions in this problem, what should our variables be? Label each side of your diagram with those variables. Make sure to factor in the barn length when you do this.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                What is our objective function? How can we write that in terms of our variables from the previous part?
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                What constraints do we have on this problem? One of the constraints involves the amount of fencing that Farmer Brown has. The other constraints involve the fact that every length in your picture must be non-negative. Make sure your constraints make every length non-negative, not just some of them.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Use the constraints to convert this problem into a maximization problem for a function of one variable on an interval. 
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Solve the calculus problem. Do we want to consider the critical point here? Is it in the correct interval? Where is the maximum value?
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                State your answer in terms of the original context of the problem. What did the problem ask you for and how can you state that based on the information that you know?
+            </p>
+        </statement>
+    </task>
+</exercise>
+
+</page>
+<page>
+
+<exercise workspace="0.1in">
+    <introduction>
+        <p>
+            I am standing on the beach, right on the edge of the water, and want to reach a buoy out in the water. The edge of the water is a straight line, and the buoy is <quantity><mag>24</mag><unit base="foot"/></quantity> out in the water and <quantity><mag>40</mag><unit base="foot"/></quantity> down the shore. If I can run at a rate of <quantity><mag>13</mag><unit base="foot"/><per base="second"/></quantity> and can swim at a rate of <quantity><mag>5</mag><unit base="foot"/><per base="second"/></quantity>, how far should I run down the shore before jumping in the water to get to the buoy in the minimum amount of time?
+        </p>
+    </introduction>
+    <task>
+        <statement>
+            <p>
+                Draw a picture for this problem. You should start with a triangle which starts from your current position, one side goes straight down the beach until it is even with the buoy, then extends perpendicular out to the buoy. What you get to choose here is <q>how far you run down the shore before jumping in</q>, which means you get to pick a point along the side on the beach at which to jump in the water, after which point you'll swim on a straight-line to the buoy. Let <m>x</m> be the distance you decide to run on the shore and <m>y</m> the remaining distance to the perpendicular point. Solve for all other lengths in your image.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                What is our objective function? We want to minimize the time it takes to get to the buoy. If you know how fast you run, and how far you run is <m>x</m>, how long does it take you to get that far? Do the same for the swimming part and add them together.
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                What constraints do we have on this problem? We can determine how <m>x</m> and <m>y</m> relate. It is much easier to solve this problem in terms of <m>y</m> than <m>x</m>. What's the biggest and smallest <m>y</m> can be?
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Use the constraints to convert this problem into a minimization problem for a function of one variable on an interval. 
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Solve the calculus problem. Do we want to consider the critical point here? Is it in the correct interval? Where is the minimum value?
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                State your answer in terms of the original context of the problem. What did the problem ask you for and how can you state that based on the information that you know?
+            </p>
+        </statement>
+    </task>
+</exercise>
+
+</page>
+<page>
+
+<exercise workspace="0.1in">
+    <introduction>
+        <p>
+            Find the radius and height of a cylindrical can that will minimze the amount of material needed to build it given that the can must hold a volume of <quantity><mag>54\pi</mag><unit base="inch" exp="3"/></quantity>.
+                    <md>
+                        V = \pi r^2 h \qquad SA = 2\pi r^2 + 2\pi r h
+                    </md>
+        </p>
+    </introduction>
+    <task>
+        <statement>
+            <p>
+                We don't technically need a picture for this one, but it won't hurt to sketch one anyway. What variables are we allowed to pick to specify this can?
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                What is our objective function? 
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                What constraints do we have on this problem? Are they restrictions on what the variables can be?
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Use the constraints to convert this problem into a minimization problem for a function of one variable on an interval. What kind of interval do you get here?
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                Solve the calculus problem. Do we want to consider the critical point here? Is it in the correct interval? Where is the minimum value? Since we have an open interval, we need to be a bit more careful about justifying that we have a minimum. We can either use the first derivative test or limits. 
+            </p>
+        </statement>
+    </task>
+    <task>
+        <statement>
+            <p>
+                State your answer in terms of the original context of the problem. What did the problem ask you for and how can you state that based on the information that you know?
+            </p>
+        </statement>
+    </task>
+</exercise>
+
+</page>
+<page>
+<paragraphs>
+    <title>Turn-In Exercises</title>
+
+    <p>
+        Write up solutions to both of these exercises. The individual steps are not outlined for you, but following the same process as the earlier examples will help you reach the correct answer.
+    </p>
+
+<exercise workspace="0.1in">
+    <statement>
+        <p>
+            You want to build a rectangular, open-topped box out of a sheet of metal by cutting away the corners and folding up the sides. What is the volume of the largest box you can build if the initial sheet of metal is 5 inches by 8 inches?
+        </p>
+        <image width="80%">
+  <prefigure xmlns="https://prefigure.org"
+             label="wksht-optimization-foldBox">
+    <xi:include href="../../prefigure/wksht-optimization-foldBox.xml" />
+  </prefigure>
+</image>
+    </statement>
+</exercise>
+</paragraphs>
+</page>
+
+<page>
+<exercise workspace="0.1in">
+    <statement>
+        <p>
+            I want to build a rectangular display case to be mounted on the wall. The front should be made of glass, which costs $5 per square foot. The sides will be made of wood, costing $1 per square foot, and the back will be reinforced at a cost of $2 per square foot. Assume that I need the display case to be exactly 2 feet deep. What are the dimensions of the largest case (by volume) that I can make with $240?
+        </p>
+        <p>
+            <em>Hint:</em> The cost is the constraint that you need here. Set up an equation for the cost based on the dimensions of the display case.
+        </p>
+    </statement>
+</exercise>
+
+</page>
+
+</worksheet>

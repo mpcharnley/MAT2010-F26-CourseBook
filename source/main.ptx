@@ -46,6 +46,7 @@
       <xi:include href="./activities/07-implicit-diff.ptx" />
       <xi:include href="./activities/08-related-rates.ptx" />
       <xi:include href="./activities/09-graph-sketching.ptx" />
+      <xi:include href="./activities/10-optimization.ptx" />
 
       <!-- Add more xi:include files here to include them in the main course -->
     </chapter>
